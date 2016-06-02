@@ -1,0 +1,4 @@
+
+target 'SAAdLoader_Example' do
+  pod 'SAAdLoader', :path => '../'
+end
