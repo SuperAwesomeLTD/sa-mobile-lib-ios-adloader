@@ -27,9 +27,9 @@
 - (id) initWithJsonDictionary:(NSDictionary *)jsonDictionary {
     if (self = [super initWithJsonDictionary:jsonDictionary]) {
         
+        _placementId = [[jsonDictionary safeObjectForKey:@"placementId"] integerValue];
         _error = [[jsonDictionary safeObjectForKey:@"error"] integerValue];
         _app = [[jsonDictionary safeObjectForKey:@"app"] integerValue];
-        _placementId = [[jsonDictionary safeObjectForKey:@"placementId"] integerValue];
         _lineItemId = [[jsonDictionary safeObjectForKey:@"line_item_id"] integerValue];
         _campaignId = [[jsonDictionary safeObjectForKey:@"campaign_id"] integerValue];
         _test = [[jsonDictionary safeObjectForKey:@"test"] boolValue];
@@ -44,9 +44,9 @@
 
 - (NSDictionary*) dictionaryRepresentation {
     return @{
+        @"placementId": @(_placementId),
         @"error": @(_error),
         @"app": @(_app),
-        @"placementId": @(_placementId),
         @"line_item_id": @(_lineItemId),
         @"campaign_id": @(_campaignId),
         @"test": @(_test),
