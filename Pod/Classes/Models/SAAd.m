@@ -33,9 +33,9 @@
         _lineItemId = [[jsonDictionary safeObjectForKey:@"line_item_id"] integerValue];
         _campaignId = [[jsonDictionary safeObjectForKey:@"campaign_id"] integerValue];
         _test = [[jsonDictionary safeObjectForKey:@"test"] boolValue];
-        _isFallback = [[jsonDictionary safeObjectForKey:@"isFallback"] boolValue];
-        _isFill = [[jsonDictionary safeObjectForKey:@"isFill"] boolValue];
-        _isHouse = [[jsonDictionary safeObjectForKey:@"isHouse"] boolValue];
+        _isFallback = [[jsonDictionary safeObjectForKey:@"is_fallback"] boolValue];
+        _isFill = [[jsonDictionary safeObjectForKey:@"is_fill"] boolValue];
+        _isHouse = [[jsonDictionary safeObjectForKey:@"is_house"] boolValue];
         _creative = [[SACreative alloc] initWithJsonDictionary:[jsonDictionary safeObjectForKey:@"creative"]];
     }
     
@@ -50,9 +50,9 @@
         @"line_item_id": @(_lineItemId),
         @"campaign_id": @(_campaignId),
         @"test": @(_test),
-        @"isFallback": @(_isFallback),
-        @"isFill": @(_isFill),
-        @"isHouse": @(_isHouse),
+        @"is_fallback": @(_isFallback),
+        @"is_fill": @(_isFill),
+        @"is_house": @(_isHouse),
         @"creative": nullSafe([_creative dictionaryRepresentation])
     };
 }
