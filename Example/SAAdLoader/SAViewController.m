@@ -22,7 +22,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [[SALoaderSession getInstance] setTest:false];
+    [[SALoaderSession getInstance] setTest:true];
     
     SALoader *loader = [[SALoader alloc] init];
     loader.delegate = self;

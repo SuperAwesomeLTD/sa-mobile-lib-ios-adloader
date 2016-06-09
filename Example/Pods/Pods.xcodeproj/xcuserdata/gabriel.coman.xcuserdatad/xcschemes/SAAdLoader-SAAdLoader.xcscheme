@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A47C13CF80C40BE083F32857"
+               BlueprintIdentifier = "431DB990853E6BE98B0C14CA"
                BuildableName = "SAAdLoader.bundle"
                BlueprintName = "SAAdLoader-SAAdLoader"
                ReferencedContainer = "container:Pods.xcodeproj">

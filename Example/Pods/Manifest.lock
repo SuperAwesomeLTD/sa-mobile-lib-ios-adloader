@@ -1,5 +1,5 @@
 PODS:
-  - SAAdLoader (0.1.4):
+  - SAAdLoader (0.1.5):
     - SAJsonParser
     - SAUtils
     - SAVASTParser
@@ -9,7 +9,7 @@ PODS:
   - SAEvents/Core (1.0.7):
     - SAUtils
   - SAJsonParser (1.2.0)
-  - SAUtils (1.1.9)
+  - SAUtils (1.2.0)
   - SAVASTParser (1.2.9):
     - SAEvents
     - SAJsonParser
@@ -26,10 +26,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: c8622ebe6f2d05c26835d83c11b79392d4bd2c12
+  SAAdLoader: e6b6dcfae7a7facac44cbb7d8436eddbb5adaab5
   SAEvents: a28d8337856900c2a5ef8389cf8f67d4144a175f
   SAJsonParser: b2ca75e9916c9f416adb1c75707ba776de760140
-  SAUtils: 8737b8ea656fecb2c955c6ed264eb114bf523b14
+  SAUtils: 5be58f0adaf9eea4434d716ea2dcff3bcb83e72a
   SAVASTParser: 41f220c09bef312d810473c15c9fd5d5c321930a
   SAVideoPlayer: dba919a10db3119059c393b249d614e165d4a599
 
