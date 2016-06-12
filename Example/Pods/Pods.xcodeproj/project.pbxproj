@@ -10,6 +10,19 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>01A66D6F379B6AB7821F70651299859D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>427DAA32D27247087726E442BF09A96C</string>
+			<key>remoteInfo</key>
+			<string>SAVASTParser</string>
+		</dict>
 		<key>01ABC3DB91C2FB4753086D21AC4A2711</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -23,12 +36,34 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>036911CB4A50A052CE1D97519B3F5AC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5342E1587B527CF6FC3A5075A41FF23D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>03B3345904E5A2370942D069E2E8CB96</key>
 		<dict>
 			<key>fileRef</key>
 			<string>C1EC2C398300FF033A4DD63F062AC0EF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>03EFA2375E442F72D99EF07EC1F8A4EF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSDictionary+SafeHandling.m</string>
+			<key>path</key>
+			<string>Pod/Classes/NSDictionary+SafeHandling.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>048FAC4B533EB03AEF73B516A92E5B2B</key>
 		<dict>
@@ -42,64 +77,6 @@
 			<string>SAEvents.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>04C2709FE929940EEC8801B84C47457A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAVideoPlayer-SAVideoPlayer</string>
-			<key>target</key>
-			<string>D853CB8812FF55CDC31A837C62E40495</string>
-			<key>targetProxy</key>
-			<string>7C3A32E17ACEBD6CF4A50E594EB74B83</string>
-		</dict>
-		<key>04ECB7BD0358AD5C5CA899AAC3DB1912</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>71CE57C2926A06632EB516B7327424B8</string>
-				<string>9CD74D8F9BBAD72BD2E48E5B59FDF4BB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>056020D80C6A9BA2E35DB79D388DB058</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>061ED2AAD30CCEF2BC3F6D41BF0B1A79</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAEvents</string>
-			<key>target</key>
-			<string>3B57076756982B225B29C3269E104AD9</string>
-			<key>targetProxy</key>
-			<string>5435E7BBACD5B40FEF456FC250769406</string>
-		</dict>
-		<key>06C6B6E7EE647C3EE7E0EA46570D2431</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>07136D108831893EF9D2EF2E4FCC262B</key>
 		<dict>
@@ -116,28 +93,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>077D5A8BEC9BC9DD94BAC0A56DDB7A62</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0912A754847848C0B8A74BD240BBA146</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAUtils</string>
-			<key>target</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>targetProxy</key>
-			<string>F43CBFA2122A76011CB6822DDF20C78C</string>
-		</dict>
 		<key>092413943CAA1160294C584C694BDA33</key>
 		<dict>
 			<key>fileRef</key>
@@ -145,36 +100,38 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>092F6A23A0370D90703F770812170472</key>
+		<key>0DB28E8BF23F4D9735ACAFD3C45DEC17</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>74CB30EAB19FB901FC377A5170ABD022</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SAJsonParser</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SAJsonParser.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E23A707D9FA9D96BB7AB7E3FDC80214</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0DB28E8BF23F4D9735ACAFD3C45DEC17</string>
+				<string>678CE1F7E242F78814593115B740D83B</string>
+				<string>C3D4331364F998DBB9C8F7DF17959017</string>
+				<string>1DCBBD97C2C0020F67B0E91BF4500E4E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Release</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SAJsonParser</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>09519A242E589B24DF90618BDFC58029</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E01FF070E6BFC3920EECA0DE67CEF35E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0957259A9304BCA3D25B7B8543BCDA1D</key>
+		<key>0EAA380263BD728EE270FC62E935DDF6</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -189,10 +146,17 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>1022F70B7A8E01478F5D2B006CBF2C5C</key>
+		<key>0F05654601C164290DC1F312AFD0182C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F9763BDE6588A86A3D0EEE61FBDF9D4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ECAD6DDB238D03AA3E22E85772AA1690</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -280,31 +244,27 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>112C7F8A5165BC70E4767D9E5120938D</key>
+		<key>1143CE48DE2372850709B98808BB01E9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B468AB2DD70C493744321447304E3D86</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>11DD8EF994107EF0F5128A6B94ED451E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SAUtils.m</string>
+			<string>SAUtils.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SAUtils.m</string>
+			<string>Pod/Classes/SAUtils.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11F7E524E402955D270C05DC14A055EC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAVASTParser</string>
-			<key>target</key>
-			<string>427DAA32D27247087726E442BF09A96C</string>
-			<key>targetProxy</key>
-			<string>8926DFB5E41D5F318D582E8E733D9EE7</string>
 		</dict>
 		<key>127E7C4C3591068DCE06BE8FF41F502F</key>
 		<dict>
@@ -336,13 +296,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>12D3F706C9535F78216498EF89A170C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6707A2011D565B53F00B1BB565FC0C54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>1314485C2346BB08BE9CD413D4CA1206</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -356,24 +309,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>138F1E1EECFB6EC07E127C7008DAA95E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13F170F86D42369B3BF9842B32FFC624</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAJsonParser</string>
-			<key>target</key>
-			<string>35913ACBB77A96EC902AA417A28FCA33</string>
-			<key>targetProxy</key>
-			<string>673B2AD43CFF3F1A92230852AB104FEC</string>
-		</dict>
 		<key>1429BDA8EBE1D93BDB13F29A5F2C2E83</key>
 		<dict>
 			<key>fileRef</key>
@@ -381,31 +316,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>150962CA7BDF1936622AF9D7C3FE872B</key>
+		<key>1718D44F022C490E08EEF14809F9C078</key>
 		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B2FF06C056C6E31EF6DF1480BB3F5FF9</string>
+				<string>98B84C46FC27B63779DFD25646213061</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAAdLoader</string>
-			<key>target</key>
-			<string>1D79EBDA5510610844A54134E5C45216</string>
-			<key>targetProxy</key>
-			<string>C72D29E3440E22133883A5CB92FE2983</string>
-		</dict>
-		<key>1680213DBBC235330FB011E6799C6B93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAExtensions.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAExtensions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>1778AAEF55ECC9B4B833EE14B436AD3B</key>
 		<dict>
@@ -448,7 +371,7 @@
 			<key>children</key>
 			<array>
 				<string>FA84B1D75A5FD4D5EB3FB227FEC286E5</string>
-				<string>A5321D66A7617FA8389FCF7119A021E0</string>
+				<string>87BB845F43832F8EC78D9845093E86B9</string>
 				<string>758495088D457B06E58E60821221067F</string>
 				<string>592B73A18974188F53443C93496DB190</string>
 				<string>3282AF733C2994CC5E1F6DAB58E3115D</string>
@@ -459,6 +382,17 @@
 			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A828F22D22DCE1A88E82DF70E26DDCC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>1B89901AE12D910CD671FC66592E40B5</key>
 		<dict>
@@ -473,12 +407,54 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>1C960F45925536D27A72B7F8381411E1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1CA107031BB445EDD2E32958B226ABD4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1CA107031BB445EDD2E32958B226ABD4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAEvents.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAEvents.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1CDC9B2694FA1EDCF134347F7F6A4ED3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6CEBF47A121E0C4152DD5A7E7E388D84</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>1D11E832C50FDF93F7472BBF213652F2</key>
 		<dict>
 			<key>fileRef</key>
 			<string>939E33F62539CF2846B4CC0491A5F915</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>1D3B6D7D1D77266B05D762FE47C5FE76</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>3FC5C06796D39278A544DA8968AF874B</string>
+			<key>remoteInfo</key>
+			<string>SAJsonParser</string>
 		</dict>
 		<key>1D76415FBC85EBA7D25F3F1A4C3BD6FB</key>
 		<dict>
@@ -508,10 +484,10 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>C133C6BCED97382F4493A69B632CFE12</string>
-				<string>13F170F86D42369B3BF9842B32FFC624</string>
-				<string>A5D663D862462C86D7842AD59FD5A060</string>
-				<string>11F7E524E402955D270C05DC14A055EC</string>
+				<string>3EDAB5C3B43FA353EC2097A731063F5A</string>
+				<string>53163DE9E075AFBA26F3AFBE7C1D86AD</string>
+				<string>C032160B9CFD5E344C38EB42CE0894BD</string>
+				<string>D465D4B0F95F5337061A349D818945B7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -524,6 +500,19 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
+		<key>1DCBBD97C2C0020F67B0E91BF4500E4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SAJsonParser-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>20C01FAA120E1C95331BEE34C22B3F4C</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -534,6 +523,21 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>SADetails.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20C4377B6CF844F4CABA65D64E2A35C7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAFileDownloader.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAFileDownloader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -591,47 +595,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>24884F9BAAAD400AD58742EBF98800FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SAUtils-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25C8E4B52CF1D0AE50CE3DF0AAC2DA44</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7EB9BF96884AAAA4CEBFC42D0441C24C</string>
-			<key>remoteInfo</key>
-			<string>SAAdLoader-SAAdLoader</string>
-		</dict>
-		<key>265CBFC7870C968B52E6D6323F13187B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAExtensions.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAExtensions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>268940EB433DE89128AEE180CF0F2E76</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -643,32 +606,27 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>26CAD183BE1B3BA2364344FE66A8562D</key>
+		<key>2754CA6637BAF0C4520E03F43B757277</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1022F70B7A8E01478F5D2B006CBF2C5C</string>
-			</array>
+			<key>baseConfigurationReference</key>
+			<string>3DA78E03413B66C13A819F7AFCDF16E2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SuperAwesome</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>27C121B632CD5E702DD7C14504A589F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>821D1561B7A051EB5AE6FC9562E7575B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>287D00197A6C2A577C21A73D553FAC1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33FA4D258DFC5AC83E1D07D5E31D92EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>2996817FEDE60E112472637C71844BE2</key>
 		<dict>
@@ -685,50 +643,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>29D7B16407E01EF3FED85CFA9DA6FB31</key>
+		<key>2A58C8C856E29C6E86892AF6D32051C6</key>
 		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAUtils</string>
-			<key>target</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>targetProxy</key>
-			<string>3D98B3BC9976BAC8E1132243FDEEA8A5</string>
-		</dict>
-		<key>2A58FAEF8A03880AB6286E9102354C53</key>
-		<dict>
-			<key>fileRef</key>
-			<string>575D2604554C7082562E67A4D331F4A5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A97B9A8964D26D91FCA6FFA8C4F8826</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A800804521D69544AC31F5C4420CD777</string>
-				<string>F9DD4E848D36712B35A8305676828D81</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2AA7B86A701D75236F484A7AF8129505</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E9745077E4DD0EECAC03D3C3D0217F2B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>1D79EBDA5510610844A54134E5C45216</string>
+			<key>remoteInfo</key>
+			<string>SAAdLoader</string>
 		</dict>
 		<key>2AB6277D42C41EEC725B0898756DA5A4</key>
 		<dict>
@@ -757,6 +683,20 @@
 			<string>Pod/Classes/SAURLClicker.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C0BA9F6CD4BC66AC0CF1D641910B34B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5C8522268C04AF1E93B642C6080A8D8B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2D3D406D4725042F11D47513D6C78117</key>
+		<dict>
+			<key>fileRef</key>
+			<string>52BF054BD8BAD2F438D458F1D37C83F5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -787,19 +727,44 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>30D7E59D908F1DA53FC9418C62120D33</key>
+		<key>2FF12F7ECF534B29A9836EC24ADAB4EB</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>761B28723555C7C7AC5935491EE489BD</string>
-				<string>559305A7A54B7919B105BAABEF173E53</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAUtils.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>30572EFA4F9C0BCCC7DA7419271A0155</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3058248BB7564D3A1A5AAB5F705D2B07</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>5799BC48A6AB17CA109B9117D815FD3E</string>
+			<key>remoteInfo</key>
+			<string>SAEvents-SuperAwesome</string>
 		</dict>
 		<key>30E222606DECA679E4421AE6BA669B5D</key>
 		<dict>
@@ -822,13 +787,6 @@
 			<string>Pod/Classes/SAVASTManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31AC2898F7BE8C6A36901233D7DB9867</key>
-		<dict>
-			<key>fileRef</key>
-			<string>265CBFC7870C968B52E6D6323F13187B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>321C4C0B637C809650E2BB5345948761</key>
 		<dict>
@@ -883,50 +841,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>33FA4D258DFC5AC83E1D07D5E31D92EF</key>
+		<key>33788E2A013BAB76ABDD4059761A089A</key>
 		<dict>
-			<key>includeInIndex</key>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSObject+SAJson.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSObject+SAJson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>34C1B73589A641ED37854BA331ADCE03</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>74CB30EAB19FB901FC377A5170ABD022</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SAJsonParser/SAJsonParser-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<key>remoteGlobalIDString</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>remoteInfo</key>
+			<string>SAUtils</string>
 		</dict>
 		<key>34D606E917B383F9470AC96E49FCBF18</key>
 		<dict>
@@ -943,32 +869,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>35913ACBB77A96EC902AA417A28FCA33</key>
+		<key>36385D37644BF090E25996B221AE6DA7</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>E9AAD79F6FFEF774A97E1F0C97F044EE</string>
-			<key>buildPhases</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>8CCCD0B3C611AADAD79091136E2F16EC</string>
-				<string>6541776A183912DF8D3CAC940254D5DE</string>
-				<string>9491935C085EF4B03DE082BCBFFEA089</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>D4917EB9EF461A1A6A5D59C49D317D06</string>
+				<string>E4020F809CE667151F25F45F2F10F8E1</string>
+				<string>59EA2293F8273CCD9EB6D9E39B756CCC</string>
+				<string>036911CB4A50A052CE1D97519B3F5AC3</string>
+				<string>A48A1742536EAF7EDA45EF10A3B6FCA1</string>
+				<string>6699FDD6FAC020DA30AD91C365369368</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SAJsonParser</string>
-			<key>productName</key>
-			<string>SAJsonParser</string>
-			<key>productReference</key>
-			<string>56B87BFD0F208C4A4AA6B59AFE48F446</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>371A80103BD1258E47DE2413DC0C5CDC</key>
 		<dict>
@@ -980,6 +896,48 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>SAUtils.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>382971C16E15175804C71717E12F44EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAEvents.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAEvents.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>382DEDFD9A5E8BFF63E3D7F97C7B2C91</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E4318F9BD989FF21E5C45D249600CDFB</string>
+				<string>FA9DE9E9DF36DDF4EE26F894D13295A9</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>3855A0344FAAED6F4930DBCF5C175BE9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SAUtils-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1009,12 +967,12 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>150962CA7BDF1936622AF9D7C3FE872B</string>
-				<string>DE9F199EB3870D4747D0F49988A35DCE</string>
-				<string>7FA36390BC05F19A8FF7E55F352E1F0B</string>
-				<string>0912A754847848C0B8A74BD240BBA146</string>
-				<string>A1AD443CFB264A7FAE3799B51BD6AD9A</string>
-				<string>884CD4E1FAABC871249FB227D94D51CB</string>
+				<string>F8C79DFDFB4F9BDC735153F159732406</string>
+				<string>62B408345DBF17F70CF55B7E53A71ED4</string>
+				<string>DEE772683E18D4CDE0D9B9A2C1165F19</string>
+				<string>EA26427ED3D97621E6674BEB99794858</string>
+				<string>CC3B226B32C6279F06A21B591C6FB430</string>
+				<string>B8B471475FC71FDD69C5908C49B5F07A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -1039,34 +997,6 @@
 			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B57076756982B225B29C3269E104AD9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>30D7E59D908F1DA53FC9418C62120D33</string>
-			<key>buildPhases</key>
-			<array>
-				<string>2A97B9A8964D26D91FCA6FFA8C4F8826</string>
-				<string>26CAD183BE1B3BA2364344FE66A8562D</string>
-				<string>2AA7B86A701D75236F484A7AF8129505</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C53DD717C12CF47774E8CB7CEE0418FF</string>
-				<string>8E4869B28CA5275E487680C49E3247BA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SAEvents</string>
-			<key>productName</key>
-			<string>SAEvents</string>
-			<key>productReference</key>
-			<string>57FE90CA4447901E967A7C415F7350EF</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>3C599BCD0530ACDC27DC09E2AA59601A</key>
 		<dict>
@@ -1111,18 +1041,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3D98B3BC9976BAC8E1132243FDEEA8A5</key>
+		<key>3DA78E03413B66C13A819F7AFCDF16E2</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>remoteInfo</key>
-			<string>SAUtils</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SAEvents-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3E17F3E6D63F519B7E11B9F8EA2A1913</key>
 		<dict>
@@ -1146,12 +1076,65 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>407225FC6909AABE86689B31D46BC7D6</key>
+		<key>3EDAB5C3B43FA353EC2097A731063F5A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>85D5DCACC01B066A15D2E26C7277E4FC</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAAdLoader-SAAdLoader</string>
+			<key>target</key>
+			<string>7EB9BF96884AAAA4CEBFC42D0441C24C</string>
+			<key>targetProxy</key>
+			<string>C5C19A3DCA1D6D4FEE9DA1251C1EF607</string>
+		</dict>
+		<key>3FC5C06796D39278A544DA8968AF874B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C7747D30A78660DD1A221FDCF883D85B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>731A413C989F884C657206B7DE4D09D3</string>
+				<string>AFF854F421173BFDA7C57FEB8AA4BB83</string>
+				<string>E320DACC0CFC3637B6CC3804D3F51767</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>A6E89F6C99CDC823A597470968651EBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SAJsonParser</string>
+			<key>productName</key>
+			<string>SAJsonParser</string>
+			<key>productReference</key>
+			<string>57D7832A0A0CB7074798C0CCDEF20CF2</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>404250D2B0857418A205D2D1720E02F5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4209F3C3C0FE1A8FD35828589143EDCE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAUtils-SAUtils</string>
+			<key>target</key>
+			<string>BF4E50CCF5E5FA5E7768527FC33EAD16</string>
+			<key>targetProxy</key>
+			<string>BE4D403E22ADF862D128C3A2C782FA3D</string>
 		</dict>
 		<key>427DAA32D27247087726E442BF09A96C</key>
 		<dict>
@@ -1167,11 +1150,11 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>061ED2AAD30CCEF2BC3F6D41BF0B1A79</string>
-				<string>FF53225A9EAB05866F541EBFCF445EBA</string>
-				<string>29D7B16407E01EF3FED85CFA9DA6FB31</string>
-				<string>5D1C006584E952FD3F946AA457E9112A</string>
-				<string>55827712D1DE271982D3EB695BED7900</string>
+				<string>C35F76CABF613EDCBA54FD173CC74383</string>
+				<string>54AAB823DEFF3BE26239A5084BDA89CA</string>
+				<string>F865D7352D77F8EEEC214B40205B10BF</string>
+				<string>F02EB2BD8FC9639827DE531638D7B665</string>
+				<string>66154D44CC5B30240A9176430FDD369D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -1183,13 +1166,6 @@
 			<string>A763368A515599B9511CF520A9294C32</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>43B44C9564A234D85A2A233967D9FD6F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>112C7F8A5165BC70E4767D9E5120938D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>43D229E2DA1DADA41A34E4A0AF045881</key>
 		<dict>
@@ -1204,34 +1180,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>442483E3705B2400E9B3044EBDCE4CEF</key>
+		<key>45606401791ED8BFBECEAA6B96130A93</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>remoteInfo</key>
-			<string>SAUtils</string>
-		</dict>
-		<key>46ECC5F4E0B5BE75D9320AE4BB99DA32</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurationList</key>
+			<string>1718D44F022C490E08EEF14809F9C078</string>
+			<key>buildPhases</key>
 			<array>
-				<string>12D3F706C9535F78216498EF89A170C9</string>
-				<string>31AC2898F7BE8C6A36901233D7DB9867</string>
-				<string>69C82F46BB75FFE23E7ABF45D0E7A55E</string>
-				<string>EF1BAECFF4F1AB8F08FF1A6B30332E9C</string>
+				<string>36385D37644BF090E25996B221AE6DA7</string>
+				<string>C26A99ED9FBF3EFEB047E41DF6654F87</string>
+				<string>CBF30ABC1908439946731113DDBEF9CA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>4209F3C3C0FE1A8FD35828589143EDCE</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SAUtils</string>
+			<key>productName</key>
+			<string>SAUtils</string>
+			<key>productReference</key>
+			<string>0EAA380263BD728EE270FC62E935DDF6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>484AACF6016FA372ACEDC35E661EAA54</key>
 		<dict>
@@ -1240,27 +1214,42 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>48570A2F7AA115BDB485F4BA0C5AD44F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SuperAwesome.bundle</string>
-			<key>path</key>
-			<string>SuperAwesome.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
 		<key>49C4A33F6AB752592FAA06F1B22D2806</key>
 		<dict>
 			<key>fileRef</key>
 			<string>E0FE68CA074E49FDBDE0C17407A79470</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>4A05E6050C0AAE48D06D3ECB87764D33</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>678CE1F7E242F78814593115B740D83B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SAJsonParser/SAJsonParser-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>4AA55865237097D113962AF986DF340C</key>
 		<dict>
@@ -1277,18 +1266,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4B8909DC012478B329A41721DE851B29</key>
+		<key>4BFE9E9AE2ED9AE38149D484CB6CB6D6</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>77F709B70CF5318474D9177991CAF668</string>
-			<key>remoteInfo</key>
-			<string>SAEvents-SuperAwesome</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SAJsonParser.bundle</string>
+			<key>path</key>
+			<string>SAJsonParser.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>4C85A16A0B0D8352F3AEF361D80EF09D</key>
 		<dict>
@@ -1331,6 +1322,19 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
+		<key>4DB5B05A610E18CDFC8DF203BCC6E480</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>81072886EDE64DC23618126A03F39E9C</string>
+			<key>remoteInfo</key>
+			<string>SAVideoPlayer</string>
+		</dict>
 		<key>4DE651CC9CED00957352FEAFA685FB6D</key>
 		<dict>
 			<key>children</key>
@@ -1351,6 +1355,21 @@
 			<string>Classes</string>
 			<key>path</key>
 			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E81538F541640A6264E724F87C1928D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SADeserializationProtocol.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SADeserializationProtocol.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1407,19 +1426,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>518CC9F0489B903F5F75FCD3D61D850B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
 		<key>51F7CCC53615EDECC99E84CA96F03867</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -1461,19 +1467,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>52612F58A3E4038722EDBC4E7A60CBA9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>35913ACBB77A96EC902AA417A28FCA33</string>
-			<key>remoteInfo</key>
-			<string>SAJsonParser</string>
-		</dict>
 		<key>527231AD443D87A62E92F5E58B8D7798</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1489,49 +1482,67 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>52D33B2CA8DB3FA66D2EC5BD56744ED4</key>
+		<key>52BF054BD8BAD2F438D458F1D37C83F5</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>897276BE95D3CF3D2AF3C4C993F3F7CD</string>
-				<string>9EE2C56141F0A5DB994EAAD9C4BD3A0C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>53017BB8E51C1236B831A70AFCD44865</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>53CB5E279A0F987D2650012FBDA804C3</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8E04F6C528705FF57CA713FBC562FC7D</string>
-			<key>remoteInfo</key>
-			<string>SAUtils-SAUtils</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SABaseObject.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SABaseObject.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53163DE9E075AFBA26F3AFBE7C1D86AD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAJsonParser</string>
+			<key>target</key>
+			<string>3FC5C06796D39278A544DA8968AF874B</string>
+			<key>targetProxy</key>
+			<string>6EC19BBCE26F75A492940601CCE3689D</string>
+		</dict>
+		<key>531B3678B314D01476A859E603B579E8</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSAEvents.a</string>
+			<key>path</key>
+			<string>libSAEvents.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>5342E1587B527CF6FC3A5075A41FF23D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAFileDownloader.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAFileDownloader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>53F661C0CA7190D2CF05023FB33D61E4</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>518CC9F0489B903F5F75FCD3D61D850B</string>
+				<string>D95F04AB6401A9BA308A99FDE19222E1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1553,25 +1564,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5435E7BBACD5B40FEF456FC250769406</key>
+		<key>54AAB823DEFF3BE26239A5084BDA89CA</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3B57076756982B225B29C3269E104AD9</string>
-			<key>remoteInfo</key>
-			<string>SAEvents</string>
-		</dict>
-		<key>54F348268E7ECAB8315F759BCB8C3F6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAJsonParser</string>
+			<key>target</key>
+			<string>3FC5C06796D39278A544DA8968AF874B</string>
+			<key>targetProxy</key>
+			<string>1D3B6D7D1D77266B05D762FE47C5FE76</string>
 		</dict>
 		<key>552D02D5BA751AC2E8790D2811D496CA</key>
 		<dict>
@@ -1646,119 +1648,30 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5548D9E2D288191B7EE4E6B8822D6551</key>
+		<key>5799BC48A6AB17CA109B9117D815FD3E</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>buildConfigurationList</key>
+			<string>7A1FA0F9B05299EFB38B9E6958E9030F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>EF7F883B7EDD9FB833FAFDED6BE6F6DD</string>
+				<string>1A828F22D22DCE1A88E82DF70E26DDCC</string>
+				<string>A447EDA9CF2A72813DC1EF045F33F746</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>427DAA32D27247087726E442BF09A96C</string>
-			<key>remoteInfo</key>
-			<string>SAVASTParser</string>
-		</dict>
-		<key>55827712D1DE271982D3EB695BED7900</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>SAVideoPlayer</string>
-			<key>target</key>
-			<string>81072886EDE64DC23618126A03F39E9C</string>
-			<key>targetProxy</key>
-			<string>ACBDAC51E8D7544DF16B33BD8B144853</string>
-		</dict>
-		<key>559305A7A54B7919B105BAABEF173E53</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>62B3F04305B37513549891DFCBF1D659</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SAEvents/SAEvents-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>55C55E31490AB5BACC16AEAEA4C12C89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAEvents.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAEvents.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56B87BFD0F208C4A4AA6B59AFE48F446</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libSAJsonParser.a</string>
-			<key>path</key>
-			<string>libSAJsonParser.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>572A5BE8DEF33A19A9C5A82C76CEAE3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDictionary+SAJson.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SAJson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>575D2604554C7082562E67A4D331F4A5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAJsonParser.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAJsonParser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SAEvents-SuperAwesome</string>
+			<key>productName</key>
+			<string>SAEvents-SuperAwesome</string>
+			<key>productReference</key>
+			<string>B196D4568B4BD23107A6E8908C622A65</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
 		</dict>
 		<key>57A71509CF3AD5F7FB30CBCAF7C3080F</key>
 		<dict>
@@ -1767,7 +1680,7 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>57FE90CA4447901E967A7C415F7350EF</key>
+		<key>57D7832A0A0CB7074798C0CCDEF20CF2</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>archive.ar</string>
@@ -1776,9 +1689,9 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>libSAEvents.a</string>
+			<string>libSAJsonParser.a</string>
 			<key>path</key>
-			<string>libSAEvents.a</string>
+			<string>libSAJsonParser.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
@@ -1810,23 +1723,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>592A4E839F0598362B061CBA46CF7CF6</key>
+		<key>58FC32EAA27BD9F26B42CE46B7EEFFC6</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>64A71EB904DCC70F3E311E3EF48AC04E</string>
-				<string>74CB30EAB19FB901FC377A5170ABD022</string>
-				<string>C6642989E995DABD022D3D145F26A9E8</string>
-				<string>C39447FFC459E68AD8370E20037FDD78</string>
-			</array>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SAJsonParser</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>592B73A18974188F53443C93496DB190</key>
 		<dict>
@@ -1857,6 +1763,38 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>5976C8C89C71C8D0597CF62E84684C8A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>59EA2293F8273CCD9EB6D9E39B756CCC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E91F122D93688DEF1D8CE19975FAF131</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5A46830763A6765A43A92ECFD41BB30A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0F9763BDE6588A86A3D0EEE61FBDF9D4</string>
+				<string>5B9526716E564F5DC85C101AD9E903A8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>5A4AB1BEBB40EE0D4BCC8221478D0F83</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1868,21 +1806,44 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>5AAAFC7E0E12209471BBFEB24BF5E084</key>
+		<key>5A4E930ABCCA2DADA565E82EBFCD8E14</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>678CE1F7E242F78814593115B740D83B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SAJsonParser/SAJsonParser-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>5B9526716E564F5DC85C101AD9E903A8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1680213DBBC235330FB011E6799C6B93</string>
+			<string>382971C16E15175804C71717E12F44EA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>5CD2389B098E742D49875FCF6E7A5607</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D835C1B9266D39AD3476F02DB0DA53C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5CFBE3A71F6339FB3E4FE176D5F7E43B</key>
+		<key>5C8522268C04AF1E93B642C6080A8D8B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1891,35 +1852,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SADeserializationProtocol.h</string>
+			<string>NSDictionary+SAJson.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SADeserializationProtocol.h</string>
+			<string>Pod/Classes/NSDictionary+SAJson.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D1A6E4C03471F384C067BC14556E68C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SAEvents-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D1C006584E952FD3F946AA457E9112A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAVASTParser-SAVASTParser</string>
-			<key>target</key>
-			<string>A95592B573BE7C778585A9B3DD87EB90</string>
-			<key>targetProxy</key>
-			<string>824B09E086A86DCA10D9FF3CE6EA4487</string>
 		</dict>
 		<key>5E324F48F4EF4C467089AF8F3D82F0E7</key>
 		<dict>
@@ -1943,33 +1880,31 @@
 		<key>5F674C1E4C511C09D5298968474CF36D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>60E2ED9E98CFF028A5B42EC21719A26D</key>
+		<key>611369331132250226B949FF4CBB136A</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>SAUtils-SAUtils</string>
+			<string>SAVideoPlayer-SAVideoPlayer</string>
 			<key>target</key>
-			<string>8E04F6C528705FF57CA713FBC562FC7D</string>
+			<string>D853CB8812FF55CDC31A837C62E40495</string>
 			<key>targetProxy</key>
-			<string>53CB5E279A0F987D2650012FBDA804C3</string>
+			<string>673E8F684C52E237DD632571FB25E57F</string>
 		</dict>
-		<key>62B3F04305B37513549891DFCBF1D659</key>
+		<key>62B408345DBF17F70CF55B7E53A71ED4</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SAEvents-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAEvents</string>
+			<key>target</key>
+			<string>DB3191A126A8EDEF0A89829BFBFD2825</string>
+			<key>targetProxy</key>
+			<string>9715FB6CDD1C3966A8CC88252C19F0B3</string>
 		</dict>
 		<key>6317AE53402081CC486A4E65679A4964</key>
 		<dict>
@@ -1984,16 +1919,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>64279C64CC19201516D51AA3FEE09FC0</key>
+		<key>63E6C43C048E47AF06CAE1FB1DCCB430</key>
 		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAUtils</string>
-			<key>target</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>targetProxy</key>
-			<string>D5692FBF0F5D46979CBEF3A4F8DCA246</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>3FC5C06796D39278A544DA8968AF874B</string>
+			<key>remoteInfo</key>
+			<string>SAJsonParser</string>
 		</dict>
 		<key>649BAC9482CDB670F4DCA78606AABD0E</key>
 		<dict>
@@ -2002,7 +1939,49 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>64A71EB904DCC70F3E311E3EF48AC04E</key>
+		<key>64F198654A68309FA9342D818440C2A7</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAEvents-SuperAwesome</string>
+			<key>target</key>
+			<string>5799BC48A6AB17CA109B9117D815FD3E</string>
+			<key>targetProxy</key>
+			<string>3058248BB7564D3A1A5AAB5F705D2B07</string>
+		</dict>
+		<key>66154D44CC5B30240A9176430FDD369D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAVideoPlayer</string>
+			<key>target</key>
+			<string>81072886EDE64DC23618126A03F39E9C</string>
+			<key>targetProxy</key>
+			<string>4DB5B05A610E18CDFC8DF203BCC6E480</string>
+		</dict>
+		<key>6699FDD6FAC020DA30AD91C365369368</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2FF12F7ECF534B29A9836EC24ADAB4EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>673E8F684C52E237DD632571FB25E57F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D853CB8812FF55CDC31A837C62E40495</string>
+			<key>remoteInfo</key>
+			<string>SAVideoPlayer-SAVideoPlayer</string>
+		</dict>
+		<key>678CE1F7E242F78814593115B740D83B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2011,77 +1990,9 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>SAJsonParser.xcconfig</string>
+			<string>SAJsonParser-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6541776A183912DF8D3CAC940254D5DE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>54F348268E7ECAB8315F759BCB8C3F6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6707A2011D565B53F00B1BB565FC0C54</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+HTML.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSString+HTML.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>673B2AD43CFF3F1A92230852AB104FEC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>35913ACBB77A96EC902AA417A28FCA33</string>
-			<key>remoteInfo</key>
-			<string>SAJsonParser</string>
-		</dict>
-		<key>68464D08AA22F68E5FA62A33F9DF9CBC</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A48678A5FB40D971A1A79388E4C24B34</string>
-			<key>remoteInfo</key>
-			<string>SAJsonParser-SAJsonParser</string>
-		</dict>
-		<key>68ABFD5DC8DCF0939C4BF6E128BF07B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA9CD12146DCF57221048D6324D08075</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69C82F46BB75FFE23E7ABF45D0E7A55E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BB4772E9EF098018F17354B0B1C27AC8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>69DB48BADC1D1F138E216445247DA352</key>
 		<dict>
@@ -2097,18 +2008,22 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>69F9117B4147AB5E98D62D11FB511908</key>
+		<key>6CEBF47A121E0C4152DD5A7E7E388D84</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSString+HTML.h</string>
+			<key>path</key>
+			<string>Pod/Classes/NSString+HTML.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6D89054EB466010D507A6236AFED45EF</key>
+		<key>6EC19BBCE26F75A492940601CCE3689D</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -2117,9 +2032,9 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>81072886EDE64DC23618126A03F39E9C</string>
+			<string>3FC5C06796D39278A544DA8968AF874B</string>
 			<key>remoteInfo</key>
-			<string>SAVideoPlayer</string>
+			<string>SAJsonParser</string>
 		</dict>
 		<key>70DD2C416A4AC44035D487358FE1D220</key>
 		<dict>
@@ -2136,68 +2051,42 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>71CE57C2926A06632EB516B7327424B8</key>
+		<key>731A413C989F884C657206B7DE4D09D3</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>62B3F04305B37513549891DFCBF1D659</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SuperAwesome</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D7F6E9503E54CEB1C7D3A68C7519BC0B</string>
+				<string>7569C500495BFA8CB5E00682D340B61E</string>
+				<string>FE63822C80980EDBEA8D0205E16229D1</string>
+				<string>2D3D406D4725042F11D47513D6C78117</string>
+				<string>C322215696DC587AEF8A570F3E594DA9</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>74CB30EAB19FB901FC377A5170ABD022</key>
+		<key>7569C500495BFA8CB5E00682D340B61E</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>E49AA35C75F7AD06280EC36382C26C1A</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SAJsonParser-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>753CB6D95BED931CA4C396825892F454</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDictionary+SafeHandling.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SafeHandling.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>758495088D457B06E58E60821221067F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6707A2011D565B53F00B1BB565FC0C54</string>
-				<string>9C41DA5FA0931FD936E62F2BD0846FBF</string>
-				<string>265CBFC7870C968B52E6D6323F13187B</string>
-				<string>1680213DBBC235330FB011E6799C6B93</string>
-				<string>BB4772E9EF098018F17354B0B1C27AC8</string>
-				<string>E679347BD0DE27B1C902581A4FDB99D4</string>
-				<string>841E3F92301BA11A4783FC92B5F1EE03</string>
-				<string>112C7F8A5165BC70E4767D9E5120938D</string>
+				<string>6CEBF47A121E0C4152DD5A7E7E388D84</string>
+				<string>E1099C0EDFC0EFBC24CF5CBEB2A66688</string>
+				<string>E0E8D61947EC1D83E7377297EFE608EB</string>
+				<string>E91F122D93688DEF1D8CE19975FAF131</string>
+				<string>20C4377B6CF844F4CABA65D64E2A35C7</string>
+				<string>5342E1587B527CF6FC3A5075A41FF23D</string>
+				<string>11DD8EF994107EF0F5128A6B94ED451E</string>
+				<string>2FF12F7ECF534B29A9836EC24ADAB4EB</string>
 				<string>FDDA4FAE6AB58FFA7D1831E044FFC50D</string>
 			</array>
 			<key>isa</key>
@@ -2222,36 +2111,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>761B28723555C7C7AC5935491EE489BD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>62B3F04305B37513549891DFCBF1D659</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SAEvents/SAEvents-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
 		<key>76C0FE50AFA0DEEA468288E8FA310DDA</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2265,12 +2124,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>76C15D39188890DDB7641B0CF87551ED</key>
+		<key>77E9571AADCFC808EF3BCBBAD7550F61</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAUtils</string>
+			<key>target</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>targetProxy</key>
+			<string>F3806C5FB9690D25FFB4C36BD2E6D56B</string>
+		</dict>
+		<key>7A1FA0F9B05299EFB38B9E6958E9030F</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>8AEA4457590F8D0EAE0C07C656105B95</string>
-				<string>092F6A23A0370D90703F770812170472</string>
+				<string>2754CA6637BAF0C4520E03F43B757277</string>
+				<string>AA4B116EC5A6F182204C4C5593CF0AE9</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -2278,44 +2148,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>77F709B70CF5318474D9177991CAF668</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>04ECB7BD0358AD5C5CA899AAC3DB1912</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B3899B8BBED3DAEFD9B493EFE4064864</string>
-				<string>69F9117B4147AB5E98D62D11FB511908</string>
-				<string>077D5A8BEC9BC9DD94BAC0A56DDB7A62</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SAEvents-SuperAwesome</string>
-			<key>productName</key>
-			<string>SAEvents-SuperAwesome</string>
-			<key>productReference</key>
-			<string>48570A2F7AA115BDB485F4BA0C5AD44F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>79E3CC8EA2F5C1C1AE2B0C3644F9770E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3B57076756982B225B29C3269E104AD9</string>
-			<key>remoteInfo</key>
-			<string>SAEvents</string>
 		</dict>
 		<key>7A455094DEB962746FEB73A1146721C4</key>
 		<dict>
@@ -2339,16 +2171,29 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>7AD35B74CE24C8D4661A9F94EF01DFA6</key>
+		<key>7BE1344C83F260822021BEB981F606CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SAVASTParser-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7C0E7CA0EA7ED332C4071820CCF00288</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>BE2962C3478DBDF563B657A0A50DB02B</string>
+			<string>3DA78E03413B66C13A819F7AFCDF16E2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SAUtils/SAUtils-prefix.pch</string>
+				<string>Target Support Files/SAEvents/SAEvents-prefix.pch</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.3</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
@@ -2369,32 +2214,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>7BE1344C83F260822021BEB981F606CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SAVASTParser-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C3A32E17ACEBD6CF4A50E594EB74B83</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D853CB8812FF55CDC31A837C62E40495</string>
-			<key>remoteInfo</key>
-			<string>SAVideoPlayer-SAVideoPlayer</string>
-		</dict>
 		<key>7C55899434722FBC1ABF21709E3E8CEE</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2407,13 +2226,6 @@
 			<string>SACreative.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D4264A5B1D9F80D18958C3BD177107D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C6642989E995DABD022D3D145F26A9E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>7D65C0C0471A6FD0660616C5F299F280</key>
 		<dict>
@@ -2500,17 +2312,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>7FA36390BC05F19A8FF7E55F352E1F0B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAJsonParser</string>
-			<key>target</key>
-			<string>35913ACBB77A96EC902AA417A28FCA33</string>
-			<key>targetProxy</key>
-			<string>C73E179317050E722432286132318882</string>
-		</dict>
 		<key>7FFA4D6C7770C108B5A8D926130F5209</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -2545,8 +2346,8 @@
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>64279C64CC19201516D51AA3FEE09FC0</string>
-				<string>04C2709FE929940EEC8801B84C47457A</string>
+				<string>77E9571AADCFC808EF3BCBBAD7550F61</string>
+				<string>611369331132250226B949FF4CBB136A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
@@ -2559,18 +2360,18 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>821D1561B7A051EB5AE6FC9562E7575B</key>
+		<key>8189A782D39FDEECD690A554C5C023DC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSDictionary+SafeHandling.m</string>
+			<string>SABaseObject.h</string>
 			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SafeHandling.m</string>
+			<string>Pod/Classes/SABaseObject.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2586,19 +2387,6 @@
 			<string>Pods-SAAdLoader_Example-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>824B09E086A86DCA10D9FF3CE6EA4487</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A95592B573BE7C778585A9B3DD87EB90</string>
-			<key>remoteInfo</key>
-			<string>SAVASTParser-SAVASTParser</string>
 		</dict>
 		<key>839E8E5ABCADD5D9AACC7670B00B8933</key>
 		<dict>
@@ -2628,35 +2416,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>841E3F92301BA11A4783FC92B5F1EE03</key>
+		<key>860D018E50677D9839FE8FC81C48D34F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>SAUtils.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85D5DCACC01B066A15D2E26C7277E4FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSArray+SAJson.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSArray+SAJson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SAUtils</string>
+			<key>target</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>targetProxy</key>
+			<string>8A9952BE865B10F0B8660211447400A0</string>
 		</dict>
 		<key>86346DA92C9420E6E071F35DA580F15F</key>
 		<dict>
@@ -2668,7 +2437,7 @@
 		<key>8645BE8F9ED7E636644D5C2C80801913</key>
 		<dict>
 			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2705,6 +2474,32 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>87BB845F43832F8EC78D9845093E86B9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BF6A73DD2EA1972A1847D846AA34E782</string>
+				<string>9E67E8F6CF1616487200EE1CC5BD3619</string>
+				<string>5C8522268C04AF1E93B642C6080A8D8B</string>
+				<string>E49AA35C75F7AD06280EC36382C26C1A</string>
+				<string>B468AB2DD70C493744321447304E3D86</string>
+				<string>03EFA2375E442F72D99EF07EC1F8A4EF</string>
+				<string>8189A782D39FDEECD690A554C5C023DC</string>
+				<string>52BF054BD8BAD2F438D458F1D37C83F5</string>
+				<string>4E81538F541640A6264E724F87C1928D</string>
+				<string>EB5E56024282AD5B3364BC293323B5D5</string>
+				<string>DC0D34D8A775A3C6AA434E42B8049821</string>
+				<string>0E23A707D9FA9D96BB7AB7E3FDC80214</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SAJsonParser</string>
+			<key>path</key>
+			<string>SAJsonParser</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>87F2515070331F052D5B6DF4DFF48496</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2718,18 +2513,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>884CD4E1FAABC871249FB227D94D51CB</key>
+		<key>894386AE2B5B7516491751012C19FC72</key>
 		<dict>
+			<key>fileRef</key>
+			<string>20C01FAA120E1C95331BEE34C22B3F4C</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAVideoPlayer</string>
-			<key>target</key>
-			<string>81072886EDE64DC23618126A03F39E9C</string>
-			<key>targetProxy</key>
-			<string>6D89054EB466010D507A6236AFED45EF</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>8926DFB5E41D5F318D582E8E733D9EE7</key>
+		<key>8A9952BE865B10F0B8660211447400A0</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -2738,80 +2529,16 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>427DAA32D27247087726E442BF09A96C</string>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
 			<key>remoteInfo</key>
-			<string>SAVASTParser</string>
+			<string>SAUtils</string>
 		</dict>
-		<key>894386AE2B5B7516491751012C19FC72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20C01FAA120E1C95331BEE34C22B3F4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>897276BE95D3CF3D2AF3C4C993F3F7CD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE2962C3478DBDF563B657A0A50DB02B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SAUtils</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8AEA4457590F8D0EAE0C07C656105B95</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>74CB30EAB19FB901FC377A5170ABD022</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SAJsonParser</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8C71E88845E16385E291C53EE3EA9BAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E679347BD0DE27B1C902581A4FDB99D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CCCD0B3C611AADAD79091136E2F16EC</key>
+		<key>8C4B1F07EE1D5036EEADA4ABDB45A0B0</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>407225FC6909AABE86689B31D46BC7D6</string>
-				<string>A547B539CF78748C587D602A3879A301</string>
-				<string>27C121B632CD5E702DD7C14504A589F3</string>
-				<string>287D00197A6C2A577C21A73D553FAC1E</string>
-				<string>7D4264A5B1D9F80D18958C3BD177107D</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
@@ -2839,42 +2566,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>8E04F6C528705FF57CA713FBC562FC7D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>52D33B2CA8DB3FA66D2EC5BD56744ED4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>53017BB8E51C1236B831A70AFCD44865</string>
-				<string>DC8332DF5D2EAABD44F8B38D57AB873C</string>
-				<string>EB70000D3F1B4073A4FA2C02BD605513</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SAUtils-SAUtils</string>
-			<key>productName</key>
-			<string>SAUtils-SAUtils</string>
-			<key>productReference</key>
-			<string>B4BF87ED8734BD145E88AFF65A96B926</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>8E4869B28CA5275E487680C49E3247BA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAUtils</string>
-			<key>target</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>targetProxy</key>
-			<string>442483E3705B2400E9B3044EBDCE4CEF</string>
-		</dict>
 		<key>8E56EF892DC8197F20CB66B605E80808</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2887,17 +2578,6 @@
 			<string>SAVASTParser-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9036595D2359C702DDDE8B9DFDA5A34B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>905AA0E16DCF5C8E5B69A28E78071DC5</key>
 		<dict>
@@ -2917,6 +2597,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>91B3BBD70482CC17796D240581398579</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>91C6FDECF7DD7FFD762604A85AB10C43</key>
 		<dict>
 			<key>fileRef</key>
@@ -2924,12 +2611,31 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9251B42CF47B923029E3CE7828FD13F9</key>
+		<key>92F4362DDA2398873CDDCF227F0977C5</key>
 		<dict>
-			<key>fileRef</key>
-			<string>CB6C7B95ADFF51552B2862AD6E995112</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SAUtils-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>936130945A7D966A478029CE11C75AE1</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>remoteInfo</key>
+			<string>SAUtils</string>
 		</dict>
 		<key>939E33F62539CF2846B4CC0491A5F915</key>
 		<dict>
@@ -2951,19 +2657,46 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9491935C085EF4B03DE082BCBFFEA089</key>
+		<key>94A7098F786617D4636B4507891FD82B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>20C4377B6CF844F4CABA65D64E2A35C7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>95BDECF1576913ECD9ADCBAE5C1CF4EA</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>A95592B573BE7C778585A9B3DD87EB90</string>
+			<key>remoteInfo</key>
+			<string>SAVASTParser-SAVASTParser</string>
+		</dict>
+		<key>9715FB6CDD1C3966A8CC88252C19F0B3</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>DB3191A126A8EDEF0A89829BFBFD2825</string>
+			<key>remoteInfo</key>
+			<string>SAEvents</string>
+		</dict>
+		<key>97185659F816D51B9A69055D5381B9F8</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>09519A242E589B24DF90618BDFC58029</string>
-				<string>5CD2389B098E742D49875FCF6E7A5607</string>
-				<string>FA0C0FFE8049DEB78A243D4B95B3F60C</string>
-				<string>68ABFD5DC8DCF0939C4BF6E128BF07B7</string>
-				<string>F6DBCFCF6DF540077C353B02CC9DBA71</string>
-				<string>2A58FAEF8A03880AB6286E9102354C53</string>
-				<string>9251B42CF47B923029E3CE7828FD13F9</string>
+				<string>1C960F45925536D27A72B7F8381411E1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
@@ -2990,47 +2723,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9C41DA5FA0931FD936E62F2BD0846FBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+HTML.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSString+HTML.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CD74D8F9BBAD72BD2E48E5B59FDF4BB</key>
+		<key>98B84C46FC27B63779DFD25646213061</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>62B3F04305B37513549891DFCBF1D659</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SuperAwesome</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>9E2E867419EC9EEF98D1EBAD79282EE2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE2962C3478DBDF563B657A0A50DB02B</string>
+			<string>3855A0344FAAED6F4930DBCF5C175BE9</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -3040,7 +2736,7 @@
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.3</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
+				<string>NO</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -3055,7 +2751,22 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Release</string>
+		</dict>
+		<key>9E67E8F6CF1616487200EE1CC5BD3619</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSArray+SAJson.m</string>
+			<key>path</key>
+			<string>Pod/Classes/NSArray+SAJson.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9E9F09E01B464E089CDD9175660D7FA7</key>
 		<dict>
@@ -3087,28 +2798,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9EE2C56141F0A5DB994EAAD9C4BD3A0C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE2962C3478DBDF563B657A0A50DB02B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>SAUtils</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>9F73C96E59B7E042202F2FAC76DB73B0</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -3120,12 +2809,40 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>9F76B7296124486CB036B3ED5C52D996</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SAUtils.bundle</string>
+			<key>path</key>
+			<string>SAUtils.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
 		<key>9F9AD287E0668B8455B7E2229807583E</key>
 		<dict>
 			<key>fileRef</key>
 			<string>878749991C681119ADD143DCB2E1CBC6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>A04E4DC1BD903A219BAD239F967CE3D0</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>427DAA32D27247087726E442BF09A96C</string>
+			<key>remoteInfo</key>
+			<string>SAVASTParser</string>
 		</dict>
 		<key>A063F61D8FB3108A1714BBD68D7C1B4F</key>
 		<dict>
@@ -3140,67 +2857,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A0C029978E6F23A26A0C10809991DD2E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>remoteInfo</key>
-			<string>SAUtils</string>
-		</dict>
-		<key>A1AD443CFB264A7FAE3799B51BD6AD9A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAVASTParser</string>
-			<key>target</key>
-			<string>427DAA32D27247087726E442BF09A96C</string>
-			<key>targetProxy</key>
-			<string>5548D9E2D288191B7EE4E6B8822D6551</string>
-		</dict>
-		<key>A1E76E9C6DFA2EC991D385CD948898B9</key>
+		<key>A447EDA9CF2A72813DC1EF045F33F746</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
-			<array>
-				<string>138F1E1EECFB6EC07E127C7008DAA95E</string>
-			</array>
+			<array/>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>A48678A5FB40D971A1A79388E4C24B34</key>
+		<key>A48A1742536EAF7EDA45EF10A3B6FCA1</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>76C15D39188890DDB7641B0CF87551ED</string>
-			<key>buildPhases</key>
-			<array>
-				<string>056020D80C6A9BA2E35DB79D388DB058</string>
-				<string>06C6B6E7EE647C3EE7E0EA46570D2431</string>
-				<string>9036595D2359C702DDDE8B9DFDA5A34B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
+			<key>fileRef</key>
+			<string>92F4362DDA2398873CDDCF227F0977C5</string>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SAJsonParser-SAJsonParser</string>
-			<key>productName</key>
-			<string>SAJsonParser-SAJsonParser</string>
-			<key>productReference</key>
-			<string>B7B89E38B70C657E050429EC5993A10E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A4FC2BB63823EEC0409DC0B106FDAF9F</key>
 		<dict>
@@ -3208,50 +2881,6 @@
 			<string>82424EEC40802AB5DBC9DE6E37F51FD1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>A5321D66A7617FA8389FCF7119A021E0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E01FF070E6BFC3920EECA0DE67CEF35E</string>
-				<string>85D5DCACC01B066A15D2E26C7277E4FC</string>
-				<string>D835C1B9266D39AD3476F02DB0DA53C3</string>
-				<string>572A5BE8DEF33A19A9C5A82C76CEAE3D</string>
-				<string>753CB6D95BED931CA4C396825892F454</string>
-				<string>821D1561B7A051EB5AE6FC9562E7575B</string>
-				<string>CA9CD12146DCF57221048D6324D08075</string>
-				<string>33FA4D258DFC5AC83E1D07D5E31D92EF</string>
-				<string>5CFBE3A71F6339FB3E4FE176D5F7E43B</string>
-				<string>575D2604554C7082562E67A4D331F4A5</string>
-				<string>CB6C7B95ADFF51552B2862AD6E995112</string>
-				<string>592A4E839F0598362B061CBA46CF7CF6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SAJsonParser</string>
-			<key>path</key>
-			<string>SAJsonParser</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A547B539CF78748C587D602A3879A301</key>
-		<dict>
-			<key>fileRef</key>
-			<string>572A5BE8DEF33A19A9C5A82C76CEAE3D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A5D663D862462C86D7842AD59FD5A060</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAUtils</string>
-			<key>target</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>targetProxy</key>
-			<string>A0C029978E6F23A26A0C10809991DD2E</string>
 		</dict>
 		<key>A6E50BC2A59EDA4364119FC3FB24B492</key>
 		<dict>
@@ -3265,6 +2894,17 @@
 			<string>SAHTMLParser.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6E89F6C99CDC823A597470968651EBF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAJsonParser-SAJsonParser</string>
+			<key>target</key>
+			<string>C9BFE6A0977E32094D4C4207DA2C1FDE</string>
+			<key>targetProxy</key>
+			<string>D929AD2B029076E8C2DC0FE9470E5317</string>
 		</dict>
 		<key>A763368A515599B9511CF520A9294C32</key>
 		<dict>
@@ -3281,17 +2921,21 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>A79B14BEBD88282ABB252D4C6446AB98</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>A7C2DF3B5817AD873024163FAD873BAB</key>
 		<dict>
 			<key>fileRef</key>
 			<string>4AA55865237097D113962AF986DF340C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A800804521D69544AC31F5C4420CD777</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D1A6E4C03471F384C067BC14556E68C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3355,7 +2999,29 @@
 			<key>productType</key>
 			<string>com.apple.product-type.bundle</string>
 		</dict>
-		<key>ACBDAC51E8D7544DF16B33BD8B144853</key>
+		<key>AA4B116EC5A6F182204C4C5593CF0AE9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3DA78E03413B66C13A819F7AFCDF16E2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SuperAwesome</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>AEA298EACBE237585FF89496F7E8FBD5</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -3364,23 +3030,9 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>81072886EDE64DC23618126A03F39E9C</string>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
 			<key>remoteInfo</key>
-			<string>SAVideoPlayer</string>
-		</dict>
-		<key>AF04846F53698F8B3D05ABFCA7400C3E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9E2E867419EC9EEF98D1EBAD79282EE2</string>
-				<string>7AD35B74CE24C8D4661A9F94EF01DFA6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>SAUtils</string>
 		</dict>
 		<key>AF4937908210B2E89E284966C3B0BF8E</key>
 		<dict>
@@ -3388,6 +3040,19 @@
 			<string>31012179C544391A6B570BFA01895582</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>AFF854F421173BFDA7C57FEB8AA4BB83</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>91B3BBD70482CC17796D240581398579</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>B01F49EBB84D40044F47F0C44DE9ECD6</key>
 		<dict>
@@ -3401,6 +3066,42 @@
 			<string>SAAd.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B035CFE4FEB3F547C4F475E2D33D53A3</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3855A0344FAAED6F4930DBCF5C175BE9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SAUtils</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>B0507617F2806C45E4338BB8BB871CFD</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CB37D85E7FF9C88643B5A3654392CAB1</string>
+				<string>7C0E7CA0EA7ED332C4071820CCF00288</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>B0B85AEE8D5CF37090C2448BB40B8654</key>
 		<dict>
@@ -3416,35 +3117,52 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>B241E9CEB5BD2122EFE08B96B91B1014</key>
+		<key>B196D4568B4BD23107A6E8908C622A65</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E2CB59E8A963B485E0548002E917AE35</string>
-				<string>5AAAFC7E0E12209471BBFEB24BF5E084</string>
-				<string>8C71E88845E16385E291C53EE3EA9BAF</string>
-				<string>E547A73D1B818755725C0D98203403E7</string>
-				<string>43B44C9564A234D85A2A233967D9FD6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
 			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SuperAwesome.bundle</string>
+			<key>path</key>
+			<string>SuperAwesome.bundle</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>B3899B8BBED3DAEFD9B493EFE4064864</key>
+		<key>B2FF06C056C6E31EF6DF1480BB3F5FF9</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
+			<key>baseConfigurationReference</key>
+			<string>3855A0344FAAED6F4930DBCF5C175BE9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SAUtils/SAUtils-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
-		<key>B400222645EEF49D97FE042F50F86E63</key>
+		<key>B468AB2DD70C493744321447304E3D86</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3453,9 +3171,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SAEvents.h</string>
+			<string>NSDictionary+SafeHandling.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SAEvents.h</string>
+			<string>Pod/Classes/NSDictionary+SafeHandling.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3471,21 +3189,6 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>B4BF87ED8734BD145E88AFF65A96B926</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SAUtils.bundle</string>
-			<key>path</key>
-			<string>SAUtils.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>B550FB93A81676E116EEA00024053286</key>
 		<dict>
@@ -3516,20 +3219,16 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B7B89E38B70C657E050429EC5993A10E</key>
+		<key>B8B471475FC71FDD69C5908C49B5F07A</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>SAJsonParser.bundle</string>
-			<key>path</key>
-			<string>SAJsonParser.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>SAVideoPlayer</string>
+			<key>target</key>
+			<string>81072886EDE64DC23618126A03F39E9C</string>
+			<key>targetProxy</key>
+			<string>BFF855E98A1829C787D9A93FC1445DE6</string>
 		</dict>
 		<key>B9AA567EEF93A6463D0C5835641B557F</key>
 		<dict>
@@ -3562,21 +3261,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BB4772E9EF098018F17354B0B1C27AC8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAFileDownloader.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAFileDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>BBAB68C01E6DD7329F8C4A28F223C028</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -3607,7 +3291,7 @@
 		<key>BCC016788CF9083464A1EF67CB6FA969</key>
 		<dict>
 			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3618,18 +3302,57 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BE2962C3478DBDF563B657A0A50DB02B</key>
+		<key>BD35A3093CED39BBAE6F4F3DB6FA6055</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>FE3FAB5CC1CDF76DBD11453EF5D06BF9</string>
+				<string>B035CFE4FEB3F547C4F475E2D33D53A3</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SAUtils-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BE4D403E22ADF862D128C3A2C782FA3D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>BF4E50CCF5E5FA5E7768527FC33EAD16</string>
+			<key>remoteInfo</key>
+			<string>SAUtils-SAUtils</string>
+		</dict>
+		<key>BF4E50CCF5E5FA5E7768527FC33EAD16</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BD35A3093CED39BBAE6F4F3DB6FA6055</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5976C8C89C71C8D0597CF62E84684C8A</string>
+				<string>58FC32EAA27BD9F26B42CE46B7EEFFC6</string>
+				<string>30572EFA4F9C0BCCC7DA7419271A0155</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SAUtils-SAUtils</string>
+			<key>productName</key>
+			<string>SAUtils-SAUtils</string>
+			<key>productReference</key>
+			<string>9F76B7296124486CB036B3ED5C52D996</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
 		</dict>
 		<key>BF6039159A593BBCDBCF0D16E9A11A08</key>
 		<dict>
@@ -3645,6 +3368,21 @@
 			<string>libSAAdLoader.a</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BF6A73DD2EA1972A1847D846AA34E782</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSArray+SAJson.h</string>
+			<key>path</key>
+			<string>Pod/Classes/NSArray+SAJson.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BFA3DE5118037A5C24864FB369B28F0E</key>
 		<dict>
@@ -3668,6 +3406,43 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>BFBA242E226E6F965A486D2144BE0A19</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0F05654601C164290DC1F312AFD0182C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BFF855E98A1829C787D9A93FC1445DE6</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>81072886EDE64DC23618126A03F39E9C</string>
+			<key>remoteInfo</key>
+			<string>SAVideoPlayer</string>
+		</dict>
+		<key>C032160B9CFD5E344C38EB42CE0894BD</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAUtils</string>
+			<key>target</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>targetProxy</key>
+			<string>936130945A7D966A478029CE11C75AE1</string>
+		</dict>
 		<key>C115F76A42588BF8CB4828F21D2C045F</key>
 		<dict>
 			<key>children</key>
@@ -3686,17 +3461,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C133C6BCED97382F4493A69B632CFE12</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAAdLoader-SAAdLoader</string>
-			<key>target</key>
-			<string>7EB9BF96884AAAA4CEBFC42D0441C24C</string>
-			<key>targetProxy</key>
-			<string>25C8E4B52CF1D0AE50CE3DF0AAC2DA44</string>
-		</dict>
 		<key>C1EC2C398300FF033A4DD63F062AC0EF</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -3712,16 +3476,61 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C39447FFC459E68AD8370E20037FDD78</key>
+		<key>C25BDCE24E905D89D7FE04B33509BFB8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BF6A73DD2EA1972A1847D846AA34E782</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C26A99ED9FBF3EFEB047E41DF6654F87</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D6553037FC34DFD975FCB6B21ACA0B5D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C3158CF7758FBDAC1D44281C4FEA5020</key>
+		<dict>
+			<key>fileRef</key>
+			<string>11DD8EF994107EF0F5128A6B94ED451E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C322215696DC587AEF8A570F3E594DA9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3D4331364F998DBB9C8F7DF17959017</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C35F76CABF613EDCBA54FD173CC74383</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAEvents</string>
+			<key>target</key>
+			<string>DB3191A126A8EDEF0A89829BFBFD2825</string>
+			<key>targetProxy</key>
+			<string>F0219CE7BC4B82FD9390EBD77F78B159</string>
+		</dict>
+		<key>C3D4331364F998DBB9C8F7DF17959017</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SAJsonParser-prefix.pch</string>
+			<string>SAJsonParser-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3740,23 +3549,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C53DD717C12CF47774E8CB7CEE0418FF</key>
+		<key>C49AB5EE0D646B76568A04BDC49FD16F</key>
 		<dict>
+			<key>fileRef</key>
+			<string>DC0D34D8A775A3C6AA434E42B8049821</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAEvents-SuperAwesome</string>
-			<key>target</key>
-			<string>77F709B70CF5318474D9177991CAF668</string>
-			<key>targetProxy</key>
-			<string>4B8909DC012478B329A41721DE851B29</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>C53E16FA58259B8FD41051BCEF2266A7</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>B400222645EEF49D97FE042F50F86E63</string>
-				<string>55C55E31490AB5BACC16AEAEA4C12C89</string>
+				<string>1CA107031BB445EDD2E32958B226ABD4</string>
+				<string>382971C16E15175804C71717E12F44EA</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -3780,18 +3585,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C6642989E995DABD022D3D145F26A9E8</key>
+		<key>C5C19A3DCA1D6D4FEE9DA1251C1EF607</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SAJsonParser-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7EB9BF96884AAAA4CEBFC42D0441C24C</string>
+			<key>remoteInfo</key>
+			<string>SAAdLoader-SAAdLoader</string>
 		</dict>
 		<key>C6766F13FC9AA522093CC064B1E9AD3C</key>
 		<dict>
@@ -3804,104 +3609,124 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>C72D29E3440E22133883A5CB92FE2983</key>
+		<key>C6E3AA290662E956603D55732B79F692</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>8189A782D39FDEECD690A554C5C023DC</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1D79EBDA5510610844A54134E5C45216</string>
-			<key>remoteInfo</key>
-			<string>SAAdLoader</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>C73E179317050E722432286132318882</key>
+		<key>C7747D30A78660DD1A221FDCF883D85B</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5A4E930ABCCA2DADA565E82EBFCD8E14</string>
+				<string>4A05E6050C0AAE48D06D3ECB87764D33</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>35913ACBB77A96EC902AA417A28FCA33</string>
-			<key>remoteInfo</key>
-			<string>SAJsonParser</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>C7A0B2B41D82359930FC91D70FFF648A</key>
+		<key>C9BFE6A0977E32094D4C4207DA2C1FDE</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>AF04846F53698F8B3D05ABFCA7400C3E</string>
+			<string>382DEDFD9A5E8BFF63E3D7F97C7B2C91</string>
 			<key>buildPhases</key>
 			<array>
-				<string>B241E9CEB5BD2122EFE08B96B91B1014</string>
-				<string>A1E76E9C6DFA2EC991D385CD948898B9</string>
-				<string>46ECC5F4E0B5BE75D9320AE4BB99DA32</string>
+				<string>8C4B1F07EE1D5036EEADA4ABDB45A0B0</string>
+				<string>404250D2B0857418A205D2D1720E02F5</string>
+				<string>A79B14BEBD88282ABB252D4C6446AB98</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array>
-				<string>60E2ED9E98CFF028A5B42EC21719A26D</string>
-			</array>
+			<array/>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>SAUtils</string>
+			<string>SAJsonParser-SAJsonParser</string>
 			<key>productName</key>
-			<string>SAUtils</string>
+			<string>SAJsonParser-SAJsonParser</string>
 			<key>productReference</key>
-			<string>0957259A9304BCA3D25B7B8543BCDA1D</string>
+			<string>4BFE9E9AE2ED9AE38149D484CB6CB6D6</string>
 			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>com.apple.product-type.bundle</string>
 		</dict>
-		<key>CA9CD12146DCF57221048D6324D08075</key>
+		<key>CB37D85E7FF9C88643B5A3654392CAB1</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>3DA78E03413B66C13A819F7AFCDF16E2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SAEvents/SAEvents-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>NSObject+SAJson.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSObject+SAJson.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Debug</string>
 		</dict>
-		<key>CB6C7B95ADFF51552B2862AD6E995112</key>
+		<key>CBF30ABC1908439946731113DDBEF9CA</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1CDC9B2694FA1EDCF134347F7F6A4ED3</string>
+				<string>E05800490158077FB358BD574F5E4044</string>
+				<string>94A7098F786617D4636B4507891FD82B</string>
+				<string>C3158CF7758FBDAC1D44281C4FEA5020</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CC3B226B32C6279F06A21B591C6FB430</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>SASerializationProtocol.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SASerializationProtocol.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SAVASTParser</string>
+			<key>target</key>
+			<string>427DAA32D27247087726E442BF09A96C</string>
+			<key>targetProxy</key>
+			<string>A04E4DC1BD903A219BAD239F967CE3D0</string>
 		</dict>
 		<key>CCA510CFBEA2D207524CDA0D73C3B561</key>
 		<dict>
 			<key>children</key>
 			<array>
 				<string>70DD2C416A4AC44035D487358FE1D220</string>
-				<string>B7B89E38B70C657E050429EC5993A10E</string>
-				<string>B4BF87ED8734BD145E88AFF65A96B926</string>
+				<string>4BFE9E9AE2ED9AE38149D484CB6CB6D6</string>
+				<string>9F76B7296124486CB036B3ED5C52D996</string>
 				<string>7ABDD0293D7D2526BBDD9F901DE42788</string>
 				<string>9E9F09E01B464E089CDD9175660D7FA7</string>
-				<string>48570A2F7AA115BDB485F4BA0C5AD44F</string>
+				<string>B196D4568B4BD23107A6E8908C622A65</string>
 				<string>8D87038B88E4DF4365543C1123DF68D8</string>
 				<string>BF6039159A593BBCDBCF0D16E9A11A08</string>
-				<string>57FE90CA4447901E967A7C415F7350EF</string>
-				<string>56B87BFD0F208C4A4AA6B59AFE48F446</string>
-				<string>0957259A9304BCA3D25B7B8543BCDA1D</string>
+				<string>531B3678B314D01476A859E603B579E8</string>
+				<string>57D7832A0A0CB7074798C0CCDEF20CF2</string>
+				<string>0EAA380263BD728EE270FC62E935DDF6</string>
 				<string>A763368A515599B9511CF520A9294C32</string>
 				<string>2DDB05108A865FB2FAB8A2C560D77539</string>
 			</array>
@@ -4017,41 +3842,28 @@
 				<string>3A31DFCC182B7DD3010EAE05EDD1FC60</string>
 				<string>1D79EBDA5510610844A54134E5C45216</string>
 				<string>7EB9BF96884AAAA4CEBFC42D0441C24C</string>
-				<string>3B57076756982B225B29C3269E104AD9</string>
-				<string>77F709B70CF5318474D9177991CAF668</string>
-				<string>35913ACBB77A96EC902AA417A28FCA33</string>
-				<string>A48678A5FB40D971A1A79388E4C24B34</string>
-				<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-				<string>8E04F6C528705FF57CA713FBC562FC7D</string>
+				<string>DB3191A126A8EDEF0A89829BFBFD2825</string>
+				<string>5799BC48A6AB17CA109B9117D815FD3E</string>
+				<string>3FC5C06796D39278A544DA8968AF874B</string>
+				<string>C9BFE6A0977E32094D4C4207DA2C1FDE</string>
+				<string>45606401791ED8BFBECEAA6B96130A93</string>
+				<string>BF4E50CCF5E5FA5E7768527FC33EAD16</string>
 				<string>427DAA32D27247087726E442BF09A96C</string>
 				<string>A95592B573BE7C778585A9B3DD87EB90</string>
 				<string>81072886EDE64DC23618126A03F39E9C</string>
 				<string>D853CB8812FF55CDC31A837C62E40495</string>
 			</array>
 		</dict>
-		<key>D4917EB9EF461A1A6A5D59C49D317D06</key>
+		<key>D465D4B0F95F5337061A349D818945B7</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>SAJsonParser-SAJsonParser</string>
+			<string>SAVASTParser</string>
 			<key>target</key>
-			<string>A48678A5FB40D971A1A79388E4C24B34</string>
+			<string>427DAA32D27247087726E442BF09A96C</string>
 			<key>targetProxy</key>
-			<string>68464D08AA22F68E5FA62A33F9DF9CBC</string>
-		</dict>
-		<key>D5692FBF0F5D46979CBEF3A4F8DCA246</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
-			<key>remoteInfo</key>
-			<string>SAUtils</string>
+			<string>01A66D6F379B6AB7821F70651299859D</string>
 		</dict>
 		<key>D5F976A02B7BFE5946BB8C5CFF368C4E</key>
 		<dict>
@@ -4068,6 +3880,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D6553037FC34DFD975FCB6B21ACA0B5D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D6E146750A73C3E21B7C9666D2FA2047</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4081,20 +3900,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D835C1B9266D39AD3476F02DB0DA53C3</key>
+		<key>D7F6E9503E54CEB1C7D3A68C7519BC0B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>9E67E8F6CF1616487200EE1CC5BD3619</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDictionary+SAJson.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SAJson.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D83727C551AB56A7EF6E47E2FE491C45</key>
 		<dict>
@@ -4150,6 +3961,39 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>D929AD2B029076E8C2DC0FE9470E5317</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C9BFE6A0977E32094D4C4207DA2C1FDE</string>
+			<key>remoteInfo</key>
+			<string>SAJsonParser-SAJsonParser</string>
+		</dict>
+		<key>D95DC39B2A16F00E4C103804B82CF5B0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EB5E56024282AD5B3364BC293323B5D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D95F04AB6401A9BA308A99FDE19222E1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
 		<key>DA27F59257DF360DD6BF238621CD59FE</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -4172,16 +4016,48 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DC8332DF5D2EAABD44F8B38D57AB873C</key>
+		<key>DB3191A126A8EDEF0A89829BFBFD2825</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurationList</key>
+			<string>B0507617F2806C45E4338BB8BB871CFD</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5A46830763A6765A43A92ECFD41BB30A</string>
+				<string>BFBA242E226E6F965A486D2144BE0A19</string>
+				<string>97185659F816D51B9A69055D5381B9F8</string>
+			</array>
+			<key>buildRules</key>
 			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>64F198654A68309FA9342D818440C2A7</string>
+				<string>860D018E50677D9839FE8FC81C48D34F</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SAEvents</string>
+			<key>productName</key>
+			<string>SAEvents</string>
+			<key>productReference</key>
+			<string>531B3678B314D01476A859E603B579E8</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>DC0D34D8A775A3C6AA434E42B8049821</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SASerializationProtocol.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SASerializationProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DDAE0C9000A39EFB3B0DE1EE67E0FC28</key>
 		<dict>
@@ -4203,18 +4079,25 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE9F199EB3870D4747D0F49988A35DCE</key>
+		<key>DEE772683E18D4CDE0D9B9A2C1165F19</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>SAEvents</string>
+			<string>SAJsonParser</string>
 			<key>target</key>
-			<string>3B57076756982B225B29C3269E104AD9</string>
+			<string>3FC5C06796D39278A544DA8968AF874B</string>
 			<key>targetProxy</key>
-			<string>79E3CC8EA2F5C1C1AE2B0C3644F9770E</string>
+			<string>63E6C43C048E47AF06CAE1FB1DCCB430</string>
 		</dict>
-		<key>E01FF070E6BFC3920EECA0DE67CEF35E</key>
+		<key>E05800490158077FB358BD574F5E4044</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E0E8D61947EC1D83E7377297EFE608EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E0E8D61947EC1D83E7377297EFE608EB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4223,9 +4106,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSArray+SAJson.h</string>
+			<string>SAExtensions.h</string>
 			<key>path</key>
-			<string>Pod/Classes/NSArray+SAJson.h</string>
+			<string>Pod/Classes/SAExtensions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4241,6 +4124,21 @@
 			<string>SAVASTTracking.h</string>
 			<key>path</key>
 			<string>Pod/Classes/Models/SAVASTTracking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E1099C0EDFC0EFBC24CF5CBEB2A66688</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSString+HTML.m</string>
+			<key>path</key>
+			<string>Pod/Classes/NSString+HTML.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -4264,12 +4162,53 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E2CB59E8A963B485E0548002E917AE35</key>
+		<key>E320DACC0CFC3637B6CC3804D3F51767</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C25BDCE24E905D89D7FE04B33509BFB8</string>
+				<string>2C0BA9F6CD4BC66AC0CF1D641910B34B</string>
+				<string>1143CE48DE2372850709B98808BB01E9</string>
+				<string>C6E3AA290662E956603D55732B79F692</string>
+				<string>ECE9346654233B3CB9D48CAA8EEBB8AA</string>
+				<string>D95DC39B2A16F00E4C103804B82CF5B0</string>
+				<string>C49AB5EE0D646B76568A04BDC49FD16F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E4020F809CE667151F25F45F2F10F8E1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9C41DA5FA0931FD936E62F2BD0846FBF</string>
+			<string>E1099C0EDFC0EFBC24CF5CBEB2A66688</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>E4318F9BD989FF21E5C45D249600CDFB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>678CE1F7E242F78814593115B740D83B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SAJsonParser</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>E46EE38E9721F8590B0BF544625542B3</key>
 		<dict>
@@ -4284,12 +4223,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E547A73D1B818755725C0D98203403E7</key>
+		<key>E49AA35C75F7AD06280EC36382C26C1A</key>
 		<dict>
-			<key>fileRef</key>
-			<string>24884F9BAAAD400AD58742EBF98800FA</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSDictionary+SAJson.m</string>
+			<key>path</key>
+			<string>Pod/Classes/NSDictionary+SAJson.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E5EB6EE54502111BA785B0BF71725F65</key>
 		<dict>
@@ -4321,21 +4268,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>E679347BD0DE27B1C902581A4FDB99D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAFileDownloader.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAFileDownloader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>E75FE9B9056DCB111C3798187D995E3D</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -4354,8 +4286,8 @@
 			<key>children</key>
 			<array>
 				<string>048FAC4B533EB03AEF73B516A92E5B2B</string>
-				<string>62B3F04305B37513549891DFCBF1D659</string>
-				<string>5D1A6E4C03471F384C067BC14556E68C</string>
+				<string>3DA78E03413B66C13A819F7AFCDF16E2</string>
+				<string>ECAD6DDB238D03AA3E22E85772AA1690</string>
 				<string>E18008CF5917E9E1505766F1E396FAF2</string>
 			</array>
 			<key>isa</key>
@@ -4367,26 +4299,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E9745077E4DD0EECAC03D3C3D0217F2B</key>
+		<key>E91F122D93688DEF1D8CE19975FAF131</key>
 		<dict>
-			<key>fileRef</key>
-			<string>B400222645EEF49D97FE042F50F86E63</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAExtensions.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAExtensions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E9AAD79F6FFEF774A97E1F0C97F044EE</key>
+		<key>EA26427ED3D97621E6674BEB99794858</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>34C1B73589A641ED37854BA331ADCE03</string>
-				<string>EB40F28ECDC09AA05132AD85278C9EBB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAUtils</string>
+			<key>target</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>targetProxy</key>
+			<string>33788E2A013BAB76ABDD4059761A089A</string>
 		</dict>
 		<key>EA8770F778B2A17CBFCD656E89060291</key>
 		<dict>
@@ -4435,46 +4372,20 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>EB40F28ECDC09AA05132AD85278C9EBB</key>
+		<key>EB5E56024282AD5B3364BC293323B5D5</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>74CB30EAB19FB901FC377A5170ABD022</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SAJsonParser/SAJsonParser-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EB70000D3F1B4073A4FA2C02BD605513</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>SAJsonParser.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAJsonParser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>EB77BA5794DDAD4CE0FCB18EDABA61FB</key>
 		<dict>
@@ -4506,6 +4417,26 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>ECAD6DDB238D03AA3E22E85772AA1690</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SAEvents-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ECE9346654233B3CB9D48CAA8EEBB8AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4E81538F541640A6264E724F87C1928D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>EDC084DD74B347939A8119641E705F97</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -4522,13 +4453,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>EF1BAECFF4F1AB8F08FF1A6B30332E9C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>841E3F92301BA11A4783FC92B5F1EE03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>EF29D35F365C100A753EFE77B9CFC6E5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4543,6 +4467,17 @@
 			<string>Pod/Classes/SABlackMask.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EF7F883B7EDD9FB833FAFDED6BE6F6DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>EF870029B78DD3BDBD46689A7B2CF276</key>
 		<dict>
@@ -4566,6 +4501,30 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>F0219CE7BC4B82FD9390EBD77F78B159</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>DB3191A126A8EDEF0A89829BFBFD2825</string>
+			<key>remoteInfo</key>
+			<string>SAEvents</string>
+		</dict>
+		<key>F02EB2BD8FC9639827DE531638D7B665</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAVASTParser-SAVASTParser</string>
+			<key>target</key>
+			<string>A95592B573BE7C778585A9B3DD87EB90</string>
+			<key>targetProxy</key>
+			<string>95BDECF1576913ECD9ADCBAE5C1CF4EA</string>
+		</dict>
 		<key>F12DF947C5EEC85C0069CB375E1BAE68</key>
 		<dict>
 			<key>fileRef</key>
@@ -4588,7 +4547,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F43CBFA2122A76011CB6822DDF20C78C</key>
+		<key>F3806C5FB9690D25FFB4C36BD2E6D56B</key>
 		<dict>
 			<key>containerPortal</key>
 			<string>D41D8CD98F00B204E9800998ECF8427E</string>
@@ -4597,14 +4556,14 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>C7A0B2B41D82359930FC91D70FFF648A</string>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
 			<key>remoteInfo</key>
 			<string>SAUtils</string>
 		</dict>
 		<key>F44A3BA26108B94A32A62D829741179F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>518CC9F0489B903F5F75FCD3D61D850B</string>
+			<string>D95F04AB6401A9BA308A99FDE19222E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -4623,19 +4582,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F6DBCFCF6DF540077C353B02CC9DBA71</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5CFBE3A71F6339FB3E4FE176D5F7E43B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>F7D3DAA0856A9DC7175643734827EC3B</key>
 		<dict>
 			<key>fileRef</key>
 			<string>38B5FC5B93501DB9E6030C9D127B0676</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>F865D7352D77F8EEEC214B40205B10BF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAUtils</string>
+			<key>target</key>
+			<string>45606401791ED8BFBECEAA6B96130A93</string>
+			<key>targetProxy</key>
+			<string>AEA298EACBE237585FF89496F7E8FBD5</string>
 		</dict>
 		<key>F8C62A0F89BAB3BE7C848590CBB3D6FD</key>
 		<dict>
@@ -4648,12 +4611,16 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>F9DD4E848D36712B35A8305676828D81</key>
+		<key>F8C79DFDFB4F9BDC735153F159732406</key>
 		<dict>
-			<key>fileRef</key>
-			<string>55C55E31490AB5BACC16AEAEA4C12C89</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SAAdLoader</string>
+			<key>target</key>
+			<string>1D79EBDA5510610844A54134E5C45216</string>
+			<key>targetProxy</key>
+			<string>2A58C8C856E29C6E86892AF6D32051C6</string>
 		</dict>
 		<key>F9EE63DDE0B7AB91D3F36B8E3266FA19</key>
 		<dict>
@@ -4674,13 +4641,6 @@
 			<string>Pods-SAAdLoader_Example-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA0C0FFE8049DEB78A243D4B95B3F60C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>753CB6D95BED931CA4C396825892F454</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>FA6B80670B92C0C430F285BBE41D1C9B</key>
 		<dict>
@@ -4727,6 +4687,28 @@
 			<string>SAEvents</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA9DE9E9DF36DDF4EE26F894D13295A9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>678CE1F7E242F78814593115B740D83B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SAJsonParser</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>FAF8B99F4A888B6DF85779E85E5D44CD</key>
 		<dict>
@@ -4841,8 +4823,8 @@
 			<key>children</key>
 			<array>
 				<string>371A80103BD1258E47DE2413DC0C5CDC</string>
-				<string>BE2962C3478DBDF563B657A0A50DB02B</string>
-				<string>24884F9BAAAD400AD58742EBF98800FA</string>
+				<string>3855A0344FAAED6F4930DBCF5C175BE9</string>
+				<string>92F4362DDA2398873CDDCF227F0977C5</string>
 				<string>75C03EFF7854DD70BF0EB99FBBA8955A</string>
 			</array>
 			<key>isa</key>
@@ -4854,23 +4836,41 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>FE3FAB5CC1CDF76DBD11453EF5D06BF9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>3855A0344FAAED6F4930DBCF5C175BE9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>SAUtils</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>FE63822C80980EDBEA8D0205E16229D1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>03EFA2375E442F72D99EF07EC1F8A4EF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>FE98248EF254D59FE7E6A368E2039D45</key>
 		<dict>
 			<key>fileRef</key>
 			<string>7E898130A68DA9D2BF9E45615E1332E4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>FF53225A9EAB05866F541EBFCF445EBA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SAJsonParser</string>
-			<key>target</key>
-			<string>35913ACBB77A96EC902AA417A28FCA33</string>
-			<key>targetProxy</key>
-			<string>52612F58A3E4038722EDBC4E7A60CBA9</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
