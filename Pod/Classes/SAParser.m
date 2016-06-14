@@ -82,7 +82,7 @@
         } jsonCompactStringRepresentation]]
     };
     ad.creative.parentalGateClickUrl = [NSString stringWithFormat:@"%@/event?%@",
-                                        [[SALoaderSession getInstance] getVersion],
+                                        [[SALoaderSession getInstance] getBaseUrl],
                                         [SAUtils formGetQueryFromDict:pgjson]];
     
     // get the cdn URL
