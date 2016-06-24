@@ -1,5 +1,5 @@
 PODS:
-  - SAAdLoader (0.1.9):
+  - SAAdLoader (0.2.1):
     - SAJsonParser
     - SAUtils
     - SAVASTParser
@@ -15,8 +15,7 @@ PODS:
     - SAJsonParser
     - SAUtils
     - SAVideoPlayer
-  - SAVideoPlayer (1.1.0):
-    - SAUtils
+  - SAVideoPlayer (1.1.1)
 
 DEPENDENCIES:
   - SAAdLoader (from `../`)
@@ -26,12 +25,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: 8d1317adc79db78ce2386001113895782b2cf37e
+  SAAdLoader: 2eb43b1ad4dbc182f9f87183e923670deebb0c9b
   SAEvents: a28d8337856900c2a5ef8389cf8f67d4144a175f
   SAJsonParser: c0a5ace5d143bc50d5318a4981ebaf79858e4af8
   SAUtils: 71cd672943ff5c598eb86c8bf81c2040d9def526
   SAVASTParser: f260b19925dc983f2264954c588f2010dd09c5ed
-  SAVideoPlayer: dba919a10db3119059c393b249d614e165d4a599
+  SAVideoPlayer: 8170dd123632bade010d9ae930d84ce4753f3d13
 
 PODFILE CHECKSUM: 471694023db37ed5e0fe853d3e46490ed2770405
 
