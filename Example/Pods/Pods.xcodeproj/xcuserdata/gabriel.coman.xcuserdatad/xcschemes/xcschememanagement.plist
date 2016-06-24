@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SAAdLoader-SAAdLoader.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SAAdLoader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,11 +20,6 @@
 			<false/>
 		</dict>
 		<key>SAEvents.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SAJsonParser-SAJsonParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -72,67 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1D79EBDA5510610844A54134E5C45216</key>
+		<key>46DEE29C44AF34FCA796F3F0B43EF5EC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3A31DFCC182B7DD3010EAE05EDD1FC60</key>
+		<key>49D7E6CA2D3305064FFEB32C78BE96C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3FC5C06796D39278A544DA8968AF874B</key>
+		<key>554DCDD6CCCA21734F321299F6491C9A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>427DAA32D27247087726E442BF09A96C</key>
+		<key>5B9E142DE6F1124CC8F54AA6ACB08FB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>45606401791ED8BFBECEAA6B96130A93</key>
+		<key>749C89692F1D886AFAF5CA62A03A7334</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5799BC48A6AB17CA109B9117D815FD3E</key>
+		<key>83CF82376E18185C82762550BB69A4CF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7EB9BF96884AAAA4CEBFC42D0441C24C</key>
+		<key>8A557DC053B7D3A93A3073215AB72481</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>81072886EDE64DC23618126A03F39E9C</key>
+		<key>A4820341AC358FA76918E7E5C6402702</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A95592B573BE7C778585A9B3DD87EB90</key>
+		<key>BDF6DD4F54D4F39CAFE8068525DB6CF4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BF4E50CCF5E5FA5E7768527FC33EAD16</key>
+		<key>F10A0B431B4BA56F2D40DEDFC60C2EAA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C9BFE6A0977E32094D4C4207DA2C1FDE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D853CB8812FF55CDC31A837C62E40495</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DB3191A126A8EDEF0A89829BFBFD2825</key>
+		<key>F577BFE38E1EB29CFCA9E0D31FE18623</key>
 		<dict>
 			<key>primary</key>
 			<true/>
