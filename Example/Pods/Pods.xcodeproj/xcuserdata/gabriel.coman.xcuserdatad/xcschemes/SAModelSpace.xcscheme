@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '83CF82376E18185C82762550BB69A4CF'
-               BlueprintName = 'SAVASTParser-SAVASTParser'
+               BlueprintIdentifier = 'ABB863943BB35D4C026C13FFD68D1842'
+               BlueprintName = 'SAModelSpace'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SAVASTParser.bundle'>
+               BuildableName = 'libSAModelSpace.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -14,11 +14,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SAEvents-SuperAwesome.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SAEvents.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,17 +24,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SAModelSpace.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SAUtils-SAUtils.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>SAUtils.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SAVASTParser-SAVASTParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,52 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>46DEE29C44AF34FCA796F3F0B43EF5EC</key>
+		<key>1585A8165151D8DF12A2812430D362F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>49D7E6CA2D3305064FFEB32C78BE96C9</key>
+		<key>1E591D1B899FBA136D2EA14CDB25FBA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5B9E142DE6F1124CC8F54AA6ACB08FB2</key>
+		<key>2393DF0E2504931F8C2FA531C716DAC7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>749C89692F1D886AFAF5CA62A03A7334</key>
+		<key>41FF690BBAD5666D0EADFD6A402E1F26</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>83CF82376E18185C82762550BB69A4CF</key>
+		<key>80CF77E412DF392237C26A8C4DBBBD20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8A557DC053B7D3A93A3073215AB72481</key>
+		<key>A44B2C6931052894EE09CD2BCFC3BAB0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A4820341AC358FA76918E7E5C6402702</key>
+		<key>ABB863943BB35D4C026C13FFD68D1842</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BDF6DD4F54D4F39CAFE8068525DB6CF4</key>
+		<key>B13AE07C9E2E4848E123D6A4FBBE2051</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F10A0B431B4BA56F2D40DEDFC60C2EAA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F577BFE38E1EB29CFCA9E0D31FE18623</key>
+		<key>B18D6C5E53B0326F5FDECE1F820DB4B5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -6,7 +6,7 @@
 //
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //
 // forward declarations
@@ -24,6 +24,21 @@
 // it's fire-and-forget
 // @param: the URL to make the event request to
 + (void) sendEventToURL:(NSString*)url;
+
+/**
+ *  Send custom event
+ *
+ *  @param baseUrl     baseUrl of the request
+ *  @param placementId placementId integer
+ *  @param lineItem    lineItemId integer
+ *  @param creative    creative id
+ *  @param event       custom event
+ */
++ (void) sendCustomEvent:(NSString*) baseUrl
+           withPlacement:(NSInteger) placementId
+            withLineItem:(NSInteger) lineItem
+             andCreative:(NSInteger) creative
+                andEvent:(NSString*) event;
 
 // enable and disable
 + (void) enableSATracking;
