@@ -29,11 +29,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SAUtils-SAUtils.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SAUtils.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,11 +47,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1585A8165151D8DF12A2812430D362F5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1E591D1B899FBA136D2EA14CDB25FBA5</key>
 		<dict>
 			<key>primary</key>

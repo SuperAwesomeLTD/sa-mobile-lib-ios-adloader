@@ -42,7 +42,7 @@ static bool isSATrackingEnabled = true;
     [self sendEventToURL:url];
 }
  
-+ (void) sendDisplayMoatEvent:(UIView*)adView andAdDictionary:(NSDictionary*)adDict {
++ (void) sendDisplayMoatEvent:(UIWebView*)webView andAdDictionary:(NSDictionary*)adDict {
     // do nothing
 }
 
