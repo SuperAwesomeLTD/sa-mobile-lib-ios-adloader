@@ -22,11 +22,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [[SALoaderSession getInstance] setTest:true];
+    [[SALoaderSession getInstance] setBaseUrl:@"https://ads.staging.superawesome.tv/v2"];
+    [[SALoaderSession getInstance] setTest:false];
     
     SALoader *loader = [[SALoader alloc] init];
     loader.delegate = self;
-    [loader loadAdForPlacementId:28000];
+    [loader loadAdForPlacementId:113];
 }
 
 - (void)didReceiveMemoryWarning
