@@ -1,5 +1,5 @@
 PODS:
-  - SAAdLoader (0.2.5):
+  - SAAdLoader (0.2.7):
     - SAModelSpace (= 0.1.2)
     - SANetworking (= 0.1.1)
     - SAUtils (= 1.2.3)
@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: ffffb818589f2f0b631e5f793e74987df31fd0ee
+  SAAdLoader: b01ba2580aed8b2e62dc32540ff2b777032afef6
   SAEvents: 75d754f6b655cd701af7060cfe7059f0db2a66c5
   SAJsonParser: c0a5ace5d143bc50d5318a4981ebaf79858e4af8
   SAModelSpace: d3055296a8063924c11027035b6bf4457d05fafd
