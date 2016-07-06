@@ -7,402 +7,486 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03D3D81E9A3A73508E65046FE6C6BE27 /* NSArray+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8A52150EE9686BC63D4D1CB8AFC27E /* NSArray+SAJson.m */; };
-		073ED8FF08CFA2F33BAAB661E8782C31 /* SAVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D182A9ACD89F848CF67E38CB27394CFD /* SAVideoPlayer-dummy.m */; };
-		0DA970EA8B5367E9CE2F2D810465B814 /* SAFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3C05D9C253E2E64A0568A734BFEA90 /* SAFileDownloader.m */; };
-		1034B198BBF1E0EA56DDDF417F4DFD2D /* SAData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3E5E61B6B9624C6598E0F983FA1560 /* SAData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21ED2711593BC5560752360B4F82F307 /* SAXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0784E435F64B804228681594CD23DD2A /* SAXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22612E3FA4B81FCFE89B5E672DBC50BD /* SAAdLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443F074D82E9C2EDBC8643137382A3E /* SAAdLoader-dummy.m */; };
-		234F9E3531275F5D10E248A600138A96 /* SAVASTCreative.m in Sources */ = {isa = PBXBuildFile; fileRef = 0506DA11EEEAF5B36CA6BEE7D03D22FE /* SAVASTCreative.m */; };
-		23CCC07F2E813DB0EDDB2E529A459D48 /* SAVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6191ABB872D4E2C23CB497E41CF83806 /* SAVASTCreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		261311A80C4DFF4C6FA455AA37236936 /* SAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83766A598BACCB6C98B45E9CF9C5C523 /* SAParser.m */; };
-		284569F81632F35435066A960B95489D /* SALoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F48081EF10DC640ABFA7F977CAC6E556 /* SALoader.m */; };
-		355FEEE7FA30BCABAA9427D6DE74D7CE /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = EE022446E460B8509AFB6C1A67F913D9 /* NSString+HTML.m */; };
-		35CB0EE3702205DCA656FAEFB4FD8D20 /* SAModelSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022CB03FA898338C2ED7B2E02B9BB9C /* SAModelSpace-dummy.m */; };
-		3A3B48BE59FE523573C49D0B8E24C57B /* SAData.m in Sources */ = {isa = PBXBuildFile; fileRef = A404B631CFA9AC9D49CB45516138545D /* SAData.m */; };
-		3F56EE501ED81B26921AFD28E1666B94 /* SABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED552639BDAD880B1A64AC979FBC791 /* SABaseObject.m */; };
-		3F5CDC7CBDE57E7685C94A8E14EC90F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		430EA14893C823C57036708C70108CE6 /* SAVASTTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDCF1EB58EBFC51562F43C2FEE41781 /* SAVASTTracking.m */; };
-		4BAE2198A41BE6398047ABCA77AD6FFC /* SADetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B57B1A428EA1FF53F0D92276C4CC7B0 /* SADetails.m */; };
-		4BE7838D8CCE86A82FC163B237CCEEAD /* SAAd.h in Headers */ = {isa = PBXBuildFile; fileRef = AA52414CBD513272AABD539F25138252 /* SAAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D756400A8F7747E8D9EB4433F95BA2C /* SAVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = C8EF1EFF12578DDFFE42713C405B1B03 /* SAVASTMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F055A797FF2FDA6244EFA0EF74B0F84 /* SAEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = EEAFE322DB0F05F2E36ECBB7D8157719 /* SAEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5048FEC67391891B945D78E1585C33CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		52CED919D68C55BF4597A9E796610BFB /* SASerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF72AD354D05502254F850328D9C1EC /* SASerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		552927B825CFBBCE331F7F90DA8A2F35 /* SAEvents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A0D70F4D091D59FBE8C8E1C551141 /* SAEvents-dummy.m */; };
-		5563CC6DC6B5C4477CC01244D0740C2F /* SAAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C94155893042CA12679539DB60F32 /* SAAd.m */; };
-		5593715BBC16E88CC6B893CE8DED1673 /* SALoaderSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 777817040E3EB0DE1CFB3835A25D013C /* SALoaderSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56BD793E03F598E160C910C4DD04DA72 /* SAVASTTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3B561B143851E08F6BE0FAB9893E21 /* SAVASTTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FC925E6ECF61A0BDF451D633803B57B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		62926D5C5768F4A55299E2B78CD3B330 /* SAVASTManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A42375BEE49BF2919756BD7D49F241A8 /* SAVASTManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6297E65125B4771F9CC2325102DDCDF5 /* SABlackMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE45249C676BCA089E4390B0EF429E0 /* SABlackMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62B3F42B55723FB416D0414301F3C91D /* SALoaderSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2E4CBF6DCC151C1FD8A17BD32EE3C8 /* SALoaderSession.m */; };
-		64FBDFA7405E7EC8F3C0CB2A638868BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		6C0DB2B068231404DCADBA203C524643 /* SALoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 082ECC1643CE96250C3914B98375AA83 /* SALoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D5A006F13EE6B0DF8ECBB6C3B9B0B69 /* NSDictionary+SafeHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 022BFCBCA7907224155738811437D2D9 /* NSDictionary+SafeHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DD15A23BB9CAAD65FC2BEF16852356E /* SAVASTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB651013196001C32E820B7698D1D587 /* SAVASTManager.m */; };
-		7DBFF6036FA8AD77FCE2EF0E74F5F851 /* SAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5C411E7199B0605D8BD1F40FC76DD4 /* SAUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E76CF5B8811E7E5527D549B27D2C06D /* SAURLClicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB459368E8261C8D3C26C807AB825D1 /* SAURLClicker.m */; };
-		806EF5069FFEC373B42838208173F73B /* NSArray+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = E306A4A69BB3F138335B09308FF5A377 /* NSArray+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85BF3858EB0D1F42AB08104BA5967CBD /* SAVASTParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1080D8AD8DF7BBD0393E98FEC7E190C4 /* SAVASTParser-dummy.m */; };
-		8FC71E7FC542E607F55E1B9728A35346 /* SAHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 242CD83CD5F39D5244D68C85E2838020 /* SAHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93B9C777C0F96C221DDCB4674F7C071E /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A9C319AFEDAB2AEEA2D524CA006861 /* NSDictionary+SAJson.m */; };
-		97023E08AB1D985B6BDCA04357ABAA96 /* NSDictionary+SafeHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DBB34551D3D191A6306EFEAB779401 /* NSDictionary+SafeHandling.m */; };
-		A04CF41BA2F48C57C79A8F9ED2E86504 /* SABlackMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D910FA072917078147CF03D88D792C8 /* SABlackMask.m */; };
-		A3C2019C83BC05F392148CA7DC98EE71 /* SACreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 797EC8153F9325D2BBB993ED59AC5258 /* SACreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8FFA9F99B92A594FA366C24A0E59A98 /* SAURLClicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EDA967DEB33DA95C4E27E71A1CE1D6 /* SAURLClicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABF77DC091BE060D2B360ADE658FB675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		AE336D188E7A89C5A81D2E4C10E9583E /* SAVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C89159664E943C06F71E47F400E2BA1 /* SAVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE74043EB5147CA5BE7F84AA3EB79564 /* SAVASTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D29E7D94E8203D031E63C41DDCA328 /* SAVASTParser.m */; };
-		AEC31FCD42D5143E91D08DBFC8E21686 /* SAVASTParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D369D0E7823122B8582AB4F9ADCC4F /* SAVASTParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3284866AC8ECA201E06677914500D0D /* SACronograph.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61CD7B46744AC02FBD99ECF83A51D1 /* SACronograph.m */; };
-		B357914AC55D6CD7D0535F1FA66BD80C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		B57975B8765F03BF06EA031997A43640 /* SAUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A127EBEC443FA09B11408ECD229C3A /* SAUtils-dummy.m */; };
-		B7FFC561543F1B32EF14989F141B1701 /* SAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C533E00567148487B6921DD78C6EA980 /* SAUtils.m */; };
-		BBD0C77F3351D0616F4240CEE8214B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		BCFA2A5844E626D00BDAFC549FA379B3 /* Pods-SAAdLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25E286BE7A2EB8E62C5007561857B8B /* Pods-SAAdLoader_Example-dummy.m */; };
-		BCFCF571CD6BC05CAE76A1163758D15B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		BD998960A92E006EDF5920436BF3FE89 /* SAVASTAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D8B3D7840C6C4A4A3D3256EF7623D4 /* SAVASTAd.m */; };
-		BDDC052C11E68E0EC6C4ED2ED9CD6F53 /* SAVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF86E8BDF30462AE76DB1F841116FD7F /* SAVideoPlayer.m */; };
-		C1EE41C4416FE57F0C15D749C86E3326 /* SAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A8428723F061087FF4718C3FC2ECA9 /* SAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C438660706D09E3BC43133E44D99E44D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7219921F39E1CD4FF9E45687961DA8 /* SystemConfiguration.framework */; };
-		C53A52FC44942B07B446EF61B669DBEC /* SACronograph.h in Headers */ = {isa = PBXBuildFile; fileRef = 729ECCD0E19BC4513E5E234BCF917C96 /* SACronograph.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBDA648F3E562F2CFE43BB1BD834B74C /* SADeserializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EEBFC8CCBB0E6DA6CD15FF981B73163 /* SADeserializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD64D2826F24389CD82D0046ACBEB87A /* SAParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 040E8DA549631D236DD57FF9B6D69650 /* SAParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF4B1A1D45ACF726D8C7BCECA5E736B5 /* SAVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 11774C5B1EFEEBB6DE7C3716E72777B1 /* SAVASTMediaFile.m */; };
-		CF6887198906ECA8F9542D4DBA97B381 /* SAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F3C2470AEB5BA2B8496DDB75B16A56 /* SAExtensions.m */; };
-		D034B7BA7794C536B15F390BDAFFDEED /* NSDictionary+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = DBACF775D1D8DA51235386A739D9F36A /* NSDictionary+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3E6B09E4DF94E922BAA1FA68936B7D9 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DC489D7FE9159DAE54FC774162CBAD /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8A88E1C93DD486A12202BC5E5FED369 /* SAEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 7378DBDBB50FE68E9930B3FE3B5B33BB /* SAEvents.m */; };
-		E1453C175DF24774AF8F7B59D9DCEE13 /* SAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7513435CACB80A7BE8F95940A3AD2D62 /* SAJsonParser-dummy.m */; };
-		E7E9A7CB8993BA3ABD28DA711BFC0BA0 /* SADetails.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D75CEEF58ED57ACD85D7F0421C4B2D /* SADetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8D83EAB77A6B78E758E089746656A19 /* SABaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B8F7D425A10FD51C20F9C00F0C050E /* SABaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9DC3E61CE5CF29C2A8B4C0D39D0D038 /* SAXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E66BD3679ADB0E08106CC32AF0F562B /* SAXMLParser.m */; };
-		EA1C4007F9304EC6173D85265E5104A6 /* SAHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D101C0F912E6BD285CF555F3D5735381 /* SAHTMLParser.m */; };
-		F478199215748A810D80D99C9EE9DBC9 /* SAExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA19EDB6C011CAB33953ECFE78487C7 /* SAExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F55E5037897488BEAA5753B247A0464E /* SACreative.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EED7322471DB8A3E1B2FBBA47F059F /* SACreative.m */; };
-		F7F0E6DF7402F4B18A58DCF5F981709E /* SAFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EFC7C263276BB2F18B57FA2E9945D6 /* SAFileDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEEC61CE80A093DC82CF67E06F9A0FFE /* SAVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 67677EAB14362E5225A9684845A9C7FA /* SAVASTAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00DCA0D2C2FD507506D42906BC3B20D2 /* SADetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA913AFD5731BDC0BDCD552BA3087A /* SADetails.m */; };
+		02DA8ADDB06DD72052CCEA812F9847CF /* SADetails.h in Headers */ = {isa = PBXBuildFile; fileRef = B189EE27D11CD3DD942AF049B17B4634 /* SADetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C6A4E579CBDBC5FD40DE25F261C6FB /* SAVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3B5634BAD51C7BC0CB2CC073F79D56 /* SAVASTAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08CFC925787BA3734EBADE32C9B27793 /* SALoaderSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 777817040E3EB0DE1CFB3835A25D013C /* SALoaderSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F7E65EF6596E890A8D568C5052F783 /* SAEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 2111C30BF48AC9A6670F7EAACEC2D7CD /* SAEvents.m */; };
+		0B1A696216C5C7C54C785E5B45330701 /* SANetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B25B038A8A4D6D5423313A4E4D7D8C2 /* SANetwork.m */; };
+		12D4176457D3ECEE727658B7ECA29CD8 /* SAEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A7D2C0A46361BB7D08707A0821C4BD /* SAEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E1A2D1BF87A0446C0590477510BC13 /* SACronograph.m in Sources */ = {isa = PBXBuildFile; fileRef = E8449FB314CCCFF7A54F2D3E3775A34D /* SACronograph.m */; };
+		1C596D89A16D25153630D46A4655D828 /* SAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B33736622D9142E5D2844CC521869F10 /* SAUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CCA77DD655E46231E0F878601945D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		1D66B0AFC4A22CAEB21378AD216BA94D /* SAVASTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 691EC4ABCD12B5290D51A3B03BD39E82 /* SAVASTManager.m */; };
+		1F567DAE35358382DAB4D915E3A83C3A /* SANetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE553A31319781961C16924617C231E6 /* SANetworking-dummy.m */; };
+		205AEABC71FFB14ED05540AF3B0F1385 /* SACreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBA0682663F32BF0D70C58F996056B7 /* SACreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2351F4D81C35CDD3E56AD61036B386E7 /* SAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 93856074E0E0E95F3CCB48FB28C688BE /* SAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273374B0CBDF61044E8E3E06043A15ED /* SAVASTAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A82A8C39F9941A5EFC46AF88203BF43 /* SAVASTAd.m */; };
+		2DF1329EDEF0A2C643778296A179806B /* SAParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 040E8DA549631D236DD57FF9B6D69650 /* SAParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3101C86DE638F4A1550E200464ED2C73 /* SAXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A91DC63E9ED9027EC9A3E04B1B43F67 /* SAXMLParser.m */; };
+		3711B7CE99391B9FD5AF351A476FC76D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		407AC345112AF9B87EC8AB159ED71F15 /* NSDictionary+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = D34BD32AB98C12244DDF87BB7ED00DDD /* NSDictionary+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EB2A868B5C7247D545EF0AE0CDBCFD4 /* SABlackMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 235AFD7FDA080C7D45C4C6773D38695E /* SABlackMask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E4110168F10C7B7296BA702C5290FC /* SABaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B35668FFAD8A8BEDC81ACD5CD9E7CBA6 /* SABaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D0E2FB7942A250F9A20F1143F6C2E9 /* SABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 422B8F235F1AD87F7951754850517646 /* SABaseObject.m */; };
+		586D1A7451AC6347F5D95661304519DB /* SANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 07073818631497693D9B452F61C48CB5 /* SANetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0D144A33C00383732E0B2FAFCAC97B /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 9075C99B9992A7217291230DB6F74DE3 /* NSString+HTML.m */; };
+		5DCFA010552D2F2AE934C97D28D24244 /* SAVASTTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 09107540B184EBD7EAA273DD2F8CDE9B /* SAVASTTracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		624D8139D17E43D7D13F38806CFAEF3D /* SAFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F0DD841496F5CE2FAC38BF68F2252A /* SAFileDownloader.m */; };
+		68C0F1CED7F09ADEBC4F39767E6356D3 /* SAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1501FFDB2D50713202DCAE28A66929 /* SAUtils.m */; };
+		6A0BC386624CD67FE0EEC8BB86B1CB88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		6D48A449402B92973A782238E139BD22 /* SAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 83766A598BACCB6C98B45E9CF9C5C523 /* SAParser.m */; };
+		6DCE399ADFC14A1289BEC864D1847765 /* Pods-SAAdLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25E286BE7A2EB8E62C5007561857B8B /* Pods-SAAdLoader_Example-dummy.m */; };
+		723B0F3377FDED38F22F099C638B5B66 /* SAHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D101C0F912E6BD285CF555F3D5735381 /* SAHTMLParser.m */; };
+		7322F2A114C37AB13FE8867C545E8FFE /* SAVASTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 50616184B49A38D8981123C49302699E /* SAVASTParser.m */; };
+		7381A4149B3EA1B70523538232E576A6 /* SAVASTParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFAAA850E6C4110C991DB309AF08424 /* SAVASTParser-dummy.m */; };
+		75B285D3002D5D3E29083824D9F64136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		765993250A2D7B03CC8860C261769B25 /* SAVASTTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = A468CEA3A70B947FB9BE34AAD2E151F6 /* SAVASTTracking.m */; };
+		768D78043F5C8E7F6CA2B17B6D68735F /* SAVASTParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B20F85ABB36C5F2BB76D5131D3D7BD2E /* SAVASTParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A67253D9299F64132657C4D544F9134 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7219921F39E1CD4FF9E45687961DA8 /* SystemConfiguration.framework */; };
+		7DA42BCF21D8CABB8CDED4207A8555B2 /* SAData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5A8D91FCEADFAB7E9276BA90A6F2C6 /* SAData.m */; };
+		835EB4EA63E79E568F21E99A868E4E38 /* SAURLClicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 03035AB6D37196320D223DD391B888B7 /* SAURLClicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878BEFD1D55E16476C04994A1DEE228F /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A3EA08A5205A229EEE9079B80A0C6B /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89235B77748E9610E91170F5F70C1365 /* SAExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8574E329E5E0CDFE8F104B7AA2158F /* SAExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C11FA886ED487A428D5F67D27082761 /* SAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4299851137FF4C63283B998938355707 /* SAJsonParser-dummy.m */; };
+		8D30B6C7FA63C8B15877940C01AE38E9 /* SAFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BABF9DA1B2FE4C5F4ED19B11FB6C47 /* SAFileDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92BA8C18215CDDC8D40C9210FB1BB3CC /* SAVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E9EE7B914A53F98BA2ED31EDFF6365 /* SAVideoPlayer-dummy.m */; };
+		93B558D6B41A6FF0173C4E5D618A543E /* SALoaderSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2E4CBF6DCC151C1FD8A17BD32EE3C8 /* SALoaderSession.m */; };
+		9F381AA8B17486B9BA677DFADC238763 /* SASerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C452AD171CD5A65BB89CBD039EFF8114 /* SASerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BBF6DD94960F3545E8AB6ABBF80332 /* SAData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7891B0150FDEAAB4421DC18354E431DA /* SAData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5C6718CBE32527B6902BF36352D48F5 /* SAHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 242CD83CD5F39D5244D68C85E2838020 /* SAHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A612EE4BF08B3FC052A73C71FB0D8842 /* NSDictionary+SafeHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C341F13B9339F8C38D4F89588DE8B07 /* NSDictionary+SafeHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83F7814DD0275E8E0251F4B7E8ED5E5 /* SACronograph.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD9DD2B00B876E3F8C5E6D05213B473 /* SACronograph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA220A946F05A72F9AC4C73DEAA5A8B2 /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0EC3E02A76A29CB59554FF3A98DDF /* NSDictionary+SAJson.m */; };
+		B07131780228048E70F25C940D8CE9F9 /* SAVASTCreative.m in Sources */ = {isa = PBXBuildFile; fileRef = 4530AEC0DF05D6F21A0EA35B1EEA7E79 /* SAVASTCreative.m */; };
+		B14432D18279A995AE7EE17C7A60C491 /* SAModelSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF342AC556D91B525CB63506DBFCBAA /* SAModelSpace-dummy.m */; };
+		B5A303D282100379264DAA36C5AF40C1 /* SAUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE823419A7F771B6E9A9DB079FE62EB /* SAUtils-dummy.m */; };
+		B83BA305E803AEA930720D894E33872A /* NSDictionary+SafeHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B7B646B34D8AF30EA082F12C0E332 /* NSDictionary+SafeHandling.m */; };
+		C08B0AD3E8A106EFB849AC8190F97005 /* SAAdLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443F074D82E9C2EDBC8643137382A3E /* SAAdLoader-dummy.m */; };
+		C19D1FA0338097FE616AE75511EDF5A2 /* NSArray+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4FFD0A208707BB957248969E91C9C1 /* NSArray+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C80E65B89D7CECAFA73096F311C2A443 /* SAVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC97502A5AFA812A05AFD80448DF14A /* SAVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C839E9E7435243750E0A845232B3AF02 /* SAXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F23530E53365EC45E7A6D54F5AAFD32 /* SAXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6A9943A2B4CF012875A34E9418A44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		CB70C2EA059CC99DEC3F4A561F3442E5 /* SAVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = B90EC565096298152BF9B120C8B326A2 /* SAVASTCreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE58E9ABC9ECCC72DD9D0CFCDEEDC6C3 /* SAAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E68D6E27C2829B244B8D1D7AA721B40 /* SAAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC5EE793FE004A6F6687BBC99AE3FF3 /* SALoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F48081EF10DC640ABFA7F977CAC6E556 /* SALoader.m */; };
+		D6016AAE6A3B7269BB17AF86B72C2688 /* SAVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = B2230AB628FEC8D9829DBDDBF798B725 /* SAVASTMediaFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5088AF6F1BFE2DC9264D203444C509 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		DC4AA6D529EA708E701D91A77336A3B3 /* SAVASTManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1372D7DACA81DDA63CE07D24F4FDD7 /* SAVASTManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD869560450C388A3020615FCF7D6B65 /* SAAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA06D144B1235B07C20A5872B0DD44B /* SAAd.m */; };
+		DE9E7B3CAB2A756DA3B7F3A9AEEC929B /* SAEvents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD45804E0B172679DDE34FAC6EA9F71F /* SAEvents-dummy.m */; };
+		DF27DB238B3C5C9DED2D678AD1D00E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		E0C4FBD27E7CAEAAAD68CABB5A78AA20 /* SAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB92EE5464515D6A0DF7050E6ACD4843 /* SAExtensions.m */; };
+		E3B2703526DD7D7F507CE09DDFDC62E1 /* SAVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FFA2D1CFD228E27F2BBA34A63BA3CC /* SAVideoPlayer.m */; };
+		E6ABC14DE746DCE66FD73EB055672F9E /* SAVASTMediaFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2497AA9800589514606DE0874023FACE /* SAVASTMediaFile.m */; };
+		E8D787C8F9A06E8C119F7FF76BDDE534 /* SADeserializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 361AF74533C7B9CFEB0380740A8D6FF2 /* SADeserializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8FC3D452FB57DC1DB59EFE5CFF185EC /* SACreative.m in Sources */ = {isa = PBXBuildFile; fileRef = D261193B75D294B1FFC87E51137340C8 /* SACreative.m */; };
+		E973FD21FFB2B4C0263EA6C113B349F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		EC34B2C8B0A67BAB24C65B92C2B44510 /* NSArray+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A076B5248B68935B5E09CCA5D6CA0 /* NSArray+SAJson.m */; };
+		F4A0657A8E7BDD3C1A7CF6C5B532CC2E /* SALoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 082ECC1643CE96250C3914B98375AA83 /* SALoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98C70395B8F6A1AE755AA72FB70A44F /* SAURLClicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 37954FFD4C9C9664C35A1868B547F213 /* SAURLClicker.m */; };
+		FA78EF1D004F15A34574B0444AC31A69 /* SABlackMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 60516531D825C57DC3EF42703A20235D /* SABlackMask.m */; };
+		FEF2ECCC40182B0204D5073888270443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		020443FB060B127C84544C8611816353 /* PBXContainerItemProxy */ = {
+		05C72550C72F38ECB2AFAC1AE9455A82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 80CF77E412DF392237C26A8C4DBBBD20;
+			remoteGlobalIDString = E945974434900C9EE51A19CF2A44EEC3;
+			remoteInfo = SAJsonParser;
+		};
+		0B3AE9C7AF5CF2B3210C70CF0D0D66C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E945974434900C9EE51A19CF2A44EEC3;
+			remoteInfo = SAJsonParser;
+		};
+		0E9718B0FFB5F6DB71A68D58BF2C1B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA51DBDAC47ABF3F38AFD6606FE5037;
+			remoteInfo = SAModelSpace;
+		};
+		1C3C83828701EE16939D4B5FBDA77218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47082F2FA60246BCF764B59D91485268;
+			remoteInfo = SAVideoPlayer;
+		};
+		21E6ADBB1A48B8F9014D4FA44458EC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A98ED728B068985C30352E7F465C2BA;
+			remoteInfo = SANetworking;
+		};
+		259D5EA7CF59949018866D78235E8320 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D34026A2C0DAB4AB47641B75041976A;
+			remoteInfo = SAVASTParser;
+		};
+		282E4EC2CF983DFC94FA644149DD850B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47082F2FA60246BCF764B59D91485268;
+			remoteInfo = SAVideoPlayer;
+		};
+		35B81611843C6FBBCC97FAB99A8DE7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74D31107117958D73DB86FB16ABE5961;
 			remoteInfo = SAUtils;
 		};
-		09F5A6F56469B7F95137362E04BCB7E4 /* PBXContainerItemProxy */ = {
+		3B71A8CC13B80A9833CD41326F78EB13 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABB863943BB35D4C026C13FFD68D1842;
+			remoteGlobalIDString = E945974434900C9EE51A19CF2A44EEC3;
+			remoteInfo = SAJsonParser;
+		};
+		3BDCADD64681DE74595413BD694BE105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA51DBDAC47ABF3F38AFD6606FE5037;
 			remoteInfo = SAModelSpace;
 		};
-		0FE68F99750F20C43BD37690097FC2DF /* PBXContainerItemProxy */ = {
+		449AF58FEF48A7D6FE4AC5A39D1D390F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B13AE07C9E2E4848E123D6A4FBBE2051;
+			remoteGlobalIDString = 9D34026A2C0DAB4AB47641B75041976A;
+			remoteInfo = SAVASTParser;
+		};
+		50886A3514BA35BE475E9D9676F8F995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED5F4BBC58B0069009FDC59008A4C8F;
 			remoteInfo = SAEvents;
 		};
-		19853A0C5ED9DFCDDCD10CD0EA2BA660 /* PBXContainerItemProxy */ = {
+		57002E80AC11BDC78114B3AE95D20DD9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E591D1B899FBA136D2EA14CDB25FBA5;
+			remoteGlobalIDString = 74D31107117958D73DB86FB16ABE5961;
+			remoteInfo = SAUtils;
+		};
+		57553D494D0631C8039CE07C05A78340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED5F4BBC58B0069009FDC59008A4C8F;
+			remoteInfo = SAEvents;
+		};
+		76EE54A53195D617A6A9AA1A57544B1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E945974434900C9EE51A19CF2A44EEC3;
 			remoteInfo = SAJsonParser;
 		};
-		1B0BDC0EED054697E747A10F5188B65C /* PBXContainerItemProxy */ = {
+		A67592DFCEBCCC4C3FBE90A36AD0D566 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A44B2C6931052894EE09CD2BCFC3BAB0;
-			remoteInfo = SAVideoPlayer;
-		};
-		384B6A583DD3D23B4755DF13420774F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B18D6C5E53B0326F5FDECE1F820DB4B5;
-			remoteInfo = SAVASTParser;
-		};
-		4939EF3407935913F92B4220ED9845BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABB863943BB35D4C026C13FFD68D1842;
+			remoteGlobalIDString = 0EA51DBDAC47ABF3F38AFD6606FE5037;
 			remoteInfo = SAModelSpace;
 		};
-		6A208C596E3EDDDBE010984151E8652E /* PBXContainerItemProxy */ = {
+		AA477927A608A9FFA7BA4CE7C2EB45A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E591D1B899FBA136D2EA14CDB25FBA5;
-			remoteInfo = SAJsonParser;
+			remoteGlobalIDString = 7A98ED728B068985C30352E7F465C2BA;
+			remoteInfo = SANetworking;
 		};
-		7B265569C90C73E907C1D1A5C3A3A702 /* PBXContainerItemProxy */ = {
+		AD676CBC68A26004D8C6FE19AA855309 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B18D6C5E53B0326F5FDECE1F820DB4B5;
-			remoteInfo = SAVASTParser;
+			remoteGlobalIDString = 74D31107117958D73DB86FB16ABE5961;
+			remoteInfo = SAUtils;
 		};
-		7F47772FC696700E5D1D87242A806BAF /* PBXContainerItemProxy */ = {
+		D0CE1F839105025E6673CBD0AC743994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABB863943BB35D4C026C13FFD68D1842;
-			remoteInfo = SAModelSpace;
+			remoteGlobalIDString = 7A98ED728B068985C30352E7F465C2BA;
+			remoteInfo = SANetworking;
 		};
-		852CEB5575588A967DB5A50EFE8A4DDC /* PBXContainerItemProxy */ = {
+		D1599ECC7FAAD3E66E8BD3D6126701D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E591D1B899FBA136D2EA14CDB25FBA5;
-			remoteInfo = SAJsonParser;
-		};
-		87E86440A764B6686816068E812623DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A44B2C6931052894EE09CD2BCFC3BAB0;
+			remoteGlobalIDString = 47082F2FA60246BCF764B59D91485268;
 			remoteInfo = SAVideoPlayer;
 		};
-		8D8261D09283695B8AB03D7BE8920B54 /* PBXContainerItemProxy */ = {
+		D477F6CA6B14C28777001195A937A7B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2393DF0E2504931F8C2FA531C716DAC7;
+			remoteGlobalIDString = 74D31107117958D73DB86FB16ABE5961;
+			remoteInfo = SAUtils;
+		};
+		D4F9ED7E22DA870CBED83FAB73E42FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A98ED728B068985C30352E7F465C2BA;
+			remoteInfo = SANetworking;
+		};
+		E076E9BE26308F6B797127AE9F2EB294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050A2034E2B2C362F0C0E73930818EE4;
 			remoteInfo = SAAdLoader;
 		};
-		9927FC846C1842E14B89B707E9C5C990 /* PBXContainerItemProxy */ = {
+		F771A928408A791C405E2E1A96956A39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A44B2C6931052894EE09CD2BCFC3BAB0;
-			remoteInfo = SAVideoPlayer;
-		};
-		AFD2BE19F476AF390A2F63C6535C4C28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B13AE07C9E2E4848E123D6A4FBBE2051;
-			remoteInfo = SAEvents;
-		};
-		B06210B26303EE43FD26E26648B3463E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80CF77E412DF392237C26A8C4DBBBD20;
-			remoteInfo = SAUtils;
-		};
-		CA78B526925E2F148989891C943FD831 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E591D1B899FBA136D2EA14CDB25FBA5;
-			remoteInfo = SAJsonParser;
-		};
-		D8D1561BB978A4F884229E4B97FC94EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80CF77E412DF392237C26A8C4DBBBD20;
-			remoteInfo = SAUtils;
-		};
-		FE2637EB19F9034CAD330936AE9778DD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80CF77E412DF392237C26A8C4DBBBD20;
-			remoteInfo = SAUtils;
-		};
-		FE705A440B38D34C716A633B30C5698B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B13AE07C9E2E4848E123D6A4FBBE2051;
+			remoteGlobalIDString = 2ED5F4BBC58B0069009FDC59008A4C8F;
 			remoteInfo = SAEvents;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022BFCBCA7907224155738811437D2D9 /* NSDictionary+SafeHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeHandling.h"; path = "Pod/Classes/NSDictionary+SafeHandling.h"; sourceTree = "<group>"; };
+		03035AB6D37196320D223DD391B888B7 /* SAURLClicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAURLClicker.h; path = Pod/Classes/SAURLClicker.h; sourceTree = "<group>"; };
+		03D49151A5E88B561741BAB0FD770918 /* SANetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SANetworking-prefix.pch"; sourceTree = "<group>"; };
 		040E8DA549631D236DD57FF9B6D69650 /* SAParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAParser.h; sourceTree = "<group>"; };
-		0506DA11EEEAF5B36CA6BEE7D03D22FE /* SAVASTCreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTCreative.m; path = Pod/Classes/SAVASTCreative.m; sourceTree = "<group>"; };
-		06EFC7C263276BB2F18B57FA2E9945D6 /* SAFileDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAFileDownloader.h; path = Pod/Classes/SAFileDownloader.h; sourceTree = "<group>"; };
-		0784E435F64B804228681594CD23DD2A /* SAXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAXMLParser.h; path = Pod/Classes/SAXMLParser.h; sourceTree = "<group>"; };
+		059F43693962AEAF28EDABEEB1CA978D /* SAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAJsonParser.xcconfig; sourceTree = "<group>"; };
+		07073818631497693D9B452F61C48CB5 /* SANetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SANetwork.h; path = Pod/Classes/SANetwork.h; sourceTree = "<group>"; };
 		082ECC1643CE96250C3914B98375AA83 /* SALoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SALoader.h; sourceTree = "<group>"; };
+		09107540B184EBD7EAA273DD2F8CDE9B /* SAVASTTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTTracking.h; path = Pod/Classes/SAVASTTracking.h; sourceTree = "<group>"; };
+		0BB749995C71AD870095A75E7168770B /* libSAAdLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAAdLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7219921F39E1CD4FF9E45687961DA8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		0ED552639BDAD880B1A64AC979FBC791 /* SABaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABaseObject.m; path = Pod/Classes/SABaseObject.m; sourceTree = "<group>"; };
-		0EEBFC8CCBB0E6DA6CD15FF981B73163 /* SADeserializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeserializationProtocol.h; path = Pod/Classes/SADeserializationProtocol.h; sourceTree = "<group>"; };
-		1080D8AD8DF7BBD0393E98FEC7E190C4 /* SAVASTParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAVASTParser-dummy.m"; sourceTree = "<group>"; };
-		11774C5B1EFEEBB6DE7C3716E72777B1 /* SAVASTMediaFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTMediaFile.m; path = Pod/Classes/SAVASTMediaFile.m; sourceTree = "<group>"; };
-		11D29E7D94E8203D031E63C41DDCA328 /* SAVASTParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTParser.m; path = Pod/Classes/SAVASTParser.m; sourceTree = "<group>"; };
-		17A8428723F061087FF4718C3FC2ECA9 /* SAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJsonParser.h; path = Pod/Classes/SAJsonParser.h; sourceTree = "<group>"; };
-		18DC489D7FE9159DAE54FC774162CBAD /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Pod/Classes/NSString+HTML.h"; sourceTree = "<group>"; };
-		1B0880AE9E72BDAD3738A57891BAD2EC /* libSAAdLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAAdLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21675AEFC65E71B8AFCDA61CB3066271 /* SAJsonParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAJsonParser.xcconfig; sourceTree = "<group>"; };
+		1B25B038A8A4D6D5423313A4E4D7D8C2 /* SANetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SANetwork.m; path = Pod/Classes/SANetwork.m; sourceTree = "<group>"; };
+		1E8574E329E5E0CDFE8F104B7AA2158F /* SAExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAExtensions.h; path = Pod/Classes/SAExtensions.h; sourceTree = "<group>"; };
+		1F23530E53365EC45E7A6D54F5AAFD32 /* SAXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAXMLParser.h; path = Pod/Classes/SAXMLParser.h; sourceTree = "<group>"; };
+		1F4FD0642A10CACE516EB6DE09740924 /* SAUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAUtils-prefix.pch"; sourceTree = "<group>"; };
+		2111C30BF48AC9A6670F7EAACEC2D7CD /* SAEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAEvents.m; path = Pod/Classes/SAEvents.m; sourceTree = "<group>"; };
+		235AFD7FDA080C7D45C4C6773D38695E /* SABlackMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABlackMask.h; path = Pod/Classes/SABlackMask.h; sourceTree = "<group>"; };
 		242CD83CD5F39D5244D68C85E2838020 /* SAHTMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAHTMLParser.h; sourceTree = "<group>"; };
-		25A9C319AFEDAB2AEEA2D524CA006861 /* NSDictionary+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SAJson.m"; path = "Pod/Classes/NSDictionary+SAJson.m"; sourceTree = "<group>"; };
-		2B57B1A428EA1FF53F0D92276C4CC7B0 /* SADetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADetails.m; path = Pod/Classes/SADetails.m; sourceTree = "<group>"; };
-		2D61CD7B46744AC02FBD99ECF83A51D1 /* SACronograph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SACronograph.m; path = Pod/Classes/SACronograph.m; sourceTree = "<group>"; };
-		2D910FA072917078147CF03D88D792C8 /* SABlackMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABlackMask.m; path = Pod/Classes/SABlackMask.m; sourceTree = "<group>"; };
+		2497AA9800589514606DE0874023FACE /* SAVASTMediaFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTMediaFile.m; path = Pod/Classes/SAVASTMediaFile.m; sourceTree = "<group>"; };
 		2DD6D9677BE2781233E8608A753E193D /* Pods-SAAdLoader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAdLoader_Example-resources.sh"; sourceTree = "<group>"; };
-		3022CB03FA898338C2ED7B2E02B9BB9C /* SAModelSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAModelSpace-dummy.m"; sourceTree = "<group>"; };
 		33F024BF0D7C507488E3F763DD125B6D /* Pods-SAAdLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAdLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C6C94155893042CA12679539DB60F32 /* SAAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAd.m; path = Pod/Classes/SAAd.m; sourceTree = "<group>"; };
-		3EE45249C676BCA089E4390B0EF429E0 /* SABlackMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABlackMask.h; path = Pod/Classes/SABlackMask.h; sourceTree = "<group>"; };
-		4C1F2698C75EC5A0C92E7378CDF681DB /* libSAVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E66BD3679ADB0E08106CC32AF0F562B /* SAXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAXMLParser.m; path = Pod/Classes/SAXMLParser.m; sourceTree = "<group>"; };
+		361AF74533C7B9CFEB0380740A8D6FF2 /* SADeserializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADeserializationProtocol.h; path = Pod/Classes/SADeserializationProtocol.h; sourceTree = "<group>"; };
+		363A076B5248B68935B5E09CCA5D6CA0 /* NSArray+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SAJson.m"; path = "Pod/Classes/NSArray+SAJson.m"; sourceTree = "<group>"; };
+		37954FFD4C9C9664C35A1868B547F213 /* SAURLClicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAURLClicker.m; path = Pod/Classes/SAURLClicker.m; sourceTree = "<group>"; };
+		3CA06D144B1235B07C20A5872B0DD44B /* SAAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAd.m; path = Pod/Classes/SAAd.m; sourceTree = "<group>"; };
+		422B8F235F1AD87F7951754850517646 /* SABaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABaseObject.m; path = Pod/Classes/SABaseObject.m; sourceTree = "<group>"; };
+		4299851137FF4C63283B998938355707 /* SAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAJsonParser-dummy.m"; sourceTree = "<group>"; };
+		4530AEC0DF05D6F21A0EA35B1EEA7E79 /* SAVASTCreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTCreative.m; path = Pod/Classes/SAVASTCreative.m; sourceTree = "<group>"; };
+		47FFA2D1CFD228E27F2BBA34A63BA3CC /* SAVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVideoPlayer.m; path = Pod/Classes/SAVideoPlayer.m; sourceTree = "<group>"; };
+		4E3B5634BAD51C7BC0CB2CC073F79D56 /* SAVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTAd.h; path = Pod/Classes/SAVASTAd.h; sourceTree = "<group>"; };
+		50616184B49A38D8981123C49302699E /* SAVASTParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTParser.m; path = Pod/Classes/SAVASTParser.m; sourceTree = "<group>"; };
 		5443F074D82E9C2EDBC8643137382A3E /* SAAdLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAAdLoader-dummy.m"; sourceTree = "<group>"; };
+		559B7B646B34D8AF30EA082F12C0E332 /* NSDictionary+SafeHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SafeHandling.m"; path = "Pod/Classes/NSDictionary+SafeHandling.m"; sourceTree = "<group>"; };
 		597EFD98176F10B6F3BC9BEDE8042DC4 /* SAAdLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAdLoader-prefix.pch"; sourceTree = "<group>"; };
-		5CA19EDB6C011CAB33953ECFE78487C7 /* SAExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAExtensions.h; path = Pod/Classes/SAExtensions.h; sourceTree = "<group>"; };
-		5CF72AD354D05502254F850328D9C1EC /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
-		5F4F869DAA756BC7AFA4C3D2F1C4E639 /* SAVASTParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAVASTParser.xcconfig; sourceTree = "<group>"; };
-		60F26C85F181D0EE58E082E14F9A3442 /* SAVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
-		6191ABB872D4E2C23CB497E41CF83806 /* SAVASTCreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTCreative.h; path = Pod/Classes/SAVASTCreative.h; sourceTree = "<group>"; };
-		634A0D70F4D091D59FBE8C8E1C551141 /* SAEvents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAEvents-dummy.m"; sourceTree = "<group>"; };
+		5A5A8D91FCEADFAB7E9276BA90A6F2C6 /* SAData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAData.m; path = Pod/Classes/SAData.m; sourceTree = "<group>"; };
+		5A82A8C39F9941A5EFC46AF88203BF43 /* SAVASTAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTAd.m; path = Pod/Classes/SAVASTAd.m; sourceTree = "<group>"; };
+		5C341F13B9339F8C38D4F89588DE8B07 /* NSDictionary+SafeHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeHandling.h"; path = "Pod/Classes/NSDictionary+SafeHandling.h"; sourceTree = "<group>"; };
+		60516531D825C57DC3EF42703A20235D /* SABlackMask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABlackMask.m; path = Pod/Classes/SABlackMask.m; sourceTree = "<group>"; };
+		61E935F870A3A69A47F979BA7F090168 /* SAModelSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAModelSpace.xcconfig; sourceTree = "<group>"; };
 		64C325F3EB1D75CA946C28FED299A79F /* Pods-SAAdLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAdLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		67677EAB14362E5225A9684845A9C7FA /* SAVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTAd.h; path = Pod/Classes/SAVASTAd.h; sourceTree = "<group>"; };
-		68D369D0E7823122B8582AB4F9ADCC4F /* SAVASTParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTParser.h; path = Pod/Classes/SAVASTParser.h; sourceTree = "<group>"; };
-		6C3C05D9C253E2E64A0568A734BFEA90 /* SAFileDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAFileDownloader.m; path = Pod/Classes/SAFileDownloader.m; sourceTree = "<group>"; };
-		6C3E5E61B6B9624C6598E0F983FA1560 /* SAData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAData.h; path = Pod/Classes/SAData.h; sourceTree = "<group>"; };
-		7233F9CDAC3799944FDD22075CCD5B42 /* SAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-prefix.pch"; sourceTree = "<group>"; };
-		729ECCD0E19BC4513E5E234BCF917C96 /* SACronograph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACronograph.h; path = Pod/Classes/SACronograph.h; sourceTree = "<group>"; };
-		7378DBDBB50FE68E9930B3FE3B5B33BB /* SAEvents.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAEvents.m; path = Pod/Classes/SAEvents.m; sourceTree = "<group>"; };
-		7513435CACB80A7BE8F95940A3AD2D62 /* SAJsonParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAJsonParser-dummy.m"; sourceTree = "<group>"; };
+		691EC4ABCD12B5290D51A3B03BD39E82 /* SAVASTManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTManager.m; path = Pod/Classes/SAVASTManager.m; sourceTree = "<group>"; };
+		6A91DC63E9ED9027EC9A3E04B1B43F67 /* SAXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAXMLParser.m; path = Pod/Classes/SAXMLParser.m; sourceTree = "<group>"; };
+		6E68D6E27C2829B244B8D1D7AA721B40 /* SAAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAd.h; path = Pod/Classes/SAAd.h; sourceTree = "<group>"; };
+		6EBA0682663F32BF0D70C58F996056B7 /* SACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACreative.h; path = Pod/Classes/SACreative.h; sourceTree = "<group>"; };
 		777817040E3EB0DE1CFB3835A25D013C /* SALoaderSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SALoaderSession.h; sourceTree = "<group>"; };
-		797EC8153F9325D2BBB993ED59AC5258 /* SACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACreative.h; path = Pod/Classes/SACreative.h; sourceTree = "<group>"; };
-		7F66B8337BE09D4BDADF26A29BA8EB73 /* SAEvents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAEvents.xcconfig; sourceTree = "<group>"; };
+		7891B0150FDEAAB4421DC18354E431DA /* SAData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAData.h; path = Pod/Classes/SAData.h; sourceTree = "<group>"; };
+		7B1372D7DACA81DDA63CE07D24F4FDD7 /* SAVASTManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTManager.h; path = Pod/Classes/SAVASTManager.h; sourceTree = "<group>"; };
 		8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		83766A598BACCB6C98B45E9CF9C5C523 /* SAParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAParser.m; sourceTree = "<group>"; };
-		85A127EBEC443FA09B11408ECD229C3A /* SAUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAUtils-dummy.m"; sourceTree = "<group>"; };
-		898C976F8F05219BEB027736659607DB /* SAUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAUtils.xcconfig; sourceTree = "<group>"; };
-		89D8B3D7840C6C4A4A3D3256EF7623D4 /* SAVASTAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTAd.m; path = Pod/Classes/SAVASTAd.m; sourceTree = "<group>"; };
-		8C3B561B143851E08F6BE0FAB9893E21 /* SAVASTTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTTracking.h; path = Pod/Classes/SAVASTTracking.h; sourceTree = "<group>"; };
-		8C89159664E943C06F71E47F400E2BA1 /* SAVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVideoPlayer.h; path = Pod/Classes/SAVideoPlayer.h; sourceTree = "<group>"; };
+		84C9A2DEC7FCFA2E84D8764BBE58AA62 /* SAEvents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAEvents.xcconfig; sourceTree = "<group>"; };
+		8DC97502A5AFA812A05AFD80448DF14A /* SAVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVideoPlayer.h; path = Pod/Classes/SAVideoPlayer.h; sourceTree = "<group>"; };
+		8EEBC433349FE7FB7F5B086CC66613DC /* libSAModelSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAModelSpace.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9075C99B9992A7217291230DB6F74DE3 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Pod/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
+		91A7D2C0A46361BB7D08707A0821C4BD /* SAEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAEvents.h; path = Pod/Classes/SAEvents.h; sourceTree = "<group>"; };
+		93856074E0E0E95F3CCB48FB28C688BE /* SAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJsonParser.h; path = Pod/Classes/SAJsonParser.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DDCC7411CF1DF15D49C476FCB3812A /* SANetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SANetworking.xcconfig; sourceTree = "<group>"; };
 		93F88A7E658B94842CEFC3F1800D581D /* Pods-SAAdLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAAdLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		971930FEDFD0B471EF746DD47366BB4C /* libSAModelSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAModelSpace.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9CDCF1EB58EBFC51562F43C2FEE41781 /* SAVASTTracking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTTracking.m; path = Pod/Classes/SAVASTTracking.m; sourceTree = "<group>"; };
-		A20FE7031EFA5D052EDC6C2FB6C92ED1 /* SAModelSpace.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAModelSpace.xcconfig; sourceTree = "<group>"; };
-		A404B631CFA9AC9D49CB45516138545D /* SAData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAData.m; path = Pod/Classes/SAData.m; sourceTree = "<group>"; };
-		A42375BEE49BF2919756BD7D49F241A8 /* SAVASTManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTManager.h; path = Pod/Classes/SAVASTManager.h; sourceTree = "<group>"; };
-		A5B8F7D425A10FD51C20F9C00F0C050E /* SABaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseObject.h; path = Pod/Classes/SABaseObject.h; sourceTree = "<group>"; };
-		AA52414CBD513272AABD539F25138252 /* SAAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAd.h; path = Pod/Classes/SAAd.h; sourceTree = "<group>"; };
-		AB8E87F3DF2C9E402664DFE08253CC7D /* SAEvents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAEvents-prefix.pch"; sourceTree = "<group>"; };
-		B1D75CEEF58ED57ACD85D7F0421C4B2D /* SADetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADetails.h; path = Pod/Classes/SADetails.h; sourceTree = "<group>"; };
-		B1DBB34551D3D191A6306EFEAB779401 /* NSDictionary+SafeHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SafeHandling.m"; path = "Pod/Classes/NSDictionary+SafeHandling.m"; sourceTree = "<group>"; };
+		95A6BE4C9EDB0A5DF9AE59ACC3BB9087 /* SAVASTParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAVASTParser.xcconfig; sourceTree = "<group>"; };
+		9C4FFD0A208707BB957248969E91C9C1 /* NSArray+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAJson.h"; path = "Pod/Classes/NSArray+SAJson.h"; sourceTree = "<group>"; };
+		9DFA913AFD5731BDC0BDCD552BA3087A /* SADetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADetails.m; path = Pod/Classes/SADetails.m; sourceTree = "<group>"; };
+		9EFAAA850E6C4110C991DB309AF08424 /* SAVASTParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAVASTParser-dummy.m"; sourceTree = "<group>"; };
+		9F59E8FEC70741398554BDA599047DB7 /* SAEvents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAEvents-prefix.pch"; sourceTree = "<group>"; };
+		A13C688EED52F4F1413EEA8279FB8C2E /* libSAEvents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAEvents.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A31F14D2557EACD1C71F5B60FA4CA207 /* SAVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAVideoPlayer.xcconfig; sourceTree = "<group>"; };
+		A468CEA3A70B947FB9BE34AAD2E151F6 /* SAVASTTracking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTTracking.m; path = Pod/Classes/SAVASTTracking.m; sourceTree = "<group>"; };
+		A9F0DD841496F5CE2FAC38BF68F2252A /* SAFileDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAFileDownloader.m; path = Pod/Classes/SAFileDownloader.m; sourceTree = "<group>"; };
+		AD02763B86DEB53DF68B0860DC7F2CC1 /* libSAVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A3EA08A5205A229EEE9079B80A0C6B /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Pod/Classes/NSString+HTML.h"; sourceTree = "<group>"; };
+		B189EE27D11CD3DD942AF049B17B4634 /* SADetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADetails.h; path = Pod/Classes/SADetails.h; sourceTree = "<group>"; };
+		B20F85ABB36C5F2BB76D5131D3D7BD2E /* SAVASTParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTParser.h; path = Pod/Classes/SAVASTParser.h; sourceTree = "<group>"; };
+		B2230AB628FEC8D9829DBDDBF798B725 /* SAVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTMediaFile.h; path = Pod/Classes/SAVASTMediaFile.h; sourceTree = "<group>"; };
 		B25E286BE7A2EB8E62C5007561857B8B /* Pods-SAAdLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAAdLoader_Example-dummy.m"; sourceTree = "<group>"; };
+		B33736622D9142E5D2844CC521869F10 /* SAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAUtils.h; path = Pod/Classes/SAUtils.h; sourceTree = "<group>"; };
 		B3507D58AC2EA43C540474B6DA9451D8 /* Pods-SAAdLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAdLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B7339378E904EBB01B62CE58154CC869 /* SAVASTParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAVASTParser-prefix.pch"; sourceTree = "<group>"; };
-		B87D1CFE118EFD38C1CA66600C470F69 /* SAUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAUtils-prefix.pch"; sourceTree = "<group>"; };
+		B35668FFAD8A8BEDC81ACD5CD9E7CBA6 /* SABaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseObject.h; path = Pod/Classes/SABaseObject.h; sourceTree = "<group>"; };
+		B90EC565096298152BF9B120C8B326A2 /* SAVASTCreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTCreative.h; path = Pod/Classes/SAVASTCreative.h; sourceTree = "<group>"; };
+		B994B6CEFD0B8CED8B8A6609715DDE1A /* SAVASTParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAVASTParser-prefix.pch"; sourceTree = "<group>"; };
+		B9E9EE7B914A53F98BA2ED31EDFF6365 /* SAVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAVideoPlayer-dummy.m"; sourceTree = "<group>"; };
 		BB2E4CBF6DCC151C1FD8A17BD32EE3C8 /* SALoaderSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SALoaderSession.m; sourceTree = "<group>"; };
+		BB92EE5464515D6A0DF7050E6ACD4843 /* SAExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAExtensions.m; path = Pod/Classes/SAExtensions.m; sourceTree = "<group>"; };
 		BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAAdLoader.xcconfig; sourceTree = "<group>"; };
-		BDB459368E8261C8D3C26C807AB825D1 /* SAURLClicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAURLClicker.m; path = Pod/Classes/SAURLClicker.m; sourceTree = "<group>"; };
-		C4728ADECCCBBBE204E384168B6A31BE /* libSAEvents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAEvents.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4DB59AD0C4469FF5FFEC08F115B42ED /* libSAVASTParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAVASTParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C533E00567148487B6921DD78C6EA980 /* SAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAUtils.m; path = Pod/Classes/SAUtils.m; sourceTree = "<group>"; };
-		C8EF1EFF12578DDFFE42713C405B1B03 /* SAVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAVASTMediaFile.h; path = Pod/Classes/SAVASTMediaFile.h; sourceTree = "<group>"; };
+		C452AD171CD5A65BB89CBD039EFF8114 /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
+		C69B40BBB72551189B621C2AA4D09B31 /* libSAVASTParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAVASTParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BABF9DA1B2FE4C5F4ED19B11FB6C47 /* SAFileDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAFileDownloader.h; path = Pod/Classes/SAFileDownloader.h; sourceTree = "<group>"; };
+		C8EC2D9F24EF732550C24727060D1FF8 /* SAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-prefix.pch"; sourceTree = "<group>"; };
+		CB7FE3C8FE09F5892A9F7291FEF38355 /* libSAUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7384B4681AC0570949BA8FF8334B05 /* SAModelSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAModelSpace-prefix.pch"; sourceTree = "<group>"; };
+		CDD9DD2B00B876E3F8C5E6D05213B473 /* SACronograph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACronograph.h; path = Pod/Classes/SACronograph.h; sourceTree = "<group>"; };
 		CEA4ECA2275D518A565AF7D8AA356218 /* Pods-SAAdLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAAdLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D101C0F912E6BD285CF555F3D5735381 /* SAHTMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAHTMLParser.m; sourceTree = "<group>"; };
-		D182A9ACD89F848CF67E38CB27394CFD /* SAVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAVideoPlayer-dummy.m"; sourceTree = "<group>"; };
-		D5C32F421617069194A240FE96F8B60E /* libSAUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB5C411E7199B0605D8BD1F40FC76DD4 /* SAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAUtils.h; path = Pod/Classes/SAUtils.h; sourceTree = "<group>"; };
-		DBACF775D1D8DA51235386A739D9F36A /* NSDictionary+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAJson.h"; path = "Pod/Classes/NSDictionary+SAJson.h"; sourceTree = "<group>"; };
-		DE8A52150EE9686BC63D4D1CB8AFC27E /* NSArray+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SAJson.m"; path = "Pod/Classes/NSArray+SAJson.m"; sourceTree = "<group>"; };
-		E0EED7322471DB8A3E1B2FBBA47F059F /* SACreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SACreative.m; path = Pod/Classes/SACreative.m; sourceTree = "<group>"; };
-		E1AF3BA2C91D2DBA9CDE65A304111899 /* SAModelSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAModelSpace-prefix.pch"; sourceTree = "<group>"; };
-		E306A4A69BB3F138335B09308FF5A377 /* NSArray+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAJson.h"; path = "Pod/Classes/NSArray+SAJson.h"; sourceTree = "<group>"; };
-		E4F3C2470AEB5BA2B8496DDB75B16A56 /* SAExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAExtensions.m; path = Pod/Classes/SAExtensions.m; sourceTree = "<group>"; };
-		E6076E728476B01E565E227416D124F9 /* SAVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAVideoPlayer.xcconfig; sourceTree = "<group>"; };
-		E6F40C6FFBA55C8A7C14F9E4B95D6CC1 /* libPods-SAAdLoader_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAAdLoader_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB651013196001C32E820B7698D1D587 /* SAVASTManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVASTManager.m; path = Pod/Classes/SAVASTManager.m; sourceTree = "<group>"; };
-		EE022446E460B8509AFB6C1A67F913D9 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Pod/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
-		EEAFE322DB0F05F2E36ECBB7D8157719 /* SAEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAEvents.h; path = Pod/Classes/SAEvents.h; sourceTree = "<group>"; };
-		EF86E8BDF30462AE76DB1F841116FD7F /* SAVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAVideoPlayer.m; path = Pod/Classes/SAVideoPlayer.m; sourceTree = "<group>"; };
-		F14157FBE76295FF300FCB375BA00F5E /* libSAJsonParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAJsonParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2EDA967DEB33DA95C4E27E71A1CE1D6 /* SAURLClicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAURLClicker.h; path = Pod/Classes/SAURLClicker.h; sourceTree = "<group>"; };
+		D261193B75D294B1FFC87E51137340C8 /* SACreative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SACreative.m; path = Pod/Classes/SACreative.m; sourceTree = "<group>"; };
+		D34BD32AB98C12244DDF87BB7ED00DDD /* NSDictionary+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SAJson.h"; path = "Pod/Classes/NSDictionary+SAJson.h"; sourceTree = "<group>"; };
+		D81D6CE4DFDBD8CE4508BACCFA839947 /* SAVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
+		DAF342AC556D91B525CB63506DBFCBAA /* SAModelSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAModelSpace-dummy.m"; sourceTree = "<group>"; };
+		DBE823419A7F771B6E9A9DB079FE62EB /* SAUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAUtils-dummy.m"; sourceTree = "<group>"; };
+		DFB0EC3E02A76A29CB59554FF3A98DDF /* NSDictionary+SAJson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SAJson.m"; path = "Pod/Classes/NSDictionary+SAJson.m"; sourceTree = "<group>"; };
+		E3E0B48EE3F44F6D19177F1A1F2C5A8B /* libSANetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSANetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8449FB314CCCFF7A54F2D3E3775A34D /* SACronograph.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SACronograph.m; path = Pod/Classes/SACronograph.m; sourceTree = "<group>"; };
+		EE1501FFDB2D50713202DCAE28A66929 /* SAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAUtils.m; path = Pod/Classes/SAUtils.m; sourceTree = "<group>"; };
+		F09773E84EB8796DF46F59071EAC96D0 /* libPods-SAAdLoader_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAAdLoader_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48081EF10DC640ABFA7F977CAC6E556 /* SALoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SALoader.m; sourceTree = "<group>"; };
+		F87017CE1D372F631BF6D99738B61601 /* SAUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAUtils.xcconfig; sourceTree = "<group>"; };
+		FD45804E0B172679DDE34FAC6EA9F71F /* SAEvents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAEvents-dummy.m"; sourceTree = "<group>"; };
+		FE553A31319781961C16924617C231E6 /* SANetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SANetworking-dummy.m"; sourceTree = "<group>"; };
+		FF16D08969EB0E5CB5D59C8595DCD1A0 /* libSAJsonParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAJsonParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00827771D99D681DCE3FEA664A48F7D1 /* Frameworks */ = {
+		2F59A81A1B0B66A40AD8312CE4EA60CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64FBDFA7405E7EC8F3C0CB2A638868BD /* Foundation.framework in Frameworks */,
+				3711B7CE99391B9FD5AF351A476FC76D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65446BE235FF0D8064A0588C33929EA0 /* Frameworks */ = {
+		53D9CE8F5A9B6B684E073ECE0503E75C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B357914AC55D6CD7D0535F1FA66BD80C /* Foundation.framework in Frameworks */,
+				DB5088AF6F1BFE2DC9264D203444C509 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CC5E5639A2A50FB34CEB3B16B1657E3 /* Frameworks */ = {
+		6CC67FCE5BD0020661F3F8BE4F883EE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC925E6ECF61A0BDF451D633803B57B /* Foundation.framework in Frameworks */,
+				DF27DB238B3C5C9DED2D678AD1D00E95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F1EAFC8997C010C750251D7ED0FD397 /* Frameworks */ = {
+		6DE79783DE21E8C9381B5CBF5A4864BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABF77DC091BE060D2B360ADE658FB675 /* Foundation.framework in Frameworks */,
+				FEF2ECCC40182B0204D5073888270443 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3D7E5ADE605A5889F99FE7400C04147 /* Frameworks */ = {
+		B97A4659E6742121EA369B9430950C52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5CDC7CBDE57E7685C94A8E14EC90F0 /* Foundation.framework in Frameworks */,
+				75B285D3002D5D3E29083824D9F64136 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAF1B1FEBD490823BBE46E48CB20F4FF /* Frameworks */ = {
+		C161C6B254A733F637F015378B29C235 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD0C77F3351D0616F4240CEE8214B92 /* Foundation.framework in Frameworks */,
+				CA6A9943A2B4CF012875A34E9418A44E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE66C50DA4458EC65AE2CC4F46512711 /* Frameworks */ = {
+		EA82B8FECC5F738A6820D86160F7FBAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5048FEC67391891B945D78E1585C33CF /* Foundation.framework in Frameworks */,
-				C438660706D09E3BC43133E44D99E44D /* SystemConfiguration.framework in Frameworks */,
+				E973FD21FFB2B4C0263EA6C113B349F3 /* Foundation.framework in Frameworks */,
+				7A67253D9299F64132657C4D544F9134 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD6681E9DE7974F170A16E2886171E60 /* Frameworks */ = {
+		FD1875C7EEB9811E3E46E0EF0038CE4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFCF571CD6BC05CAE76A1163758D15B /* Foundation.framework in Frameworks */,
+				6A0BC386624CD67FE0EEC8BB86B1CB88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0AFFBAC19CD5DAA772E7F3F3F0EA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCA77DD655E46231E0F878601945D6A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1179DA216DA3F37E79343FB591C8DCFA /* Core */ = {
+		0868BDFD80569C3FD1AFCCA6AACBA162 /* SAUtils */ = {
 			isa = PBXGroup;
 			children = (
-				EEAFE322DB0F05F2E36ECBB7D8157719 /* SAEvents.h */,
-				7378DBDBB50FE68E9930B3FE3B5B33BB /* SAEvents.m */,
+				B0A3EA08A5205A229EEE9079B80A0C6B /* NSString+HTML.h */,
+				9075C99B9992A7217291230DB6F74DE3 /* NSString+HTML.m */,
+				1E8574E329E5E0CDFE8F104B7AA2158F /* SAExtensions.h */,
+				BB92EE5464515D6A0DF7050E6ACD4843 /* SAExtensions.m */,
+				B33736622D9142E5D2844CC521869F10 /* SAUtils.h */,
+				EE1501FFDB2D50713202DCAE28A66929 /* SAUtils.m */,
+				FC6E282BDFD60AC80E410A04E44F8704 /* Support Files */,
+			);
+			path = SAUtils;
+			sourceTree = "<group>";
+		};
+		08EA33DCEFA26A1BF239D5CD3445B200 /* SAModelSpace */ = {
+			isa = PBXGroup;
+			children = (
+				6E68D6E27C2829B244B8D1D7AA721B40 /* SAAd.h */,
+				3CA06D144B1235B07C20A5872B0DD44B /* SAAd.m */,
+				6EBA0682663F32BF0D70C58F996056B7 /* SACreative.h */,
+				D261193B75D294B1FFC87E51137340C8 /* SACreative.m */,
+				7891B0150FDEAAB4421DC18354E431DA /* SAData.h */,
+				5A5A8D91FCEADFAB7E9276BA90A6F2C6 /* SAData.m */,
+				B189EE27D11CD3DD942AF049B17B4634 /* SADetails.h */,
+				9DFA913AFD5731BDC0BDCD552BA3087A /* SADetails.m */,
+				4E3B5634BAD51C7BC0CB2CC073F79D56 /* SAVASTAd.h */,
+				5A82A8C39F9941A5EFC46AF88203BF43 /* SAVASTAd.m */,
+				B90EC565096298152BF9B120C8B326A2 /* SAVASTCreative.h */,
+				4530AEC0DF05D6F21A0EA35B1EEA7E79 /* SAVASTCreative.m */,
+				B2230AB628FEC8D9829DBDDBF798B725 /* SAVASTMediaFile.h */,
+				2497AA9800589514606DE0874023FACE /* SAVASTMediaFile.m */,
+				09107540B184EBD7EAA273DD2F8CDE9B /* SAVASTTracking.h */,
+				A468CEA3A70B947FB9BE34AAD2E151F6 /* SAVASTTracking.m */,
+				5AC34154FD4185401A096CA8B0EEA35C /* Support Files */,
+			);
+			path = SAModelSpace;
+			sourceTree = "<group>";
+		};
+		0A10F30D9D80388E9B81244189B17524 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				91A7D2C0A46361BB7D08707A0821C4BD /* SAEvents.h */,
+				2111C30BF48AC9A6670F7EAACEC2D7CD /* SAEvents.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -417,41 +501,29 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		245487A0EC79C5E92A9ED4AAA58AD173 /* Support Files */ = {
+		2AE8BD7B132375F567808021B6EE852E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E6076E728476B01E565E227416D124F9 /* SAVideoPlayer.xcconfig */,
-				D182A9ACD89F848CF67E38CB27394CFD /* SAVideoPlayer-dummy.m */,
-				60F26C85F181D0EE58E082E14F9A3442 /* SAVideoPlayer-prefix.pch */,
+				A54EF641148253D2E67A4A9543D00B09 /* SAEvents */,
+				97AA155B9E0334B5CBC427CD6F759731 /* SAJsonParser */,
+				08EA33DCEFA26A1BF239D5CD3445B200 /* SAModelSpace */,
+				9C9DDF364F9496A18D91A7489CC67D87 /* SANetworking */,
+				0868BDFD80569C3FD1AFCCA6AACBA162 /* SAUtils */,
+				B9137A94D3A257CF2D07FA759467F5C3 /* SAVASTParser */,
+				697DF65F8BE9B00E86A5E244C4709A96 /* SAVideoPlayer */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SAVideoPlayer";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		298EBD8BE18014F191DAB4DB6D8AFD07 /* Products */ = {
+		2C5B6FE08E7CA122B4F6D25F8E5EF7BA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6F40C6FFBA55C8A7C14F9E4B95D6CC1 /* libPods-SAAdLoader_Example.a */,
-				1B0880AE9E72BDAD3738A57891BAD2EC /* libSAAdLoader.a */,
-				C4728ADECCCBBBE204E384168B6A31BE /* libSAEvents.a */,
-				F14157FBE76295FF300FCB375BA00F5E /* libSAJsonParser.a */,
-				971930FEDFD0B471EF746DD47366BB4C /* libSAModelSpace.a */,
-				D5C32F421617069194A240FE96F8B60E /* libSAUtils.a */,
-				C4DB59AD0C4469FF5FFEC08F115B42ED /* libSAVASTParser.a */,
-				4C1F2698C75EC5A0C92E7378CDF681DB /* libSAVideoPlayer.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2DA929C2FB10DA2BA9EC15860F76ED5C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F66B8337BE09D4BDADF26A29BA8EB73 /* SAEvents.xcconfig */,
-				634A0D70F4D091D59FBE8C8E1C551141 /* SAEvents-dummy.m */,
-				AB8E87F3DF2C9E402664DFE08253CC7D /* SAEvents-prefix.pch */,
+				059F43693962AEAF28EDABEEB1CA978D /* SAJsonParser.xcconfig */,
+				4299851137FF4C63283B998938355707 /* SAJsonParser-dummy.m */,
+				C8EC2D9F24EF732550C24727060D1FF8 /* SAJsonParser-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SAEvents";
+			path = "../Target Support Files/SAJsonParser";
 			sourceTree = "<group>";
 		};
 		3344E53C3B5CD192F59697DBF99E6F2A /* Pods-SAAdLoader_Example */ = {
@@ -477,34 +549,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		58B171DB7BC1971B2DAA4FCA02601CD4 /* SAJsonParser */ = {
+		5AC34154FD4185401A096CA8B0EEA35C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E306A4A69BB3F138335B09308FF5A377 /* NSArray+SAJson.h */,
-				DE8A52150EE9686BC63D4D1CB8AFC27E /* NSArray+SAJson.m */,
-				022BFCBCA7907224155738811437D2D9 /* NSDictionary+SafeHandling.h */,
-				B1DBB34551D3D191A6306EFEAB779401 /* NSDictionary+SafeHandling.m */,
-				DBACF775D1D8DA51235386A739D9F36A /* NSDictionary+SAJson.h */,
-				25A9C319AFEDAB2AEEA2D524CA006861 /* NSDictionary+SAJson.m */,
-				A5B8F7D425A10FD51C20F9C00F0C050E /* SABaseObject.h */,
-				0ED552639BDAD880B1A64AC979FBC791 /* SABaseObject.m */,
-				0EEBFC8CCBB0E6DA6CD15FF981B73163 /* SADeserializationProtocol.h */,
-				17A8428723F061087FF4718C3FC2ECA9 /* SAJsonParser.h */,
-				5CF72AD354D05502254F850328D9C1EC /* SASerializationProtocol.h */,
-				F133B0B45E0743E13CE9233C6ABCA919 /* Support Files */,
-			);
-			path = SAJsonParser;
-			sourceTree = "<group>";
-		};
-		5BEA8C5D9E24E9D241424FAE23A28816 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F4F869DAA756BC7AFA4C3D2F1C4E639 /* SAVASTParser.xcconfig */,
-				1080D8AD8DF7BBD0393E98FEC7E190C4 /* SAVASTParser-dummy.m */,
-				B7339378E904EBB01B62CE58154CC869 /* SAVASTParser-prefix.pch */,
+				61E935F870A3A69A47F979BA7F090168 /* SAModelSpace.xcconfig */,
+				DAF342AC556D91B525CB63506DBFCBAA /* SAModelSpace-dummy.m */,
+				CC7384B4681AC0570949BA8FF8334B05 /* SAModelSpace-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SAVASTParser";
+			path = "../Target Support Files/SAModelSpace";
 			sourceTree = "<group>";
 		};
 		653C954DBC89F666DA497C350A124606 /* Targets Support Files */ = {
@@ -513,6 +566,22 @@
 				3344E53C3B5CD192F59697DBF99E6F2A /* Pods-SAAdLoader_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		697DF65F8BE9B00E86A5E244C4709A96 /* SAVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				235AFD7FDA080C7D45C4C6773D38695E /* SABlackMask.h */,
+				60516531D825C57DC3EF42703A20235D /* SABlackMask.m */,
+				CDD9DD2B00B876E3F8C5E6D05213B473 /* SACronograph.h */,
+				E8449FB314CCCFF7A54F2D3E3775A34D /* SACronograph.m */,
+				03035AB6D37196320D223DD391B888B7 /* SAURLClicker.h */,
+				37954FFD4C9C9664C35A1868B547F213 /* SAURLClicker.m */,
+				8DC97502A5AFA812A05AFD80448DF14A /* SAVideoPlayer.h */,
+				47FFA2D1CFD228E27F2BBA34A63BA3CC /* SAVideoPlayer.m */,
+				D4A2232AFB650AE051F52DDC8DAA5AEF /* Support Files */,
+			);
+			path = SAVideoPlayer;
 			sourceTree = "<group>";
 		};
 		6AE64AB3854E2189C2ACCE11775A636B /* Classes */ = {
@@ -530,36 +599,15 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		6CB541D445144B846F7DED76450756B2 /* SAUtils */ = {
+		7532F725B333607A384F5B46C3BAD13F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				18DC489D7FE9159DAE54FC774162CBAD /* NSString+HTML.h */,
-				EE022446E460B8509AFB6C1A67F913D9 /* NSString+HTML.m */,
-				5CA19EDB6C011CAB33953ECFE78487C7 /* SAExtensions.h */,
-				E4F3C2470AEB5BA2B8496DDB75B16A56 /* SAExtensions.m */,
-				06EFC7C263276BB2F18B57FA2E9945D6 /* SAFileDownloader.h */,
-				6C3C05D9C253E2E64A0568A734BFEA90 /* SAFileDownloader.m */,
-				DB5C411E7199B0605D8BD1F40FC76DD4 /* SAUtils.h */,
-				C533E00567148487B6921DD78C6EA980 /* SAUtils.m */,
-				E9620DDF5A7523C61B52FCF49778E057 /* Support Files */,
+				93DDCC7411CF1DF15D49C476FCB3812A /* SANetworking.xcconfig */,
+				FE553A31319781961C16924617C231E6 /* SANetworking-dummy.m */,
+				03D49151A5E88B561741BAB0FD770918 /* SANetworking-prefix.pch */,
 			);
-			path = SAUtils;
-			sourceTree = "<group>";
-		};
-		73FA911535EC8F473ECCA5ADD43926A1 /* SAVideoPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				3EE45249C676BCA089E4390B0EF429E0 /* SABlackMask.h */,
-				2D910FA072917078147CF03D88D792C8 /* SABlackMask.m */,
-				729ECCD0E19BC4513E5E234BCF917C96 /* SACronograph.h */,
-				2D61CD7B46744AC02FBD99ECF83A51D1 /* SACronograph.m */,
-				F2EDA967DEB33DA95C4E27E71A1CE1D6 /* SAURLClicker.h */,
-				BDB459368E8261C8D3C26C807AB825D1 /* SAURLClicker.m */,
-				8C89159664E943C06F71E47F400E2BA1 /* SAVideoPlayer.h */,
-				EF86E8BDF30462AE76DB1F841116FD7F /* SAVideoPlayer.m */,
-				245487A0EC79C5E92A9ED4AAA58AD173 /* Support Files */,
-			);
-			path = SAVideoPlayer;
+			name = "Support Files";
+			path = "../Target Support Files/SANetworking";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -568,8 +616,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FD1C2909BFDBF9017CD5B4527AD0E973 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				F7A9CD64BBFEBE08726FD2913F8870AB /* Pods */,
-				298EBD8BE18014F191DAB4DB6D8AFD07 /* Products */,
+				2AE8BD7B132375F567808021B6EE852E /* Pods */,
+				B3C604B00B414C3B325CDB03B92A607F /* Products */,
 				653C954DBC89F666DA497C350A124606 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -580,20 +628,6 @@
 				6AE64AB3854E2189C2ACCE11775A636B /* Classes */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		8F8D278BF2799A75E48103ED03572A04 /* SAVASTParser */ = {
-			isa = PBXGroup;
-			children = (
-				A42375BEE49BF2919756BD7D49F241A8 /* SAVASTManager.h */,
-				EB651013196001C32E820B7698D1D587 /* SAVASTManager.m */,
-				68D369D0E7823122B8582AB4F9ADCC4F /* SAVASTParser.h */,
-				11D29E7D94E8203D031E63C41DDCA328 /* SAVASTParser.m */,
-				0784E435F64B804228681594CD23DD2A /* SAXMLParser.h */,
-				4E66BD3679ADB0E08106CC32AF0F562B /* SAXMLParser.m */,
-				5BEA8C5D9E24E9D241424FAE23A28816 /* Support Files */,
-			);
-			path = SAVASTParser;
 			sourceTree = "<group>";
 		};
 		94862C3359F76800D2AF20A593F7C75B /* Support Files */ = {
@@ -607,6 +641,68 @@
 			path = "Example/Pods/Target Support Files/SAAdLoader";
 			sourceTree = "<group>";
 		};
+		97AA155B9E0334B5CBC427CD6F759731 /* SAJsonParser */ = {
+			isa = PBXGroup;
+			children = (
+				9C4FFD0A208707BB957248969E91C9C1 /* NSArray+SAJson.h */,
+				363A076B5248B68935B5E09CCA5D6CA0 /* NSArray+SAJson.m */,
+				5C341F13B9339F8C38D4F89588DE8B07 /* NSDictionary+SafeHandling.h */,
+				559B7B646B34D8AF30EA082F12C0E332 /* NSDictionary+SafeHandling.m */,
+				D34BD32AB98C12244DDF87BB7ED00DDD /* NSDictionary+SAJson.h */,
+				DFB0EC3E02A76A29CB59554FF3A98DDF /* NSDictionary+SAJson.m */,
+				B35668FFAD8A8BEDC81ACD5CD9E7CBA6 /* SABaseObject.h */,
+				422B8F235F1AD87F7951754850517646 /* SABaseObject.m */,
+				361AF74533C7B9CFEB0380740A8D6FF2 /* SADeserializationProtocol.h */,
+				93856074E0E0E95F3CCB48FB28C688BE /* SAJsonParser.h */,
+				C452AD171CD5A65BB89CBD039EFF8114 /* SASerializationProtocol.h */,
+				2C5B6FE08E7CA122B4F6D25F8E5EF7BA /* Support Files */,
+			);
+			path = SAJsonParser;
+			sourceTree = "<group>";
+		};
+		9C9DDF364F9496A18D91A7489CC67D87 /* SANetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C7BABF9DA1B2FE4C5F4ED19B11FB6C47 /* SAFileDownloader.h */,
+				A9F0DD841496F5CE2FAC38BF68F2252A /* SAFileDownloader.m */,
+				07073818631497693D9B452F61C48CB5 /* SANetwork.h */,
+				1B25B038A8A4D6D5423313A4E4D7D8C2 /* SANetwork.m */,
+				7532F725B333607A384F5B46C3BAD13F /* Support Files */,
+			);
+			path = SANetworking;
+			sourceTree = "<group>";
+		};
+		9EECBB763C3F14DB03E9A76592183389 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A6BE4C9EDB0A5DF9AE59ACC3BB9087 /* SAVASTParser.xcconfig */,
+				9EFAAA850E6C4110C991DB309AF08424 /* SAVASTParser-dummy.m */,
+				B994B6CEFD0B8CED8B8A6609715DDE1A /* SAVASTParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAVASTParser";
+			sourceTree = "<group>";
+		};
+		A54EF641148253D2E67A4A9543D00B09 /* SAEvents */ = {
+			isa = PBXGroup;
+			children = (
+				0A10F30D9D80388E9B81244189B17524 /* Core */,
+				AFEE4721705E62FE25A0C98ED8D35C8E /* Support Files */,
+			);
+			path = SAEvents;
+			sourceTree = "<group>";
+		};
+		AFEE4721705E62FE25A0C98ED8D35C8E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C9A2DEC7FCFA2E84D8764BBE58AA62 /* SAEvents.xcconfig */,
+				FD45804E0B172679DDE34FAC6EA9F71F /* SAEvents-dummy.m */,
+				9F59E8FEC70741398554BDA599047DB7 /* SAEvents-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAEvents";
+			sourceTree = "<group>";
+		};
 		B1D77D531BDDEEE979D1705B7870C1FA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -616,83 +712,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C88FDE634CA866BAE1727A368B72AD04 /* SAEvents */ = {
+		B3C604B00B414C3B325CDB03B92A607F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1179DA216DA3F37E79343FB591C8DCFA /* Core */,
-				2DA929C2FB10DA2BA9EC15860F76ED5C /* Support Files */,
+				F09773E84EB8796DF46F59071EAC96D0 /* libPods-SAAdLoader_Example.a */,
+				0BB749995C71AD870095A75E7168770B /* libSAAdLoader.a */,
+				A13C688EED52F4F1413EEA8279FB8C2E /* libSAEvents.a */,
+				FF16D08969EB0E5CB5D59C8595DCD1A0 /* libSAJsonParser.a */,
+				8EEBC433349FE7FB7F5B086CC66613DC /* libSAModelSpace.a */,
+				E3E0B48EE3F44F6D19177F1A1F2C5A8B /* libSANetworking.a */,
+				CB7FE3C8FE09F5892A9F7291FEF38355 /* libSAUtils.a */,
+				C69B40BBB72551189B621C2AA4D09B31 /* libSAVASTParser.a */,
+				AD02763B86DEB53DF68B0860DC7F2CC1 /* libSAVideoPlayer.a */,
 			);
-			path = SAEvents;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		CF60D5D574CFFDE1619429F186B09625 /* Support Files */ = {
+		B9137A94D3A257CF2D07FA759467F5C3 /* SAVASTParser */ = {
 			isa = PBXGroup;
 			children = (
-				A20FE7031EFA5D052EDC6C2FB6C92ED1 /* SAModelSpace.xcconfig */,
-				3022CB03FA898338C2ED7B2E02B9BB9C /* SAModelSpace-dummy.m */,
-				E1AF3BA2C91D2DBA9CDE65A304111899 /* SAModelSpace-prefix.pch */,
+				7B1372D7DACA81DDA63CE07D24F4FDD7 /* SAVASTManager.h */,
+				691EC4ABCD12B5290D51A3B03BD39E82 /* SAVASTManager.m */,
+				B20F85ABB36C5F2BB76D5131D3D7BD2E /* SAVASTParser.h */,
+				50616184B49A38D8981123C49302699E /* SAVASTParser.m */,
+				1F23530E53365EC45E7A6D54F5AAFD32 /* SAXMLParser.h */,
+				6A91DC63E9ED9027EC9A3E04B1B43F67 /* SAXMLParser.m */,
+				9EECBB763C3F14DB03E9A76592183389 /* Support Files */,
+			);
+			path = SAVASTParser;
+			sourceTree = "<group>";
+		};
+		D4A2232AFB650AE051F52DDC8DAA5AEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A31F14D2557EACD1C71F5B60FA4CA207 /* SAVideoPlayer.xcconfig */,
+				B9E9EE7B914A53F98BA2ED31EDFF6365 /* SAVideoPlayer-dummy.m */,
+				D81D6CE4DFDBD8CE4508BACCFA839947 /* SAVideoPlayer-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SAModelSpace";
+			path = "../Target Support Files/SAVideoPlayer";
 			sourceTree = "<group>";
 		};
-		E9620DDF5A7523C61B52FCF49778E057 /* Support Files */ = {
+		FC6E282BDFD60AC80E410A04E44F8704 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				898C976F8F05219BEB027736659607DB /* SAUtils.xcconfig */,
-				85A127EBEC443FA09B11408ECD229C3A /* SAUtils-dummy.m */,
-				B87D1CFE118EFD38C1CA66600C470F69 /* SAUtils-prefix.pch */,
+				F87017CE1D372F631BF6D99738B61601 /* SAUtils.xcconfig */,
+				DBE823419A7F771B6E9A9DB079FE62EB /* SAUtils-dummy.m */,
+				1F4FD0642A10CACE516EB6DE09740924 /* SAUtils-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SAUtils";
-			sourceTree = "<group>";
-		};
-		EA03B6AAACA509E5172039CB24C204D8 /* SAModelSpace */ = {
-			isa = PBXGroup;
-			children = (
-				AA52414CBD513272AABD539F25138252 /* SAAd.h */,
-				3C6C94155893042CA12679539DB60F32 /* SAAd.m */,
-				797EC8153F9325D2BBB993ED59AC5258 /* SACreative.h */,
-				E0EED7322471DB8A3E1B2FBBA47F059F /* SACreative.m */,
-				6C3E5E61B6B9624C6598E0F983FA1560 /* SAData.h */,
-				A404B631CFA9AC9D49CB45516138545D /* SAData.m */,
-				B1D75CEEF58ED57ACD85D7F0421C4B2D /* SADetails.h */,
-				2B57B1A428EA1FF53F0D92276C4CC7B0 /* SADetails.m */,
-				67677EAB14362E5225A9684845A9C7FA /* SAVASTAd.h */,
-				89D8B3D7840C6C4A4A3D3256EF7623D4 /* SAVASTAd.m */,
-				6191ABB872D4E2C23CB497E41CF83806 /* SAVASTCreative.h */,
-				0506DA11EEEAF5B36CA6BEE7D03D22FE /* SAVASTCreative.m */,
-				C8EF1EFF12578DDFFE42713C405B1B03 /* SAVASTMediaFile.h */,
-				11774C5B1EFEEBB6DE7C3716E72777B1 /* SAVASTMediaFile.m */,
-				8C3B561B143851E08F6BE0FAB9893E21 /* SAVASTTracking.h */,
-				9CDCF1EB58EBFC51562F43C2FEE41781 /* SAVASTTracking.m */,
-				CF60D5D574CFFDE1619429F186B09625 /* Support Files */,
-			);
-			path = SAModelSpace;
-			sourceTree = "<group>";
-		};
-		F133B0B45E0743E13CE9233C6ABCA919 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				21675AEFC65E71B8AFCDA61CB3066271 /* SAJsonParser.xcconfig */,
-				7513435CACB80A7BE8F95940A3AD2D62 /* SAJsonParser-dummy.m */,
-				7233F9CDAC3799944FDD22075CCD5B42 /* SAJsonParser-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SAJsonParser";
-			sourceTree = "<group>";
-		};
-		F7A9CD64BBFEBE08726FD2913F8870AB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C88FDE634CA866BAE1727A368B72AD04 /* SAEvents */,
-				58B171DB7BC1971B2DAA4FCA02601CD4 /* SAJsonParser */,
-				EA03B6AAACA509E5172039CB24C204D8 /* SAModelSpace */,
-				6CB541D445144B846F7DED76450756B2 /* SAUtils */,
-				8F8D278BF2799A75E48103ED03572A04 /* SAVASTParser */,
-				73FA911535EC8F473ECCA5ADD43926A1 /* SAVideoPlayer */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		FD1C2909BFDBF9017CD5B4527AD0E973 /* Development Pods */ = {
@@ -706,176 +775,189 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03017D57B27190A193BEA45D9772C23E /* Headers */ = {
+		66D5F280B6207245FACFC2BBF9FBCD61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				806EF5069FFEC373B42838208173F73B /* NSArray+SAJson.h in Headers */,
-				6D5A006F13EE6B0DF8ECBB6C3B9B0B69 /* NSDictionary+SafeHandling.h in Headers */,
-				D034B7BA7794C536B15F390BDAFFDEED /* NSDictionary+SAJson.h in Headers */,
-				E8D83EAB77A6B78E758E089746656A19 /* SABaseObject.h in Headers */,
-				CBDA648F3E562F2CFE43BB1BD834B74C /* SADeserializationProtocol.h in Headers */,
-				C1EE41C4416FE57F0C15D749C86E3326 /* SAJsonParser.h in Headers */,
-				52CED919D68C55BF4597A9E796610BFB /* SASerializationProtocol.h in Headers */,
+				DC4AA6D529EA708E701D91A77336A3B3 /* SAVASTManager.h in Headers */,
+				768D78043F5C8E7F6CA2B17B6D68735F /* SAVASTParser.h in Headers */,
+				C839E9E7435243750E0A845232B3AF02 /* SAXMLParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0960AADB3F93784D35F52F33DD3BAB5F /* Headers */ = {
+		6916DBC1880757E424343BDD899DD1AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6297E65125B4771F9CC2325102DDCDF5 /* SABlackMask.h in Headers */,
-				C53A52FC44942B07B446EF61B669DBEC /* SACronograph.h in Headers */,
-				A8FFA9F99B92A594FA366C24A0E59A98 /* SAURLClicker.h in Headers */,
-				AE336D188E7A89C5A81D2E4C10E9583E /* SAVideoPlayer.h in Headers */,
+				4EB2A868B5C7247D545EF0AE0CDBCFD4 /* SABlackMask.h in Headers */,
+				A83F7814DD0275E8E0251F4B7E8ED5E5 /* SACronograph.h in Headers */,
+				835EB4EA63E79E568F21E99A868E4E38 /* SAURLClicker.h in Headers */,
+				C80E65B89D7CECAFA73096F311C2A443 /* SAVideoPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0BDB029FBFD8A860FFD615620B52DB52 /* Headers */ = {
+		7723838B512F9CA37F72BE18CABF4AA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E6B09E4DF94E922BAA1FA68936B7D9 /* NSString+HTML.h in Headers */,
-				F478199215748A810D80D99C9EE9DBC9 /* SAExtensions.h in Headers */,
-				F7F0E6DF7402F4B18A58DCF5F981709E /* SAFileDownloader.h in Headers */,
-				7DBFF6036FA8AD77FCE2EF0E74F5F851 /* SAUtils.h in Headers */,
+				CE58E9ABC9ECCC72DD9D0CFCDEEDC6C3 /* SAAd.h in Headers */,
+				205AEABC71FFB14ED05540AF3B0F1385 /* SACreative.h in Headers */,
+				A4BBF6DD94960F3545E8AB6ABBF80332 /* SAData.h in Headers */,
+				02DA8ADDB06DD72052CCEA812F9847CF /* SADetails.h in Headers */,
+				06C6A4E579CBDBC5FD40DE25F261C6FB /* SAVASTAd.h in Headers */,
+				CB70C2EA059CC99DEC3F4A561F3442E5 /* SAVASTCreative.h in Headers */,
+				D6016AAE6A3B7269BB17AF86B72C2688 /* SAVASTMediaFile.h in Headers */,
+				5DCFA010552D2F2AE934C97D28D24244 /* SAVASTTracking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27B9E0236B8C24CCCD59F97C9967E4B0 /* Headers */ = {
+		84800FA36D2CDA5F39CA7A9B033812B2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F055A797FF2FDA6244EFA0EF74B0F84 /* SAEvents.h in Headers */,
+				A5C6718CBE32527B6902BF36352D48F5 /* SAHTMLParser.h in Headers */,
+				F4A0657A8E7BDD3C1A7CF6C5B532CC2E /* SALoader.h in Headers */,
+				08CFC925787BA3734EBADE32C9B27793 /* SALoaderSession.h in Headers */,
+				2DF1329EDEF0A2C643778296A179806B /* SAParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AED504FA645D926C4437736111E69FD /* Headers */ = {
+		C09BB6AC37EBBD4FC290366D28EF1AE8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62926D5C5768F4A55299E2B78CD3B330 /* SAVASTManager.h in Headers */,
-				AEC31FCD42D5143E91D08DBFC8E21686 /* SAVASTParser.h in Headers */,
-				21ED2711593BC5560752360B4F82F307 /* SAXMLParser.h in Headers */,
+				C19D1FA0338097FE616AE75511EDF5A2 /* NSArray+SAJson.h in Headers */,
+				A612EE4BF08B3FC052A73C71FB0D8842 /* NSDictionary+SafeHandling.h in Headers */,
+				407AC345112AF9B87EC8AB159ED71F15 /* NSDictionary+SAJson.h in Headers */,
+				51E4110168F10C7B7296BA702C5290FC /* SABaseObject.h in Headers */,
+				E8D787C8F9A06E8C119F7FF76BDDE534 /* SADeserializationProtocol.h in Headers */,
+				2351F4D81C35CDD3E56AD61036B386E7 /* SAJsonParser.h in Headers */,
+				9F381AA8B17486B9BA677DFADC238763 /* SASerializationProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20106ED29352A606AB31D7C67D902E6 /* Headers */ = {
+		E825E582895FCCD96D9B2E507CAA8922 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE7838D8CCE86A82FC163B237CCEEAD /* SAAd.h in Headers */,
-				A3C2019C83BC05F392148CA7DC98EE71 /* SACreative.h in Headers */,
-				1034B198BBF1E0EA56DDDF417F4DFD2D /* SAData.h in Headers */,
-				E7E9A7CB8993BA3ABD28DA711BFC0BA0 /* SADetails.h in Headers */,
-				FEEC61CE80A093DC82CF67E06F9A0FFE /* SAVASTAd.h in Headers */,
-				23CCC07F2E813DB0EDDB2E529A459D48 /* SAVASTCreative.h in Headers */,
-				4D756400A8F7747E8D9EB4433F95BA2C /* SAVASTMediaFile.h in Headers */,
-				56BD793E03F598E160C910C4DD04DA72 /* SAVASTTracking.h in Headers */,
+				8D30B6C7FA63C8B15877940C01AE38E9 /* SAFileDownloader.h in Headers */,
+				586D1A7451AC6347F5D95661304519DB /* SANetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B7E6A28F085BDAD4C0B432C0C58565AB /* Headers */ = {
+		EC0FE93F9B6620098D5CDA60A73CFA1C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC71E7FC542E607F55E1B9728A35346 /* SAHTMLParser.h in Headers */,
-				6C0DB2B068231404DCADBA203C524643 /* SALoader.h in Headers */,
-				5593715BBC16E88CC6B893CE8DED1673 /* SALoaderSession.h in Headers */,
-				CD64D2826F24389CD82D0046ACBEB87A /* SAParser.h in Headers */,
+				878BEFD1D55E16476C04994A1DEE228F /* NSString+HTML.h in Headers */,
+				89235B77748E9610E91170F5F70C1365 /* SAExtensions.h in Headers */,
+				1C596D89A16D25153630D46A4655D828 /* SAUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8E780E644F28E608A3833822D36E401 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D4176457D3ECEE727658B7ECA29CD8 /* SAEvents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1E591D1B899FBA136D2EA14CDB25FBA5 /* SAJsonParser */ = {
+		050A2034E2B2C362F0C0E73930818EE4 /* SAAdLoader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDDD0B7641B001B47AD3A2BC0E8740D1 /* Build configuration list for PBXNativeTarget "SAJsonParser" */;
+			buildConfigurationList = 5CEAB58061FEF3966DA6CF0C8FE84B85 /* Build configuration list for PBXNativeTarget "SAAdLoader" */;
 			buildPhases = (
-				CF13F84C38A8821D24195BCF8A9F4D92 /* Sources */,
-				A3D7E5ADE605A5889F99FE7400C04147 /* Frameworks */,
-				03017D57B27190A193BEA45D9772C23E /* Headers */,
+				AEA3AA12F2D75D331A7D6B9E62D7DF95 /* Sources */,
+				6CC67FCE5BD0020661F3F8BE4F883EE8 /* Frameworks */,
+				84800FA36D2CDA5F39CA7A9B033812B2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SAJsonParser;
-			productName = SAJsonParser;
-			productReference = F14157FBE76295FF300FCB375BA00F5E /* libSAJsonParser.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		2393DF0E2504931F8C2FA531C716DAC7 /* SAAdLoader */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B3A9823B8675DF5538B7E6D219767FB /* Build configuration list for PBXNativeTarget "SAAdLoader" */;
-			buildPhases = (
-				93D71688577D6201E519A2C7EE320CE2 /* Sources */,
-				8F1EAFC8997C010C750251D7ED0FD397 /* Frameworks */,
-				B7E6A28F085BDAD4C0B432C0C58565AB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F385C22680FA04279D2087026D655B5E /* PBXTargetDependency */,
-				0642463BEF1747BB4375224868099426 /* PBXTargetDependency */,
-				223D66B43B9CFDC07777B0FAC8694C20 /* PBXTargetDependency */,
-				B0FB2AE9AA36763BE5C1D9662B3DF880 /* PBXTargetDependency */,
-				F16C2963DBFEFFE87A7AAC436CF6929D /* PBXTargetDependency */,
-				AA72D4912372CA00D3DF902E79634224 /* PBXTargetDependency */,
+				F187F37F2D82737158F72F3788902FB0 /* PBXTargetDependency */,
+				8630D4ACACCFA6DADA6364B873EE10C4 /* PBXTargetDependency */,
+				0A2A5D096B612CA2220D7301C12A7E18 /* PBXTargetDependency */,
+				D1CA2B7CAD41435B70D018ECAD929A3A /* PBXTargetDependency */,
+				66C830ABBDFF440369445ED94D2B2ABA /* PBXTargetDependency */,
+				06F6D43DA8A967EFFB8F07698D405852 /* PBXTargetDependency */,
+				B1F2A0242654F29FD321D7724DBF97B2 /* PBXTargetDependency */,
 			);
 			name = SAAdLoader;
 			productName = SAAdLoader;
-			productReference = 1B0880AE9E72BDAD3738A57891BAD2EC /* libSAAdLoader.a */;
+			productReference = 0BB749995C71AD870095A75E7168770B /* libSAAdLoader.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		41FF690BBAD5666D0EADFD6A402E1F26 /* Pods-SAAdLoader_Example */ = {
+		0EA51DBDAC47ABF3F38AFD6606FE5037 /* SAModelSpace */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C1255039CEFCB01BD5BE464AE204ECC /* Build configuration list for PBXNativeTarget "Pods-SAAdLoader_Example" */;
+			buildConfigurationList = 83091B9A6F63760389C66999AF02AC19 /* Build configuration list for PBXNativeTarget "SAModelSpace" */;
 			buildPhases = (
-				4BFF88A6A0FAACC1864490E126EB4F05 /* Sources */,
-				FD6681E9DE7974F170A16E2886171E60 /* Frameworks */,
+				196884D60BECE2B1907D1E1C7656C8DC /* Sources */,
+				FD1875C7EEB9811E3E46E0EF0038CE4E /* Frameworks */,
+				7723838B512F9CA37F72BE18CABF4AA9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2CE3133C6C866DA99ABBC038FECB6DD4 /* PBXTargetDependency */,
-				AE830A26E5A1F8641D9D5ED864CB4FED /* PBXTargetDependency */,
-				80FA4887F5B57B3FC754BEB211C54682 /* PBXTargetDependency */,
-				7B4870A336BABCBF16EE55564FFE8823 /* PBXTargetDependency */,
-				972D8E2D80C3244ED9527DFC51BE291F /* PBXTargetDependency */,
-				DB125AA683813E46EF96F16EDD526434 /* PBXTargetDependency */,
-				7ACD33FFA0B72DE561545C3BA9D263C1 /* PBXTargetDependency */,
+				A2120ADD27B5CBD62D3D0C0DC0303E21 /* PBXTargetDependency */,
+			);
+			name = SAModelSpace;
+			productName = SAModelSpace;
+			productReference = 8EEBC433349FE7FB7F5B086CC66613DC /* libSAModelSpace.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2ED5F4BBC58B0069009FDC59008A4C8F /* SAEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE506C6F94A949C9D00B51CB04B9181 /* Build configuration list for PBXNativeTarget "SAEvents" */;
+			buildPhases = (
+				7C184173A085560EAAE11CA0DE0224C7 /* Sources */,
+				FF0AFFBAC19CD5DAA772E7F3F3F0EA0E /* Frameworks */,
+				F8E780E644F28E608A3833822D36E401 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4B8EB242D363F2B40DB18020EA034A /* PBXTargetDependency */,
+				928F4E788C1C0A04EFC9776BEEF8E70E /* PBXTargetDependency */,
+			);
+			name = SAEvents;
+			productName = SAEvents;
+			productReference = A13C688EED52F4F1413EEA8279FB8C2E /* libSAEvents.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		37FF23DB0B26E44A98B34747AA3EA98D /* Pods-SAAdLoader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 014360CB1310CA937391FF501808FC9D /* Build configuration list for PBXNativeTarget "Pods-SAAdLoader_Example" */;
+			buildPhases = (
+				DB7779392037A8C3B85B692A3CF278C3 /* Sources */,
+				B97A4659E6742121EA369B9430950C52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848ED00CD31C7207989497C40CF49586 /* PBXTargetDependency */,
+				306B33A1871C6C7FD9C3A378CD7A417B /* PBXTargetDependency */,
+				874A3E8440859856235F4BBAC1F7C261 /* PBXTargetDependency */,
+				1EDC7AA410BB042C9236E128A8C17F3C /* PBXTargetDependency */,
+				C6D5A3A926A94A613861236AB9735DBE /* PBXTargetDependency */,
+				0ACFA57D81F52A383D86D916360E5EBD /* PBXTargetDependency */,
+				A463E07A0CC1FBAC4C8635FD8AAED919 /* PBXTargetDependency */,
+				AFDC660A3AC7309A2E0C79B5158BF762 /* PBXTargetDependency */,
 			);
 			name = "Pods-SAAdLoader_Example";
 			productName = "Pods-SAAdLoader_Example";
-			productReference = E6F40C6FFBA55C8A7C14F9E4B95D6CC1 /* libPods-SAAdLoader_Example.a */;
+			productReference = F09773E84EB8796DF46F59071EAC96D0 /* libPods-SAAdLoader_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		80CF77E412DF392237C26A8C4DBBBD20 /* SAUtils */ = {
+		47082F2FA60246BCF764B59D91485268 /* SAVideoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E85FD20D703C58DDA6C69D6A8B864739 /* Build configuration list for PBXNativeTarget "SAUtils" */;
+			buildConfigurationList = 87C6A087ADDE14B0EA0D89D79820FD44 /* Build configuration list for PBXNativeTarget "SAVideoPlayer" */;
 			buildPhases = (
-				73EB93659FB44233CDA043E8D4724ADA /* Sources */,
-				CE66C50DA4458EC65AE2CC4F46512711 /* Frameworks */,
-				0BDB029FBFD8A860FFD615620B52DB52 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SAUtils;
-			productName = SAUtils;
-			productReference = D5C32F421617069194A240FE96F8B60E /* libSAUtils.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A44B2C6931052894EE09CD2BCFC3BAB0 /* SAVideoPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C338774914585CE1C120CEDAE5B00CD1 /* Build configuration list for PBXNativeTarget "SAVideoPlayer" */;
-			buildPhases = (
-				35A92DFF53F43D9BCF41777BD5B24B13 /* Sources */,
-				8CC5E5639A2A50FB34CEB3B16B1657E3 /* Frameworks */,
-				0960AADB3F93784D35F52F33DD3BAB5F /* Headers */,
+				F188794BC72711D20204A7C9D2B440DC /* Sources */,
+				2F59A81A1B0B66A40AD8312CE4EA60CB /* Frameworks */,
+				6916DBC1880757E424343BDD899DD1AD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -883,65 +965,81 @@
 			);
 			name = SAVideoPlayer;
 			productName = SAVideoPlayer;
-			productReference = 4C1F2698C75EC5A0C92E7378CDF681DB /* libSAVideoPlayer.a */;
+			productReference = AD02763B86DEB53DF68B0860DC7F2CC1 /* libSAVideoPlayer.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		ABB863943BB35D4C026C13FFD68D1842 /* SAModelSpace */ = {
+		74D31107117958D73DB86FB16ABE5961 /* SAUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDF2F6DEA29A1D5BDF09B29A0B5E8A87 /* Build configuration list for PBXNativeTarget "SAModelSpace" */;
+			buildConfigurationList = 3A1E6EB0948014144612054053208C52 /* Build configuration list for PBXNativeTarget "SAUtils" */;
 			buildPhases = (
-				F79BBC737E7DECB19746D210BF1CA925 /* Sources */,
-				65446BE235FF0D8064A0588C33929EA0 /* Frameworks */,
-				A20106ED29352A606AB31D7C67D902E6 /* Headers */,
+				D53A9D8737202807F3F8F2A411C2552D /* Sources */,
+				EA82B8FECC5F738A6820D86160F7FBAB /* Frameworks */,
+				EC0FE93F9B6620098D5CDA60A73CFA1C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5EBE1B174CDECDB9AFC3650BE9689112 /* PBXTargetDependency */,
 			);
-			name = SAModelSpace;
-			productName = SAModelSpace;
-			productReference = 971930FEDFD0B471EF746DD47366BB4C /* libSAModelSpace.a */;
+			name = SAUtils;
+			productName = SAUtils;
+			productReference = CB7FE3C8FE09F5892A9F7291FEF38355 /* libSAUtils.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B13AE07C9E2E4848E123D6A4FBBE2051 /* SAEvents */ = {
+		7A98ED728B068985C30352E7F465C2BA /* SANetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 781410159040CB65271CAE8C917A5BA0 /* Build configuration list for PBXNativeTarget "SAEvents" */;
+			buildConfigurationList = CF6332FCC24653E8146E2BF0D8DE70CB /* Build configuration list for PBXNativeTarget "SANetworking" */;
 			buildPhases = (
-				9CDB533DF3AA5EE405AF62C357120B78 /* Sources */,
-				00827771D99D681DCE3FEA664A48F7D1 /* Frameworks */,
-				27B9E0236B8C24CCCD59F97C9967E4B0 /* Headers */,
+				86AF31D2676C45F455809D547F0D1497 /* Sources */,
+				53D9CE8F5A9B6B684E073ECE0503E75C /* Frameworks */,
+				E825E582895FCCD96D9B2E507CAA8922 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				642235D1925EAC953F5EEE91ECB9F53B /* PBXTargetDependency */,
 			);
-			name = SAEvents;
-			productName = SAEvents;
-			productReference = C4728ADECCCBBBE204E384168B6A31BE /* libSAEvents.a */;
+			name = SANetworking;
+			productName = SANetworking;
+			productReference = E3E0B48EE3F44F6D19177F1A1F2C5A8B /* libSANetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		B18D6C5E53B0326F5FDECE1F820DB4B5 /* SAVASTParser */ = {
+		9D34026A2C0DAB4AB47641B75041976A /* SAVASTParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2647EDB6DB0A21BF3C39FAA5D9E54EA /* Build configuration list for PBXNativeTarget "SAVASTParser" */;
+			buildConfigurationList = ED163308B7791263FBB7559772F71B80 /* Build configuration list for PBXNativeTarget "SAVASTParser" */;
 			buildPhases = (
-				90FE0D1EFA8C7CB15DB78BB4CBCF9D0E /* Sources */,
-				AAF1B1FEBD490823BBE46E48CB20F4FF /* Frameworks */,
-				9AED504FA645D926C4437736111E69FD /* Headers */,
+				72CF850CF4C7D141C169C84DB14450CE /* Sources */,
+				6DE79783DE21E8C9381B5CBF5A4864BA /* Frameworks */,
+				66D5F280B6207245FACFC2BBF9FBCD61 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EED526DD4DB7A4DC65F59FF03DDD02DE /* PBXTargetDependency */,
-				7500A06DD7E297D9540D8D570A45FBAB /* PBXTargetDependency */,
-				2581A65894E48A0A6C555B4D08CC3F79 /* PBXTargetDependency */,
-				2B5D38BD25004B86FE72785A8D32A31F /* PBXTargetDependency */,
-				FD27A90E6E068BC8A07E149D54392621 /* PBXTargetDependency */,
+				BF5EDD6CC0A7C764A236687207FD72A0 /* PBXTargetDependency */,
+				9C37CACDB51B94A0039F145033BCAC97 /* PBXTargetDependency */,
+				190EC7480FD5B6D35F46F15B907BC64C /* PBXTargetDependency */,
+				2F8EE61555BFD44E14280F7FB48C6C33 /* PBXTargetDependency */,
+				82648219693BBBB60DCFBF066778285B /* PBXTargetDependency */,
+				C03CD1BDED59F22A5DA170EC0AC00C05 /* PBXTargetDependency */,
 			);
 			name = SAVASTParser;
 			productName = SAVASTParser;
-			productReference = C4DB59AD0C4469FF5FFEC08F115B42ED /* libSAVASTParser.a */;
+			productReference = C69B40BBB72551189B621C2AA4D09B31 /* libSAVASTParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E945974434900C9EE51A19CF2A44EEC3 /* SAJsonParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BDBAE119A0D106E7696FBF08126AA5 /* Build configuration list for PBXNativeTarget "SAJsonParser" */;
+			buildPhases = (
+				9AE90BA58CB67F9A5E54CAD7CF522D1B /* Sources */,
+				C161C6B254A733F637F015378B29C235 /* Frameworks */,
+				C09BB6AC37EBBD4FC290366D28EF1AE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAJsonParser;
+			productName = SAJsonParser;
+			productReference = FF16D08969EB0E5CB5D59C8595DCD1A0 /* libSAJsonParser.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -961,250 +1059,305 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 298EBD8BE18014F191DAB4DB6D8AFD07 /* Products */;
+			productRefGroup = B3C604B00B414C3B325CDB03B92A607F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41FF690BBAD5666D0EADFD6A402E1F26 /* Pods-SAAdLoader_Example */,
-				2393DF0E2504931F8C2FA531C716DAC7 /* SAAdLoader */,
-				B13AE07C9E2E4848E123D6A4FBBE2051 /* SAEvents */,
-				1E591D1B899FBA136D2EA14CDB25FBA5 /* SAJsonParser */,
-				ABB863943BB35D4C026C13FFD68D1842 /* SAModelSpace */,
-				80CF77E412DF392237C26A8C4DBBBD20 /* SAUtils */,
-				B18D6C5E53B0326F5FDECE1F820DB4B5 /* SAVASTParser */,
-				A44B2C6931052894EE09CD2BCFC3BAB0 /* SAVideoPlayer */,
+				37FF23DB0B26E44A98B34747AA3EA98D /* Pods-SAAdLoader_Example */,
+				050A2034E2B2C362F0C0E73930818EE4 /* SAAdLoader */,
+				2ED5F4BBC58B0069009FDC59008A4C8F /* SAEvents */,
+				E945974434900C9EE51A19CF2A44EEC3 /* SAJsonParser */,
+				0EA51DBDAC47ABF3F38AFD6606FE5037 /* SAModelSpace */,
+				7A98ED728B068985C30352E7F465C2BA /* SANetworking */,
+				74D31107117958D73DB86FB16ABE5961 /* SAUtils */,
+				9D34026A2C0DAB4AB47641B75041976A /* SAVASTParser */,
+				47082F2FA60246BCF764B59D91485268 /* SAVideoPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35A92DFF53F43D9BCF41777BD5B24B13 /* Sources */ = {
+		196884D60BECE2B1907D1E1C7656C8DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A04CF41BA2F48C57C79A8F9ED2E86504 /* SABlackMask.m in Sources */,
-				B3284866AC8ECA201E06677914500D0D /* SACronograph.m in Sources */,
-				7E76CF5B8811E7E5527D549B27D2C06D /* SAURLClicker.m in Sources */,
-				073ED8FF08CFA2F33BAAB661E8782C31 /* SAVideoPlayer-dummy.m in Sources */,
-				BDDC052C11E68E0EC6C4ED2ED9CD6F53 /* SAVideoPlayer.m in Sources */,
+				DD869560450C388A3020615FCF7D6B65 /* SAAd.m in Sources */,
+				E8FC3D452FB57DC1DB59EFE5CFF185EC /* SACreative.m in Sources */,
+				7DA42BCF21D8CABB8CDED4207A8555B2 /* SAData.m in Sources */,
+				00DCA0D2C2FD507506D42906BC3B20D2 /* SADetails.m in Sources */,
+				B14432D18279A995AE7EE17C7A60C491 /* SAModelSpace-dummy.m in Sources */,
+				273374B0CBDF61044E8E3E06043A15ED /* SAVASTAd.m in Sources */,
+				B07131780228048E70F25C940D8CE9F9 /* SAVASTCreative.m in Sources */,
+				E6ABC14DE746DCE66FD73EB055672F9E /* SAVASTMediaFile.m in Sources */,
+				765993250A2D7B03CC8860C261769B25 /* SAVASTTracking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BFF88A6A0FAACC1864490E126EB4F05 /* Sources */ = {
+		72CF850CF4C7D141C169C84DB14450CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCFA2A5844E626D00BDAFC549FA379B3 /* Pods-SAAdLoader_Example-dummy.m in Sources */,
+				1D66B0AFC4A22CAEB21378AD216BA94D /* SAVASTManager.m in Sources */,
+				7381A4149B3EA1B70523538232E576A6 /* SAVASTParser-dummy.m in Sources */,
+				7322F2A114C37AB13FE8867C545E8FFE /* SAVASTParser.m in Sources */,
+				3101C86DE638F4A1550E200464ED2C73 /* SAXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73EB93659FB44233CDA043E8D4724ADA /* Sources */ = {
+		7C184173A085560EAAE11CA0DE0224C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				355FEEE7FA30BCABAA9427D6DE74D7CE /* NSString+HTML.m in Sources */,
-				CF6887198906ECA8F9542D4DBA97B381 /* SAExtensions.m in Sources */,
-				0DA970EA8B5367E9CE2F2D810465B814 /* SAFileDownloader.m in Sources */,
-				B57975B8765F03BF06EA031997A43640 /* SAUtils-dummy.m in Sources */,
-				B7FFC561543F1B32EF14989F141B1701 /* SAUtils.m in Sources */,
+				DE9E7B3CAB2A756DA3B7F3A9AEEC929B /* SAEvents-dummy.m in Sources */,
+				09F7E65EF6596E890A8D568C5052F783 /* SAEvents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90FE0D1EFA8C7CB15DB78BB4CBCF9D0E /* Sources */ = {
+		86AF31D2676C45F455809D547F0D1497 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD15A23BB9CAAD65FC2BEF16852356E /* SAVASTManager.m in Sources */,
-				85BF3858EB0D1F42AB08104BA5967CBD /* SAVASTParser-dummy.m in Sources */,
-				AE74043EB5147CA5BE7F84AA3EB79564 /* SAVASTParser.m in Sources */,
-				E9DC3E61CE5CF29C2A8B4C0D39D0D038 /* SAXMLParser.m in Sources */,
+				624D8139D17E43D7D13F38806CFAEF3D /* SAFileDownloader.m in Sources */,
+				0B1A696216C5C7C54C785E5B45330701 /* SANetwork.m in Sources */,
+				1F567DAE35358382DAB4D915E3A83C3A /* SANetworking-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93D71688577D6201E519A2C7EE320CE2 /* Sources */ = {
+		9AE90BA58CB67F9A5E54CAD7CF522D1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22612E3FA4B81FCFE89B5E672DBC50BD /* SAAdLoader-dummy.m in Sources */,
-				EA1C4007F9304EC6173D85265E5104A6 /* SAHTMLParser.m in Sources */,
-				284569F81632F35435066A960B95489D /* SALoader.m in Sources */,
-				62B3F42B55723FB416D0414301F3C91D /* SALoaderSession.m in Sources */,
-				261311A80C4DFF4C6FA455AA37236936 /* SAParser.m in Sources */,
+				EC34B2C8B0A67BAB24C65B92C2B44510 /* NSArray+SAJson.m in Sources */,
+				B83BA305E803AEA930720D894E33872A /* NSDictionary+SafeHandling.m in Sources */,
+				AA220A946F05A72F9AC4C73DEAA5A8B2 /* NSDictionary+SAJson.m in Sources */,
+				56D0E2FB7942A250F9A20F1143F6C2E9 /* SABaseObject.m in Sources */,
+				8C11FA886ED487A428D5F67D27082761 /* SAJsonParser-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CDB533DF3AA5EE405AF62C357120B78 /* Sources */ = {
+		AEA3AA12F2D75D331A7D6B9E62D7DF95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552927B825CFBBCE331F7F90DA8A2F35 /* SAEvents-dummy.m in Sources */,
-				D8A88E1C93DD486A12202BC5E5FED369 /* SAEvents.m in Sources */,
+				C08B0AD3E8A106EFB849AC8190F97005 /* SAAdLoader-dummy.m in Sources */,
+				723B0F3377FDED38F22F099C638B5B66 /* SAHTMLParser.m in Sources */,
+				CFC5EE793FE004A6F6687BBC99AE3FF3 /* SALoader.m in Sources */,
+				93B558D6B41A6FF0173C4E5D618A543E /* SALoaderSession.m in Sources */,
+				6D48A449402B92973A782238E139BD22 /* SAParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF13F84C38A8821D24195BCF8A9F4D92 /* Sources */ = {
+		D53A9D8737202807F3F8F2A411C2552D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D3D81E9A3A73508E65046FE6C6BE27 /* NSArray+SAJson.m in Sources */,
-				97023E08AB1D985B6BDCA04357ABAA96 /* NSDictionary+SafeHandling.m in Sources */,
-				93B9C777C0F96C221DDCB4674F7C071E /* NSDictionary+SAJson.m in Sources */,
-				3F56EE501ED81B26921AFD28E1666B94 /* SABaseObject.m in Sources */,
-				E1453C175DF24774AF8F7B59D9DCEE13 /* SAJsonParser-dummy.m in Sources */,
+				5C0D144A33C00383732E0B2FAFCAC97B /* NSString+HTML.m in Sources */,
+				E0C4FBD27E7CAEAAAD68CABB5A78AA20 /* SAExtensions.m in Sources */,
+				B5A303D282100379264DAA36C5AF40C1 /* SAUtils-dummy.m in Sources */,
+				68C0F1CED7F09ADEBC4F39767E6356D3 /* SAUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F79BBC737E7DECB19746D210BF1CA925 /* Sources */ = {
+		DB7779392037A8C3B85B692A3CF278C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5563CC6DC6B5C4477CC01244D0740C2F /* SAAd.m in Sources */,
-				F55E5037897488BEAA5753B247A0464E /* SACreative.m in Sources */,
-				3A3B48BE59FE523573C49D0B8E24C57B /* SAData.m in Sources */,
-				4BAE2198A41BE6398047ABCA77AD6FFC /* SADetails.m in Sources */,
-				35CB0EE3702205DCA656FAEFB4FD8D20 /* SAModelSpace-dummy.m in Sources */,
-				BD998960A92E006EDF5920436BF3FE89 /* SAVASTAd.m in Sources */,
-				234F9E3531275F5D10E248A600138A96 /* SAVASTCreative.m in Sources */,
-				CF4B1A1D45ACF726D8C7BCECA5E736B5 /* SAVASTMediaFile.m in Sources */,
-				430EA14893C823C57036708C70108CE6 /* SAVASTTracking.m in Sources */,
+				6DCE399ADFC14A1289BEC864D1847765 /* Pods-SAAdLoader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F188794BC72711D20204A7C9D2B440DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA78EF1D004F15A34574B0444AC31A69 /* SABlackMask.m in Sources */,
+				12E1A2D1BF87A0446C0590477510BC13 /* SACronograph.m in Sources */,
+				F98C70395B8F6A1AE755AA72FB70A44F /* SAURLClicker.m in Sources */,
+				92BA8C18215CDDC8D40C9210FB1BB3CC /* SAVideoPlayer-dummy.m in Sources */,
+				E3B2703526DD7D7F507CE09DDFDC62E1 /* SAVideoPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0642463BEF1747BB4375224868099426 /* PBXTargetDependency */ = {
+		06F6D43DA8A967EFFB8F07698D405852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SAJsonParser;
-			target = 1E591D1B899FBA136D2EA14CDB25FBA5 /* SAJsonParser */;
-			targetProxy = 852CEB5575588A967DB5A50EFE8A4DDC /* PBXContainerItemProxy */;
+			name = SAVASTParser;
+			target = 9D34026A2C0DAB4AB47641B75041976A /* SAVASTParser */;
+			targetProxy = 259D5EA7CF59949018866D78235E8320 /* PBXContainerItemProxy */;
 		};
-		223D66B43B9CFDC07777B0FAC8694C20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAModelSpace;
-			target = ABB863943BB35D4C026C13FFD68D1842 /* SAModelSpace */;
-			targetProxy = 4939EF3407935913F92B4220ED9845BC /* PBXContainerItemProxy */;
-		};
-		2581A65894E48A0A6C555B4D08CC3F79 /* PBXTargetDependency */ = {
+		0A2A5D096B612CA2220D7301C12A7E18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAModelSpace;
-			target = ABB863943BB35D4C026C13FFD68D1842 /* SAModelSpace */;
-			targetProxy = 09F5A6F56469B7F95137362E04BCB7E4 /* PBXContainerItemProxy */;
+			target = 0EA51DBDAC47ABF3F38AFD6606FE5037 /* SAModelSpace */;
+			targetProxy = 0E9718B0FFB5F6DB71A68D58BF2C1B97 /* PBXContainerItemProxy */;
 		};
-		2B5D38BD25004B86FE72785A8D32A31F /* PBXTargetDependency */ = {
+		0ACFA57D81F52A383D86D916360E5EBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAUtils;
-			target = 80CF77E412DF392237C26A8C4DBBBD20 /* SAUtils */;
-			targetProxy = FE2637EB19F9034CAD330936AE9778DD /* PBXContainerItemProxy */;
+			target = 74D31107117958D73DB86FB16ABE5961 /* SAUtils */;
+			targetProxy = 35B81611843C6FBBCC97FAB99A8DE7BA /* PBXContainerItemProxy */;
 		};
-		2CE3133C6C866DA99ABBC038FECB6DD4 /* PBXTargetDependency */ = {
+		190EC7480FD5B6D35F46F15B907BC64C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAModelSpace;
+			target = 0EA51DBDAC47ABF3F38AFD6606FE5037 /* SAModelSpace */;
+			targetProxy = 3BDCADD64681DE74595413BD694BE105 /* PBXContainerItemProxy */;
+		};
+		1EDC7AA410BB042C9236E128A8C17F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAModelSpace;
+			target = 0EA51DBDAC47ABF3F38AFD6606FE5037 /* SAModelSpace */;
+			targetProxy = A67592DFCEBCCC4C3FBE90A36AD0D566 /* PBXContainerItemProxy */;
+		};
+		2F8EE61555BFD44E14280F7FB48C6C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SANetworking;
+			target = 7A98ED728B068985C30352E7F465C2BA /* SANetworking */;
+			targetProxy = 21E6ADBB1A48B8F9014D4FA44458EC9B /* PBXContainerItemProxy */;
+		};
+		306B33A1871C6C7FD9C3A378CD7A417B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAEvents;
+			target = 2ED5F4BBC58B0069009FDC59008A4C8F /* SAEvents */;
+			targetProxy = 50886A3514BA35BE475E9D9676F8F995 /* PBXContainerItemProxy */;
+		};
+		66C830ABBDFF440369445ED94D2B2ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAUtils;
+			target = 74D31107117958D73DB86FB16ABE5961 /* SAUtils */;
+			targetProxy = AD676CBC68A26004D8C6FE19AA855309 /* PBXContainerItemProxy */;
+		};
+		82648219693BBBB60DCFBF066778285B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAUtils;
+			target = 74D31107117958D73DB86FB16ABE5961 /* SAUtils */;
+			targetProxy = D477F6CA6B14C28777001195A937A7B9 /* PBXContainerItemProxy */;
+		};
+		848ED00CD31C7207989497C40CF49586 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAAdLoader;
-			target = 2393DF0E2504931F8C2FA531C716DAC7 /* SAAdLoader */;
-			targetProxy = 8D8261D09283695B8AB03D7BE8920B54 /* PBXContainerItemProxy */;
+			target = 050A2034E2B2C362F0C0E73930818EE4 /* SAAdLoader */;
+			targetProxy = E076E9BE26308F6B797127AE9F2EB294 /* PBXContainerItemProxy */;
 		};
-		5EBE1B174CDECDB9AFC3650BE9689112 /* PBXTargetDependency */ = {
+		8630D4ACACCFA6DADA6364B873EE10C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAJsonParser;
-			target = 1E591D1B899FBA136D2EA14CDB25FBA5 /* SAJsonParser */;
-			targetProxy = CA78B526925E2F148989891C943FD831 /* PBXContainerItemProxy */;
+			target = E945974434900C9EE51A19CF2A44EEC3 /* SAJsonParser */;
+			targetProxy = 0B3AE9C7AF5CF2B3210C70CF0D0D66C7 /* PBXContainerItemProxy */;
 		};
-		642235D1925EAC953F5EEE91ECB9F53B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAUtils;
-			target = 80CF77E412DF392237C26A8C4DBBBD20 /* SAUtils */;
-			targetProxy = 020443FB060B127C84544C8611816353 /* PBXContainerItemProxy */;
-		};
-		7500A06DD7E297D9540D8D570A45FBAB /* PBXTargetDependency */ = {
+		874A3E8440859856235F4BBAC1F7C261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAJsonParser;
-			target = 1E591D1B899FBA136D2EA14CDB25FBA5 /* SAJsonParser */;
-			targetProxy = 19853A0C5ED9DFCDDCD10CD0EA2BA660 /* PBXContainerItemProxy */;
+			target = E945974434900C9EE51A19CF2A44EEC3 /* SAJsonParser */;
+			targetProxy = 76EE54A53195D617A6A9AA1A57544B1A /* PBXContainerItemProxy */;
 		};
-		7ACD33FFA0B72DE561545C3BA9D263C1 /* PBXTargetDependency */ = {
+		928F4E788C1C0A04EFC9776BEEF8E70E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SAVideoPlayer;
-			target = A44B2C6931052894EE09CD2BCFC3BAB0 /* SAVideoPlayer */;
-			targetProxy = 1B0BDC0EED054697E747A10F5188B65C /* PBXContainerItemProxy */;
+			name = SAUtils;
+			target = 74D31107117958D73DB86FB16ABE5961 /* SAUtils */;
+			targetProxy = 57002E80AC11BDC78114B3AE95D20DD9 /* PBXContainerItemProxy */;
 		};
-		7B4870A336BABCBF16EE55564FFE8823 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAModelSpace;
-			target = ABB863943BB35D4C026C13FFD68D1842 /* SAModelSpace */;
-			targetProxy = 7F47772FC696700E5D1D87242A806BAF /* PBXContainerItemProxy */;
-		};
-		80FA4887F5B57B3FC754BEB211C54682 /* PBXTargetDependency */ = {
+		9C37CACDB51B94A0039F145033BCAC97 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAJsonParser;
-			target = 1E591D1B899FBA136D2EA14CDB25FBA5 /* SAJsonParser */;
-			targetProxy = 6A208C596E3EDDDBE010984151E8652E /* PBXContainerItemProxy */;
+			target = E945974434900C9EE51A19CF2A44EEC3 /* SAJsonParser */;
+			targetProxy = 05C72550C72F38ECB2AFAC1AE9455A82 /* PBXContainerItemProxy */;
 		};
-		972D8E2D80C3244ED9527DFC51BE291F /* PBXTargetDependency */ = {
+		9C4B8EB242D363F2B40DB18020EA034A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SAUtils;
-			target = 80CF77E412DF392237C26A8C4DBBBD20 /* SAUtils */;
-			targetProxy = B06210B26303EE43FD26E26648B3463E /* PBXContainerItemProxy */;
+			name = SANetworking;
+			target = 7A98ED728B068985C30352E7F465C2BA /* SANetworking */;
+			targetProxy = D0CE1F839105025E6673CBD0AC743994 /* PBXContainerItemProxy */;
 		};
-		AA72D4912372CA00D3DF902E79634224 /* PBXTargetDependency */ = {
+		A2120ADD27B5CBD62D3D0C0DC0303E21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SAVideoPlayer;
-			target = A44B2C6931052894EE09CD2BCFC3BAB0 /* SAVideoPlayer */;
-			targetProxy = 87E86440A764B6686816068E812623DC /* PBXContainerItemProxy */;
+			name = SAJsonParser;
+			target = E945974434900C9EE51A19CF2A44EEC3 /* SAJsonParser */;
+			targetProxy = 3B71A8CC13B80A9833CD41326F78EB13 /* PBXContainerItemProxy */;
 		};
-		AE830A26E5A1F8641D9D5ED864CB4FED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAEvents;
-			target = B13AE07C9E2E4848E123D6A4FBBE2051 /* SAEvents */;
-			targetProxy = AFD2BE19F476AF390A2F63C6535C4C28 /* PBXContainerItemProxy */;
-		};
-		B0FB2AE9AA36763BE5C1D9662B3DF880 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAUtils;
-			target = 80CF77E412DF392237C26A8C4DBBBD20 /* SAUtils */;
-			targetProxy = D8D1561BB978A4F884229E4B97FC94EB /* PBXContainerItemProxy */;
-		};
-		DB125AA683813E46EF96F16EDD526434 /* PBXTargetDependency */ = {
+		A463E07A0CC1FBAC4C8635FD8AAED919 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAVASTParser;
-			target = B18D6C5E53B0326F5FDECE1F820DB4B5 /* SAVASTParser */;
-			targetProxy = 384B6A583DD3D23B4755DF13420774F6 /* PBXContainerItemProxy */;
+			target = 9D34026A2C0DAB4AB47641B75041976A /* SAVASTParser */;
+			targetProxy = 449AF58FEF48A7D6FE4AC5A39D1D390F /* PBXContainerItemProxy */;
 		};
-		EED526DD4DB7A4DC65F59FF03DDD02DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAEvents;
-			target = B13AE07C9E2E4848E123D6A4FBBE2051 /* SAEvents */;
-			targetProxy = 0FE68F99750F20C43BD37690097FC2DF /* PBXContainerItemProxy */;
-		};
-		F16C2963DBFEFFE87A7AAC436CF6929D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAVASTParser;
-			target = B18D6C5E53B0326F5FDECE1F820DB4B5 /* SAVASTParser */;
-			targetProxy = 7B265569C90C73E907C1D1A5C3A3A702 /* PBXContainerItemProxy */;
-		};
-		F385C22680FA04279D2087026D655B5E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SAEvents;
-			target = B13AE07C9E2E4848E123D6A4FBBE2051 /* SAEvents */;
-			targetProxy = FE705A440B38D34C716A633B30C5698B /* PBXContainerItemProxy */;
-		};
-		FD27A90E6E068BC8A07E149D54392621 /* PBXTargetDependency */ = {
+		AFDC660A3AC7309A2E0C79B5158BF762 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAVideoPlayer;
-			target = A44B2C6931052894EE09CD2BCFC3BAB0 /* SAVideoPlayer */;
-			targetProxy = 9927FC846C1842E14B89B707E9C5C990 /* PBXContainerItemProxy */;
+			target = 47082F2FA60246BCF764B59D91485268 /* SAVideoPlayer */;
+			targetProxy = 1C3C83828701EE16939D4B5FBDA77218 /* PBXContainerItemProxy */;
+		};
+		B1F2A0242654F29FD321D7724DBF97B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAVideoPlayer;
+			target = 47082F2FA60246BCF764B59D91485268 /* SAVideoPlayer */;
+			targetProxy = D1599ECC7FAAD3E66E8BD3D6126701D1 /* PBXContainerItemProxy */;
+		};
+		BF5EDD6CC0A7C764A236687207FD72A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAEvents;
+			target = 2ED5F4BBC58B0069009FDC59008A4C8F /* SAEvents */;
+			targetProxy = 57553D494D0631C8039CE07C05A78340 /* PBXContainerItemProxy */;
+		};
+		C03CD1BDED59F22A5DA170EC0AC00C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAVideoPlayer;
+			target = 47082F2FA60246BCF764B59D91485268 /* SAVideoPlayer */;
+			targetProxy = 282E4EC2CF983DFC94FA644149DD850B /* PBXContainerItemProxy */;
+		};
+		C6D5A3A926A94A613861236AB9735DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SANetworking;
+			target = 7A98ED728B068985C30352E7F465C2BA /* SANetworking */;
+			targetProxy = D4F9ED7E22DA870CBED83FAB73E42FAF /* PBXContainerItemProxy */;
+		};
+		D1CA2B7CAD41435B70D018ECAD929A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SANetworking;
+			target = 7A98ED728B068985C30352E7F465C2BA /* SANetworking */;
+			targetProxy = AA477927A608A9FFA7BA4CE7C2EB45A7 /* PBXContainerItemProxy */;
+		};
+		F187F37F2D82737158F72F3788902FB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAEvents;
+			target = 2ED5F4BBC58B0069009FDC59008A4C8F /* SAEvents */;
+			targetProxy = F771A928408A791C405E2E1A96956A39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09FA6FAC8E7F17CC4984387D17FEFEB3 /* Debug */ = {
+		0607F3BD921BDCE015FD17A550990415 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6076E728476B01E565E227416D124F9 /* SAVideoPlayer.xcconfig */;
+			baseConfigurationReference = 61E935F870A3A69A47F979BA7F090168 /* SAModelSpace.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0859983D2CFA38813FC3E5F52A659B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E935F870A3A69A47F979BA7F090168 /* SAModelSpace.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAVideoPlayer/SAVideoPlayer-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -1259,9 +1412,72 @@
 			};
 			name = Debug;
 		};
-		0FD6D037C2AE1EA13D8ACACEE52CD079 /* Release */ = {
+		0C61A5C7653ACD55A4B24C7A98EF6860 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F66B8337BE09D4BDADF26A29BA8EB73 /* SAEvents.xcconfig */;
+			baseConfigurationReference = 95A6BE4C9EDB0A5DF9AE59ACC3BB9087 /* SAVASTParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAVASTParser/SAVASTParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0EF14029AA68628BF3919E41272B07AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C325F3EB1D75CA946C28FED299A79F /* Pods-SAAdLoader_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		13C7A7A0ABC0A609360182FCFCFE06D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F87017CE1D372F631BF6D99738B61601 /* SAUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAUtils/SAUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		52FF4AAB6FFFB88894C3C7A11BF57980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C9A2DEC7FCFA2E84D8764BBE58AA62 /* SAEvents.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1280,120 +1496,36 @@
 			};
 			name = Release;
 		};
-		144B935D93407515F0E251FF324C6FB8 /* Release */ = {
+		5C41C58F374647EB8D8B350CA7B94592 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33F024BF0D7C507488E3F763DD125B6D /* Pods-SAAdLoader_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		285E687AF698D930D77A88DA70835AF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A20FE7031EFA5D052EDC6C2FB6C92ED1 /* SAModelSpace.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		412D93647A8E98EA295D3AFB07C3FE7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21675AEFC65E71B8AFCDA61CB3066271 /* SAJsonParser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4ED8FD36E74C1ED9527B242D9AC2FA46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A20FE7031EFA5D052EDC6C2FB6C92ED1 /* SAModelSpace.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAModelSpace/SAModelSpace-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		51DB4648823342A190667140327EB48F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAAdLoader/SAAdLoader-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		5703D36495241890F717A7565251173E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 898C976F8F05219BEB027736659607DB /* SAUtils.xcconfig */;
+			baseConfigurationReference = F87017CE1D372F631BF6D99738B61601 /* SAUtils.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SAUtils/SAUtils-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6DC9913E74E68E2EB265F2424A113483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31F14D2557EACD1C71F5B60FA4CA207 /* SAVideoPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAVideoPlayer/SAVideoPlayer-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1444,36 +1576,15 @@
 			};
 			name = Release;
 		};
-		80468198A710B35C4C2CD71AE55A2B7E /* Debug */ = {
+		789EBAFBB8383B56573D4EB8E007BCB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21675AEFC65E71B8AFCDA61CB3066271 /* SAJsonParser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9E4899430BA90E73F788A146A8D366A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6076E728476B01E565E227416D124F9 /* SAVideoPlayer.xcconfig */;
+			baseConfigurationReference = 93DDCC7411CF1DF15D49C476FCB3812A /* SANetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAVideoPlayer/SAVideoPlayer-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/SANetworking/SANetworking-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1486,30 +1597,9 @@
 			};
 			name = Release;
 		};
-		A0E140E2A52314797616D49E539932E1 /* Debug */ = {
+		79CDC5B33EE10C7D6E87450A32A1FBCD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4F869DAA756BC7AFA4C3D2F1C4E639 /* SAVASTParser.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAVASTParser/SAVASTParser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		BE0B5C37FD33EC01B7269A459EAC110E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F66B8337BE09D4BDADF26A29BA8EB73 /* SAEvents.xcconfig */;
+			baseConfigurationReference = 84C9A2DEC7FCFA2E84D8764BBE58AA62 /* SAEvents.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1528,9 +1618,114 @@
 			};
 			name = Debug;
 		};
-		C38CEFC348ACD5E50F96D6FAE05D400B /* Release */ = {
+		7D262CFB8EE6FB0B562C7661088DEDEA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4F869DAA756BC7AFA4C3D2F1C4E639 /* SAVASTParser.xcconfig */;
+			baseConfigurationReference = A31F14D2557EACD1C71F5B60FA4CA207 /* SAVideoPlayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAVideoPlayer/SAVideoPlayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7DB337696CC891A6F7D8B7EF37EABBD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F024BF0D7C507488E3F763DD125B6D /* Pods-SAAdLoader_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		978BD17900132DAE29EA4D867990210C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059F43693962AEAF28EDABEEB1CA978D /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		99B4A9673D2B10DD0D3B6665418DC213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059F43693962AEAF28EDABEEB1CA978D /* SAJsonParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAJsonParser/SAJsonParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D4A87BE637C796B75A588EA8D684FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DDCC7411CF1DF15D49C476FCB3812A /* SANetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SANetworking/SANetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1E633D6F2FDF0146ADD3A6FD5D4340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95A6BE4C9EDB0A5DF9AE59ACC3BB9087 /* SAVASTParser.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1549,28 +1744,7 @@
 			};
 			name = Release;
 		};
-		C9985368356C9AAC6672B5A481371885 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 898C976F8F05219BEB027736659607DB /* SAUtils.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAUtils/SAUtils-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		EA5AD919207B41F8C54ACCF0BBBD03C0 /* Release */ = {
+		EE7719CD56A0DD53D731FBCD708B8B8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
 			buildSettings = {
@@ -1591,22 +1765,22 @@
 			};
 			name = Release;
 		};
-		ED0BBA07D9E175672C295CA6E1E4EBB6 /* Debug */ = {
+		FFCAB2B7D507528316B848EEAB4059FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64C325F3EB1D75CA946C28FED299A79F /* Pods-SAAdLoader_Example.debug.xcconfig */;
+			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAAdLoader/SAAdLoader-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -1615,11 +1789,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C1255039CEFCB01BD5BE464AE204ECC /* Build configuration list for PBXNativeTarget "Pods-SAAdLoader_Example" */ = {
+		014360CB1310CA937391FF501808FC9D /* Build configuration list for PBXNativeTarget "Pods-SAAdLoader_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED0BBA07D9E175672C295CA6E1E4EBB6 /* Debug */,
-				144B935D93407515F0E251FF324C6FB8 /* Release */,
+				0EF14029AA68628BF3919E41272B07AE /* Debug */,
+				7DB337696CC891A6F7D8B7EF37EABBD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1633,65 +1807,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		781410159040CB65271CAE8C917A5BA0 /* Build configuration list for PBXNativeTarget "SAEvents" */ = {
+		3A1E6EB0948014144612054053208C52 /* Build configuration list for PBXNativeTarget "SAUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE0B5C37FD33EC01B7269A459EAC110E /* Debug */,
-				0FD6D037C2AE1EA13D8ACACEE52CD079 /* Release */,
+				13C7A7A0ABC0A609360182FCFCFE06D2 /* Debug */,
+				5C41C58F374647EB8D8B350CA7B94592 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B3A9823B8675DF5538B7E6D219767FB /* Build configuration list for PBXNativeTarget "SAAdLoader" */ = {
+		4DE506C6F94A949C9D00B51CB04B9181 /* Build configuration list for PBXNativeTarget "SAEvents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				51DB4648823342A190667140327EB48F /* Debug */,
-				EA5AD919207B41F8C54ACCF0BBBD03C0 /* Release */,
+				79CDC5B33EE10C7D6E87450A32A1FBCD /* Debug */,
+				52FF4AAB6FFFB88894C3C7A11BF57980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C338774914585CE1C120CEDAE5B00CD1 /* Build configuration list for PBXNativeTarget "SAVideoPlayer" */ = {
+		5CEAB58061FEF3966DA6CF0C8FE84B85 /* Build configuration list for PBXNativeTarget "SAAdLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09FA6FAC8E7F17CC4984387D17FEFEB3 /* Debug */,
-				9E4899430BA90E73F788A146A8D366A1 /* Release */,
+				FFCAB2B7D507528316B848EEAB4059FD /* Debug */,
+				EE7719CD56A0DD53D731FBCD708B8B8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDDD0B7641B001B47AD3A2BC0E8740D1 /* Build configuration list for PBXNativeTarget "SAJsonParser" */ = {
+		83091B9A6F63760389C66999AF02AC19 /* Build configuration list for PBXNativeTarget "SAModelSpace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80468198A710B35C4C2CD71AE55A2B7E /* Debug */,
-				412D93647A8E98EA295D3AFB07C3FE7F /* Release */,
+				0859983D2CFA38813FC3E5F52A659B9A /* Debug */,
+				0607F3BD921BDCE015FD17A550990415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E85FD20D703C58DDA6C69D6A8B864739 /* Build configuration list for PBXNativeTarget "SAUtils" */ = {
+		87C6A087ADDE14B0EA0D89D79820FD44 /* Build configuration list for PBXNativeTarget "SAVideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9985368356C9AAC6672B5A481371885 /* Debug */,
-				5703D36495241890F717A7565251173E /* Release */,
+				7D262CFB8EE6FB0B562C7661088DEDEA /* Debug */,
+				6DC9913E74E68E2EB265F2424A113483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2647EDB6DB0A21BF3C39FAA5D9E54EA /* Build configuration list for PBXNativeTarget "SAVASTParser" */ = {
+		98BDBAE119A0D106E7696FBF08126AA5 /* Build configuration list for PBXNativeTarget "SAJsonParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0E140E2A52314797616D49E539932E1 /* Debug */,
-				C38CEFC348ACD5E50F96D6FAE05D400B /* Release */,
+				978BD17900132DAE29EA4D867990210C /* Debug */,
+				99B4A9673D2B10DD0D3B6665418DC213 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDF2F6DEA29A1D5BDF09B29A0B5E8A87 /* Build configuration list for PBXNativeTarget "SAModelSpace" */ = {
+		CF6332FCC24653E8146E2BF0D8DE70CB /* Build configuration list for PBXNativeTarget "SANetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				285E687AF698D930D77A88DA70835AF6 /* Debug */,
-				4ED8FD36E74C1ED9527B242D9AC2FA46 /* Release */,
+				D4A87BE637C796B75A588EA8D684FCBC /* Debug */,
+				789EBAFBB8383B56573D4EB8E007BCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED163308B7791263FBB7559772F71B80 /* Build configuration list for PBXNativeTarget "SAVASTParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C61A5C7653ACD55A4B24C7A98EF6860 /* Debug */,
+				E1E633D6F2FDF0146ADD3A6FD5D4340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
