@@ -28,6 +28,11 @@
     SALoader *loader = [[SALoader alloc] init];
     loader.delegate = self;
     [loader loadAdForPlacementId:113];
+    
+    [[SALoaderSession getInstance] setBaseUrl:@"https://ads.superawesome.tv/v2"];
+    [[SALoaderSession getInstance] setTest:true];
+    
+    [loader loadAdForPlacementId:28000];
 }
 
 - (void)didReceiveMemoryWarning
