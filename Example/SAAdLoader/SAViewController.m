@@ -8,7 +8,7 @@
 
 #import "SAViewController.h"
 #import "SALoader.h"
-#import "SALoaderSession.h"
+#import "SASession.h"
 #import "SAAd.h"
 
 @interface SAViewController () <SALoaderProtocol>
@@ -22,15 +22,15 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [[SALoaderSession getInstance] setBaseUrl:@"https://ads.staging.superawesome.tv/v2"];
-    [[SALoaderSession getInstance] setTest:false];
+    [[SASession getInstance] setConfigurationStaging];
+    [[SASession getInstance] setTest:false];
     
     SALoader *loader = [[SALoader alloc] init];
     loader.delegate = self;
     [loader loadAdForPlacementId:113];
     
-    [[SALoaderSession getInstance] setBaseUrl:@"https://ads.superawesome.tv/v2"];
-    [[SALoaderSession getInstance] setTest:true];
+    [[SASession getInstance] setConfigurationProduction];
+    [[SASession getInstance] setTest:true];
     
     [loader loadAdForPlacementId:28000];
 }
