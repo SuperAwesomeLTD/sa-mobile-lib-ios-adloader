@@ -1,8 +1,8 @@
 PODS:
-  - SAAdLoader (0.4.3):
+  - SAAdLoader (0.4.4):
     - SAModelSpace (= 0.1.4)
     - SANetworking (= 0.1.2)
-    - SASession (= 0.1.0)
+    - SASession (= 0.1.1)
     - SAUtils (= 1.2.7)
     - SAVASTParser (= 1.4.8)
   - SAEvents (1.2.6):
@@ -16,7 +16,7 @@ PODS:
   - SAModelSpace (0.1.4):
     - SAJsonParser (= 1.2.3)
   - SANetworking (0.1.2)
-  - SASession (0.1.0)
+  - SASession (0.1.1)
   - SAUtils (1.2.7)
   - SAVASTParser (1.4.8):
     - SAEvents (= 1.2.6)
@@ -34,12 +34,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: 526640cb4247463dfb189a0158b6ff6871246b2e
+  SAAdLoader: 2d04ac02e18e30a0322423c5de92863a8d5bba9f
   SAEvents: 1404f6c4ad494ae195b9e1fe97f54b7725d7ac9e
   SAJsonParser: c0a5ace5d143bc50d5318a4981ebaf79858e4af8
   SAModelSpace: 5429c16f8a111b6f1b67f39697961695524fa59e
   SANetworking: 2e3d79a641857bab4e44d316a42b4725c3573e50
-  SASession: 2c48d16bf07e9092276fc410957b0e55934863f3
+  SASession: 7c7e24e593bf8d3a2ecac2fdecae1369ee8b6aac
   SAUtils: e14d697d73f244cccc509bdd6a72bf2ae5fc6492
   SAVASTParser: 5a64375302a8b22d8dc3cd189f15c032a0786dd8
   SAVideoPlayer: 8170dd123632bade010d9ae930d84ce4753f3d13
