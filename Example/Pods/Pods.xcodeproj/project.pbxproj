@@ -10,25 +10,26 @@
 		02FCAE7B26E3BE35013A2013A744B7BD /* SAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EA7BA331D2912421D5076249B07605 /* SAUtils.m */; };
 		03D2728A06D10CE1FFF6E0A6CA63AF0D /* NSDictionary+SafeHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D19C4F7A60F53969063DE03A1B85D /* NSDictionary+SafeHandling.m */; };
 		0573D04F963992E49C314302F2006456 /* NSArray+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = D49A17EA651CD61687D96CABA0E378A1 /* NSArray+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07FE6DA407B35B3AB16D5C0A2579ABEF /* SAHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4BCAD09EE40DA9370F2F4BAAD6DDA8 /* SAHTMLParser.m */; };
 		14BE6DF97740AE653C706C8A4F765476 /* SAJsonParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03958D7021A8C84050E71ECCC97D3751 /* SAJsonParser-dummy.m */; };
 		190D314C3A49A9C3BB256AC1A68BCF4A /* SAJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BABB4E927C692BB8B5FE0C3A7B0E241 /* SAJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26EE0938F1E440D9BC8D26168AC26079 /* SAVASTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 862D95F2F125FABB78C402DF020E0D3B /* SAVASTParser.m */; };
+		2339434E8FAF9844FF3B4CF0FFD164F7 /* SAHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CF4B45298231CA742EA9C8D2707806 /* SAHTMLParser.m */; };
 		285F9C6191377E6C7ABF188291D829FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7219921F39E1CD4FF9E45687961DA8 /* SystemConfiguration.framework */; };
 		2A8C00C63C2B5FBD9DB866DB450DFD82 /* SAFileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BD31AC7C983C13AB819849D5DB8251 /* SAFileDownloader.m */; };
 		2EAD8DEB06D839F4024CCF62332663EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
+		310E61CDB682259E97573477A5473277 /* SAVASTParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0271F366FC15C0CFF4D86AE8C38B51 /* SAVASTParser.m */; };
 		31F3A559ADDA0D2C0A3D6A9E1F54329B /* SALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA65D230DE1DC7A3697B11F341A6F9 /* SALogger.m */; };
 		35F7402D7BAB85F7CE8FF0700595C607 /* SATracking.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB143BCCDE839BDC96EA9439B785A8E /* SATracking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36044529FE41019679BF13C09F7C2504 /* SAXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A62B965728448CCF1558078F11BD9399 /* SAXMLParser.m */; };
 		38A5D99AAE29635337938BD42B563C82 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F68217CCFAB6AC8116E22CB7CAF644 /* NSString+HTML.m */; };
 		3DC7626F7F83145B25E163A3801B5CB2 /* NSDictionary+SafeHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 593092F72B3323441085FB5B2861AB37 /* NSDictionary+SafeHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E6E5DDFA7894EC4DC85C4F4861DF952 /* SAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 785E16A67CEF746289AA678FBA977DD7 /* SAUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EDE2039A1FD46E0C924AC4AFFFC82FB /* SAPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB465D57CEF1A8BD45BB43376EC81AE /* SAPopup.m */; };
-		41AAD83057AC40DDA28032B66A24A42E /* SAAdParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B58ADF3950C35DAACC5092D852F51A /* SAAdParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		555F151FCE4C3AD79292A8A67087F733 /* SAPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = AC51D5869F931DBD684D5DC46A1F0050 /* SAPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		582DEB85902FB48508D24FBB9E090227 /* NSDictionary+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5D13878BA6D70E7EDD2A8F834B8F99 /* NSDictionary+SAJson.m */; };
 		5D650635CD3659583D522068AF83F882 /* SAExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B9006FC12F0507A2A38CFAE8E3CE51 /* SAExtensions.m */; };
 		620609F728CF5F9F3D9303A4BAF9E69B /* SASession-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4023607604D3D7F61953BDBC9D8DFAF0 /* SASession-dummy.m */; };
-		6FE99D32A98D570E8E0142AAAD602E07 /* SAHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D702C4CAC3F62FDC3F9938795CAC07A /* SAHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625E8BC2A21E3ABDD8585F7E277FE13F /* SAHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9554BDF46928FA7AEC6D2AAEEA3D6FF8 /* SAHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6459BD9B18B78D2FDB2D51AE4E7A95F6 /* SAVASTParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6BA7EEC5C4717E4C63A44D04DC6EA2 /* SAVASTParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72420BFF39799CF0D11810076DFEC7D2 /* SANetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CABDBF714B531570BBA82EBFD165B /* SANetwork.m */; };
 		74B4250CC3B5F2F07DA3563170E2CE8D /* SACreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 89088188F1B4F68D7F5891C4BD65F7BE /* SACreative.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76CD078931F5ED7234274F32A20783E5 /* SASystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C385258836A42DF4E8E8E199E0479BC6 /* SASystemVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,28 +37,25 @@
 		7AE587D098D810D678BF18B2D6124B93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
 		7CBDC017448D555A8993E62EB981E46F /* NSDictionary+SAJson.h in Headers */ = {isa = PBXBuildFile; fileRef = F41D13914BA47D74410296B94ADD5049 /* NSDictionary+SAJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CEE2C38FB82A69EF714B9E8591A5802 /* SANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B622F97052B162EF06C9BD862AE617F /* SANetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FF605949EED4A9A7DFDB883B6E86EB6 /* SAAdLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443F074D82E9C2EDBC8643137382A3E /* SAAdLoader-dummy.m */; };
 		8B99E1D6119C4F816721BD2323AE030A /* Pods-SAAdLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25E286BE7A2EB8E62C5007561857B8B /* Pods-SAAdLoader_Example-dummy.m */; };
 		8DB3D4B8F4B00ADAD60CEA41220FD79B /* SATracking.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7D3E5944E8F6331376EBC40C3AB5EA /* SATracking.m */; };
 		902E71F31C15A8722C266CF0B2C39A9B /* SAActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6A523601FEF95D31214193600ED6B7 /* SAActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		903F8ECBC8DA789836AC6F5E2463D28D /* SAModelSpace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186834492E2C5E93CD844C3FD9470909 /* SAModelSpace-dummy.m */; };
 		90A232F117B5F01BF53D6488C8DC3CBA /* SADeserializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F107AC76F89EFB098EEA208D6212CC69 /* SADeserializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9138133E92D14DCB0FACADE45C8299FB /* SAVASTParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 58621CE69B0273B42D6BF11299C67840 /* SAVASTParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B5C2976A9AE736BECCD16AA0AC8A536 /* SAActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4274A7A77019999295EA6BC52C557C82 /* SAActivityView.m */; };
+		A2F9C665FD83D75AB90974922C334959 /* SALoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84118DD413265DE75BBCD04FA07CC28E /* SALoader.m */; };
 		A4D3562004AC1BD021990D799044BFAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
 		A85F4B03AD6B23F62DB83031BF6116CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		AAAF9B7DD0C75310820389B305B80D31 /* SALoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 56599BD7CA7109C703DB8090D6C73909 /* SALoader.m */; };
 		ABB1A40AEA9B6333414EE7DD1C869F6A /* SASession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B15D904AB2F494164CEF2E2C4E99E31 /* SASession.m */; };
 		AF48969E1EF345D42EC0CD45EAA82F3C /* SAUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C38822BF0647AAAD30F99CC2D9DD6665 /* SAUtils-dummy.m */; };
 		AFF4C82EF10DF553B36CBDC803280337 /* SADetails.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C20EB46819C015BA4E432E57D8724 /* SADetails.m */; };
-		B285682B1910A5377005AABB13977C02 /* SAXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AEAC0E45E4BDDFAD993B1846E0B682 /* SAXMLParser.m */; };
+		B6EFCB54A20DDD42F8213CB317AD24A0 /* SAAdParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 416C61C8D6EB356DFEE171D3F462C5DD /* SAAdParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B77B47F2B1430EF95C1D87844EB1A369 /* SAExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A40C4BC6CB2BBFE514B33EA10BA582EE /* SAExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D8010F1490D18FFC7B481B7A4071B0 /* SAMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3062DED70D461A1A49606DEE8CC45 /* SAMedia.m */; };
 		B890AB7C49B1917DA1DA1F8192195931 /* SASerializationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B388B72234E743F1B639784371B809D /* SASerializationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC2CFC17361B8FB3F8196CADA7C38D11 /* SAAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 602CD4FDD77D1A8BB56DE5EF56E91ABC /* SAAd.m */; };
 		BC823417578EA85C0D1D487470985227 /* SADetails.h in Headers */ = {isa = PBXBuildFile; fileRef = 46952BB5D1809A6202CE050F067813A0 /* SADetails.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEE3FCE6263893C8BFFCA347B2709DF3 /* SACreative.m in Sources */ = {isa = PBXBuildFile; fileRef = C22459BBEC131765000909DE2B725E88 /* SACreative.m */; };
-		C53DFE328121943FCBE9F595F44DB115 /* SAXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 225E13578783E99206BA7E93DAFC9317 /* SAXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6F367193C9F8F3B7EA0229BC3DAAF4F /* SABaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF52E0BD5D1FD71BC43CD3A5418F0474 /* SABaseObject.m */; };
 		C9D3CABB22AD728345046E8D678FAE52 /* SALogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F92B70E9EE5A9DD5362B3C2572A7DA /* SALogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA41E054C9B0164B7EA6DDD4AC73587C /* SAAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E49105D6BC32DBE09B724CE7B0E4CE /* SAAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,10 +63,12 @@
 		D12B3A9BC616B371DFB4AC09CEF1606B /* NSArray+SAJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 10535F8A39D8A38A4EAFC785F55BB038 /* NSArray+SAJson.m */; };
 		D6D647505EB892A43E248C9DC3138F9C /* SAFileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C185848A307C187B04C1E06E6FE1A206 /* SAFileDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA331F38CED735015BF4B0E454E9007D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */; };
-		EC50C0D079B0F5E4E59FDD7A2E547A11 /* SALoader.h in Headers */ = {isa = PBXBuildFile; fileRef = AABB08B48217BBF514610784F39CC169 /* SALoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4724D6C88A204A394983F6323E9DC72 /* SAAdParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE273C9FC234479BFAEE9C615BF88BE /* SAAdParser.m */; };
+		EC21194BB0AE90AD0F15BBB4ADC95A5E /* SAAdParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6BF2C8DA9942CA7BEF687A8157E7D7 /* SAAdParser.m */; };
+		F2ADCE79C7340E7E7494B664E7286465 /* SALoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D7577532DC247C86720D549CDFC08E /* SALoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F518FE1465B8C8DCD15D8CD45766F50D /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A0E761820E163529E16CAB36517AE7 /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F57766EE4568700F3E3717E91A5577AB /* SAAdLoader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443F074D82E9C2EDBC8643137382A3E /* SAAdLoader-dummy.m */; };
 		F5E26790D1ECA0F37ADCA0A2E06242AA /* SASession.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9EE2C786951F714C1C3A94E936276F /* SASession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F771ADC614C677DDD4914EFA41D4B58E /* SAXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6CFE9B5977BFB89D0ACA358F4827E4 /* SAXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8A32AC2AF9D996A7E0140A833F015D9 /* SANetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6F41C11F54D11D435B760550AD88ED /* SANetworking-dummy.m */; };
 		FB3839CAE2FDA3C3592DD37E6C0A6189 /* SAMedia.h in Headers */ = {isa = PBXBuildFile; fileRef = 3414AC05BBFF5839571830CF55AFB2BD /* SAMedia.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE9EA811BEF6E9491B517934E75CEB26 /* SABaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F50FA1DA3224DEA54AA0A377CFF4DD /* SABaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -171,25 +171,22 @@
 		186834492E2C5E93CD844C3FD9470909 /* SAModelSpace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAModelSpace-dummy.m"; sourceTree = "<group>"; };
 		19BD31AC7C983C13AB819849D5DB8251 /* SAFileDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAFileDownloader.m; path = Pod/Classes/SAFileDownloader.m; sourceTree = "<group>"; };
 		1BDD713E1A34F2041CE5FEE85376C65F /* libSAUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21B58ADF3950C35DAACC5092D852F51A /* SAAdParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAdParser.h; sourceTree = "<group>"; };
-		225E13578783E99206BA7E93DAFC9317 /* SAXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAXMLParser.h; sourceTree = "<group>"; };
 		279CABDBF714B531570BBA82EBFD165B /* SANetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SANetwork.m; path = Pod/Classes/SANetwork.m; sourceTree = "<group>"; };
 		2DD6D9677BE2781233E8608A753E193D /* Pods-SAAdLoader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAdLoader_Example-resources.sh"; sourceTree = "<group>"; };
 		2FC91632DD673DE6F2D84C3835F6B387 /* SAModelSpace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAModelSpace-prefix.pch"; sourceTree = "<group>"; };
 		33F024BF0D7C507488E3F763DD125B6D /* Pods-SAAdLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAdLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3414AC05BBFF5839571830CF55AFB2BD /* SAMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMedia.h; path = Pod/Classes/SAMedia.h; sourceTree = "<group>"; };
-		35AEAC0E45E4BDDFAD993B1846E0B682 /* SAXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAXMLParser.m; sourceTree = "<group>"; };
 		3B622F97052B162EF06C9BD862AE617F /* SANetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SANetwork.h; path = Pod/Classes/SANetwork.h; sourceTree = "<group>"; };
 		3B6F41C11F54D11D435B760550AD88ED /* SANetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SANetworking-dummy.m"; sourceTree = "<group>"; };
 		4023607604D3D7F61953BDBC9D8DFAF0 /* SASession-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SASession-dummy.m"; sourceTree = "<group>"; };
 		402EECB35ADF0CBD324E745EB7E4D630 /* SASession.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SASession.xcconfig; sourceTree = "<group>"; };
+		416C61C8D6EB356DFEE171D3F462C5DD /* SAAdParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAdParser.h; sourceTree = "<group>"; };
 		4274A7A77019999295EA6BC52C557C82 /* SAActivityView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAActivityView.m; path = Pod/Classes/SAActivityView.m; sourceTree = "<group>"; };
 		46952BB5D1809A6202CE050F067813A0 /* SADetails.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SADetails.h; path = Pod/Classes/SADetails.h; sourceTree = "<group>"; };
 		47F68217CCFAB6AC8116E22CB7CAF644 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Pod/Classes/NSString+HTML.m"; sourceTree = "<group>"; };
 		4DFA65D230DE1DC7A3697B11F341A6F9 /* SALogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SALogger.m; path = Pod/Classes/SALogger.m; sourceTree = "<group>"; };
+		4F6CFE9B5977BFB89D0ACA358F4827E4 /* SAXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAXMLParser.h; sourceTree = "<group>"; };
 		5443F074D82E9C2EDBC8643137382A3E /* SAAdLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAAdLoader-dummy.m"; sourceTree = "<group>"; };
-		56599BD7CA7109C703DB8090D6C73909 /* SALoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SALoader.m; sourceTree = "<group>"; };
-		58621CE69B0273B42D6BF11299C67840 /* SAVASTParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTParser.h; sourceTree = "<group>"; };
 		58C3062DED70D461A1A49606DEE8CC45 /* SAMedia.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMedia.m; path = Pod/Classes/SAMedia.m; sourceTree = "<group>"; };
 		593092F72B3323441085FB5B2861AB37 /* NSDictionary+SafeHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SafeHandling.h"; path = "Pod/Classes/NSDictionary+SafeHandling.h"; sourceTree = "<group>"; };
 		597EFD98176F10B6F3BC9BEDE8042DC4 /* SAAdLoader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAdLoader-prefix.pch"; sourceTree = "<group>"; };
@@ -197,25 +194,27 @@
 		602CD4FDD77D1A8BB56DE5EF56E91ABC /* SAAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAAd.m; path = Pod/Classes/SAAd.m; sourceTree = "<group>"; };
 		64C325F3EB1D75CA946C28FED299A79F /* Pods-SAAdLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAdLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71E49105D6BC32DBE09B724CE7B0E4CE /* SAAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAAd.h; path = Pod/Classes/SAAd.h; sourceTree = "<group>"; };
+		74CF4B45298231CA742EA9C8D2707806 /* SAHTMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAHTMLParser.m; sourceTree = "<group>"; };
 		785E16A67CEF746289AA678FBA977DD7 /* SAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAUtils.h; path = Pod/Classes/SAUtils.h; sourceTree = "<group>"; };
 		7B15D904AB2F494164CEF2E2C4E99E31 /* SASession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SASession.m; path = Pod/Classes/SASession.m; sourceTree = "<group>"; };
 		7BABB4E927C692BB8B5FE0C3A7B0E241 /* SAJsonParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAJsonParser.h; path = Pod/Classes/SAJsonParser.h; sourceTree = "<group>"; };
 		8300F47EEB39E49255907D5DFC5B2A48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		862D95F2F125FABB78C402DF020E0D3B /* SAVASTParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTParser.m; sourceTree = "<group>"; };
+		84118DD413265DE75BBCD04FA07CC28E /* SALoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SALoader.m; sourceTree = "<group>"; };
 		89088188F1B4F68D7F5891C4BD65F7BE /* SACreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SACreative.h; path = Pod/Classes/SACreative.h; sourceTree = "<group>"; };
 		8991770CE6740DE20AA261B6D20ACBF9 /* SAJsonParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAJsonParser-prefix.pch"; sourceTree = "<group>"; };
 		8B388B72234E743F1B639784371B809D /* SASerializationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASerializationProtocol.h; path = Pod/Classes/SASerializationProtocol.h; sourceTree = "<group>"; };
+		8E6BA7EEC5C4717E4C63A44D04DC6EA2 /* SAVASTParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVASTParser.h; sourceTree = "<group>"; };
+		8F6BF2C8DA9942CA7BEF687A8157E7D7 /* SAAdParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAdParser.m; sourceTree = "<group>"; };
 		92F92B70E9EE5A9DD5362B3C2572A7DA /* SALogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SALogger.h; path = Pod/Classes/SALogger.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B9006FC12F0507A2A38CFAE8E3CE51 /* SAExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAExtensions.m; path = Pod/Classes/SAExtensions.m; sourceTree = "<group>"; };
 		93F88A7E658B94842CEFC3F1800D581D /* Pods-SAAdLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAAdLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9554BDF46928FA7AEC6D2AAEEA3D6FF8 /* SAHTMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAHTMLParser.h; sourceTree = "<group>"; };
 		99A0E761820E163529E16CAB36517AE7 /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Pod/Classes/NSString+HTML.h"; sourceTree = "<group>"; };
-		9D702C4CAC3F62FDC3F9938795CAC07A /* SAHTMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAHTMLParser.h; sourceTree = "<group>"; };
-		9FE273C9FC234479BFAEE9C615BF88BE /* SAAdParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAdParser.m; sourceTree = "<group>"; };
 		A40C4BC6CB2BBFE514B33EA10BA582EE /* SAExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAExtensions.h; path = Pod/Classes/SAExtensions.h; sourceTree = "<group>"; };
 		A57C20EB46819C015BA4E432E57D8724 /* SADetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SADetails.m; path = Pod/Classes/SADetails.m; sourceTree = "<group>"; };
+		A62B965728448CCF1558078F11BD9399 /* SAXMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAXMLParser.m; sourceTree = "<group>"; };
 		A7550CCAC70C58DEA7EF57B3D1E57D2A /* libSAModelSpace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAModelSpace.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABB08B48217BBF514610784F39CC169 /* SALoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SALoader.h; sourceTree = "<group>"; };
 		AC51D5869F931DBD684D5DC46A1F0050 /* SAPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAPopup.h; path = Pod/Classes/SAPopup.h; sourceTree = "<group>"; };
 		B25E286BE7A2EB8E62C5007561857B8B /* Pods-SAAdLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAAdLoader_Example-dummy.m"; sourceTree = "<group>"; };
 		B3507D58AC2EA43C540474B6DA9451D8 /* Pods-SAAdLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAdLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -231,12 +230,13 @@
 		C3F50FA1DA3224DEA54AA0A377CFF4DD /* SABaseObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SABaseObject.h; path = Pod/Classes/SABaseObject.h; sourceTree = "<group>"; };
 		C7E9F9D6F57E98D07FD4A83E228990AF /* SASession-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SASession-prefix.pch"; sourceTree = "<group>"; };
 		C7F6C00E3AB1FEAC5282D56945F313F8 /* SANetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SANetworking.xcconfig; sourceTree = "<group>"; };
+		CB0271F366FC15C0CFF4D86AE8C38B51 /* SAVASTParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVASTParser.m; sourceTree = "<group>"; };
 		CB6A523601FEF95D31214193600ED6B7 /* SAActivityView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAActivityView.h; path = Pod/Classes/SAActivityView.h; sourceTree = "<group>"; };
 		CB9EE2C786951F714C1C3A94E936276F /* SASession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SASession.h; path = Pod/Classes/SASession.h; sourceTree = "<group>"; };
 		CDCF732422E2FA2C8925578929FDE9E0 /* libPods-SAAdLoader_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SAAdLoader_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4ECA2275D518A565AF7D8AA356218 /* Pods-SAAdLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAAdLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2D7577532DC247C86720D549CDFC08E /* SALoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SALoader.h; sourceTree = "<group>"; };
 		D49A17EA651CD61687D96CABA0E378A1 /* NSArray+SAJson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SAJson.h"; path = "Pod/Classes/NSArray+SAJson.h"; sourceTree = "<group>"; };
-		DD4BCAD09EE40DA9370F2F4BAAD6DDA8 /* SAHTMLParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAHTMLParser.m; sourceTree = "<group>"; };
 		DF52E0BD5D1FD71BC43CD3A5418F0474 /* SABaseObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SABaseObject.m; path = Pod/Classes/SABaseObject.m; sourceTree = "<group>"; };
 		E840B265EB7A6B81C51D7F4B5976CE59 /* libSANetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSANetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0471DAB0058571993FBF3B924B1DD2D /* libSAAdLoader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSAAdLoader.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,23 +347,6 @@
 				E975704C917B8476CE028669FCE63353 /* Support Files */,
 			);
 			path = SAModelSpace;
-			sourceTree = "<group>";
-		};
-		0A5F8E0BDBCFBC95F9787DDAA4324337 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9D702C4CAC3F62FDC3F9938795CAC07A /* SAHTMLParser.h */,
-				DD4BCAD09EE40DA9370F2F4BAAD6DDA8 /* SAHTMLParser.m */,
-				AABB08B48217BBF514610784F39CC169 /* SALoader.h */,
-				56599BD7CA7109C703DB8090D6C73909 /* SALoader.m */,
-				21B58ADF3950C35DAACC5092D852F51A /* SAAdParser.h */,
-				9FE273C9FC234479BFAEE9C615BF88BE /* SAAdParser.m */,
-				58621CE69B0273B42D6BF11299C67840 /* SAVASTParser.h */,
-				862D95F2F125FABB78C402DF020E0D3B /* SAVASTParser.m */,
-				225E13578783E99206BA7E93DAFC9317 /* SAXMLParser.h */,
-				35AEAC0E45E4BDDFAD993B1846E0B682 /* SAXMLParser.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		102C1CF4EF3FEE94F1A4A24CFDCB3FDD /* SANetworking */ = {
@@ -480,7 +463,7 @@
 		7B9DA9CD7A5AA738EFB3B018436F063F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0A5F8E0BDBCFBC95F9787DDAA4324337 /* Classes */,
+				7DCB62085A4975F4209FF608A4B2074F /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -495,6 +478,23 @@
 				685A1736F44175D72D72B776C5057D64 /* Products */,
 				653C954DBC89F666DA497C350A124606 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7DCB62085A4975F4209FF608A4B2074F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				416C61C8D6EB356DFEE171D3F462C5DD /* SAAdParser.h */,
+				8F6BF2C8DA9942CA7BEF687A8157E7D7 /* SAAdParser.m */,
+				9554BDF46928FA7AEC6D2AAEEA3D6FF8 /* SAHTMLParser.h */,
+				74CF4B45298231CA742EA9C8D2707806 /* SAHTMLParser.m */,
+				D2D7577532DC247C86720D549CDFC08E /* SALoader.h */,
+				84118DD413265DE75BBCD04FA07CC28E /* SALoader.m */,
+				8E6BA7EEC5C4717E4C63A44D04DC6EA2 /* SAVASTParser.h */,
+				CB0271F366FC15C0CFF4D86AE8C38B51 /* SAVASTParser.m */,
+				4F6CFE9B5977BFB89D0ACA358F4827E4 /* SAXMLParser.h */,
+				A62B965728448CCF1558078F11BD9399 /* SAXMLParser.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		94862C3359F76800D2AF20A593F7C75B /* Support Files */ = {
@@ -592,6 +592,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57CD5438867CE40037F593D979D9FC03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EFCB54A20DDD42F8213CB317AD24A0 /* SAAdParser.h in Headers */,
+				625E8BC2A21E3ABDD8585F7E277FE13F /* SAHTMLParser.h in Headers */,
+				F2ADCE79C7340E7E7494B664E7286465 /* SALoader.h in Headers */,
+				6459BD9B18B78D2FDB2D51AE4E7A95F6 /* SAVASTParser.h in Headers */,
+				F771ADC614C677DDD4914EFA41D4B58E /* SAXMLParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		591F100A69440FE73E52DBC0E87BA4E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,18 +615,6 @@
 				90A232F117B5F01BF53D6488C8DC3CBA /* SADeserializationProtocol.h in Headers */,
 				190D314C3A49A9C3BB256AC1A68BCF4A /* SAJsonParser.h in Headers */,
 				B890AB7C49B1917DA1DA1F8192195931 /* SASerializationProtocol.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A553A7FEFA4EF4400C887247BA410A5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FE99D32A98D570E8E0142AAAD602E07 /* SAHTMLParser.h in Headers */,
-				EC50C0D079B0F5E4E59FDD7A2E547A11 /* SALoader.h in Headers */,
-				41AAD83057AC40DDA28032B66A24A42E /* SAAdParser.h in Headers */,
-				9138133E92D14DCB0FACADE45C8299FB /* SAVASTParser.h in Headers */,
-				C53DFE328121943FCBE9F595F44DB115 /* SAXMLParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,9 +742,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E054D28378173E37F65BCD9197A5D3C /* Build configuration list for PBXNativeTarget "SAAdLoader" */;
 			buildPhases = (
-				A79BB08163A4AA9F28DA2D100E870C55 /* Sources */,
+				9E19AA3B08DAE3C9045871046A3C61BD /* Sources */,
 				161A81792DE6BCBC7370689D296CB461 /* Frameworks */,
-				6A553A7FEFA4EF4400C887247BA410A5 /* Headers */,
+				57CD5438867CE40037F593D979D9FC03 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -868,16 +868,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A79BB08163A4AA9F28DA2D100E870C55 /* Sources */ = {
+		9E19AA3B08DAE3C9045871046A3C61BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF605949EED4A9A7DFDB883B6E86EB6 /* SAAdLoader-dummy.m in Sources */,
-				07FE6DA407B35B3AB16D5C0A2579ABEF /* SAHTMLParser.m in Sources */,
-				AAAF9B7DD0C75310820389B305B80D31 /* SALoader.m in Sources */,
-				F4724D6C88A204A394983F6323E9DC72 /* SAAdParser.m in Sources */,
-				26EE0938F1E440D9BC8D26168AC26079 /* SAVASTParser.m in Sources */,
-				B285682B1910A5377005AABB13977C02 /* SAXMLParser.m in Sources */,
+				F57766EE4568700F3E3717E91A5577AB /* SAAdLoader-dummy.m in Sources */,
+				EC21194BB0AE90AD0F15BBB4ADC95A5E /* SAAdParser.m in Sources */,
+				2339434E8FAF9844FF3B4CF0FFD164F7 /* SAHTMLParser.m in Sources */,
+				A2F9C665FD83D75AB90974922C334959 /* SALoader.m in Sources */,
+				310E61CDB682259E97573477A5473277 /* SAVASTParser.m in Sources */,
+				36044529FE41019679BF13C09F7C2504 /* SAXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
