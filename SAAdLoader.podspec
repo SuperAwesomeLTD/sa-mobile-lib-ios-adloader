@@ -14,9 +14,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
-  s.dependency 'SAModelSpace', '0.1.6'
+  s.dependency 'SAModelSpace', '0.1.9'
   s.dependency 'SAUtils', '1.3.4'
-  s.dependency 'SAVASTParser', '1.5.4'
   s.dependency 'SANetworking', '0.1.4'
   s.dependency 'SASession', '0.1.2'
 end

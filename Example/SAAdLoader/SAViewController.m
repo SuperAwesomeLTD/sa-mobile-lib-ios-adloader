@@ -27,12 +27,7 @@
     
     SALoader *loader = [[SALoader alloc] init];
     loader.delegate = self;
-    [loader loadAdForPlacementId:113];
-    
-    [[SASession getInstance] setConfigurationProduction];
-    [[SASession getInstance] setTest:true];
-    
-    [loader loadAdForPlacementId:28000];
+    [loader loadAdForPlacementId:250];
 }
 
 - (void)didReceiveMemoryWarning

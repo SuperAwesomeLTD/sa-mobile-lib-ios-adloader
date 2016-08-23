@@ -1,20 +1,15 @@
 PODS:
   - SAAdLoader (0.4.7):
-    - SAModelSpace (= 0.1.6)
+    - SAModelSpace (= 0.1.9)
     - SANetworking (= 0.1.4)
     - SASession (= 0.1.2)
     - SAUtils (= 1.3.4)
-    - SAVASTParser (= 1.5.4)
   - SAJsonParser (1.2.5)
-  - SAModelSpace (0.1.6):
+  - SAModelSpace (0.1.9):
     - SAJsonParser (= 1.2.5)
   - SANetworking (0.1.4)
   - SASession (0.1.2)
   - SAUtils (1.3.4)
-  - SAVASTParser (1.5.4):
-    - SAModelSpace (= 0.1.6)
-    - SANetworking (= 0.1.4)
-    - SAUtils (= 1.3.4)
 
 DEPENDENCIES:
   - SAAdLoader (from `../`)
@@ -24,13 +19,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: 066b25324446835f3c2e4b7c089b2b7098ebbad7
+  SAAdLoader: 5a12882a4bb9e116687ed420015fc10cddbccff9
   SAJsonParser: c933541162c2977992bdf866cfc66c14375645c0
-  SAModelSpace: 7b91f5d2794d8c5cd48c9acd41bebba1708ec68c
+  SAModelSpace: fcdf8bdfd4b83b28df6dea578e19f12ea5b2a406
   SANetworking: 73b0ce5eb53d846c9faae6662073efad6910b4e8
   SASession: c2068bfeb49b1518a319662841307331ffda09f6
   SAUtils: 0e47a80b2abca59f764aa95f06a6a0872462483e
-  SAVASTParser: e62b7656c352e21e5f6c98bcf5e197cb0b1696e3
 
 PODFILE CHECKSUM: 18731eb075fb95de9b337243b7cb6bae88338429
 
