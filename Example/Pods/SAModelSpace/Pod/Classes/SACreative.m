@@ -34,6 +34,7 @@
         _live = [[jsonDictionary safeObjectForKey:@"live"] boolValue];
         _approved = [[jsonDictionary safeObjectForKey:@"approved"] boolValue];
         _clickUrl = [jsonDictionary safeObjectForKey:@"click_url"];
+        _impressionUrl = [jsonDictionary objectForKey:@"impression_url"];
         _events = [[[NSArray alloc] initWithJsonArray:[jsonDictionary safeObjectForKey:@"events"] andIterator:^id(id item) {
             return [[SATracking alloc] initWithJsonDictionary:(NSDictionary*)item];
         }] mutableCopy];
@@ -54,6 +55,7 @@
              @"live": @(_live),
              @"approved": @(_approved),
              @"click_url": nullSafe(_clickUrl),
+             @"impression_url": nullSafe(_impressionUrl),
              @"events": nullSafe([_events dictionaryRepresentation]),
              @"details": nullSafe([_details dictionaryRepresentation])
              };

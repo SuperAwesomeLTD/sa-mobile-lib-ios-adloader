@@ -38,6 +38,7 @@ typedef NS_ENUM(NSInteger, SACreativeFormat) {
 @property (nonatomic, assign) BOOL approved;
 @property (nonatomic, strong) NSString *customPayload;
 @property (nonatomic, strong) NSString *clickUrl;
+@property (nonatomic, strong) NSString *impressionUrl;
 @property (nonatomic, strong) NSMutableArray<SATracking*> *events;
 
 @property (nonatomic, strong) SADetails *details;
