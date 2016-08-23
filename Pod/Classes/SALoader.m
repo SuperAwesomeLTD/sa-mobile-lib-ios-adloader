@@ -46,8 +46,6 @@
         lang = [[languages firstObject] stringByReplacingOccurrencesOfString:@"-" withString:@"_"];;
     }
     
-    NSString *userAgent = [[[UIWebView alloc] initWithFrame:CGRectZero] stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
-    
     // form the query
     NSDictionary *query = @{@"test": @([[SASession getInstance] isTestEnabled]),
                             @"sdkVersion":[[SASession getInstance] getVersion],
