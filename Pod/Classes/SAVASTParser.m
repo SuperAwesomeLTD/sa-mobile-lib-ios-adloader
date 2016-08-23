@@ -174,7 +174,6 @@
     
     // create arrays
     creative.events = [@[] mutableCopy];
-    creative.clicks = [@[] mutableCopy];
     
     // populate clickthrough
     [SAXMLParser searchSiblingsAndChildrenOf:element forName:@"ClickThrough" andInterate:^(SAXMLElement *clickElement) {
@@ -190,7 +189,7 @@
         SATracking *tracking = [[SATracking alloc] init];
         tracking.URL = [SAUtils decodeHTMLEntitiesFrom:[ctrackElement value]];
         tracking.event = @"click_tracking";
-        [creative.clicks addObject:tracking];
+        [creative.events addObject:tracking];
     }];
     
     // populate custom clicks array

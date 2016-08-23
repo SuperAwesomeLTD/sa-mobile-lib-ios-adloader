@@ -27,7 +27,7 @@
     
     SALoader *loader = [[SALoader alloc] init];
     loader.delegate = self;
-    [loader loadAdForPlacementId:250];
+    [loader loadAdForPlacementId:252];
 }
 
 - (void)didReceiveMemoryWarning

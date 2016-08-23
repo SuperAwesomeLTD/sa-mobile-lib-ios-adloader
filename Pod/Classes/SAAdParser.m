@@ -142,7 +142,7 @@
                                        [[SASession getInstance] getBaseUrl],
                                        [SAUtils formGetQueryFromDict:pgjsonsuccess]];
     
-    [ad.creative.clicks addObject:trackingEvt];
+    [ad.creative.events addObject:trackingEvt];
     [ad.creative.events addObject:viewableImpression];
     [ad.creative.events addObject:parentalGateSuccess];
     [ad.creative.events addObject:parentalGateOpen];

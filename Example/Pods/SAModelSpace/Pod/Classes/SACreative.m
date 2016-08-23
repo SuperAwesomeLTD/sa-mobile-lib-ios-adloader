@@ -18,7 +18,6 @@
     if (self = [super init]) {
         _details = [[SADetails alloc] init];
         _events = [@[] mutableCopy];
-        _clicks = [@[] mutableCopy];
     }
     return self;
 }
@@ -36,9 +35,6 @@
         _approved = [[jsonDictionary safeObjectForKey:@"approved"] boolValue];
         _clickUrl = [jsonDictionary safeObjectForKey:@"click_url"];
         _events = [[[NSArray alloc] initWithJsonArray:[jsonDictionary safeObjectForKey:@"events"] andIterator:^id(id item) {
-            return [[SATracking alloc] initWithJsonDictionary:(NSDictionary*)item];
-        }] mutableCopy];
-        _clicks = [[[NSArray alloc] initWithJsonArray:[jsonDictionary safeObjectForKey:@"clicks"] andIterator:^id(id item) {
             return [[SATracking alloc] initWithJsonDictionary:(NSDictionary*)item];
         }] mutableCopy];
         _details = [[SADetails alloc] initWithJsonDictionary:[jsonDictionary safeObjectForKey:@"details"]];
@@ -59,7 +55,6 @@
              @"approved": @(_approved),
              @"click_url": nullSafe(_clickUrl),
              @"events": nullSafe([_events dictionaryRepresentation]),
-             @"clicks": nullSafe([_clicks dictionaryRepresentation]),
              @"details": nullSafe([_details dictionaryRepresentation])
              };
 }

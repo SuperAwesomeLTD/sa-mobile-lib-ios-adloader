@@ -112,7 +112,6 @@
     }
     
     [self.creative.events addObjectsFromArray:dest.creative.events];
-    [self.creative.clicks addObjectsFromArray:dest.creative.clicks];
     
     if (dest.creative.details.media) {
         self.creative.details.media = dest.creative.details.media;

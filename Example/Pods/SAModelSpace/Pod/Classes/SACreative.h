@@ -39,7 +39,6 @@ typedef NS_ENUM(NSInteger, SACreativeFormat) {
 @property (nonatomic, strong) NSString *customPayload;
 @property (nonatomic, strong) NSString *clickUrl;
 @property (nonatomic, strong) NSMutableArray<SATracking*> *events;
-@property (nonatomic, strong) NSMutableArray<SATracking*> *clicks;
 
 @property (nonatomic, strong) SADetails *details;
 

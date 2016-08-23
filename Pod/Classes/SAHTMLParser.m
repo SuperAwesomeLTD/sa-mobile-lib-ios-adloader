@@ -68,7 +68,7 @@
     NSString *click = ad.creative.clickUrl;
     
     if (!click) {
-        NSArray *potentialClicks = [ad.creative.clicks filterBy:@"event" withValue:@"sa_tracking"];
+        NSArray *potentialClicks = [ad.creative.events filterBy:@"event" withValue:@"sa_tracking"];
         if ([potentialClicks count] > 1) {
             click = [potentialClicks objectAtIndex:0];
         }
