@@ -11,7 +11,7 @@
 #import "SASession.h"
 #import "SAAd.h"
 
-@interface SAViewController () <SALoaderProtocol>
+@interface SAViewController ()
 
 @end
 
@@ -26,22 +26,21 @@
     [[SASession getInstance] setTest:false];
     
     SALoader *loader = [[SALoader alloc] init];
-    loader.delegate = self;
-    [loader loadAdForPlacementId:251];
+    [loader loadAd:251 withResult:^(SAAd *ad) {
+        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
+    }];
+    [loader loadAd:250 withResult:^(SAAd *ad) {
+        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
+    }];
+    [loader loadAd:252 withResult:^(SAAd *ad) {
+        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void) didLoadAd:(SAAd *)ad {
-    NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
-}
-
-- (void) didFailToLoadAdForPlacementId:(NSInteger)placementId {
-    NSLog(@"Failed to load %ld", (long)placementId);
 }
 
 @end
