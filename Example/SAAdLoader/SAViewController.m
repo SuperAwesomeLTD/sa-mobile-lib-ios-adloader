@@ -22,19 +22,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [[SASession getInstance] setConfigurationStaging];
-    [[SASession getInstance] setTest:false];
-    
-    SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:251 withResult:^(SAAd *ad) {
-        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
-    }];
-    [loader loadAd:250 withResult:^(SAAd *ad) {
-        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
-    }];
-    [loader loadAd:252 withResult:^(SAAd *ad) {
-        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
-    }];
+//    [[SASession getInstance] setConfigurationStaging];
+//    [[SASession getInstance] setTest:false];
+//    
+//    SALoader *loader = [[SALoader alloc] init];
+//    [loader loadAd:251 withResult:^(SAAd *ad) {
+//        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
+//    }];
+//    [loader loadAd:250 withResult:^(SAAd *ad) {
+//        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
+//    }];
+//    [loader loadAd:252 withResult:^(SAAd *ad) {
+//        NSLog(@"%@", [ad jsonPreetyStringRepresentation]);
+//    }];
 }
 
 - (void)didReceiveMemoryWarning
