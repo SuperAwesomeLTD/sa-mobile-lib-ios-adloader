@@ -184,7 +184,7 @@
         clickUrl = [creative.clickUrl stringByReplacingOccurrencesOfString:@"%2F" withString:@"/"];
         SATracking *tracking = [[SATracking alloc] init];
         tracking.URL = clickUrl;
-        tracking.event = @"click_tracking";
+        tracking.event = @"click_through";
         [creative.events addObject:tracking];
     }];
     
