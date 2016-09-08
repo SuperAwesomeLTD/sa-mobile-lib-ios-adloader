@@ -178,10 +178,10 @@
     // populate clickthrough
     [SAXMLParser searchSiblingsAndChildrenOf:element forName:@"ClickThrough" andInterate:^(SAXMLElement *clickElement) {
         NSString *clickUrl = [clickElement value];
-        clickUrl = [SAUtils decodeHTMLEntitiesFrom:creative.clickUrl];
-        clickUrl = [creative.clickUrl stringByReplacingOccurrencesOfString:@"&amp;" withString:@"&"];
-        clickUrl = [creative.clickUrl stringByReplacingOccurrencesOfString:@"%3A" withString:@":"];
-        clickUrl = [creative.clickUrl stringByReplacingOccurrencesOfString:@"%2F" withString:@"/"];
+        clickUrl = [SAUtils decodeHTMLEntitiesFrom:clickUrl];
+        clickUrl = [clickUrl stringByReplacingOccurrencesOfString:@"&amp;" withString:@"&"];
+        clickUrl = [clickUrl stringByReplacingOccurrencesOfString:@"%3A" withString:@":"];
+        clickUrl = [clickUrl stringByReplacingOccurrencesOfString:@"%2F" withString:@"/"];
         SATracking *tracking = [[SATracking alloc] init];
         tracking.URL = clickUrl;
         tracking.event = @"click_through";
