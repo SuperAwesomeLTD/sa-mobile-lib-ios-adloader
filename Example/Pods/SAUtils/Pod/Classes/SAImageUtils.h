@@ -19,5 +19,6 @@
 + (UIImage*) gameWallBackground;
 + (UIImage*) gameWallClose;
 + (UIImage*) gameWallAppData;
++ (UIImage*) gameWallHeader;
 
 @end
