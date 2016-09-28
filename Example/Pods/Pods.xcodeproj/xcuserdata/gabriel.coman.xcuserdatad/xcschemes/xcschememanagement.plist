@@ -8,94 +8,39 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>SAAdLoader 2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
 		</dict>
 		<key>SAAdLoader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>SAJsonParser.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>SAModelSpace.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>SANetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 		<key>SASession.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 		<key>SAUtils.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>21CF781A2DC1E460E37B30E246152A17</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>48B022D307FD7D369294A4C5AC397DA3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>494B417A6ABB5E6C3E08E31302B915C2</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>612DB2F7EDD615274B6D4A7A2E13A059</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9987C2B84E1FFC2276C6A1B53C9513C1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F24817F4F5293560D5C1D21F2645A3E0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FD2087A9C2C8ED4664AB6A55536DCAB6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
