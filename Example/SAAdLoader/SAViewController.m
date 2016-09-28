@@ -9,6 +9,7 @@
 #import "SAViewController.h"
 #import "SALoader.h"
 #import "SASession.h"
+#import "SAResponse.h"
 #import "SAAd.h"
 
 @interface SAViewController ()
@@ -21,6 +22,19 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    SASession *session = [[SASession alloc] init];
+    [session setConfigurationStaging];
+    [session disableTestMode];
+    
+    SALoader *loader = [[SALoader alloc] init];
+    [loader loadAd:251 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+    }];
+    
+    [loader loadAd:470 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+    }];
     
 //    [[SASession getInstance] setConfigurationStaging];
 //    [[SASession getInstance] setTest:false];
