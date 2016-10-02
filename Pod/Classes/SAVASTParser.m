@@ -11,7 +11,7 @@
 // import new SAXML
 #import "SAXMLParser.h"
 
-// import helpes
+// import helpers
 #import "SAAd.h"
 #import "SACreative.h"
 #import "SADetails.h"
@@ -23,6 +23,7 @@
 #import "SANetwork.h"
 #import "SAFileDownloader.h"
 #import "SAExtensions.h"
+#import "SASequentialFileDownloader.h"
 
 @implementation SAVASTParser
 
@@ -50,11 +51,15 @@
     [self parseVASTAds:url withResult:^(SAAd *ad) {
         
         if (ad.creative.details.media) {
-            SAFileDownloader *downloader = [[SAFileDownloader alloc] init];
-            [downloader downloadFileFrom:ad.creative.details.media.playableMediaUrl to:ad.creative.details.media.playableDiskUrl withResponse:^(BOOL success) {
-                ad.creative.details.media.isOnDisk = success;
-                vastParsing(ad);
-            }];
+            
+            [[SASequentialFileDownloader getInstance] downloadFileFrom:ad.creative.details.media.playableMediaUrl
+                                                         withExtension:@"mp4"
+                                                           andResponse:^(BOOL success, NSString *diskPath) {
+                                                               
+                                                               ad.creative.details.media.playableDiskUrl = diskPath;
+                                                               ad.creative.details.media.isOnDisk = success;
+                                                               vastParsing (ad);
+                                                           }];
         } else {
             vastParsing(ad);
         }
@@ -231,7 +236,7 @@
     SAMedia *media = [[SAMedia alloc] init];
     media.type = [element getAttribute:@"type"];
     media.playableMediaUrl = [[element value] stringByReplacingOccurrencesOfString:@" " withString:@""];
-    media.playableDiskUrl = [SAFileDownloader getDiskLocation:@"mp4"];
+    // media.playableDiskUrl = [SAFileDownloader getDiskLocation:@"mp4"];
     return media;
 }
 

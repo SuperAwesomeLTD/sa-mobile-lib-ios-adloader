@@ -29,12 +29,36 @@
     
     SALoader *loader = [[SALoader alloc] init];
     [loader loadAd:251 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+        NSLog(@"Loaded Ad 251");
     }];
     
     [loader loadAd:470 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+        NSLog(@"Loaded Ad 470");
     }];
+    
+    [loader loadAd:480 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"Loaded Ad 480");
+    }];
+    
+    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"Loaded Ad #1 481");
+    }];
+    
+    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"Loaded Ad #2 481");
+    }];
+    
+    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"Loaded Ad #3 481");
+    }];
+    
+//    [loader loadAd:250 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+//    }];
+//    
+//    [loader loadAd:252 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+//    }];
     
 //    [[SASession getInstance] setConfigurationStaging];
 //    [[SASession getInstance] setTest:false];

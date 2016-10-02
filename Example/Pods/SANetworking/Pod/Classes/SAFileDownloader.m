@@ -18,7 +18,6 @@ static BOOL runOnce = false;
 // private vars for SAFileDownloader
 @interface SAFileDownloader ()
 // dictionary that holds all the files currently saved on disk as part of the SDK
-//@property (nonatomic, strong) NSMutableDictionary *fileStore;
 @property (nonatomic, strong) NSFileManager *fileManager;
 @property (nonatomic, strong) NSUserDefaults *defs;
 @end
@@ -51,7 +50,7 @@ static BOOL runOnce = false;
     return [NSString stringWithFormat:@"samov_%d.%@", arc4random_uniform((uint32_t)(65536)), extension];
 }
 
-- (void) downloadFileFrom:(NSString*)url to:(NSString*)fpath withResponse:(downloadResponse)response {
+- (void) downloadFileFrom:(NSString*)url to:(NSString*)fpath andResponse:(downloadResponse)response {
     
     // form the URL & request
     NSURL *URL = [NSURL URLWithString:url];

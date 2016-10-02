@@ -33,6 +33,6 @@ typedef void (^downloadResponse)(BOOL success);
  */
 - (void) downloadFileFrom:(NSString*)url
                        to:(NSString*)fpath
-              withResponse:(downloadResponse)response;
+              andResponse:(downloadResponse)response;
 
 @end
