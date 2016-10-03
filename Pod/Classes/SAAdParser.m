@@ -58,6 +58,21 @@
                        (ad.creative.creativeFormat == video ? @"video/" : @""),
                        [SAUtils formGetQueryFromDict:trackjson]];
     
+    NSDictionary *saimprjson = @{
+        @"placement": @(ad.placementId),
+        @"creative": @(ad.creative._id),
+        @"line_item": @(ad.lineItemId),
+        @"sdkVersion": [session getVersion],
+        @"rnd": @([session getCachebuster]),
+        @"no_image": @(true)
+    };
+    
+    SATracking *saImpressionEvt = [[SATracking alloc] init];
+    saImpressionEvt.event = @"sa_impression";
+    saImpressionEvt.URL = [NSString stringWithFormat:@"%@/impression?%@",
+                           [session getBaseUrl],
+                           [SAUtils formGetQueryFromDict:saimprjson]];
+    
     // get the viewbale impression URL
     NSDictionary *imprjson = @{
         @"sdkVersion":[session getVersion],
@@ -151,6 +166,7 @@
     [ad.creative.events addObject:parentalGateOpen];
     [ad.creative.events addObject:parentalGateClose];
     [ad.creative.events addObject:parentalGateFail];
+    [ad.creative.events addObject:saImpressionEvt];
     
     // add the impression
     if (ad.creative.impressionUrl != NULL && (NSNull*)ad.creative.impressionUrl != [NSNull null]) {
