@@ -37,9 +37,10 @@
     
     ad.creative.creativeFormat = invalid;
     if ([ad.creative.format isEqualToString:@"image_with_link"]) ad.creative.creativeFormat = image;
-    else if ([ad.creative.format isEqualToString:@"video"]) ad.creative.creativeFormat = video;
+    if ([ad.creative.format isEqualToString:@"video"]) ad.creative.creativeFormat = video;
     if ([ad.creative.format rangeOfString:@"rich_media"].location != NSNotFound) { ad.creative.creativeFormat = rich; }
     if ([ad.creative.format rangeOfString:@"tag"].location != NSNotFound) { ad.creative.creativeFormat = tag; }
+    if ([ad.creative.format rangeOfString:@"gamewall"].location != NSNotFound) { ad.creative.creativeFormat = gamewall; }
     
     // create the tracking URL
     NSDictionary *trackjson = @{
@@ -169,6 +170,7 @@
     
     // get the cdn URL
     switch (ad.creative.creativeFormat) {
+        case gamewall:
         case image: {
             ad.creative.details.cdnUrl = [SAUtils findBaseURLFromResourceURL:ad.creative.details.image];
             break;
@@ -181,7 +183,6 @@
             ad.creative.details.cdnUrl = [SAUtils findBaseURLFromResourceURL:ad.creative.details.url];
             break;
         }
-        case gamewall:
         case invalid:
         case tag: {break;}
     }
