@@ -68,7 +68,7 @@
     };
     
     SATracking *saImpressionEvt = [[SATracking alloc] init];
-    saImpressionEvt.event = @"sa_impression";
+    saImpressionEvt.event = @"sa_impr";
     saImpressionEvt.URL = [NSString stringWithFormat:@"%@/impression?%@",
                            [session getBaseUrl],
                            [SAUtils formGetQueryFromDict:saimprjson]];
