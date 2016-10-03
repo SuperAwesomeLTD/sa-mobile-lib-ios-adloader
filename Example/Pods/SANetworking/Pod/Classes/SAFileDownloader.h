@@ -12,7 +12,7 @@
 // callback for generic success
 typedef void (^seqDownloadResponse)(BOOL success, NSString* diskPath);
 
-@interface SASequentialFileDownloader : NSObject
+@interface SAFileDownloader : NSObject
 
 // singleton instance (instead of init)
 + (instancetype) getInstance;

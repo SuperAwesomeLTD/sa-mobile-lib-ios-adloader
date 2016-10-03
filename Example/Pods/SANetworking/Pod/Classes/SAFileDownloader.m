@@ -6,14 +6,14 @@
 //
 //
 
-#import "SASequentialFileDownloader.h"
+#import "SAFileDownloader.h"
 #import "SADownloadItem.h"
 #import "SADownloadQueue.h"
 
 #define MAX_RETRIES 3
 #define TIMEOUT_INTERVAL 10
 
-@interface SASequentialFileDownloader () <NSURLSessionDataDelegate, NSURLSessionDelegate, NSURLSessionTaskDelegate>
+@interface SAFileDownloader () <NSURLSessionDataDelegate, NSURLSessionDelegate, NSURLSessionTaskDelegate>
 
 @property (nonatomic, strong) NSFileManager *fileManager;
 @property (nonatomic, strong) NSUserDefaults *defs;
@@ -31,14 +31,14 @@
 
 @end
 
-@implementation SASequentialFileDownloader
+@implementation SAFileDownloader
 
 ////////////////////////////////////////////////////////////////////////////////
 // MARK: Singleton methods
 ////////////////////////////////////////////////////////////////////////////////
 
 + (instancetype) getInstance {
-    static SASequentialFileDownloader *sharedMyManager = nil;
+    static SAFileDownloader *sharedMyManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         sharedMyManager = [[self alloc] init];

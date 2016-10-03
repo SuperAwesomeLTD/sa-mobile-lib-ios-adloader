@@ -22,7 +22,7 @@
 #import "SAUtils.h"
 #import "SANetwork.h"
 #import "SAExtensions.h"
-#import "SASequentialFileDownloader.h"
+#import "SAFileDownloader.h"
 
 @implementation SAVASTParser
 
@@ -51,14 +51,14 @@
         
         if (ad.creative.details.media) {
             
-            [[SASequentialFileDownloader getInstance] downloadFileFrom:ad.creative.details.media.playableMediaUrl
-                                                         withExtension:@"mp4"
-                                                           andResponse:^(BOOL success, NSString *diskPath) {
+            [[SAFileDownloader getInstance] downloadFileFrom:ad.creative.details.media.playableMediaUrl
+                                               withExtension:@"mp4"
+                                                 andResponse:^(BOOL success, NSString *diskPath) {
                                                                
-                                                               ad.creative.details.media.playableDiskUrl = diskPath;
-                                                               ad.creative.details.media.isOnDisk = success;
-                                                               vastParsing (ad);
-                                                           }];
+                                                     ad.creative.details.media.playableDiskUrl = diskPath;
+                                                     ad.creative.details.media.isOnDisk = success;
+                                                     vastParsing (ad);
+                                                 }];
         } else {
             vastParsing(ad);
         }

@@ -15,7 +15,7 @@
 #import "SAMedia.h"
 
 // get the file downloader
-#import "SASequentialFileDownloader.h"
+#import "SAFileDownloader.h"
 
 @implementation SAGameWallParser
 
@@ -43,17 +43,17 @@
         }
         
         // download the image
-        [[SASequentialFileDownloader getInstance] downloadFileFrom:ad.creative.details.media.playableMediaUrl
-                                                     withExtension:ext
-                                                       andResponse:^(BOOL success, NSString *diskPath) {
+        [[SAFileDownloader getInstance] downloadFileFrom:ad.creative.details.media.playableMediaUrl
+                                           withExtension:ext
+                                             andResponse:^(BOOL success, NSString *diskPath) {
         
-                                                           ad.creative.details.media.isOnDisk = success;
-                                                           ad.creative.details.media.playableDiskUrl = diskPath;
-                                                           
-                                                           // call this func recursively
-                                                           [self getImages:(index + 1) max:max ads:ads callback:callback];
-                                                           
-                                                       }];
+                                                 ad.creative.details.media.isOnDisk = success;
+                                                 ad.creative.details.media.playableDiskUrl = diskPath;
+                                                 
+                                                 // call this func recursively
+                                                 [self getImages:(index + 1) max:max ads:ads callback:callback];
+                                                 
+                                             }];
     }
 }
 
