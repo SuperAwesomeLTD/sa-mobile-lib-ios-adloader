@@ -15,7 +15,6 @@
 #import "SAMedia.h"
 
 // get the file downloader
-#import "SAFileDownloader.h"
 #import "SASequentialFileDownloader.h"
 
 @implementation SAGameWallParser

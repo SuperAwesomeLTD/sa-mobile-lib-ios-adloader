@@ -21,7 +21,6 @@
 // import Utils
 #import "SAUtils.h"
 #import "SANetwork.h"
-#import "SAFileDownloader.h"
 #import "SAExtensions.h"
 #import "SASequentialFileDownloader.h"
 

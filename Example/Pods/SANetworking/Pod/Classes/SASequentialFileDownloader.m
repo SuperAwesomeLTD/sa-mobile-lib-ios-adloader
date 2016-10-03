@@ -178,6 +178,12 @@
                     response (false, nil);
                 }
                 
+                // clear responses
+                [_currentItem clearResponses];
+                
+                // permanently remove
+                [_queue removeFromQueue:_currentItem];
+                
                 // go to next on queue
                 [self checkOnQueue];
             }
