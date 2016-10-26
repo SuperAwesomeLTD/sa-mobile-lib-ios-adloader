@@ -10,6 +10,19 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>015C83CFD1845A7C0CD06699294B104A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SAJsonParser-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>01D044C500813C9A8505FF841C6922A8</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -23,81 +36,38 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>01DE38DFE85B218C7577ECF2E2A6E850</key>
+		<key>025BC375A85629783A34787651742BB0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SACreativeFormat.h</string>
+			<string>SAResponse.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SACreativeFormat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01F29D90E1699A6A03EFDFCD9714C305</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SAJsonParser-prefix.pch</string>
+			<string>Pod/Classes/SAResponse.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>028A16815719DB0D3B9CA6D0B38D0A94</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6AC179DC32F53B4B55C133BC511A226C</string>
+			<string>F6E3EB820D32B6E86D90D8D9224395BA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0299A8E9DB8340CDCA8A97E8C8D6F6FA</key>
+		<key>02CE800E74CC3FD0CAFD90B35A68B4D4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SAJsonParser.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>035BD8FEF3CCF0927950EF5DC2BB4875</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SADetails.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SADetails.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03935C1C249D6D1890F485C0A71E279D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+HTML.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSString+HTML.h</string>
+			<string>SAModelSpace-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -118,29 +88,29 @@
 		<key>03D2728A06D10CE1FFF6E0A6CA63AF0D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A12CB0E5335EE0B425F147C56F3852D0</string>
+			<string>10F31C96676915592F707FC8D08770B7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0501FF96F99B3EA667BFD4D4167FACA8</key>
+		<key>05447C1A2B7E1047E54C37A802EA4CEC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>NSArray+SAJson.h</string>
+			<string>NSDictionary+SAJson.m</string>
 			<key>path</key>
-			<string>Pod/Classes/NSArray+SAJson.h</string>
+			<string>Pod/Classes/NSDictionary+SAJson.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0573D04F963992E49C314302F2006456</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0501FF96F99B3EA667BFD4D4167FACA8</string>
+			<string>5A58E56B60A50BA4E1A527F3E9EEF9A4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -177,7 +147,22 @@
 			<key>remoteInfo</key>
 			<string>SAJsonParser</string>
 		</dict>
-		<key>0AEA5CA34AA7A230CE04F58795992FE6</key>
+		<key>090EBE10C9EF11A405BEF38721831A1B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAPopup.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAPopup.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0941211AD28E86316AC0793C08B71254</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -185,10 +170,23 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SASession.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SASession.m</string>
+			<string>SAUtils-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0BD33999A0AD747CCBA1893FBB4D7C3B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SADownloadItem.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SADownloadItem.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -204,6 +202,21 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>0D02B091F1709752C33653EB7D29D198</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SASerializationProtocol.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SASerializationProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0D7219921F39E1CD4FF9E45687961DA8</key>
 		<dict>
@@ -221,11 +234,37 @@
 		<key>0DB0179691BC2C1C301161E341F8C606</key>
 		<dict>
 			<key>fileRef</key>
-			<string>433185A639D87BE696BBFE69A1DD25FB</string>
+			<string>25B474262A04A5F1B5FC5FAE6F8C8903</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>0DD4BF10A48FA800864CDA10A0156641</key>
+		<key>0E9CF9950EB57B53420738D6940CCB21</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5A58E56B60A50BA4E1A527F3E9EEF9A4</string>
+				<string>87F8B585B8EEAEEE524C91C13FA4F3F2</string>
+				<string>B7FA37480E1DC0E64F4BC5B10AB760AE</string>
+				<string>10F31C96676915592F707FC8D08770B7</string>
+				<string>6A1045F89777815914DDD40F6033C218</string>
+				<string>05447C1A2B7E1047E54C37A802EA4CEC</string>
+				<string>CBB3D715376894C5A07AB7C75C0F2A7D</string>
+				<string>CC3AEF9FDE7878E5EF515B990B7AC2F6</string>
+				<string>161415EF26B19001DF6843BCB7F5237B</string>
+				<string>68AD6CD1CA4BCE94216DBA20FB01C85A</string>
+				<string>0D02B091F1709752C33653EB7D29D198</string>
+				<string>1B7ED7E73FD0F6C45952B26EA4E650FB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SAJsonParser</string>
+			<key>path</key>
+			<string>SAJsonParser</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10F31C96676915592F707FC8D08770B7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -234,13 +273,56 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SAActivityView.m</string>
+			<string>NSDictionary+SafeHandling.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SAActivityView.m</string>
+			<string>Pod/Classes/NSDictionary+SafeHandling.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F0A4D5B9BB6714C9F21784FC0C708E9</key>
+		<key>115926CEA513157E80CF56AF15D54381</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SAModelSpace-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1183CDC947D5BF2BBBA225B4A6DB28BC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6772463FA45A72A70B68C9D1236202E0</string>
+				<string>15DE3CA3F509F14F04C0C26C94B704BC</string>
+				<string>B8FADC49AF7E348BAE5B407B91FA2625</string>
+				<string>EE8D150BA284F18A223E56F7548F880C</string>
+				<string>857ABEBB51BEF964E04CF71536C32F1C</string>
+				<string>B1D4C01F499A585D544612FCA86F87B3</string>
+				<string>B281F75BC5B30A234904C48D7F2B6463</string>
+				<string>1CB01542D4AA086AD6DF88F8BDDEA26B</string>
+				<string>6740B901D550ED5F53561B54628BD808</string>
+				<string>11D9D391E52FEEF0113F1B9DB467A6DE</string>
+				<string>D5DEB90934BC029804E3C7F8650301C0</string>
+				<string>025BC375A85629783A34787651742BB0</string>
+				<string>884E21171B5BB78EDA76610F904A2765</string>
+				<string>CCD7C6DE5E06C2763E12D0C5EE4EDDAE</string>
+				<string>D4786E171F18A4E5EA2C2C0D302E399A</string>
+				<string>A41C60C29CAED571F854AF62DFE872EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SAModelSpace</string>
+			<key>path</key>
+			<string>SAModelSpace</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>11D9D391E52FEEF0113F1B9DB467A6DE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -249,13 +331,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SAResponse.m</string>
+			<string>SAMedia.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SAResponse.m</string>
+			<string>Pod/Classes/SAMedia.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>12EE2C30710F871C9C6E032B99C88754</key>
+		<key>13AA0956E69BA2B8775BF535E30AEEAD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -263,31 +345,30 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSDictionary+SAJson.m</string>
 			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SAJson.m</string>
+			<string>SASession-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>133BF1B7ABD7FCA7F8079E4B56A8A29A</key>
+		<key>141828D077600EC9D673504957BCF784</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7FD098BBE44C0634EA7A9E00F9AA6707</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSString+HTML.h</string>
+			<key>path</key>
+			<string>Pod/Classes/NSString+HTML.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1452E3B2BC52DB5DC6D9FB971B13C876</key>
 		<dict>
 			<key>fileRef</key>
-			<string>56E579242F052CA6E784311C05173201</string>
+			<string>0BD33999A0AD747CCBA1893FBB4D7C3B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -301,9 +382,39 @@
 		<key>14BE6DF97740AE653C706C8A4F765476</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F03A7377932A869D1C037176F0E422BB</string>
+			<string>33393D07048CD60CB43819FFC1A0C592</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>15DE3CA3F509F14F04C0C26C94B704BC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAAd.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAAd.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>161415EF26B19001DF6843BCB7F5237B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SADeserializationProtocol.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SADeserializationProtocol.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>161A81792DE6BCBC7370689D296CB461</key>
 		<dict>
@@ -336,7 +447,7 @@
 		<key>17D3CF9148E333D35433D11324647BC0</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6EA70A8578E7C1A6479FA3CA1E22A103</string>
+			<string>F206531DBD6DF8A8A0F5A5F793347FB1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -395,7 +506,7 @@
 		<key>190D314C3A49A9C3BB256AC1A68BCF4A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C6E5C9851F32D10839AE00DE2A3D0C60</string>
+			<string>68AD6CD1CA4BCE94216DBA20FB01C85A</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -419,18 +530,33 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>193510C8D3B171162D858AE7FC3965BF</key>
+		<key>1B2251FFA99355D6C2AEE317F6048012</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SABaseObject.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SABaseObject.m</string>
+			<string>SASession-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1B7ED7E73FD0F6C45952B26EA4E650FB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A57F1F0157D877FF64BBE884F43E5586</string>
+				<string>33393D07048CD60CB43819FFC1A0C592</string>
+				<string>015C83CFD1845A7C0CD06699294B104A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SAJsonParser</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -449,6 +575,21 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>1CB01542D4AA086AD6DF88F8BDDEA26B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SADetails.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SADetails.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>1D18B0CC4DF32235C3C1326AEF038BEB</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -466,19 +607,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>1D8018C9EF5317E4871C7ADE6F00857D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SANetworking.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1E054D28378173E37F65BCD9197A5D3C</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -492,21 +620,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>1EF709DB57AB02CC7546D4BFBCF52859</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAImageUtils.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAImageUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>1F2B848FEC16B44CA4B24801F4A77661</key>
 		<dict>
@@ -589,37 +702,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>245D48A679368339FBB50C5FE8D12625</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDictionary+SAJson.h</string>
-			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SAJson.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24CEFA3F4148EBF850BFA0D6980EDBCC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAPopup.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAPopup.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24E1F63B7DCE448F6C23DC2F699E63BA</key>
+		<key>25B474262A04A5F1B5FC5FAE6F8C8903</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -627,17 +710,55 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAImageUtils.m</string>
 			<key>path</key>
-			<string>SAUtils-dummy.m</string>
+			<string>Pod/Classes/SAImageUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25BB631E0413FF7375F097D958D2968D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5283332DB4C8677C31EF944BB1FA3A2E</string>
+				<string>A5A1826FFC81861577C76BB8A3B10F57</string>
+				<string>2B2418FA473F185CBD7ACC10C4BFB69D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SANetworking</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>25ED2ACB57741D4CD62A296090AA8736</key>
 		<dict>
 			<key>fileRef</key>
-			<string>24E1F63B7DCE448F6C23DC2F699E63BA</string>
+			<string>0941211AD28E86316AC0793C08B71254</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>277568A4FFF7E1F2C58D3234D18E27A0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>77944663BB43BC546C7503576355FBF0</string>
+				<string>C4826E9D8A9A3F198A538B8E76546B22</string>
+				<string>5337098EB43504D39E1E1172FCF4ECBF</string>
+				<string>734876508CAF0303B6E2FAC983ECEE5B</string>
+				<string>29BB3BA46822FF987F45F8B01CDD9D56</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SASession</string>
+			<key>path</key>
+			<string>SASession</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>28B66EFEF6D6125F93A8AD1A0B1820B3</key>
 		<dict>
@@ -652,10 +773,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>29BB3BA46822FF987F45F8B01CDD9D56</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>65D3D40A5FBEA3755CBC453E5DE47C87</string>
+				<string>13AA0956E69BA2B8775BF535E30AEEAD</string>
+				<string>1B2251FFA99355D6C2AEE317F6048012</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SASession</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2A150E912F0B599ED8B4777DB091C218</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1D8018C9EF5317E4871C7ADE6F00857D</string>
+			<string>5283332DB4C8677C31EF944BB1FA3A2E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -692,6 +830,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>2B2418FA473F185CBD7ACC10C4BFB69D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SANetworking-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>2BA629E111150E0125644ECFBE6C30EE</key>
 		<dict>
 			<key>isa</key>
@@ -715,6 +866,20 @@
 			<string>48B022D307FD7D369294A4C5AC397DA3</string>
 			<key>remoteInfo</key>
 			<string>SAUtils</string>
+		</dict>
+		<key>2C9FF79BC18F884E78E884289B77B42B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D5DEB90934BC029804E3C7F8650301C0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>2D518F8406BC47DB36E08AF523C88AEF</key>
 		<dict>
@@ -775,38 +940,40 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2EE59BA596687AB8557045193F477F1A</key>
+		<key>2F4BDB438BB026DE17B8DCBBB5D2762C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SAAd.m</string>
+			<string>SAFileDownloader.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SAAd.m</string>
+			<string>Pod/Classes/SAFileDownloader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>30101878CE2AA0B5D583D02A56F94C9F</key>
+		<key>2FFB522CA284A56FA262991BB4477121</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SANetwork.h</string>
 			<key>path</key>
-			<string>SAModelSpace-dummy.m</string>
+			<string>Pod/Classes/SANetwork.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>32121AFFCEC441F601BD42A3BDCEAA57</key>
 		<dict>
 			<key>fileRef</key>
-			<string>EAA47167F8DEA9EB6577263FEA228AC2</string>
+			<string>77944663BB43BC546C7503576355FBF0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -816,6 +983,33 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>327A676323B4F600DEC01F12EF093674</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4786E171F18A4E5EA2C2C0D302E399A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>33393D07048CD60CB43819FFC1A0C592</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SAJsonParser-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3344E53C3B5CD192F59697DBF99E6F2A</key>
 		<dict>
@@ -851,6 +1045,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>3447D7D040FFB62F797B51D7C4CF3077</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAActivityView.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAActivityView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>36ABE44DE02C7EB5924EF06ED3F5C240</key>
 		<dict>
 			<key>fileRef</key>
@@ -861,39 +1070,9 @@
 		<key>384E44FDE425AEF10F80CC30E8E6DF5B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E5BE9E7E42CC62CA55FDC9D2DA371122</string>
+			<string>A5A1826FFC81861577C76BB8A3B10F57</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>392E7A126211DAD3608F3759B5A99542</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSString+HTML.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSString+HTML.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>393FB2506D1EE2CAAFF76EF8545E9837</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SADownloadQueue.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SADownloadQueue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3A44E1178EAE55428929B93D9293EA0C</key>
 		<dict>
@@ -902,23 +1081,10 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3A9157A95A374FDBA7A35D083DF519FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SAUtils-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3AA7761476976A9F729029D8D14D3E2B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6E314910097AC000EA745173BDA18366</string>
+			<string>CCD7C6DE5E06C2763E12D0C5EE4EDDAE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -936,21 +1102,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>3B3558B300A7D2EE78E98B7F3B4B9E8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SACreative.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SACreative.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>3B42A03788D5D57572043F039CB8CA0E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -967,7 +1118,7 @@
 		<key>3C27A3949A4C9186F94BD209C51A5A65</key>
 		<dict>
 			<key>fileRef</key>
-			<string>83C7A3CC05CD1270091BFE692103EFCC</string>
+			<string>A7E1AC0F890AC0308A25602AD83A86B8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -978,49 +1129,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>3D644DDA5B0C8B0A1CE2C89E0CF187FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SANetwork.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SANetwork.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DC7626F7F83145B25E163A3801B5CB2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D6410535564F664F8ED08D7592EF3C3F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3DD3AC9BFFCE7F7E3DAE2A75A81AA810</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SANetworking-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E3DCF588EF356EB6CB4A3E031EC643D</key>
+		<key>3C2CA55CF08482654618F14FD277F980</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1029,11 +1138,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SACreative.m</string>
+			<string>NSString+HTML.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SACreative.m</string>
+			<string>Pod/Classes/NSString+HTML.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DC7626F7F83145B25E163A3801B5CB2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B7FA37480E1DC0E64F4BC5B10AB760AE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>3FA2475660FFC880302AD18E29B2E5FC</key>
 		<dict>
@@ -1132,24 +1255,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>41A9A7992F121557405F648EB20C2B23</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D9991F1FFB75D71B0769485CFCB678C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>41BA9632C6A63DE810BFB801C8E57BC0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>393FB2506D1EE2CAAFF76EF8545E9837</string>
+			<string>9CF87C0F3BAF33B91E5EDDE9ADBA649D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1159,21 +1268,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>433185A639D87BE696BBFE69A1DD25FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAImageUtils.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAImageUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>433CD3331B6C3787F473C941B61FC68F</key>
 		<dict>
@@ -1191,7 +1285,7 @@
 		<key>43D7ACF2C36E8B8D51029CF9B2093EC3</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>0299A8E9DB8340CDCA8A97E8C8D6F6FA</string>
+			<string>A57F1F0157D877FF64BBE884F43E5586</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1228,7 +1322,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>43F4C23626B6134324D6A5207AD19DAE</key>
+		<key>44EF34924E2E71F04B75C37B62153E90</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1237,33 +1331,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SAResponse.h</string>
+			<string>SAUtils.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SAResponse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>443897555C772005852253EAA7E47162</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6EA70A8578E7C1A6479FA3CA1E22A103</string>
-				<string>24E1F63B7DCE448F6C23DC2F699E63BA</string>
-				<string>3A9157A95A374FDBA7A35D083DF519FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SAUtils</string>
+			<string>Pod/Classes/SAUtils.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>45012ED26433F3085BB3220957DAF0DD</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E1C8EE381BC1C053788BEB47CECFBB48</string>
+			<string>7DD354AE0DB691D798F67D7CFAB105ED</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1342,7 +1419,7 @@
 		<key>48D7CE871F9FC53014B20570477FEC29</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6AD066E4FE0AA8F5B63EDB578486AB27</string>
+			<string>4C993E058E2181A142F7BE70877053D7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1403,6 +1480,21 @@
 			<key>targetProxy</key>
 			<string>DCE386A83F3B9FA6D8D8EA39946B542B</string>
 		</dict>
+		<key>4C993E058E2181A142F7BE70877053D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAExtensions.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAExtensions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4C9E24A78E0340CABE347632358CB282</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -1420,7 +1512,7 @@
 		<key>4DE9D3C9C9D067B5700F88FA7D9B3B18</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E3DCF588EF356EB6CB4A3E031EC643D</string>
+			<string>857ABEBB51BEF964E04CF71536C32F1C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1467,14 +1559,27 @@
 		<key>51F055842B68839FBF4C91C07253F173</key>
 		<dict>
 			<key>fileRef</key>
-			<string>63E294F2A350936FFB6AD45168710B43</string>
+			<string>C4826E9D8A9A3F198A538B8E76546B22</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>5424CEB2257DEB050CBEDBB9254A04C4</key>
+		<key>5283332DB4C8677C31EF944BB1FA3A2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SANetworking.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53346341F53C7DA529C0901CE30BFE51</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3B3558B300A7D2EE78E98B7F3B4B9E8D</string>
+			<string>B8FADC49AF7E348BAE5B407B91FA2625</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1484,6 +1589,21 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>5337098EB43504D39E1E1172FCF4ECBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SASession.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SASession.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5443F074D82E9C2EDBC8643137382A3E</key>
 		<dict>
@@ -1514,14 +1634,14 @@
 		<key>55AD53D2FA64CB9B835DEE0C69E31FB1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0AEA5CA34AA7A230CE04F58795992FE6</string>
+			<string>734876508CAF0303B6E2FAC983ECEE5B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>564CAB5D414359648B8FAFE141269FAE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>03935C1C249D6D1890F485C0A71E279D</string>
+			<string>141828D077600EC9D673504957BCF784</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1531,21 +1651,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>56E579242F052CA6E784311C05173201</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SADownloadItem.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SADownloadItem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>56FF8DC4F20CFD5A54F8E7D4B67CAA99</key>
 		<dict>
@@ -1574,24 +1679,9 @@
 		<key>582DEB85902FB48508D24FBB9E090227</key>
 		<dict>
 			<key>fileRef</key>
-			<string>12EE2C30710F871C9C6E032B99C88754</string>
+			<string>05447C1A2B7E1047E54C37A802EA4CEC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>591AFE0FA4D21C994853704DEF19D594</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSArray+SAJson.m</string>
-			<key>path</key>
-			<string>Pod/Classes/NSArray+SAJson.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>591F100A69440FE73E52DBC0E87BA4E7</key>
 		<dict>
@@ -1641,7 +1731,7 @@
 		<key>59B4F843FE44BD4F9F147FEA0B47FA34</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>1D8018C9EF5317E4871C7ADE6F00857D</string>
+			<string>5283332DB4C8677C31EF944BB1FA3A2E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1678,44 +1768,27 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5A75D77E85212EE6EA1DA3BD83516907</key>
-		<dict>
-			<key>fileRef</key>
-			<string>72B5BB24F75EC20CDEE1F0999CDE3BCA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5AA7EF5DFCEE92859B412C798EE725DB</key>
+		<key>5A58E56B60A50BA4E1A527F3E9EEF9A4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SADownloadQueue.m</string>
+			<string>NSArray+SAJson.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SADownloadQueue.m</string>
+			<string>Pod/Classes/NSArray+SAJson.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5C693889882C41FCB07AB855B7A3C5AD</key>
+		<key>5A75D77E85212EE6EA1DA3BD83516907</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>C8A30FD9718CB03720B5F1C2304567CE</string>
-				<string>80ECF04286175B9CB691AA65B14E96B3</string>
-				<string>A8FB4A148229A127760B151A8F4BAD19</string>
-				<string>AC6CF4D8A5872A1F5605A5B4BB0818DA</string>
-				<string>6F7CB22A586205066B0E292ECBDE078A</string>
-			</array>
+			<key>fileRef</key>
+			<string>72B5BB24F75EC20CDEE1F0999CDE3BCA</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>5EE4734E350E10AD844DE91F54B77AB0</key>
 		<dict>
@@ -1739,43 +1812,6 @@
 			<key>targetProxy</key>
 			<string>6E2484B0A66668E64387B51D6A3A2A7F</string>
 		</dict>
-		<key>5F7CDE73844E46352B7AF6DDCEAC687B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ECF9146166DDECD94467A097B9214952</string>
-				<string>5424CEB2257DEB050CBEDBB9254A04C4</string>
-				<string>F6379675E46AB2DDD333E4E372147C61</string>
-				<string>EEAC44861ABD22C548295FCC1699C44E</string>
-				<string>41A9A7992F121557405F648EB20C2B23</string>
-				<string>C65C46DEDADAF0CE91D206B7E5F81E7F</string>
-				<string>133BF1B7ABD7FCA7F8079E4B56A8A29A</string>
-				<string>8694257ADE2765E51E6D58DD2FF0903F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5F9B361A3410A8F15EB6A65BC522F753</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1D8018C9EF5317E4871C7ADE6F00857D</string>
-				<string>E5BE9E7E42CC62CA55FDC9D2DA371122</string>
-				<string>3DD3AC9BFFCE7F7E3DAE2A75A81AA810</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SANetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>612DB2F7EDD615274B6D4A7A2E13A059</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -1784,7 +1820,7 @@
 			<array>
 				<string>1822E9BAA34360EA50BE21D607E7372D</string>
 				<string>D9CD19FF75D77FF19774589E244DBA85</string>
-				<string>5F7CDE73844E46352B7AF6DDCEAC687B</string>
+				<string>B46667CF90AD1831B0599EF8121AA8CD</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -1806,14 +1842,14 @@
 		<key>62631C2401189E8B84AA93E734174DE6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0DD4BF10A48FA800864CDA10A0156641</string>
+			<string>3447D7D040FFB62F797B51D7C4CF3077</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>6304B81C52D5DD1BD586C348D5FDD986</key>
+		<key>62BD787F220DB204D78F522F58B5ECBB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3D644DDA5B0C8B0A1CE2C89E0CF187FE</string>
+			<string>EE8D150BA284F18A223E56F7548F880C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1824,38 +1860,24 @@
 				</array>
 			</dict>
 		</dict>
-		<key>63E294F2A350936FFB6AD45168710B43</key>
+		<key>6304B81C52D5DD1BD586C348D5FDD986</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>2FFB522CA284A56FA262991BB4477121</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SACapper.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SACapper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>649C45A64E0AB36AE0ADD774873D2A22</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SASession.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>64ACFD7AD01B9721B0EB701E64D914D5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AFFEE1F6840725243ED4722F71B3E7BB</string>
+			<string>2F4BDB438BB026DE17B8DCBBB5D2762C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1908,7 +1930,7 @@
 		<key>659BD88C0BB83E5E2EB786C59EE14BE7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C8091A37AD4E38713B0379AAC8D104C0</string>
+			<string>7FC4787EC17C4544E3D522D53E8F83FB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1918,6 +1940,49 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>65D3D40A5FBEA3755CBC453E5DE47C87</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SASession.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6740B901D550ED5F53561B54628BD808</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAMedia.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAMedia.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6772463FA45A72A70B68C9D1236202E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAAd.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAAd.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>67E6E439E0F14DEF33CAC4B270EFDA0E</key>
 		<dict>
@@ -1960,22 +2025,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6AC179DC32F53B4B55C133BC511A226C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SADownloadItem.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SADownloadItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AD066E4FE0AA8F5B63EDB578486AB27</key>
+		<key>68AD6CD1CA4BCE94216DBA20FB01C85A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1984,11 +2034,40 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SAExtensions.h</string>
+			<string>SAJsonParser.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SAExtensions.h</string>
+			<string>Pod/Classes/SAJsonParser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A1045F89777815914DDD40F6033C218</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSDictionary+SAJson.h</string>
+			<key>path</key>
+			<string>Pod/Classes/NSDictionary+SAJson.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A8EAA751BD63A4A12C22AFF740D0189</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6772463FA45A72A70B68C9D1236202E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>6AD6023018BC1613D32148E76D0B066E</key>
 		<dict>
@@ -2004,7 +2083,7 @@
 		<key>6BF22C6232A591B1550B443F4898E4E3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2EE59BA596687AB8557045193F477F1A</string>
+			<string>15DE3CA3F509F14F04C0C26C94B704BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2021,68 +2100,10 @@
 			<key>remoteInfo</key>
 			<string>SAModelSpace</string>
 		</dict>
-		<key>6E314910097AC000EA745173BDA18366</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SATracking.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SATracking.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6EA70A8578E7C1A6479FA3CA1E22A103</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>SAUtils.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F7CB22A586205066B0E292ECBDE078A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>03935C1C249D6D1890F485C0A71E279D</string>
-				<string>392E7A126211DAD3608F3759B5A99542</string>
-				<string>C8091A37AD4E38713B0379AAC8D104C0</string>
-				<string>0DD4BF10A48FA800864CDA10A0156641</string>
-				<string>6AD066E4FE0AA8F5B63EDB578486AB27</string>
-				<string>CDB59D621ED75A47CEDD8684C1A886AE</string>
-				<string>1EF709DB57AB02CC7546D4BFBCF52859</string>
-				<string>433185A639D87BE696BBFE69A1DD25FB</string>
-				<string>83C7A3CC05CD1270091BFE692103EFCC</string>
-				<string>D0E564D82C54AFB08C2C7B3410F6E136</string>
-				<string>24CEFA3F4148EBF850BFA0D6980EDBCC</string>
-				<string>C86090AFA899430111CD59A8AF740B0F</string>
-				<string>F4E089F40436CA79CA0B259A2B2C53BD</string>
-				<string>B35A8067175627149486676F60A05029</string>
-				<string>C32498C2B6ACE2C8DDCB91EB3AFD228A</string>
-				<string>443897555C772005852253EAA7E47162</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SAUtils</string>
-			<key>path</key>
-			<string>SAUtils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>70391224F29AD2E80E189CD9DE73EEEA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B467BD715B45085FD8B7B18DFA623260</string>
+			<string>5337098EB43504D39E1E1172FCF4ECBF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2093,20 +2114,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>726F1967B75687A2A6E9ACC11D98D7F6</key>
+		<key>70C0433E1C30D25B3796C47750B0ADB5</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>E1C8EE381BC1C053788BEB47CECFBB48</string>
-				<string>30101878CE2AA0B5D583D02A56F94C9F</string>
-				<string>D5800E573D48A5CC3BF82E34F4CFC969</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>SAFileDownloader.m</string>
 			<key>path</key>
-			<string>../Target Support Files/SAModelSpace</string>
+			<string>Pod/Classes/SAFileDownloader.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2123,6 +2142,36 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>734876508CAF0303B6E2FAC983ECEE5B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SASession.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SASession.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77944663BB43BC546C7503576355FBF0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SACapper.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SACapper.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>7892E6DC144E1EBABE6238D854D24A97</key>
 		<dict>
 			<key>containerPortal</key>
@@ -2136,21 +2185,6 @@
 			<key>remoteInfo</key>
 			<string>SANetworking</string>
 		</dict>
-		<key>78ED02D925ED5389697C63699845A665</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAFileDownloader.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAFileDownloader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7AE587D098D810D678BF18B2D6124B93</key>
 		<dict>
 			<key>fileRef</key>
@@ -2161,7 +2195,7 @@
 		<key>7CBDC017448D555A8993E62EB981E46F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>245D48A679368339FBB50C5FE8D12625</string>
+			<string>6A1045F89777815914DDD40F6033C218</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2172,21 +2206,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>7D9991F1FFB75D71B0769485CFCB678C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAMedia.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAMedia.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -2194,7 +2213,7 @@
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>FD1C2909BFDBF9017CD5B4527AD0E973</string>
 				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>5C693889882C41FCB07AB855B7A3C5AD</string>
+				<string>92DB4EB570201F20DE755C6C25A24EFB</string>
 				<string>685A1736F44175D72D72B776C5057D64</string>
 				<string>653C954DBC89F666DA497C350A124606</string>
 			</array>
@@ -2203,7 +2222,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7FD098BBE44C0634EA7A9E00F9AA6707</key>
+		<key>7DD354AE0DB691D798F67D7CFAB105ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SAModelSpace.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FC4787EC17C4544E3D522D53E8F83FB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2212,38 +2244,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SATracking.h</string>
+			<string>SAActivityView.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SATracking.h</string>
+			<string>Pod/Classes/SAActivityView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>80ECF04286175B9CB691AA65B14E96B3</key>
+		<key>82FB1A9B161219D05CDDF24709085B1C</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>B2674F02E34274943216CBBBD64330CC</string>
-				<string>2EE59BA596687AB8557045193F477F1A</string>
-				<string>3B3558B300A7D2EE78E98B7F3B4B9E8D</string>
-				<string>3E3DCF588EF356EB6CB4A3E031EC643D</string>
-				<string>01DE38DFE85B218C7577ECF2E2A6E850</string>
-				<string>035BD8FEF3CCF0927950EF5DC2BB4875</string>
-				<string>F3219A10CF58DEBDDDB6638FEC971272</string>
-				<string>7D9991F1FFB75D71B0769485CFCB678C</string>
-				<string>AD7D95BFCFF5518BCE12C9E53BA6F309</string>
-				<string>43F4C23626B6134324D6A5207AD19DAE</string>
-				<string>0F0A4D5B9BB6714C9F21784FC0C708E9</string>
-				<string>7FD098BBE44C0634EA7A9E00F9AA6707</string>
-				<string>6E314910097AC000EA745173BDA18366</string>
-				<string>C26352B2AC44119D337CB9751E17C087</string>
-				<string>726F1967B75687A2A6E9ACC11D98D7F6</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SAModelSpace</string>
+			<string>SAExtensions.m</string>
 			<key>path</key>
-			<string>SAModelSpace</string>
+			<string>Pod/Classes/SAExtensions.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2274,18 +2292,18 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>83C7A3CC05CD1270091BFE692103EFCC</key>
+		<key>857ABEBB51BEF964E04CF71536C32F1C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SALogger.h</string>
+			<string>SACreative.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SALogger.h</string>
+			<string>Pod/Classes/SACreative.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2324,24 +2342,55 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>8694257ADE2765E51E6D58DD2FF0903F</key>
+		<key>874BD09F2DE50EAFD1762AAFF56CEF5C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>C26352B2AC44119D337CB9751E17C087</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SANetwork.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SANetwork.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>87F8B585B8EEAEEE524C91C13FA4F3F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSArray+SAJson.m</string>
+			<key>path</key>
+			<string>Pod/Classes/NSArray+SAJson.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>884E21171B5BB78EDA76610F904A2765</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SATracking.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SATracking.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>89CC94F303F267B488E9B2885410577C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>392E7A126211DAD3608F3759B5A99542</string>
+			<string>3C2CA55CF08482654618F14FD277F980</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2365,23 +2414,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8BF4278F91FD64B1E5841BCA5D65D48E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0299A8E9DB8340CDCA8A97E8C8D6F6FA</string>
-				<string>F03A7377932A869D1C037176F0E422BB</string>
-				<string>01F29D90E1699A6A03EFDFCD9714C305</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SAJsonParser</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>8C7E6E0D8C96E456CD017C295086497A</key>
 		<dict>
 			<key>fileRef</key>
@@ -2399,7 +2431,7 @@
 		<key>8D35752FF9132F0523EDC9B24EDBCC5F</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>649C45A64E0AB36AE0ADD774873D2A22</string>
+			<string>65D3D40A5FBEA3755CBC453E5DE47C87</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2439,7 +2471,7 @@
 		<key>8D3E8FF60A1DC53190B48C59AF9AC79E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0F0A4D5B9BB6714C9F21784FC0C708E9</string>
+			<string>025BC375A85629783A34787651742BB0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2479,7 +2511,7 @@
 		<key>8EEDC3502B7CEEAA331773513E4C1CC7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AD7D95BFCFF5518BCE12C9E53BA6F309</string>
+			<string>11D9D391E52FEEF0113F1B9DB467A6DE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2500,7 +2532,7 @@
 		<key>90A232F117B5F01BF53D6488C8DC3CBA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A702C05671B0AA66D0952A4E5D028C0E</string>
+			<string>161415EF26B19001DF6843BCB7F5237B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2565,6 +2597,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>92DB4EB570201F20DE755C6C25A24EFB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0E9CF9950EB57B53420738D6940CCB21</string>
+				<string>1183CDC947D5BF2BBBA225B4A6DB28BC</string>
+				<string>BD6D99097EB9E9B2D25EFB89A3F3E4D3</string>
+				<string>277568A4FFF7E1F2C58D3234D18E27A0</string>
+				<string>D7F98983C4F88317614887FB64F0082C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -2594,23 +2643,6 @@
 			<string>text.plist.xml</string>
 			<key>path</key>
 			<string>Pods-SAAdLoader_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93FCF87A8132C756A563641460CE78B5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>649C45A64E0AB36AE0ADD774873D2A22</string>
-				<string>A6D33FA5AC00835DA6C857B668FF15E2</string>
-				<string>E285C22E7EF709D4A3E3188D545FAA03</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/SASession</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2649,10 +2681,10 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>98225F2CCF3A832627EEC4B47A1A4E62</key>
+		<key>97046BF21A0DFB92D0778DE79F4DD1D0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>24CEFA3F4148EBF850BFA0D6980EDBCC</string>
+			<string>6740B901D550ED5F53561B54628BD808</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2662,6 +2694,35 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>98225F2CCF3A832627EEC4B47A1A4E62</key>
+		<dict>
+			<key>fileRef</key>
+			<string>090EBE10C9EF11A405BEF38721831A1B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>986009EAA9B257F009F69A80D56F48F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAImageUtils.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAImageUtils.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>98FADE4A467CADF0CDE5D70E50F3A26B</key>
 		<dict>
@@ -2754,18 +2815,18 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>A12CB0E5335EE0B425F147C56F3852D0</key>
+		<key>9CF87C0F3BAF33B91E5EDDE9ADBA649D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSDictionary+SafeHandling.m</string>
+			<string>SADownloadQueue.h</string>
 			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SafeHandling.m</string>
+			<string>Pod/Classes/SADownloadQueue.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2785,7 +2846,7 @@
 		<key>A3E81E8B384DDE675AA808EE8A18D920</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B35A8067175627149486676F60A05029</string>
+			<string>44EF34924E2E71F04B75C37B62153E90</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2796,10 +2857,27 @@
 				</array>
 			</dict>
 		</dict>
+		<key>A41C60C29CAED571F854AF62DFE872EF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DD354AE0DB691D798F67D7CFAB105ED</string>
+				<string>02CE800E74CC3FD0CAFD90B35A68B4D4</string>
+				<string>115926CEA513157E80CF56AF15D54381</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SAModelSpace</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A4729010408CAA8D70F978B8667D8281</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CDB59D621ED75A47CEDD8684C1A886AE</string>
+			<string>82FB1A9B161219D05CDDF24709085B1C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2810,7 +2888,20 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A6D33FA5AC00835DA6C857B668FF15E2</key>
+		<key>A57F1F0157D877FF64BBE884F43E5586</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SAJsonParser.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5A1826FFC81861577C76BB8A3B10F57</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2819,29 +2910,14 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>SASession-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A702C05671B0AA66D0952A4E5D028C0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SADeserializationProtocol.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SADeserializationProtocol.h</string>
+			<string>SANetworking-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A7486A6771F281BB75BAE55F17F46966</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E1C8EE381BC1C053788BEB47CECFBB48</string>
+			<string>7DD354AE0DB691D798F67D7CFAB105ED</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2893,6 +2969,21 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>A7E1AC0F890AC0308A25602AD83A86B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SALogger.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SALogger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A85F4B03AD6B23F62DB83031BF6116CA</key>
 		<dict>
 			<key>fileRef</key>
@@ -2900,54 +2991,12 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A8FB4A148229A127760B151A8F4BAD19</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>56E579242F052CA6E784311C05173201</string>
-				<string>6AC179DC32F53B4B55C133BC511A226C</string>
-				<string>393FB2506D1EE2CAAFF76EF8545E9837</string>
-				<string>5AA7EF5DFCEE92859B412C798EE725DB</string>
-				<string>AFFEE1F6840725243ED4722F71B3E7BB</string>
-				<string>78ED02D925ED5389697C63699845A665</string>
-				<string>3D644DDA5B0C8B0A1CE2C89E0CF187FE</string>
-				<string>E560DF15D20E01F968E8EEB9A4E5FDD0</string>
-				<string>5F9B361A3410A8F15EB6A65BC522F753</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SANetworking</string>
-			<key>path</key>
-			<string>SANetworking</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A957016A68B4DD28A8E5C75BC92BB1D6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>78ED02D925ED5389697C63699845A665</string>
+			<string>70C0433E1C30D25B3796C47750B0ADB5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>AC6CF4D8A5872A1F5605A5B4BB0818DA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EAA47167F8DEA9EB6577263FEA228AC2</string>
-				<string>63E294F2A350936FFB6AD45168710B43</string>
-				<string>B467BD715B45085FD8B7B18DFA623260</string>
-				<string>0AEA5CA34AA7A230CE04F58795992FE6</string>
-				<string>93FCF87A8132C756A563641460CE78B5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SASession</string>
-			<key>path</key>
-			<string>SASession</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AC74E3879E1A87A1922A066826E5EBAC</key>
 		<dict>
@@ -2961,21 +3010,6 @@
 			<string>494B417A6ABB5E6C3E08E31302B915C2</string>
 			<key>remoteInfo</key>
 			<string>SAJsonParser</string>
-		</dict>
-		<key>AD7D95BFCFF5518BCE12C9E53BA6F309</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAMedia.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAMedia.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AEBC626756617530E3F4B46E2B10DEAD</key>
 		<dict>
@@ -3014,25 +3048,10 @@
 			<key>targetProxy</key>
 			<string>57EE9B7DB02C3FB52E364176A39E0331</string>
 		</dict>
-		<key>AFFEE1F6840725243ED4722F71B3E7BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAFileDownloader.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAFileDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>B0F5497AD439E8D4582DA7C5912B1E88</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>6EA70A8578E7C1A6479FA3CA1E22A103</string>
+			<string>F206531DBD6DF8A8A0F5A5F793347FB1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3069,6 +3088,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>B1D4C01F499A585D544612FCA86F87B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SACreativeFormat.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SACreativeFormat.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B1D77D531BDDEEE979D1705B7870C1FA</key>
 		<dict>
 			<key>children</key>
@@ -3096,7 +3130,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B2674F02E34274943216CBBBD64330CC</key>
+		<key>B281F75BC5B30A234904C48D7F2B6463</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3105,9 +3139,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SAAd.h</string>
+			<string>SADetails.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SAAd.h</string>
+			<string>Pod/Classes/SADetails.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3124,40 +3158,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B35A8067175627149486676F60A05029</key>
+		<key>B46667CF90AD1831B0599EF8121AA8CD</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6A8EAA751BD63A4A12C22AFF740D0189</string>
+				<string>53346341F53C7DA529C0901CE30BFE51</string>
+				<string>62BD787F220DB204D78F522F58B5ECBB</string>
+				<string>C7BE7CDD30F9755EF630C3A094175173</string>
+				<string>F827B4B4B714F92DB0D3D2B26F378DFC</string>
+				<string>97046BF21A0DFB92D0778DE79F4DD1D0</string>
+				<string>2C9FF79BC18F884E78E884289B77B42B</string>
+				<string>DC6849505FB79A13F750E45570616026</string>
+				<string>327A676323B4F600DEC01F12EF093674</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAUtils.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAUtils.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B467BD715B45085FD8B7B18DFA623260</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SASession.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SASession.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>B6982B91CE442401936E1396EB3C80A4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5AA7EF5DFCEE92859B412C798EE725DB</string>
+			<string>DB7CE0A07ADB0E2383075BE5E840F788</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3177,10 +3202,25 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>B7FA37480E1DC0E64F4BC5B10AB760AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSDictionary+SafeHandling.h</string>
+			<key>path</key>
+			<string>Pod/Classes/NSDictionary+SafeHandling.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>B890AB7C49B1917DA1DA1F8192195931</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D227BFC1E2D31CED34D6618B5AD4BCEF</string>
+			<string>0D02B091F1709752C33653EB7D29D198</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3190,6 +3230,21 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>B8FADC49AF7E348BAE5B407B91FA2625</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SACampaignType.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SACampaignType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B9FDCC78AE156B0D320A62D01F9F1E21</key>
 		<dict>
@@ -3232,18 +3287,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C26352B2AC44119D337CB9751E17C087</key>
+		<key>BD6D99097EB9E9B2D25EFB89A3F3E4D3</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>0BD33999A0AD747CCBA1893FBB4D7C3B</string>
+				<string>F6E3EB820D32B6E86D90D8D9224395BA</string>
+				<string>9CF87C0F3BAF33B91E5EDDE9ADBA649D</string>
+				<string>DB7CE0A07ADB0E2383075BE5E840F788</string>
+				<string>2F4BDB438BB026DE17B8DCBBB5D2762C</string>
+				<string>70C0433E1C30D25B3796C47750B0ADB5</string>
+				<string>2FFB522CA284A56FA262991BB4477121</string>
+				<string>874BD09F2DE50EAFD1762AAFF56CEF5C</string>
+				<string>25BB631E0413FF7375F097D958D2968D</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>SAVASTAdType.h</string>
+			<string>SANetworking</string>
 			<key>path</key>
-			<string>Pod/Classes/SAVASTAdType.h</string>
+			<string>SANetworking</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3262,21 +3325,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>C32498C2B6ACE2C8DDCB91EB3AFD228A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAUtils.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAUtils.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>C46732F7E90F2C7F63197073C7A48A1F</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -3294,6 +3342,21 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>C4826E9D8A9A3F198A538B8E76546B22</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SACapper.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SACapper.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>C612C7D8C6912D08BD08CC6138E925A4</key>
 		<dict>
 			<key>isa</key>
@@ -3305,10 +3368,39 @@
 			<key>targetProxy</key>
 			<string>22685432BA57BAFFFEF3FCC0FC217787</string>
 		</dict>
-		<key>C65C46DEDADAF0CE91D206B7E5F81E7F</key>
+		<key>C66B1267682232CA6FBB588ADDCD3E34</key>
 		<dict>
 			<key>fileRef</key>
-			<string>43F4C23626B6134324D6A5207AD19DAE</string>
+			<string>1CB01542D4AA086AD6DF88F8BDDEA26B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C6F367193C9F8F3B7EA0229BC3DAAF4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC3AEF9FDE7878E5EF515B990B7AC2F6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C72AE8268552B16561227AE4C0C89F40</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SAUtils.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SAUtils.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7BE7CDD30F9755EF630C3A094175173</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B1D4C01F499A585D544612FCA86F87B3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3318,91 +3410,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>C66B1267682232CA6FBB588ADDCD3E34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3219A10CF58DEBDDDB6638FEC971272</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C6E5C9851F32D10839AE00DE2A3D0C60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAJsonParser.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAJsonParser.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6F367193C9F8F3B7EA0229BC3DAAF4F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>193510C8D3B171162D858AE7FC3965BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C8091A37AD4E38713B0379AAC8D104C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SAActivityView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SAActivityView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C86090AFA899430111CD59A8AF740B0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SAPopup.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SAPopup.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8A30FD9718CB03720B5F1C2304567CE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0501FF96F99B3EA667BFD4D4167FACA8</string>
-				<string>591AFE0FA4D21C994853704DEF19D594</string>
-				<string>D6410535564F664F8ED08D7592EF3C3F</string>
-				<string>A12CB0E5335EE0B425F147C56F3852D0</string>
-				<string>245D48A679368339FBB50C5FE8D12625</string>
-				<string>12EE2C30710F871C9C6E032B99C88754</string>
-				<string>F742FEB30A63CE2BEF2F02B2353D8320</string>
-				<string>193510C8D3B171162D858AE7FC3965BF</string>
-				<string>A702C05671B0AA66D0952A4E5D028C0E</string>
-				<string>C6E5C9851F32D10839AE00DE2A3D0C60</string>
-				<string>D227BFC1E2D31CED34D6618B5AD4BCEF</string>
-				<string>8BF4278F91FD64B1E5841BCA5D65D48E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SAJsonParser</string>
-			<key>path</key>
-			<string>SAJsonParser</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CA294AA6F55E802CD7AD199FF7EFAA27</key>
 		<dict>
@@ -3415,14 +3422,22 @@
 			<key>targetProxy</key>
 			<string>088DE30DF05D21DBA4DD76E0DA902A03</string>
 		</dict>
-		<key>CD95662A47140ECF1641CFA4BF48303A</key>
+		<key>CBB3D715376894C5A07AB7C75C0F2A7D</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A6D33FA5AC00835DA6C857B668FF15E2</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SABaseObject.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SABaseObject.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CDB59D621ED75A47CEDD8684C1A886AE</key>
+		<key>CC3AEF9FDE7878E5EF515B990B7AC2F6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3431,11 +3446,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SAExtensions.m</string>
+			<string>SABaseObject.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SAExtensions.m</string>
+			<string>Pod/Classes/SABaseObject.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CCD7C6DE5E06C2763E12D0C5EE4EDDAE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SATracking.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SATracking.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD95662A47140ECF1641CFA4BF48303A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13AA0956E69BA2B8775BF535E30AEEAD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>CDCF732422E2FA2C8925578929FDE9E0</key>
 		<dict>
@@ -3475,7 +3512,7 @@
 		<key>CF4C874D12172B97E689E37D25942769</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C32498C2B6ACE2C8DDCB91EB3AFD228A</string>
+			<string>C72AE8268552B16561227AE4C0C89F40</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3519,25 +3556,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>D0E564D82C54AFB08C2C7B3410F6E136</key>
+		<key>D02B167E8ADA63407880F644CFDA5643</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SALogger.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SALogger.m</string>
+			<string>SAUtils-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D12B3A9BC616B371DFB4AC09CEF1606B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>591AFE0FA4D21C994853704DEF19D594</string>
+			<string>87F8B585B8EEAEEE524C91C13FA4F3F2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3551,21 +3586,6 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>SALoader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D227BFC1E2D31CED34D6618B5AD4BCEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SASerializationProtocol.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SASerializationProtocol.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3613,6 +3633,21 @@
 				<string>48B022D307FD7D369294A4C5AC397DA3</string>
 			</array>
 		</dict>
+		<key>D4786E171F18A4E5EA2C2C0D302E399A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SAVASTAdType.h</string>
+			<key>path</key>
+			<string>Pod/Classes/SAVASTAdType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D4D71C0971187BDC48690B865003074B</key>
 		<dict>
 			<key>isa</key>
@@ -3624,27 +3659,7 @@
 			<key>targetProxy</key>
 			<string>8B96B8AF0311CC7B346F31EED0087281</string>
 		</dict>
-		<key>D5800E573D48A5CC3BF82E34F4CFC969</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SAModelSpace-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D5F4C11B2430CC0FBC99EEC585802561</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D0E564D82C54AFB08C2C7B3410F6E136</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D6410535564F664F8ED08D7592EF3C3F</key>
+		<key>D5DEB90934BC029804E3C7F8650301C0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3653,23 +3668,60 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSDictionary+SafeHandling.h</string>
+			<string>SAResponse.h</string>
 			<key>path</key>
-			<string>Pod/Classes/NSDictionary+SafeHandling.h</string>
+			<string>Pod/Classes/SAResponse.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D5F4C11B2430CC0FBC99EEC585802561</key>
+		<dict>
+			<key>fileRef</key>
+			<string>FD0F6D55954DA0DD56A352E7E59C17B5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D6FBD814D47AE6573EF6BFA17803B24F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E560DF15D20E01F968E8EEB9A4E5FDD0</string>
+			<string>874BD09F2DE50EAFD1762AAFF56CEF5C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>D7F98983C4F88317614887FB64F0082C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>141828D077600EC9D673504957BCF784</string>
+				<string>3C2CA55CF08482654618F14FD277F980</string>
+				<string>7FC4787EC17C4544E3D522D53E8F83FB</string>
+				<string>3447D7D040FFB62F797B51D7C4CF3077</string>
+				<string>4C993E058E2181A142F7BE70877053D7</string>
+				<string>82FB1A9B161219D05CDDF24709085B1C</string>
+				<string>986009EAA9B257F009F69A80D56F48F0</string>
+				<string>25B474262A04A5F1B5FC5FAE6F8C8903</string>
+				<string>A7E1AC0F890AC0308A25602AD83A86B8</string>
+				<string>FD0F6D55954DA0DD56A352E7E59C17B5</string>
+				<string>090EBE10C9EF11A405BEF38721831A1B</string>
+				<string>E56E10941E202950EFCB685A468F24BF</string>
+				<string>F8C19DC96E23F419DBF3285F1F537054</string>
+				<string>44EF34924E2E71F04B75C37B62153E90</string>
+				<string>C72AE8268552B16561227AE4C0C89F40</string>
+				<string>E40D1E1EB6AE9CE8E7371DC3AD886006</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SAUtils</string>
+			<key>path</key>
+			<string>SAUtils</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D81667631EC160D4986AAE0659323C48</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1EF709DB57AB02CC7546D4BFBCF52859</string>
+			<string>986009EAA9B257F009F69A80D56F48F0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -3719,12 +3771,41 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>DB7CE0A07ADB0E2383075BE5E840F788</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SADownloadQueue.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SADownloadQueue.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>DBD69BFE7B54627649EAC51F0BA45167</key>
 		<dict>
 			<key>fileRef</key>
 			<string>FAB76E3D9452D2362BF6AFBC9521EA51</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>DC6849505FB79A13F750E45570616026</key>
+		<dict>
+			<key>fileRef</key>
+			<string>884E21171B5BB78EDA76610F904A2765</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>DCE386A83F3B9FA6D8D8EA39946B542B</key>
 		<dict>
@@ -3739,33 +3820,24 @@
 			<key>remoteInfo</key>
 			<string>SAModelSpace</string>
 		</dict>
-		<key>E1C8EE381BC1C053788BEB47CECFBB48</key>
+		<key>E40D1E1EB6AE9CE8E7371DC3AD886006</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>F206531DBD6DF8A8A0F5A5F793347FB1</string>
+				<string>0941211AD28E86316AC0793C08B71254</string>
+				<string>D02B167E8ADA63407880F644CFDA5643</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>SAModelSpace.xcconfig</string>
+			<string>../Target Support Files/SAUtils</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E285C22E7EF709D4A3E3188D545FAA03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SASession-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E560DF15D20E01F968E8EEB9A4E5FDD0</key>
+		<key>E56E10941E202950EFCB685A468F24BF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -3774,22 +3846,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>SANetwork.m</string>
+			<string>SAPopup.m</string>
 			<key>path</key>
-			<string>Pod/Classes/SANetwork.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5BE9E7E42CC62CA55FDC9D2DA371122</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SANetworking-dummy.m</string>
+			<string>Pod/Classes/SAPopup.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -3824,7 +3883,7 @@
 		<key>EA307581FD9D34D253DD2A51F8377936</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>649C45A64E0AB36AE0ADD774873D2A22</string>
+			<string>65D3D40A5FBEA3755CBC453E5DE47C87</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -3868,35 +3927,6 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EAA47167F8DEA9EB6577263FEA228AC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SACapper.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SACapper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECF9146166DDECD94467A097B9214952</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B2674F02E34274943216CBBBD64330CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>ED62071F4503BD18D2782617322A8555</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -3918,39 +3948,27 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>EEAC44861ABD22C548295FCC1699C44E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>035BD8FEF3CCF0927950EF5DC2BB4875</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EEF1629B4D4F1DCA34DC44835E20F580</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30101878CE2AA0B5D583D02A56F94C9F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F03A7377932A869D1C037176F0E422BB</key>
+		<key>EE8D150BA284F18A223E56F7548F880C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SACreative.h</string>
 			<key>path</key>
-			<string>SAJsonParser-dummy.m</string>
+			<string>Pod/Classes/SACreative.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EEF1629B4D4F1DCA34DC44835E20F580</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02CE800E74CC3FD0CAFD90B35A68B4D4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F0471DAB0058571993FBF3B924B1DD2D</key>
 		<dict>
@@ -3970,7 +3988,7 @@
 		<key>F0789E8CCBB55F914BAB00802BBC0DA5</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C86090AFA899430111CD59A8AF740B0F</string>
+			<string>E56E10941E202950EFCB685A468F24BF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -3980,6 +3998,19 @@
 			<string>074624FD6D419035ECA72966B8733F1B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>F206531DBD6DF8A8A0F5A5F793347FB1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SAUtils.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F24817F4F5293560D5C1D21F2645A3E0</key>
 		<dict>
@@ -4015,7 +4046,7 @@
 		<key>F30939DDA4C77F3EE9470FCF29CC4906</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>0299A8E9DB8340CDCA8A97E8C8D6F6FA</string>
+			<string>A57F1F0157D877FF64BBE884F43E5586</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -4051,21 +4082,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>F3219A10CF58DEBDDDB6638FEC971272</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SADetails.m</string>
-			<key>path</key>
-			<string>Pod/Classes/SADetails.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F325026B55060D3B22BEC0BAB5FA7344</key>
 		<dict>
@@ -4138,21 +4154,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>F4E089F40436CA79CA0B259A2B2C53BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SASystemVersion.h</string>
-			<key>path</key>
-			<string>Pod/Classes/SASystemVersion.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>F528B1A8D29756E63F7AC273991A98E5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -4166,10 +4167,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F6379675E46AB2DDD333E4E372147C61</key>
+		<key>F6E3EB820D32B6E86D90D8D9224395BA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SADownloadItem.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SADownloadItem.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F813950DCE8024FCC8AA79AE04F83EC2</key>
 		<dict>
 			<key>fileRef</key>
-			<string>01DE38DFE85B218C7577ECF2E2A6E850</string>
+			<string>1F2B848FEC16B44CA4B24801F4A77661</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F827B4B4B714F92DB0D3D2B26F378DFC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B281F75BC5B30A234904C48D7F2B6463</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4180,7 +4203,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F742FEB30A63CE2BEF2F02B2353D8320</key>
+		<key>F8C19DC96E23F419DBF3285F1F537054</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -4189,18 +4212,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>SABaseObject.h</string>
+			<string>SASystemVersion.h</string>
 			<key>path</key>
-			<string>Pod/Classes/SABaseObject.h</string>
+			<string>Pod/Classes/SASystemVersion.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F813950DCE8024FCC8AA79AE04F83EC2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F2B848FEC16B44CA4B24801F4A77661</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>F965D597DBAE183369EE73E99704ADCD</key>
 		<dict>
@@ -4238,6 +4254,21 @@
 			<string>48B022D307FD7D369294A4C5AC397DA3</string>
 			<key>targetProxy</key>
 			<string>2C6573A47076D614EF40E87B46A855B8</string>
+		</dict>
+		<key>FD0F6D55954DA0DD56A352E7E59C17B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SALogger.m</string>
+			<key>path</key>
+			<string>Pod/Classes/SALogger.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FD1C2909BFDBF9017CD5B4527AD0E973</key>
 		<dict>
@@ -4286,7 +4317,7 @@
 		<key>FE0A4C9CBD6AD2651A2D9BC233AA1072</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F4E089F40436CA79CA0B259A2B2C53BD</string>
+			<string>F8C19DC96E23F419DBF3285F1F537054</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -4300,7 +4331,7 @@
 		<key>FE9EA811BEF6E9491B517934E75CEB26</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F742FEB30A63CE2BEF2F02B2353D8320</string>
+			<string>CBB3D715376894C5A07AB7C75C0F2A7D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>

@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SAAdLoader'
-  s.version          = '0.7.6'
+  s.version          = '0.7.7'
   s.summary          = 'SAAdLoader handles all SA AA ad loading'
   s.description      = <<-DESC
  The SAAdLoader library handles all AwesomeAds ad loading for the SDK. The end result is a either a valid playable ad or a failure callback.
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
-  s.dependency 'SAModelSpace', '0.2.7'
-  s.dependency 'SAUtils', '1.3.9'
-  s.dependency 'SANetworking', '0.2.1'
-  s.dependency 'SASession', '0.2.0'
+  s.dependency 'SAModelSpace', '0.2.9'
+  s.dependency 'SAUtils', '1.4.3'
+  s.dependency 'SANetworking', '0.2.4'
+  s.dependency 'SASession', '0.2.3'
 end
