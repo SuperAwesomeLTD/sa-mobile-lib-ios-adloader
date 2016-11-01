@@ -23,33 +23,37 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    
+    
+    SALoader *loader = [[SALoader alloc] init];
+//     [loader loadAd:251 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"Loaded Ad 251");
+//    }];
+    
+//    [loader loadAd:470 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"Loaded Ad 470");
+//    }];
+    
+//    [loader loadAd:480 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"Loaded Ad 480");
+//    }];
+    
+//    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"Loaded Ad #1 481");
+//    }];
     SASession *session = [[SASession alloc] init];
+    [session setConfigurationProduction];
+    [session enableTestMode];
+    
+    [loader loadAd:28000 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+    }];
+    
     [session setConfigurationStaging];
     [session disableTestMode];
     
-    SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:251 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"Loaded Ad 251");
-    }];
-    
-    [loader loadAd:470 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"Loaded Ad 470");
-    }];
-    
-    [loader loadAd:480 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"Loaded Ad 480");
-    }];
-    
-    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"Loaded Ad #1 481");
-    }];
-    
-    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"Loaded Ad #2 481");
-    }];
-    
-    [loader loadAd:481 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"Loaded Ad #3 481");
+    [loader loadAd:544 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
     }];
     
 //    [loader loadAd:250 withSession:session andResult:^(SAResponse *response) {
