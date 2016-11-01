@@ -55,7 +55,7 @@
                  done:(vastParsingDone)vastParsing {
     
     // get connectivity
-    _connection = [session getConnectivityType];
+    _connection = (SAConnectionType)[session getConnectivityType];
     
     // parse the vast ad
     [self parseVASTAds:url withResult:^(SAAd *ad) {
