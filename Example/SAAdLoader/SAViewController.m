@@ -43,16 +43,20 @@
 //    }];
     SASession *session = [[SASession alloc] init];
     [session setConfigurationProduction];
-    [session enableTestMode];
+    [session disableTestMode];
     
-    [loader loadAd:28000 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
-    }];
+//    [loader loadAd:28000 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+//    }];
     
     [session setConfigurationStaging];
     [session disableTestMode];
     
-    [loader loadAd:544 withSession:session andResult:^(SAResponse *response) {
+//    [loader loadAd:544 withSession:session andResult:^(SAResponse *response) {
+//        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+//    }];
+    
+    [loader loadAd:437 withSession:session andResult:^(SAResponse *response) {
         NSLog(@"%@", [response jsonPreetyStringRepresentation]);
     }];
     
