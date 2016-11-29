@@ -56,8 +56,8 @@
 //        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
 //    }];
     
-    [loader loadAd:437 withSession:session andResult:^(SAResponse *response) {
-        NSLog(@"%@", [response jsonPreetyStringRepresentation]);
+    [loader loadAd:123 withSession:session andResult:^(SAResponse *response) {
+        NSLog(@"Ad: %@", [response jsonPreetyStringRepresentation]);
     }];
     
 //    [loader loadAd:250 withSession:session andResult:^(SAResponse *response) {
