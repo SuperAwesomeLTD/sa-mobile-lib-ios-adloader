@@ -129,7 +129,7 @@
         withResponse:^(NSInteger status, NSString *payload, BOOL success) {
             
             // create the response
-            __block SAResponse *response = [[SANetwork alloc] init];
+            __block SAResponse *response = [[SAResponse alloc] init];
             response.status = status;
             response.placementId = placementId;
             
