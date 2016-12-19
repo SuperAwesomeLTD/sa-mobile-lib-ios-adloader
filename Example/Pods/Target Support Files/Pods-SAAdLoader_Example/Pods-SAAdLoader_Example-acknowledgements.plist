@@ -34,6 +34,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>GNU GENERAL PUBLIC LICENSE Version 3</string>
 			<key>Title</key>
 			<string>SAAdLoader</string>
 			<key>Type</key>
@@ -716,6 +718,8 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 &lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.
 </string>
+			<key>License</key>
+			<string>GNU GENERAL PUBLIC LICENSE Version 3</string>
 			<key>Title</key>
 			<string>SAJsonParser</string>
 			<key>Type</key>
@@ -743,6 +747,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>GNU GENERAL PUBLIC LICENSE Version 3</string>
 			<key>Title</key>
 			<string>SAModelSpace</string>
 			<key>Type</key>
@@ -770,6 +776,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 </string>
+			<key>License</key>
+			<string>GNU GENERAL PUBLIC LICENSE Version 3</string>
 			<key>Title</key>
 			<string>SANetworking</string>
 			<key>Type</key>
@@ -979,6 +987,8 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 </string>
+			<key>License</key>
+			<string>GNU GENERAL PUBLIC LICENSE Version 3</string>
 			<key>Title</key>
 			<string>SASession</string>
 			<key>Type</key>
@@ -1661,6 +1671,8 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 &lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;.
 </string>
+			<key>License</key>
+			<string>GNU GENERAL PUBLIC LICENSE Version 3</string>
 			<key>Title</key>
 			<string>SAUtils</string>
 			<key>Type</key>
