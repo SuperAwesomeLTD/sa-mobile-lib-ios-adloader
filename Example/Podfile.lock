@@ -1,5 +1,5 @@
 PODS:
-  - SAAdLoader (0.8.6):
+  - SAAdLoader (0.8.8):
     - SAModelSpace (= 0.3.5)
     - SANetworking (= 0.2.8)
     - SASession (= 0.3.1)
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: 45291d16a206a0d647b197ffa073f6f5c0fe5e6b
+  SAAdLoader: 157ba79bfacdb57d6bcb4e8492bae8afaa739f78
   SAJsonParser: ba97da3b149e2892efa10bf868b6fe6c42e54829
   SAModelSpace: f3c4357f15433a18753fc1b644da5ec9b636dc0d
   SANetworking: 2aa3cce4a0cdd6e07844c52efc159d675495df8a
