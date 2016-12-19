@@ -1,11 +1,11 @@
 PODS:
-  - SAAdLoader (0.8.8):
-    - SAModelSpace (= 0.3.5)
+  - SAAdLoader (0.8.9):
+    - SAModelSpace (= 0.3.6)
     - SANetworking (= 0.2.8)
     - SASession (= 0.3.1)
     - SAUtils (= 1.4.7)
   - SAJsonParser (1.3.1)
-  - SAModelSpace (0.3.5):
+  - SAModelSpace (0.3.6):
     - SAJsonParser (= 1.3.1)
   - SANetworking (0.2.8)
   - SASession (0.3.1):
@@ -20,9 +20,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SAAdLoader: 157ba79bfacdb57d6bcb4e8492bae8afaa739f78
+  SAAdLoader: a2c1ab8e8e4339b2cca5ef3dd472a55b72d1acfb
   SAJsonParser: ba97da3b149e2892efa10bf868b6fe6c42e54829
-  SAModelSpace: f3c4357f15433a18753fc1b644da5ec9b636dc0d
+  SAModelSpace: caedf42930d4a9c852e058ebcaeb8eb9adbb27d0
   SANetworking: 2aa3cce4a0cdd6e07844c52efc159d675495df8a
   SASession: 297e48017e79c90d5b2cf83732500d49a6e6594f
   SAUtils: 4269eb6241847999c45cf776d99888b7632dad3d
