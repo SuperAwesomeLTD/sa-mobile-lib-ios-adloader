@@ -2,39 +2,62 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SAAdLoader_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SAAdLoader_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SAAdLoader.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SAJsonParser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SAModelSpace.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SANetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SASession.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SAUtils.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SAVASTParser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>12DD62882CDCD330D473C02ADA45EE93</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>24946D27C986ED0D1285F33CCABD766E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>385F726241A98A4F749ADF1CAFB1E92C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4A21ABDD5DCB9120CCD80BB6E68094DA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5FB5C3FECE0862646C33F349A5BFD0D3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>763554E8E0840A8A946B91AD6ABC4F24</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>89BFF12346319D87486339112A465CB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -45,16 +68,6 @@
 			<true/>
 		</dict>
 		<key>988D102C5AADE6AA527522124AE0D546</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C23D2EBE4EB77B7270DEC0C235FA3059</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CB299E5CD114D2704DEDA5CF87F15F9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

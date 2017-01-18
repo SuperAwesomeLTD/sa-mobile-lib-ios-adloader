@@ -192,7 +192,9 @@
         else {
             
             NSDictionary *jsonDict = [[NSDictionary alloc] initWithJsonString:data];
-            NSArray *jsonArray = [NSArray arrayWithJsonString:data andIterator:nil];
+            NSArray *jsonArray = [NSArray arrayWithJsonString:data andIterator:^id(id item) {
+                return item;
+            }];
             
             // Normal Ad case
             if (jsonDict != nil && [jsonDict count] > 0) {
