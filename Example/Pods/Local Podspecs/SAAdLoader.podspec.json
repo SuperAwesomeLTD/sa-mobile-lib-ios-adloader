@@ -22,16 +22,19 @@
   "source_files": "Pod/Classes/**/*",
   "dependencies": {
     "SAModelSpace": [
-      "0.3.7"
+      "0.4.0"
     ],
     "SAUtils": [
-      "1.4.7"
+      "1.5.0"
     ],
     "SANetworking": [
-      "0.2.8"
+      "0.2.9"
     ],
     "SASession": [
-      "0.3.3"
+      "0.3.5"
+    ],
+    "SAVASTParser": [
+      "1.5.8"
     ]
   }
 }
