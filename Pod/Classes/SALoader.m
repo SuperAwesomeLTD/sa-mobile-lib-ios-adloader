@@ -211,6 +211,7 @@
                 
                 switch (ad.creative.format) {
                     // in this case return whatever we have at this moment
+                    case SA_Appwall:
                     case SA_Invalid: {
                         localResult (response);
                         break;
