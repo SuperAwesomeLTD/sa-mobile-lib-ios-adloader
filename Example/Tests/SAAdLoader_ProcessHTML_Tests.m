@@ -34,8 +34,7 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoImageHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<meta name='viewport' content='width=device-width, initial-scale=_PARAM_SCALE_, maximum-scale=_PARAM_SCALE_, user-scalable=no' />"]);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img id='image' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
 }
 
 - (void) testProcessRichMedia {
@@ -49,7 +48,6 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoRichMediaHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<meta name='viewport' content='width=device-width, initial-scale=_PARAM_SCALE_, maximum-scale=_PARAM_SCALE_, user-scalable=no, target-densitydpi=device-dpi'/>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"<iframe src='https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html?creative=2081&line_item=2001&placement=4091&rnd="]);
 }
 
@@ -60,8 +58,10 @@
     ad.creative.details.tag = @"<!-- Beginning PassBack for Ad unit FK:Site-Skyscraper-Passback ### size: [[120,600]] -->\\\\n\\\\t<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>\\\\n\\\\t\\\\tgoogletag.pubads().definePassback('1002534/FK:Site-Skyscraper-Passback', [[120,600]]).display();\\\\n\\\\t</script>\\\\n<!-- End Passback -->";
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoTagHTML:ad];
     
+    NSLog(@"SuperAwesome: %@", ad.creative.details.media.html);
+    
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<meta charset='UTF-8'/><title>SuperAwesome 3rd Party Tag Template</title><meta name='viewport' content='width=device-width, initial-scale=_PARAM_SCALE_, maximum-scale=_PARAM_SCALE_, user-scalable=no, target-densitydpi=device-dpi'/>"]);
+//    XCTAssertTrue([ad.creative.details.media.html containsString:@"<!-- Beginning PassBack for Ad unit FK:Site-Skyscraper-Passback ### size: [[120,600]] -->\\<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>\\\googletag.pubads().definePassback('1002534/FK:Site-Skyscraper-Passback', [[120,600]]).display();\\</script>\<!-- End Passback -->"]);
     
 }
 
