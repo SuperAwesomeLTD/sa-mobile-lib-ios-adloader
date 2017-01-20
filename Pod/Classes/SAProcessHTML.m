@@ -57,13 +57,8 @@
 
 + (NSString*) formatCreativeIntoImageHTML:(SAAd*) ad {
     
-    // the html string
-    NSString *htmlString = @"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"/><html><header><style>html, body, div { margin: 0px; padding: 0px; width: 100%; height: 100%; overflow: hidden; background-color: #efefef; }</style></header><body>_CONTENT_</body></html>";
     // the img string
     NSString *imgString = @"<a href='hrefURL'><img src='imageURL'/></a>_MOAT_";
-    
-    // do the replacement
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"_CONTENT_" withString:imgString];
     
     // determine the Click URL
     NSString *click = ad.creative.clickUrl;
@@ -77,24 +72,19 @@
     
     // set click
     if (click != nil) {
-        htmlString = [[htmlString stringByReplacingOccurrencesOfString:@"hrefURL" withString:click] mutableCopy];
+        imgString = [imgString stringByReplacingOccurrencesOfString:@"hrefURL" withString:click];
     }
     // set image
     if (ad.creative.details.image) {
-        htmlString = [[htmlString stringByReplacingOccurrencesOfString:@"imageURL" withString:ad.creative.details.image] mutableCopy];
+        imgString = [imgString stringByReplacingOccurrencesOfString:@"imageURL" withString:ad.creative.details.image];
     }
-    return htmlString;
+    return imgString;
 }
 
 + (NSString*) formatCreativeIntoRichMediaHTML:(SAAd*) ad {
     
-    // the html string
-    NSString *htmlString = @"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"/><html><header><style>html, body, div { margin: 0px; padding: 0px; width: 100%; height: 100%; overflow: hidden; background-color: #efefef; }</style></header><body>_CONTENT_</body></html>";
     // the img string
     NSString *rmString = @"<iframe src='richMediaURL'></iframe>_MOAT_";
-    
-    // do the replacement
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"_CONTENT_" withString:rmString];
     
     // format template parameters
     NSMutableString *richMediaString = [@"" mutableCopy];
@@ -110,7 +100,7 @@
     [richMediaString appendString:[SAUtils formGetQueryFromDict:richMediaDict]];
     
     // return the parametrized template
-    NSString *richString = [htmlString stringByReplacingOccurrencesOfString:@"richMediaURL" withString:richMediaString];
+    NSString *richString = [rmString stringByReplacingOccurrencesOfString:@"richMediaURL" withString:richMediaString];
     
     richString = [richString stringByReplacingOccurrencesOfString:@"" withString:@""];
     
@@ -119,14 +109,8 @@
 
 + (NSString*) formatCreativeIntoTagHTML:(SAAd*) ad {
     
-    // the html string
-    NSString *htmlString = @"<!DOCTYPE html><html><head><meta charset=\"UTF-8\"/><html><header><style>html, body, div { margin: 0px; padding: 0px; width: 100%; height: 100%; overflow: hidden; background-color: #efefef; }</style></header><body>_CONTENT_</body></html>";
     // the img string
-    NSString *rmString = @"tagdata_MOAT_";
-    
-    // do the replacement
-    htmlString = [htmlString stringByReplacingOccurrencesOfString:@"_CONTENT_" withString:rmString];
-    
+    NSString *tagHtml = @"tagdata_MOAT_";
     
     // format template parameters
     NSString *tagString = ad.creative.details.tag;
@@ -151,7 +135,7 @@
     tagString = [tagString stringByReplacingOccurrencesOfString:@"\n" withString:@""];
     tagString = [tagString stringByReplacingOccurrencesOfString:@"“" withString:@"\""];
     
-    NSString *html = [htmlString stringByReplacingOccurrencesOfString:@"tagdata" withString:tagString];
+    NSString *html = [tagHtml stringByReplacingOccurrencesOfString:@"tagdata" withString:tagString];
     // html = [html stringByReplacingOccurrencesOfString:@"\/" withString:@"/"];
     html = [html stringByReplacingOccurrencesOfString:@"\\/" withString:@"/"];
     html = [html stringByReplacingOccurrencesOfString:@"\"" withString:@"'"];
