@@ -84,7 +84,7 @@
 + (NSString*) formatCreativeIntoRichMediaHTML:(SAAd*) ad {
     
     // the img string
-    NSString *rmString = @"<iframe src='richMediaURL'></iframe>_MOAT_";
+    NSString *rmString = @"<iframe style='padding:0;margin:0;border:0;' width='100%' height='100%' src='richMediaURL'></iframe>_MOAT_";
     
     // format template parameters
     NSMutableString *richMediaString = [@"" mutableCopy];

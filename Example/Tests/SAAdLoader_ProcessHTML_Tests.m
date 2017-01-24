@@ -48,7 +48,7 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoRichMediaHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<iframe src='https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html?creative=2081&line_item=2001&placement=4091&rnd="]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<iframe style='padding:0;margin:0;border:0;' width='100%' height='100%' src='https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html?creative=2081&line_item=2001&placement=4091&rnd="]);
 }
 
 - (void) testProcessTag {
