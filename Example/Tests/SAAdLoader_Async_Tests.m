@@ -285,7 +285,7 @@
         BOOL expected_media_isOnDisk = false;
         
         XCTAssertNotNil(response);
-        XCTAssertTrue([response isValid]);
+        XCTAssertFalse([response isValid]);
         XCTAssertNotNil(response.ads);
         XCTAssertEqual(expected_ads, [response.ads count]);
         
