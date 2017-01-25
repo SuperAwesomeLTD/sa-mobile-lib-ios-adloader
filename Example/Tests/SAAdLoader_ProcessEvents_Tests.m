@@ -36,6 +36,7 @@
     ad.creative._id = 1092;
     ad.creative.impressionUrl = @"https://superawesome.tv/impression";
     ad.creative.installUrl = @"https://superawesome.tv/install";
+    ad.creative.clickCounterUrl = @"https://superawesome.tv/click_counter";
     
     SASession *session = [[SASession alloc] init];
                            ;
@@ -44,7 +45,7 @@
     
     [SAProcessEvents addAdEvents:ad forSession:session];
     
-    int expected_events = 9;
+    int expected_events = 10;
     
     int expected_sa_tracking = 1;
     int expected_viewable_impr = 1;
@@ -55,6 +56,7 @@
     int expected_sa_impr = 1;
     int expected_impression = 1;
     int expected_install = 1;
+    int expected_click_counter = 1;
     
     NSString *expected_sa_tracking_url = @"https://ads.superawesome.tv/v2/click?placement=4001&rnd=1026797&sourceBundle=org.cocoapods.demo.SAAdLoader-Example&creative=1092&line_item=2731&ct=wifi&sdkVersion=0.0.0";
     NSString *expected_viewable_impr_url = @"https://ads.superawesome.tv/v2/event?data=%7B%22type%22%3A%22viewable_impression%22%2C%22creative%22%3A1092%2C%22line_item%22%3A2731%2C%22placement%22%3A4001%7D&sourceBundle=org.cocoapods.demo.SAAdLoader-Example&rnd=1115679&ct=wifi&sdkVersion=0.0.0";
@@ -65,6 +67,7 @@
     NSString *expected_sa_impr_url = @"https://ads.superawesome.tv/v2/impression?placement=4001&rnd=1095998&sourceBundle=org.cocoapods.demo.SAAdLoader-Example&no_image=true&line_item=2731&creative=1092&sdkVersion=0.0.0";
     NSString *expected_impression_url = @"https://superawesome.tv/impression";
     NSString *expected_install_url = @"https://superawesome.tv/install";
+    NSString *expected_click_counter_url = @"https://superawesome.tv/click_counter";
     
     XCTAssertNotNil(ad.creative.events);
     XCTAssertEqual(expected_events, [ad.creative.events count]);
@@ -78,6 +81,7 @@
     NSMutableArray<SATracking*> *sa_impr = [@[] mutableCopy];
     NSMutableArray<SATracking*> *impression = [@[] mutableCopy];
     NSMutableArray<SATracking*> *install = [@[] mutableCopy];
+    NSMutableArray<SATracking*> *click_counter = [@[] mutableCopy];
     
     for (SATracking *event in ad.creative.events) {
         if ([event.event containsString:@"sa_tracking"]) [sa_tracking addObject:event];
@@ -89,6 +93,7 @@
         if ([event.event containsString:@"sa_impr"]) [sa_impr addObject:event];
         if ([event.event containsString:@"impression"]) [impression addObject:event];
         if ([event.event containsString:@"install"]) [install addObject:event];
+        if ([event.event containsString:@"clk_counter"]) [click_counter addObject:event];
     }
     
     XCTAssertEqual(expected_sa_tracking, [sa_tracking count]);
@@ -100,6 +105,7 @@
     XCTAssertEqual(expected_sa_impr, [sa_impr count]);
     XCTAssertEqual(expected_impression, [impression count]);
     XCTAssertEqual(expected_install, [install count]);
+    XCTAssertEqual(expected_click_counter, [click_counter count]);
     
     NSString *sa_tracking_url = sa_tracking[0].URL;
     NSString *viewable_impr_url = viewable_impr[0].URL;
@@ -110,6 +116,7 @@
     NSString *sa_impr_url = sa_impr[0].URL;
     NSString *impression_url = impression[0].URL;
     NSString *install_url = install[0].URL;
+    NSString *click_counter_url = click_counter[0].URL;
     
     XCTAssertNotNil(sa_tracking_url);
     XCTAssertNotNil(viewable_impr_url);
@@ -120,6 +127,7 @@
     XCTAssertNotNil(sa_impr_url);
     XCTAssertNotNil(impression_url);
     XCTAssertNotNil(install_url);
+    XCTAssertNotNil(click_counter_url);
     
 //    BOOL sa_tracking_ok =  getHammingDistance(expected_sa_tracking_url, sa_tracking_url, 7);
 //    BOOL viewable_impr_ok = getHammingDistance(expected_viewable_impr_url, viewable_impr_url, 7);
