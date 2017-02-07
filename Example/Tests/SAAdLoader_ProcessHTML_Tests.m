@@ -92,7 +92,7 @@
     
     XCTAssertNotNil(ad.creative.details.media.html);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"https://ad.doubleclick.net/ddm/jump/N304202.1915243SUPERAWESOME.TV"]);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<IMG SRC='https://ad.doubleclick.net/ddm/ad/N304202.1915243SUPERAWESOME.TV"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<IMG SRC=\"https://ad.doubleclick.net/ddm/ad/N304202.1915243SUPERAWESOME.TV"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"_MOAT_"]);
     XCTAssertFalse([ad.creative.details.media.html containsString:@"[click]"]);
 }
@@ -109,7 +109,7 @@
 //    XCTAssertTrue([ad.creative.details.media.html containsString:@"http://hotnews.ro&redir="]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"https://ad.doubleclick.net/ddm/jump/N304202.1915243SUPERAWESOME.TV"]);
 //    XCTAssertTrue([ad.creative.details.media.html containsString:@"http://hotnews.ro?redir=https://ad.doubleclick.net/ddm/jump/N304202.1915243SUPERAWESOME.TV"]);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<IMG SRC='https://ad.doubleclick.net/ddm/ad/N304202.1915243SUPERAWESOME.TV"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<IMG SRC=\"https://ad.doubleclick.net/ddm/ad/N304202.1915243SUPERAWESOME.TV"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"_MOAT_"]);
     XCTAssertFalse([ad.creative.details.media.html containsString:@"[click]"]);
 }
