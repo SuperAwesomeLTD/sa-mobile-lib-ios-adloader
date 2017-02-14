@@ -1,4 +1,4 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 
 target 'SAAdLoader_Example' do
   pod 'SAAdLoader', :path => '../'
