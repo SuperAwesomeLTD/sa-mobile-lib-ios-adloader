@@ -1300,29 +1300,6 @@
 			};
 			name = Debug;
 		};
-		09E53E19E3C0BB4282E4BAC4E9C05CC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAAdLoader/SAAdLoader-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		0B6FD5593EAFA857F0854927616F4F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E8D3D8A5F1EAC7B6AE3C27455B1E4CE /* Pods-SAAdLoader_Tests.debug.xcconfig */;
@@ -1392,6 +1369,29 @@
 			};
 			name = Release;
 		};
+		244B081AC055BD26F0263D1754E12CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAAdLoader/SAAdLoader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		2532F1FED7E0C71DABD854D892B192ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6C0CC3F7A9960E508A4465E1CF0A456 /* SAUtils.xcconfig */;
@@ -1437,29 +1437,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		36FFDEB64FE13F198589506783E1CB03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SAAdLoader/SAAdLoader-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 		3AA3D85B1AFAFEF50379E08867447692 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1685,6 +1662,29 @@
 			};
 			name = Release;
 		};
+		A8D219106D65F9B349BFF21F5A60164B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD01C8E8D84AAF6F8050DBBB08D8F4B /* SAAdLoader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAAdLoader/SAAdLoader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B48BCCB2344086C8DA54AE65755E6445 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AE23B3C847E04B0DDDC18B5575BC0D2F /* SANetworking.xcconfig */;
@@ -1796,8 +1796,8 @@
 		8125FB6CD87ABF39C5F9F2EC52160D95 /* Build configuration list for PBXNativeTarget "SAAdLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09E53E19E3C0BB4282E4BAC4E9C05CC0 /* Debug */,
-				36FFDEB64FE13F198589506783E1CB03 /* Release */,
+				244B081AC055BD26F0263D1754E12CC7 /* Debug */,
+				A8D219106D65F9B349BFF21F5A60164B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
