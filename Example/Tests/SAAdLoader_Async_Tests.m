@@ -52,7 +52,7 @@
         int expected_ad_advertiserId = 0;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = false;
+        BOOL expected_ad_isSafeAdApproved = false;
         BOOL expected_ad_show_padlock = true;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -61,19 +61,19 @@
         NSString *expected_creative_impression_url = nil;
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Image;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 7;
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
         NSString *expected_details_video = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
-        NSString *expected_details_cdnUrl = @"https://ads.superawesome.tv/v2/demo_images/";
+        NSString *expected_details_cdn = @"https://ads.superawesome.tv/v2/demo_images/";
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = nil;
         
-        NSString *expected_media_playableDiskUrl = nil;
-        NSString *expected_media_playableMediaUrl = nil;
-        BOOL expected_media_isOnDisk = false;
+        NSString *expected_media_path = nil;
+        NSString *expected_media_url = nil;
+        BOOL expected_media_isDownloaded = false;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -97,8 +97,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -106,20 +106,20 @@
         XCTAssertEqualObjects(expected_creative_impression_url, ad.creative.impressionUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertEqualObjects(expected_details_vast, ad.creative.details.vast);
         
         XCTAssertNotNil(ad.creative.details.media.html);
-        XCTAssertEqualObjects(expected_media_playableDiskUrl, ad.creative.details.media.playableDiskUrl);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -156,7 +156,7 @@
         int expected_ad_advertiserId = 0;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = false;
+        BOOL expected_ad_isSafeAdApproved = false;
         BOOL expected_ad_show_padlock = true;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -165,19 +165,19 @@
         NSString *expected_creative_impression_url = nil;
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 22;
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_video = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
-        NSString *expected_details_cdnUrl = @"https://ads.superawesome.tv/v2/demo_images/";
+        NSString *expected_details_cdn = @"https://ads.superawesome.tv/v2/demo_images/";
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = @"https://ads.superawesome.tv/v2/video/vast/30479/-1/-1/?sdkVersion=0.0.0&rnd=";
         
-        NSString *expected_media_playableDiskUrl = @"mp4";
-        NSString *expected_media_playableMediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
-        BOOL expected_media_isOnDisk = true;
+        NSString *expected_media_path = @"mp4";
+        NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        BOOL expected_media_isDownloaded = true;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -201,8 +201,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -210,20 +210,20 @@
         XCTAssertEqualObjects(expected_creative_impression_url, ad.creative.impressionUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertTrue([ad.creative.details.vast containsString:expected_details_vast]);
         
         XCTAssertNil(ad.creative.details.media.html);
-        XCTAssertTrue([ad.creative.details.media.playableDiskUrl containsString:expected_media_playableDiskUrl]);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path]);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -261,7 +261,7 @@
         int expected_ad_advertiserId = 0;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = false;
+        BOOL expected_ad_isSafeAdApproved = false;
         BOOL expected_ad_show_padlock = false;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -270,19 +270,19 @@
         NSString *expected_creative_impression_url = nil;
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Invalid;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 7;
         
         NSString *expected_details_image = nil;
         NSString *expected_details_url = nil;
         NSString *expected_details_video = nil;
-        NSString *expected_details_cdnUrl = nil;
+        NSString *expected_details_cdn = nil;
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = nil;
         
-        NSString *expected_media_playableDiskUrl = nil;
-        NSString *expected_media_playableMediaUrl = nil;
-        BOOL expected_media_isOnDisk = false;
+        NSString *expected_media_path = nil;
+        NSString *expected_media_url = nil;
+        BOOL expected_media_isDownloaded = false;
         
         XCTAssertNotNil(response);
         XCTAssertFalse([response isValid]);
@@ -306,8 +306,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -315,20 +315,20 @@
         XCTAssertEqualObjects(expected_creative_impression_url, ad.creative.impressionUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertEqualObjects(expected_details_vast, ad.creative.details.vast);
         
         XCTAssertNil(ad.creative.details.media.html);
-        XCTAssertEqualObjects(expected_media_playableDiskUrl, ad.creative.details.media.playableDiskUrl);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -368,7 +368,7 @@
         int expected_ad_advertiserId = 1;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = true;
+        BOOL expected_ad_isSafeAdApproved = true;
         BOOL expected_ad_show_padlock = true;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -378,19 +378,19 @@
         NSString *expected_creative_installUrl = nil;
         NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
         SACreativeFormat expected_creative_format = SA_Image;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 7;
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
         NSString *expected_details_video = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
-        NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/";
+        NSString *expected_details_cdn = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/";
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = nil;
         
-        NSString *expected_media_playableDiskUrl = nil;
-        NSString *expected_media_playableMediaUrl = nil;
-        BOOL expected_media_isOnDisk = false;
+        NSString *expected_media_path = nil;
+        NSString *expected_media_url = nil;
+        BOOL expected_media_isDownloaded = false;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -414,8 +414,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -424,20 +424,20 @@
         XCTAssertEqualObjects(expected_creative_clickCounterUrl, ad.creative.clickCounterUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertEqualObjects(expected_details_vast, ad.creative.details.vast);
         
         XCTAssertNotNil(ad.creative.details.media.html);
-        XCTAssertEqualObjects(expected_media_playableDiskUrl, ad.creative.details.media.playableDiskUrl);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -477,7 +477,7 @@
         int expected_ad_advertiserId = 23;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = true;
+        BOOL expected_ad_isSafeAdApproved = true;
         BOOL expected_ad_show_padlock = true;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -487,19 +487,19 @@
         NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Rich;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 7;
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
         NSString *expected_details_video = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
-        NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/";
+        NSString *expected_details_cdn = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/";
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = nil;
         
-        NSString *expected_media_playableDiskUrl = nil;
-        NSString *expected_media_playableMediaUrl = nil;
-        BOOL expected_media_isOnDisk = false;
+        NSString *expected_media_path = nil;
+        NSString *expected_media_url = nil;
+        BOOL expected_media_isDownloaded = false;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -523,8 +523,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -533,20 +533,20 @@
         XCTAssertEqualObjects(expected_creative_clickCounterUrl, ad.creative.clickCounterUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertEqualObjects(expected_details_vast, ad.creative.details.vast);
         
         XCTAssertNotNil(ad.creative.details.media.html);
-        XCTAssertEqualObjects(expected_media_playableDiskUrl, ad.creative.details.media.playableDiskUrl);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -587,7 +587,7 @@
         int expected_ad_advertiserId = 22;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = true;
+        BOOL expected_ad_isSafeAdApproved = true;
         BOOL expected_ad_show_padlock = false;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -597,19 +597,19 @@
         NSString *expected_creative_clickCounterUrl = nil;
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Tag;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 7;
         
         NSString *expected_details_image = nil;
         NSString *expected_details_url = nil;
         NSString *expected_details_video = nil;
-        NSString *expected_details_cdnUrl = nil;
+        NSString *expected_details_cdn = nil;
 //        NSString *expected_details_tag = nil;
         NSString *expected_details_vast = nil;
         
-        NSString *expected_media_playableDiskUrl = nil;
-        NSString *expected_media_playableMediaUrl = nil;
-        BOOL expected_media_isOnDisk = false;
+        NSString *expected_media_path = nil;
+        NSString *expected_media_url = nil;
+        BOOL expected_media_isDownloaded = false;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -633,8 +633,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -643,20 +643,20 @@
         XCTAssertEqualObjects(expected_creative_clickCounterUrl, ad.creative.clickCounterUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
 //        XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertEqualObjects(expected_details_vast, ad.creative.details.vast);
         
         XCTAssertNotNil(ad.creative.details.media.html);
-        XCTAssertEqualObjects(expected_media_playableDiskUrl, ad.creative.details.media.playableDiskUrl);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -697,7 +697,7 @@
         int expected_ad_advertiserId = 1;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = true;
+        BOOL expected_ad_isSafeAdApproved = true;
         BOOL expected_ad_show_padlock = true;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -707,19 +707,19 @@
         NSString *expected_creative_clickCounterUrl = nil;
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 47;
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
         NSString *expected_details_video = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
-        NSString *expected_details_cdnUrl = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/";
+        NSString *expected_details_cdn = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/";
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = @"https://raw.githubusercontent.com/SuperAwesomeLTD/sa-mobile-lib-android-vastparser/master/samples/VAST2.0.xml";
         
-        NSString *expected_media_playableDiskUrl = @"mp4";
-        NSString *expected_media_playableMediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
-        BOOL expected_media_isOnDisk = true;
+        NSString *expected_media_path = @"mp4";
+        NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        BOOL expected_media_isDownloaded = true;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -743,8 +743,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -753,20 +753,20 @@
         XCTAssertEqualObjects(expected_creative_clickCounterUrl, ad.creative.clickCounterUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertTrue([ad.creative.details.vast containsString:expected_details_vast]);
         
         XCTAssertNil(ad.creative.details.media.html);
-        XCTAssertTrue([ad.creative.details.media.playableDiskUrl containsString:expected_media_playableDiskUrl]);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path]);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
         
         [expectation fulfill];
         
@@ -807,7 +807,7 @@
         int expected_ad_advertiserId[] = {1, 1};
         BOOL expected_ad_isFallback[] = {false, false};
         BOOL expected_ad_isHouse[] = {false, false};
-        BOOL expected_ad_safeAdApproved[] = {true, true};
+        BOOL expected_ad_isSafeAdApproved[] = {true, true};
         BOOL expected_ad_show_padlock[] = {true, true};
         SACampaignType expected_ad_campaignType[] = {SA_CPI, SA_CPI};
         
@@ -817,7 +817,7 @@
         NSString* expected_creative_clickCounterUrl[] = {@"https://superawesome.tv/click_counter", @"https://superawesome.tv/click_counter_2"};
         NSString* expected_creative_installUrl[] = {@"https://ads.superawesome.tv/install_1", nil};
         SACreativeFormat expected_creative_format[] = {SA_Appwall, SA_Appwall};
-        NSString* expected_creative_bundleId[] = {@"tv.superawesome.demoapp", @"tv.superawesome.demoapp"};
+        NSString* expected_creative_bundle[] = {@"tv.superawesome.demoapp", @"tv.superawesome.demoapp"};
         int expected_creative_events[] = {7, 7};
         
         NSString* expected_details_image[] = {
@@ -832,19 +832,19 @@
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/2ODwlbp3NJxnsmgROrdzXrxIUcD87h5y.png",
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/TMRQ0iNyFEinXx2BQhkSONtEvCES7rsr.png"
         };
-        NSString* expected_details_cdnUrl[] = {
+        NSString* expected_details_cdn[] = {
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/",
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/"
         };
         NSString* expected_details_tag[] = {nil, nil};
         NSString* expected_details_vast[] = {nil, nil};
         
-        NSString* expected_media_playableDiskUrl[] = {@"png", @"png"};
-        NSString* expected_media_playableMediaUrl[] = {
+        NSString* expected_media_path[] = {@"png", @"png"};
+        NSString* expected_media_url[] = {
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/2ODwlbp3NJxnsmgROrdzXrxIUcD87h5y.png",
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/TMRQ0iNyFEinXx2BQhkSONtEvCES7rsr.png"
         };
-        BOOL expected_media_isOnDisk[] = {true, true};
+        BOOL expected_media_isDownloaded[] = {true, true};
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -870,8 +870,8 @@
             XCTAssertEqual(expected_ad_advertiserId[i], ad.advertiserId);
             XCTAssertEqual(expected_ad_isFallback[i], ad.isFallback);
             XCTAssertEqual(expected_ad_isHouse[i], ad.isHouse);
-            XCTAssertEqual(expected_ad_safeAdApproved[i], ad.safeAdApproved);
-            XCTAssertEqual(expected_ad_show_padlock[i], ad.showPadlock);
+            XCTAssertEqual(expected_ad_isSafeAdApproved[i], ad.isSafeAdApproved);
+            XCTAssertEqual(expected_ad_show_padlock[i], ad.isPadlockVisible);
             XCTAssertEqual(expected_ad_campaignType[i], ad.campaignType);
             
             XCTAssertEqual(expected_creative_id[i], ad.creative._id);
@@ -880,20 +880,20 @@
             XCTAssertEqualObjects(expected_creative_clickCounterUrl[i], ad.creative.clickCounterUrl);
             XCTAssertEqualObjects(expected_creative_installUrl[i], ad.creative.installUrl);
             XCTAssertEqual(expected_creative_format[i], ad.creative.format);
-            XCTAssertEqualObjects(expected_creative_bundleId[i], ad.creative.bundleId);
+            XCTAssertEqualObjects(expected_creative_bundle[i], ad.creative.bundle);
             XCTAssertEqual(expected_creative_events[i], [ad.creative.events count]);
             
             XCTAssertEqualObjects(expected_details_image[i], ad.creative.details.image);
             XCTAssertEqualObjects(expected_details_url[i], ad.creative.details.url);
             XCTAssertEqualObjects(expected_details_video[i], ad.creative.details.video);
-            XCTAssertEqualObjects(expected_details_cdnUrl[i], ad.creative.details.cdnUrl);
+            XCTAssertEqualObjects(expected_details_cdn[i], ad.creative.details.cdn);
             XCTAssertEqualObjects(expected_details_tag[i], ad.creative.details.tag);
             XCTAssertEqualObjects(expected_details_vast[i], ad.creative.details.vast);
             
             XCTAssertNil(ad.creative.details.media.html);
-            XCTAssertTrue([ad.creative.details.media.playableDiskUrl containsString:expected_media_playableDiskUrl[i]]);
-            XCTAssertEqualObjects(expected_media_playableMediaUrl[i], ad.creative.details.media.playableMediaUrl);
-            XCTAssertEqual(expected_media_isOnDisk[i], ad.creative.details.media.isOnDisk);
+            XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path[i]]);
+            XCTAssertEqualObjects(expected_media_url[i], ad.creative.details.media.url);
+            XCTAssertEqual(expected_media_isDownloaded[i], ad.creative.details.media.isDownloaded);
         }
         
         [expectation fulfill];
@@ -935,7 +935,7 @@
         int expected_ad_advertiserId = 1;
         BOOL expected_ad_isFallback = false;
         BOOL expected_ad_isHouse = false;
-        BOOL expected_ad_safeAdApproved = true;
+        BOOL expected_ad_isSafeAdApproved = true;
         BOOL expected_ad_show_padlock = true;
         SACampaignType expected_ad_campaignType = SA_CPM;
         
@@ -945,19 +945,19 @@
         NSString *expected_creative_clickCounterUrl = nil;
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
-        NSString *expected_creative_bundleId = nil;
+        NSString *expected_creative_bundle = nil;
         int expected_creative_events = 37;
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_video = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
-        NSString *expected_details_cdnUrl = @"https://ads.superawesome.tv/v2/demo_images/";
+        NSString *expected_details_cdn = @"https://ads.superawesome.tv/v2/demo_images/";
         NSString *expected_details_tag = nil;
         NSString *expected_details_vast = @"https://raw.githubusercontent.com/SuperAwesomeLTD/sa-mobile-lib-android-vastparser/master/samples/VAST5.0.xml";
         
-        NSString *expected_media_playableDiskUrl = @"mp4";
-        NSString *expected_media_playableMediaUrl = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
-        BOOL expected_media_isOnDisk = true;
+        NSString *expected_media_path = @"mp4";
+        NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        BOOL expected_media_isDownloaded = true;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -981,8 +981,8 @@
         XCTAssertEqual(expected_ad_advertiserId, ad.advertiserId);
         XCTAssertEqual(expected_ad_isFallback, ad.isFallback);
         XCTAssertEqual(expected_ad_isHouse, ad.isHouse);
-        XCTAssertEqual(expected_ad_safeAdApproved, ad.safeAdApproved);
-        XCTAssertEqual(expected_ad_show_padlock, ad.showPadlock);
+        XCTAssertEqual(expected_ad_isSafeAdApproved, ad.isSafeAdApproved);
+        XCTAssertEqual(expected_ad_show_padlock, ad.isPadlockVisible);
         XCTAssertEqual(expected_ad_campaignType, ad.campaignType);
         
         XCTAssertEqual(expected_creative_id, ad.creative._id);
@@ -991,20 +991,20 @@
         XCTAssertEqualObjects(expected_creative_clickCounterUrl, ad.creative.clickCounterUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
-        XCTAssertEqualObjects(expected_creative_bundleId, ad.creative.bundleId);
+        XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
         XCTAssertEqualObjects(expected_details_video, ad.creative.details.video);
-        XCTAssertEqualObjects(expected_details_cdnUrl, ad.creative.details.cdnUrl);
+        XCTAssertEqualObjects(expected_details_cdn, ad.creative.details.cdn);
         XCTAssertEqualObjects(expected_details_tag, ad.creative.details.tag);
         XCTAssertTrue([ad.creative.details.vast containsString:expected_details_vast]);
         
         XCTAssertNil(ad.creative.details.media.html);
-        XCTAssertTrue([ad.creative.details.media.playableDiskUrl containsString:expected_media_playableDiskUrl]);
-        XCTAssertEqualObjects(expected_media_playableMediaUrl, ad.creative.details.media.playableMediaUrl);
-        XCTAssertEqual(expected_media_isOnDisk, ad.creative.details.media.isOnDisk);
+        XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path]);
+        XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
+        XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
 
         [expectation fulfill];
         
