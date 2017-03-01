@@ -76,8 +76,6 @@
     ad.creative.details.tag = @"<!-- Beginning PassBack for Ad unit FK:Site-Skyscraper-Passback ### size: [[120,600]] -->\\\\n\\\\t<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>\\\\n\\\\t\\\\tgoogletag.pubads().definePassback('1002534/FK:Site-Skyscraper-Passback', [[120,600]]).display();\\\\n\\\\t</script>\\\\n<!-- End Passback -->";
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoTagHTML:ad];
     
-    NSLog(@"SuperAwesome: %@", ad.creative.details.media.html);
-    
     XCTAssertNotNil(ad.creative.details.media.html);
 //    XCTAssertTrue([ad.creative.details.media.html containsString:@"<!-- Beginning PassBack for Ad unit FK:Site-Skyscraper-Passback ### size: [[120,600]] -->\\<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>\\\googletag.pubads().definePassback('1002534/FK:Site-Skyscraper-Passback', [[120,600]]).display();\\</script>\<!-- End Passback -->"]);
     

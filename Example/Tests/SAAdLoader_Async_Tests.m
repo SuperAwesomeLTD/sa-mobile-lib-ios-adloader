@@ -14,6 +14,9 @@
 #import "SADetails.h"
 #import "SAMedia.h"
 #import "SAResponse.h"
+#import "SAVASTAd.h"
+#import "SAVASTMedia.h"
+#import "SAVASTEvent.h"
 
 @interface SAAdLoader_Async_Tests : XCTestCase
 @end
@@ -62,7 +65,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Image;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 7;
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
@@ -74,6 +76,12 @@
         NSString *expected_media_path = nil;
         NSString *expected_media_url = nil;
         BOOL expected_media_isDownloaded = false;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = nil;
+        SAVASTAdType expected_vastad_type = SA_Invalid_VAST;
+        NSMutableArray* expected_vastad_media = [@[] mutableCopy];
+        NSMutableArray* expected_vastad_events = [@[] mutableCopy];
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -107,7 +115,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -120,6 +127,15 @@
         XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], [expected_vastad_media count]);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], [expected_vastad_events count]);
         
         [expectation fulfill];
         
@@ -166,7 +182,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 22;
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
@@ -178,6 +193,19 @@
         NSString *expected_media_path = @"mp4";
         NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         BOOL expected_media_isDownloaded = true;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        SAVASTAdType expected_vastad_type = SA_InLine_VAST;
+        NSMutableArray<SAVASTMedia*> *expected_vastad_media = [@[] mutableCopy];
+        SAVASTMedia *media = [[SAVASTMedia alloc] init];
+        media.url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        media.type = @"video/mp4";
+        media.bitrate = 720;
+        media.width = 640;
+        media.height = 480;
+        [expected_vastad_media addObject:media];
+        NSUInteger expected_vastad_events_size = 15;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -211,7 +239,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -224,6 +251,15 @@
         XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path]);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], [expected_vastad_media count]);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], expected_vastad_events_size);
         
         [expectation fulfill];
         
@@ -271,7 +307,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Invalid;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 7;
         
         NSString *expected_details_image = nil;
         NSString *expected_details_url = nil;
@@ -283,6 +318,12 @@
         NSString *expected_media_path = nil;
         NSString *expected_media_url = nil;
         BOOL expected_media_isDownloaded = false;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = nil;
+        SAVASTAdType expected_vastad_type = SA_Invalid_VAST;
+        NSMutableArray* expected_vastad_media = [@[] mutableCopy];
+        NSMutableArray* expected_vastad_events = [@[] mutableCopy];
         
         XCTAssertNotNil(response);
         XCTAssertFalse([response isValid]);
@@ -316,7 +357,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -329,6 +369,15 @@
         XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], [expected_vastad_media count]);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], [expected_vastad_events count]);
         
         [expectation fulfill];
         
@@ -379,7 +428,6 @@
         NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
         SACreativeFormat expected_creative_format = SA_Image;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 7;
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
@@ -391,6 +439,12 @@
         NSString *expected_media_path = nil;
         NSString *expected_media_url = nil;
         BOOL expected_media_isDownloaded = false;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = nil;
+        SAVASTAdType expected_vastad_type = SA_Invalid_VAST;
+        NSMutableArray* expected_vastad_media = [@[] mutableCopy];
+        NSMutableArray* expected_vastad_events = [@[] mutableCopy];
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -425,7 +479,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -438,6 +491,15 @@
         XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], [expected_vastad_media count]);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], [expected_vastad_events count]);
         
         [expectation fulfill];
         
@@ -488,7 +550,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Rich;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 7;
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
@@ -500,6 +561,12 @@
         NSString *expected_media_path = nil;
         NSString *expected_media_url = nil;
         BOOL expected_media_isDownloaded = false;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = nil;
+        SAVASTAdType expected_vastad_type = SA_Invalid_VAST;
+        NSMutableArray* expected_vastad_media = [@[] mutableCopy];
+        NSMutableArray* expected_vastad_events = [@[] mutableCopy];
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -534,7 +601,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -547,6 +613,15 @@
         XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], [expected_vastad_media count]);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], [expected_vastad_events count]);
         
         [expectation fulfill];
         
@@ -598,7 +673,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Tag;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 7;
         
         NSString *expected_details_image = nil;
         NSString *expected_details_url = nil;
@@ -610,6 +684,12 @@
         NSString *expected_media_path = nil;
         NSString *expected_media_url = nil;
         BOOL expected_media_isDownloaded = false;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = nil;
+        SAVASTAdType expected_vastad_type = SA_Invalid_VAST;
+        NSMutableArray* expected_vastad_media = [@[] mutableCopy];
+        NSMutableArray* expected_vastad_events = [@[] mutableCopy];
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -644,7 +724,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -657,6 +736,15 @@
         XCTAssertEqualObjects(expected_media_path, ad.creative.details.media.path);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], [expected_vastad_media count]);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], [expected_vastad_events count]);
         
         [expectation fulfill];
         
@@ -708,7 +796,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 47;
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
@@ -720,6 +807,12 @@
         NSString *expected_media_path = @"mp4";
         NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         BOOL expected_media_isDownloaded = true;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        SAVASTAdType expected_vastad_type = SA_InLine_VAST;
+        NSInteger expected_vastad_media_size = 3;
+        NSInteger expected_vastad_events_size = 40;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -754,7 +847,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -767,6 +859,15 @@
         XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path]);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], expected_vastad_media_size);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], expected_vastad_events_size);
         
         [expectation fulfill];
         
@@ -818,7 +919,6 @@
         NSString* expected_creative_installUrl[] = {@"https://ads.superawesome.tv/install_1", nil};
         SACreativeFormat expected_creative_format[] = {SA_Appwall, SA_Appwall};
         NSString* expected_creative_bundle[] = {@"tv.superawesome.demoapp", @"tv.superawesome.demoapp"};
-        int expected_creative_events[] = {7, 7};
         
         NSString* expected_details_image[] = {
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/2ODwlbp3NJxnsmgROrdzXrxIUcD87h5y.png",
@@ -845,6 +945,10 @@
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/TMRQ0iNyFEinXx2BQhkSONtEvCES7rsr.png"
         };
         BOOL expected_media_isDownloaded[] = {true, true};
+        
+        NSString *expected_vastad_redirect[] = {nil, nil};
+        NSString *exprected_vastad_url[] = {nil, nil};
+        SAVASTAdType expected_vastad_type[] = {SA_Invalid_VAST, SA_Invalid_VAST};
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -881,7 +985,6 @@
             XCTAssertEqualObjects(expected_creative_installUrl[i], ad.creative.installUrl);
             XCTAssertEqual(expected_creative_format[i], ad.creative.format);
             XCTAssertEqualObjects(expected_creative_bundle[i], ad.creative.bundle);
-            XCTAssertEqual(expected_creative_events[i], [ad.creative.events count]);
             
             XCTAssertEqualObjects(expected_details_image[i], ad.creative.details.image);
             XCTAssertEqualObjects(expected_details_url[i], ad.creative.details.url);
@@ -894,6 +997,13 @@
             XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path[i]]);
             XCTAssertEqualObjects(expected_media_url[i], ad.creative.details.media.url);
             XCTAssertEqual(expected_media_isDownloaded[i], ad.creative.details.media.isDownloaded);
+            
+            XCTAssertNotNil(ad.creative.details.media.vastAd);
+            XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect[i]);
+            XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url[i]);
+            XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type[i]);
+            XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+            XCTAssertNotNil(ad.creative.details.media.vastAd.events);
         }
         
         [expectation fulfill];
@@ -946,7 +1056,6 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
         NSString *expected_creative_bundle = nil;
-        int expected_creative_events = 37;
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
@@ -958,6 +1067,12 @@
         NSString *expected_media_path = @"mp4";
         NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         BOOL expected_media_isDownloaded = true;
+        
+        NSString *expected_vastad_redirect = nil;
+        NSString *exprected_vastad_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
+        SAVASTAdType expected_vastad_type = SA_InLine_VAST;
+        NSInteger expected_vastad_media_size = 3;
+        NSInteger expected_vastad_events_size = 30;
         
         XCTAssertNotNil(response);
         XCTAssertTrue([response isValid]);
@@ -992,7 +1107,6 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
-        XCTAssertEqual(expected_creative_events, [ad.creative.events count]);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -1005,6 +1119,15 @@
         XCTAssertTrue([ad.creative.details.media.path containsString:expected_media_path]);
         XCTAssertEqualObjects(expected_media_url, ad.creative.details.media.url);
         XCTAssertEqual(expected_media_isDownloaded, ad.creative.details.media.isDownloaded);
+        
+        XCTAssertNotNil(ad.creative.details.media.vastAd);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.redirect, expected_vastad_redirect);
+        XCTAssertEqualObjects(ad.creative.details.media.vastAd.url, exprected_vastad_url);
+        XCTAssertEqual(ad.creative.details.media.vastAd.type, expected_vastad_type);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.media);
+        XCTAssertNotNil(ad.creative.details.media.vastAd.events);
+        XCTAssertEqual([ad.creative.details.media.vastAd.media count], expected_vastad_media_size);
+        XCTAssertEqual([ad.creative.details.media.vastAd.events count], expected_vastad_events_size);
 
         [expectation fulfill];
         
