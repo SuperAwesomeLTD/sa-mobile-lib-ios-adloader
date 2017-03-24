@@ -1,6 +1,6 @@
 {
   "name": "SAAdLoader",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "summary": "SAAdLoader handles all SA AA ad loading",
   "description": "The SAAdLoader library handles all AwesomeAds ad loading for the SDK. The end result is a either a valid playable ad or a failure callback.",
   "homepage": "https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-adloader",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-adloader.git",
-    "tag": "1.0.6"
+    "tag": "1.0.8"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,7 +22,7 @@
   "source_files": "Pod/Classes/**/*",
   "dependencies": {
     "SAModelSpace": [
-      "0.4.5"
+      "0.4.6"
     ],
     "SAUtils": [
       "1.5.0"
@@ -34,7 +34,7 @@
       "0.3.5"
     ],
     "SAVASTParser": [
-      "1.6.5"
+      "1.6.6"
     ]
   }
 }
