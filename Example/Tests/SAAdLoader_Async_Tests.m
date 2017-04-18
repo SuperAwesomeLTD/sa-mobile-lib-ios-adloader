@@ -65,6 +65,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Image;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/320x50.jpg";
@@ -114,6 +115,8 @@
         XCTAssertEqualObjects(expected_creative_click_url, ad.creative.clickUrl);
         XCTAssertEqualObjects(expected_creative_impression_url, ad.creative.impressionUrl);
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
+        
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
         
@@ -184,6 +187,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
@@ -242,6 +246,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -311,6 +316,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Invalid;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = nil;
         NSString *expected_details_url = nil;
@@ -362,6 +368,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -434,6 +441,7 @@
         NSString *expected_creative_clickCounterUrl = @"https://superawesome.tv/click_counter";
         SACreativeFormat expected_creative_format = SA_Image;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/9Q4SVblKKIWDBJm537HFrqI6rBxjCdb9.jpg";
@@ -486,6 +494,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -558,6 +567,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Rich;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html";
@@ -610,6 +620,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -683,6 +694,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Tag;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = nil;
         NSString *expected_details_url = nil;
@@ -735,6 +747,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -808,6 +821,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
         NSString *expected_details_url = @"https://s3-eu-west-1.amazonaws.com/sb-ads-video-transcoded/yqbZXLY8b7p8dyIekHAnzySMwqOwA0HE.mp4";
@@ -860,6 +874,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
@@ -933,6 +948,9 @@
         NSString* expected_creative_installUrl[] = {@"https://ads.superawesome.tv/install_1", nil};
         SACreativeFormat expected_creative_format[] = {SA_Appwall, SA_Appwall};
         NSString* expected_creative_bundle[] = {@"tv.superawesome.demoapp", @"tv.superawesome.demoapp"};
+        NSArray* expected_creative_osTarget[] = {
+                @[@"Android"], @[@"Android"]
+        };
         
         NSString* expected_details_image[] = {
             @"https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/images/2ODwlbp3NJxnsmgROrdzXrxIUcD87h5y.png",
@@ -1000,6 +1018,7 @@
             XCTAssertEqualObjects(expected_creative_installUrl[i], ad.creative.installUrl);
             XCTAssertEqual(expected_creative_format[i], ad.creative.format);
             XCTAssertEqualObjects(expected_creative_bundle[i], ad.creative.bundle);
+            XCTAssertEqualObjects(expected_creative_osTarget[i], ad.creative.osTarget);
             
             XCTAssertEqualObjects(expected_details_image[i], ad.creative.details.image);
             XCTAssertEqualObjects(expected_details_url[i], ad.creative.details.url);
@@ -1072,6 +1091,7 @@
         NSString *expected_creative_installUrl = nil;
         SACreativeFormat expected_creative_format = SA_Video;
         NSString *expected_creative_bundle = nil;
+        NSArray *expected_creative_osTarget = @[];
         
         NSString *expected_details_image = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
         NSString *expected_details_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
@@ -1124,6 +1144,7 @@
         XCTAssertEqualObjects(expected_creative_installUrl, ad.creative.installUrl);
         XCTAssertEqual(expected_creative_format, ad.creative.format);
         XCTAssertEqualObjects(expected_creative_bundle, ad.creative.bundle);
+        XCTAssertEqualObjects(expected_creative_osTarget, ad.creative.osTarget);
         
         XCTAssertEqualObjects(expected_details_image, ad.creative.details.image);
         XCTAssertEqualObjects(expected_details_url, ad.creative.details.url);
