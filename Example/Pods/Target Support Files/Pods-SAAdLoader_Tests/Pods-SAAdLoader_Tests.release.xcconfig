@@ -2,7 +2,8 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SAAdLoader" "${PODS_ROOT}/Headers/Public/SAJsonParser" "${PODS_ROOT}/Headers/Public/SAModelSpace" "${PODS_ROOT}/Headers/Public/SANetworking" "${PODS_ROOT}/Headers/Public/SASession" "${PODS_ROOT}/Headers/Public/SAUtils" "${PODS_ROOT}/Headers/Public/SAVASTParser"
 LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SAAdLoader" "$PODS_CONFIGURATION_BUILD_DIR/SAJsonParser" "$PODS_CONFIGURATION_BUILD_DIR/SAModelSpace" "$PODS_CONFIGURATION_BUILD_DIR/SANetworking" "$PODS_CONFIGURATION_BUILD_DIR/SASession" "$PODS_CONFIGURATION_BUILD_DIR/SAUtils" "$PODS_CONFIGURATION_BUILD_DIR/SAVASTParser"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SAAdLoader" -isystem "${PODS_ROOT}/Headers/Public/SAJsonParser" -isystem "${PODS_ROOT}/Headers/Public/SAModelSpace" -isystem "${PODS_ROOT}/Headers/Public/SANetworking" -isystem "${PODS_ROOT}/Headers/Public/SASession" -isystem "${PODS_ROOT}/Headers/Public/SAUtils" -isystem "${PODS_ROOT}/Headers/Public/SAVASTParser"
-OTHER_LDFLAGS = $(inherited) -ObjC
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "SystemConfiguration"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
