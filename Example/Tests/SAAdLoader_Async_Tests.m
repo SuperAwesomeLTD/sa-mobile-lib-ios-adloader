@@ -195,7 +195,7 @@
         NSString *expected_details_cdn = @"https://ads.superawesome.tv/v2/demo_images/";
         NSString *expected_details_base = @"https://ads.superawesome.tv";
         NSString *expected_details_tag = nil;
-        NSString *expected_details_vast = @"https://ads.superawesome.tv/v2/video/vast/30479/-1/-1/?sdkVersion=0.0.0&rnd=";
+        NSString *expected_details_vast = @"https://eu-west-1-ads.superawesome.tv/v2/video/vast/30479/-1/-1/?sdkVersion=0.0.0&rnd=";
         
         NSString *expected_media_path = @"mp4";
         NSString *expected_media_url = @"https://ads.superawesome.tv/v2/demo_images/video.mp4";
