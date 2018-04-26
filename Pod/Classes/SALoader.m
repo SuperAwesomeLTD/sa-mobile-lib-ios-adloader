@@ -111,9 +111,30 @@
 #endif
 
 @interface SALoader ()
+@property (nonatomic, assign) NSInteger pos;            // 1 = above the fold for banners | 7 = fullscreen, for videos
+@property (nonatomic, assign) NSInteger skip;           // 0 = no | 1 = yes
+@property (nonatomic, assign) NSInteger playbackmethod; // 5 = with sound on screen enter
+@property (nonatomic, assign) NSInteger startdelay;     // -2 = post-roll | -1 = mid-roll | 0 = preroll | > 0 = mid-roll
+@property (nonatomic, assign) NSInteger instl;          // 1 = fullscreen | 0 = not fullscreen
+@property (nonatomic, assign) NSInteger w;              // width, in pixels
+@property (nonatomic, assign) NSInteger h;              // height, in pixels
 @end
 
 @implementation SALoader
+
+- (id) init {
+    if (self = [super init]) {
+        _pos = 1;
+        _skip = 0;
+        _playbackmethod = 5;
+        _startdelay = 0;
+        _instl = 0;
+        _w = 0;
+        _h = 0;
+    }
+    
+    return self;
+}
 
 - (NSString*) getAwesomeAdsEndpoint: (SASession*) session
                 forPlacementId:(NSInteger) placementId {
@@ -132,15 +153,22 @@
     
     if (session) {
         return @{@"test": @([session getTestMode]),
-          @"sdkVersion": [session getVersion],
-          @"rnd": @([session getCachebuster]),
-          @"ct": @([session getConnectivityType]),
-          @"bundle": [session getBundleId],
-          @"name": [session getAppName],
-          @"dauid": @([session getDauId]),
-          @"lang": [session getLang],
-          @"device": [session getDevice]
-          // @"preload": @(true)
+                 @"sdkVersion": [session getVersion],
+                 @"rnd": @([session getCachebuster]),
+                 @"ct": @([session getConnectivityType]),
+                 @"bundle": [session getBundleId],
+                 @"name": [session getAppName],
+                 @"dauid": @([session getDauId]),
+                 @"lang": [session getLang],
+                 @"device": [session getDevice],
+                 @"pos": @(_pos),
+                 @"skip": @(_skip),
+                 @"playbackmethod": @(_playbackmethod),
+                 @"startdelay": @(_startdelay),
+                 @"instl": @(_instl),
+                 @"w": @(_w),
+                 @"h": @(_h)
+                 // @"preload": @(true)
           };
     } else {
         return @{};
@@ -338,6 +366,34 @@
         }
     }
     
+}
+
+- (void) setPos:(NSInteger) pos {
+    _pos = pos;
+}
+
+- (void) setSkip: (NSInteger) skip {
+    _skip = skip;
+}
+
+- (void) setPlaybackMethod: (NSInteger) playbackmethod {
+    _playbackmethod = playbackmethod;
+}
+
+- (void) setStartDelay: (NSInteger) startdelay {
+    _startdelay = startdelay;
+}
+
+- (void) setInstl: (NSInteger) instl {
+    _instl = instl;
+}
+
+- (void) setWidth: (NSInteger)width {
+    _w = width;
+}
+
+- (void) setHeight: (NSInteger)height {
+    _h = height;
 }
 
 @end

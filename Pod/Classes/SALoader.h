@@ -99,4 +99,13 @@ typedef void (^saDidLoadAd)(SAResponse *response);
          andStatus:(NSInteger) status
         andSession:(SASession*) session
          andResult:(saDidLoadAd) result;
+
+- (void) setPos:(NSInteger) pos;
+- (void) setSkip: (NSInteger) skip;
+- (void) setPlaybackMethod: (NSInteger) playbackmethod;
+- (void) setStartDelay: (NSInteger) startdelay;
+- (void) setInstl: (NSInteger) instl;
+- (void) setWidth: (NSInteger)width;
+- (void) setHeight: (NSInteger)height;
+
 @end
