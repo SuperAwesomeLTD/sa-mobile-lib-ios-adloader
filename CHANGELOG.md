@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+1.2.0
+ - Added some new OpenRTB params
+
 0.8.5
  - Moved SAUtils.h imports from SALoader.h to SALoader.m to fix issues when adding the Objective-C code alongside Swift code via CocoaPods with use_frameworks! enabled.
 
