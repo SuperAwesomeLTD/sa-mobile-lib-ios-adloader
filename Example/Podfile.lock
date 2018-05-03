@@ -1,39 +1,64 @@
 PODS:
-  - SAAdLoader (1.1.8):
-    - SAModelSpace (= 0.5.4)
-    - SANetworking (= 0.3.1)
-    - SASession (= 0.3.8)
-    - SAUtils (= 1.5.4)
-    - SAVASTParser (= 1.7.4)
-  - SAJsonParser (1.3.4)
-  - SAModelSpace (0.5.4):
-    - SAJsonParser (= 1.3.4)
-    - SAUtils (= 1.5.4)
-  - SANetworking (0.3.1)
-  - SASession (0.3.8):
-    - SAUtils (= 1.5.4)
-  - SAUtils (1.5.4)
-  - SAVASTParser (1.7.4):
-    - SAModelSpace (= 0.5.4)
-    - SANetworking (= 0.3.1)
-    - SAUtils (= 1.5.4)
+  - OHHTTPStubs (6.1.0):
+    - OHHTTPStubs/Default (= 6.1.0)
+  - OHHTTPStubs/Core (6.1.0)
+  - OHHTTPStubs/Default (6.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (6.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (6.1.0)
+  - SAAdLoader (1.2.0):
+    - SAModelSpace (= 1.0.0)
+    - SANetworking (= 1.0.0)
+    - SASession (= 1.0.0)
+    - SAUtils (= 1.5.5)
+    - SAVASTParser (= 1.7.5)
+  - SAJsonParser (1.3.5)
+  - SAModelSpace (1.0.0):
+    - SAJsonParser (= 1.3.5)
+    - SAUtils (= 1.5.5)
+  - SANetworking (1.0.0)
+  - SASession (1.0.0):
+    - SAUtils (= 1.5.5)
+  - SAUtils (1.5.5)
+  - SAVASTParser (1.7.5):
+    - SAModelSpace (= 1.0.0)
+    - SANetworking (= 1.0.0)
+    - SAUtils (= 1.5.5)
 
 DEPENDENCIES:
+  - OHHTTPStubs
   - SAAdLoader (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - OHHTTPStubs
+    - SAJsonParser
+    - SAModelSpace
+    - SANetworking
+    - SASession
+    - SAUtils
+    - SAVASTParser
 
 EXTERNAL SOURCES:
   SAAdLoader:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SAAdLoader: a5144804066a596c841b13f89da361884650fd3d
-  SAJsonParser: f7c534c9e7bca38dfa4d254d2229122f562bd953
-  SAModelSpace: 76e645798f653fcf84c4fe80b002737e47381d2d
-  SANetworking: bd3fc423e108b09dbad94564af19de9ea6652ae7
-  SASession: 3964576d8b15f97428d71c5f58f8873b50dcb4a9
-  SAUtils: 225cdfaee9cb68184d5d27d7ff1119e1150d3398
-  SAVASTParser: 69b07fe83e30e7ee3e8e7e2a2a56b4d81aa1774e
+  OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
+  SAAdLoader: 66362014f938d3a3253c661f3c5e39913ec55894
+  SAJsonParser: a9fac712c99b71e36997010413862866f8246d5a
+  SAModelSpace: 07140f87445b477fbb61e5016a51e9f4c02546c7
+  SANetworking: 672cec0782244c2d780c3c58867e58e8ed2917ee
+  SASession: 89014071262d7868e3e7c736a7c87401c77f8f18
+  SAUtils: 95e06baec2636bfe494d9f8a43ec4def6fb28229
+  SAVASTParser: fa343296e3fd7103a5da210a7c41020a8f280a41
 
-PODFILE CHECKSUM: 9737a124adca1f3747a61c7ae808f3a18033de67
+PODFILE CHECKSUM: 538d22023445131c64dff838559bb37f99adb974
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

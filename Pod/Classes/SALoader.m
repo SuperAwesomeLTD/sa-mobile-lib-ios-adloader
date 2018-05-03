@@ -102,39 +102,7 @@
 #endif
 #endif
 
-#if defined(__has_include)
-#if __has_include(<SANetworking/SAFileListDownloader.h>)
-#import <SANetworking/SAFileListDownloader.h>
-#else
-#import "SAFileListDownloader.h"
-#endif
-#endif
-
-@interface SALoader ()
-@property (nonatomic, assign) NSInteger pos;            // 1 = above the fold for banners | 7 = fullscreen, for videos
-@property (nonatomic, assign) NSInteger skip;           // 0 = no | 1 = yes
-@property (nonatomic, assign) NSInteger playbackmethod; // 5 = with sound on screen enter
-@property (nonatomic, assign) NSInteger startdelay;     // -2 = post-roll | -1 = mid-roll | 0 = preroll | > 0 = mid-roll
-@property (nonatomic, assign) NSInteger instl;          // 1 = fullscreen | 0 = not fullscreen
-@property (nonatomic, assign) NSInteger w;              // width, in pixels
-@property (nonatomic, assign) NSInteger h;              // height, in pixels
-@end
-
 @implementation SALoader
-
-- (id) init {
-    if (self = [super init]) {
-        _pos = 1;
-        _skip = 0;
-        _playbackmethod = 5;
-        _startdelay = 0;
-        _instl = 0;
-        _w = 0;
-        _h = 0;
-    }
-    
-    return self;
-}
 
 - (NSString*) getAwesomeAdsEndpoint: (SASession*) session
                 forPlacementId:(NSInteger) placementId {
@@ -161,13 +129,13 @@
                  @"dauid": @([session getDauId]),
                  @"lang": [session getLang],
                  @"device": [session getDevice],
-                 @"pos": @(_pos),
-                 @"skip": @(_skip),
-                 @"playbackmethod": @(_playbackmethod),
-                 @"startdelay": @(_startdelay),
-                 @"instl": @(_instl),
-                 @"w": @(_w),
-                 @"h": @(_h)
+                 @"pos": @([session getPos]),
+                 @"skip": @([session getSkip]),
+                 @"playbackmethod": @([session getPlaybackMethod]),
+                 @"startdelay": @([session getStartDelay]),
+                 @"instl": @([session getInstl]),
+                 @"w": @([session getWidth]),
+                 @"h": @([session getHeight])
                  // @"preload": @(true)
           };
     } else {
@@ -242,9 +210,6 @@
     else {
         
         NSDictionary *jsonDict = [[NSDictionary alloc] initWithJsonString:data];
-        NSArray *jsonArray = [NSArray arrayWithJsonString:data andIterator:^id(id item) {
-            return item;
-        }];
         
         // Normal Ad case
         if (jsonDict != nil && [jsonDict count] > 0) {
@@ -289,7 +254,7 @@
                         // copy the vast media
                         ad.creative.details.media.url = savastAd.url;
                         // download file
-                        [[SAFileDownloader getInstance] downloadFileFrom:ad.creative.details.media.url andResponse:^(BOOL success, NSString *diskPath) {
+                        [[[SAFileDownloader alloc] init] downloadFileFrom:ad.creative.details.media.url andResponse:^(BOOL success, NSString *key, NSString *diskPath) {
                             
                             // add final details
                             ad.creative.details.media.path = diskPath;
@@ -306,94 +271,12 @@
             }
             
         }
-        // AppWall case
-        else if (jsonArray != nil && [jsonArray count] > 0) {
-            
-            // set response correct format
-            response.format = SA_Appwall;
-            
-            // add ads to it
-            for (int i = 0; i < [jsonArray count]; i++) {
-                
-                // get the object at index "i"
-                id dict = [jsonArray objectAtIndex:i];
-                
-                // only if it's a valid dictionary
-                if ([dict isKindOfClass:[NSDictionary class]]) {
-                    
-                    SAAd *ad = [[SAAd alloc] initWithPlacementId:placementId
-                                               andJsonDictionary:dict];
-                    
-                    // only add image type ads - no rich media or videos in the
-                    // GameWall for now
-                    if (ad.creative.format == SA_Image) {
-                        [response.ads addObject:ad];
-                        ad.creative.format = SA_Appwall;
-                    }
-                }
-            }
-            
-            // add all the images that'll need to be downloaded
-            NSMutableArray<NSString*> *filesToDownload = [@[] mutableCopy];
-            for (SAAd *ad in response.ads) {
-                [filesToDownload addObject:ad.creative.details.image];
-            }
-            
-            // use the file list downloader to download them in the same
-            // correct order
-            SAFileListDownloader *fileListDownloader = [[SAFileListDownloader alloc] init];
-            [fileListDownloader downloadListOfFiles:filesToDownload withResponse:^(NSArray<NSString *> *diskLocations) {
-                
-                for (int i = 0; i < [diskLocations count]; i++) {
-                    
-                    NSString *diskUrl = [diskLocations objectAtIndex:i];
-                    SAAd *cAd = [response.ads objectAtIndex:i];
-                    cAd.creative.details.media.url = cAd.creative.details.image;
-                    cAd.creative.details.media.path = diskUrl;
-                    cAd.creative.details.media.isDownloaded = diskUrl != nil && diskUrl != (NSString*)[NSNull null];
-                    
-                }
-                
-                // and finally send a response
-                localResult (response);
-                
-            }];
-            
-        }
         // it's not a normal ad or an app wall, then return
         else {
             localResult (response);
         }
     }
     
-}
-
-- (void) setPos:(NSInteger) pos {
-    _pos = pos;
-}
-
-- (void) setSkip: (NSInteger) skip {
-    _skip = skip;
-}
-
-- (void) setPlaybackMethod: (NSInteger) playbackmethod {
-    _playbackmethod = playbackmethod;
-}
-
-- (void) setStartDelay: (NSInteger) startdelay {
-    _startdelay = startdelay;
-}
-
-- (void) setInstl: (NSInteger) instl {
-    _instl = instl;
-}
-
-- (void) setWidth: (NSInteger)width {
-    _w = width;
-}
-
-- (void) setHeight: (NSInteger)height {
-    _h = height;
 }
 
 @end
