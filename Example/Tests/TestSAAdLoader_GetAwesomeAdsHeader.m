@@ -11,11 +11,10 @@
 #import "SASession.h"
 #import "SAUtils.h"
 
-@interface SAAdLoader_Header_Tests : XCTestCase
-
+@interface TestSAAdLoader_GetAwesomeAdsHeader : XCTestCase
 @end
 
-@implementation SAAdLoader_Header_Tests
+@implementation TestSAAdLoader_GetAwesomeAdsHeader
 
 - (void)setUp {
     [super setUp];
@@ -27,40 +26,38 @@
     [super tearDown];
 }
 
-- (void) testGetAwesomeAdsHeader1 {
-    
-    SALoader *loader = [[SALoader alloc] init];
-    
+- (void) test_SAAdLoader_GetAwesomeAdsHeader_WithValidSession {
+    // given
     SASession *session = [[SASession alloc] init];
     
-    NSDictionary *header = [loader getAwesomeAdsHeader:session];
-    
-    int expected_keys = 2;
-    NSString *expected_Content_Type = @"application/json";
-    NSString *expected_User_Agent = [session getUserAgent];
-    
-    XCTAssertNotNil(header);
-    XCTAssertEqual(expected_keys, [header count]);
-    
-    XCTAssertNotNil(header[@"Content-Type"]);
-    XCTAssertEqualObjects(expected_Content_Type, header[@"Content-Type"]);
-    
-    XCTAssertNotNil(header[@"User-Agent"]);
-    XCTAssertEqualObjects(expected_User_Agent, header[@"User-Agent"]);
-}
-
-- (void) testGetAwesomeAdsHeader2 {
-    
+    // when
     SALoader *loader = [[SALoader alloc] init];
     
-    SASession *session = nil;
-    
+    // then
     NSDictionary *header = [loader getAwesomeAdsHeader:session];
     
-    int expected_keys = 0;
+    XCTAssertNotNil(header);
+    XCTAssertEqual(2, [header count]);
+    
+    XCTAssertNotNil(header[@"Content-Type"]);
+    XCTAssertEqualObjects(@"application/json", header[@"Content-Type"]);
+    
+    XCTAssertNotNil(header[@"User-Agent"]);
+    XCTAssertEqualObjects([session getUserAgent], header[@"User-Agent"]);
+}
+
+- (void) test_SAAdLoader_GetAwesomeAdsHeader_WithNullSession {
+    // given
+    SASession *session = nil;
+    
+    // when
+    SALoader *loader = [[SALoader alloc] init];
+    
+    // then
+    NSDictionary *header = [loader getAwesomeAdsHeader:session];
     
     XCTAssertNotNil(header);
-    XCTAssertEqual(expected_keys, [header count]);
+    XCTAssertEqual(0, [header count]);
 }
 
 @end

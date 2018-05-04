@@ -13,10 +13,10 @@
 #import "SAMedia.h"
 #import "SAProcessHTML.h"
 
-@interface SAAdLoader_ProcessHTML_Tests : XCTestCase
+@interface TestSAProcessHTML : XCTestCase
 @end
 
-@implementation SAAdLoader_ProcessHTML_Tests
+@implementation TestSAProcessHTML
 
 - (void)setUp {
     [super setUp];
@@ -26,7 +26,7 @@
     [super tearDown];
 }
 
-- (void) testProcessImageWithClick {
+- (void) test_SAProcessHTML_FormatCreativeIntoImageHTML_WithClick {
 
     SAAd *ad = [[SAAd alloc] init];
     ad.creative.format = SA_Image;
@@ -35,13 +35,13 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoImageHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"<a href='http://hotnews.ro'>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"</a>"]);
-    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<a href='http://hotnews.ro'><img src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/></a>_MOAT_"]);
+    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<a href='http://hotnews.ro'><img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/></a>_MOAT_"]);
 }
 
-- (void) testProcessImageWithoutClicks {
+- (void) test_SAProcessHTML_FormatCreativeIntoImageHTML_WithoutClick {
     
     SAAd *ad = [[SAAd alloc] init];
     ad.creative.format = SA_Image;
@@ -49,13 +49,13 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoImageHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
     XCTAssertFalse([ad.creative.details.media.html containsString:@"<a href='http://hotnews.ro'>"]);
     XCTAssertFalse([ad.creative.details.media.html containsString:@"</a>"]);
-    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<img src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>_MOAT_"]);
+    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>_MOAT_"]);
 }
 
-- (void) testProcessRichMedia {
+- (void) test_SAProcessHTML_FormatCreativeIntoRichMediaHTML {
     
     SAAd *ad = [[SAAd alloc] init];
     ad.placementId = 4091;
@@ -69,7 +69,7 @@
     XCTAssertTrue([ad.creative.details.media.html containsString:@"<iframe style='padding:0;margin:0;border:0;' width='100%' height='100%' src='https://s3-eu-west-1.amazonaws.com/sb-ads-uploads/rich-media/tNmFLJ7kGQWBbyORkIqTJ4oqykaGPU9w/rich-media/index.html?creative=2081&line_item=2001&placement=4091&rnd="]);
 }
 
-- (void) testProcessTag1 {
+- (void) test_SAProcessHTML_FormatCreativeIntoTagHTML1 {
     
     SAAd *ad = [[SAAd alloc] init];
     ad.creative.format = SA_Tag;
@@ -81,7 +81,7 @@
     
 }
 
-- (void) testProcessTag2 {
+- (void) test_SAProcessHTML_FormatCreativeIntoTagHTML2 {
     
     SAAd *ad = [[SAAd alloc] init];
     ad.creative.format = SA_Tag;
@@ -95,7 +95,7 @@
     XCTAssertFalse([ad.creative.details.media.html containsString:@"[click]"]);
 }
 
-- (void) testProcessTag3 {
+- (void) test_SAProcessHTML_FormatCreativeIntoTagHTML3 {
     
     SAAd *ad = [[SAAd alloc] init];
     ad.creative.format = SA_Tag;

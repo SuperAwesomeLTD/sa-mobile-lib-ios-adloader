@@ -11,10 +11,10 @@
 #import "SASession.h"
 #import "SAUtils.h"
 
-@interface SAAdLoader_Endpoint_Tests : XCTestCase
+@interface TestSAAdLoader_GetAwesomeAdsEndpoint : XCTestCase
 @end
 
-@implementation SAAdLoader_Endpoint_Tests
+@implementation TestSAAdLoader_GetAwesomeAdsEndpoint
 
 - (void)setUp {
     [super setUp];
@@ -24,43 +24,46 @@
     [super tearDown];
 }
 
-- (void) testGetAwesomeAdsEndpoint1 {
-    
-    SALoader *loader = [[SALoader alloc] init];
-    
+- (void) test_SAAdLoader_GetAwesomeAdsEndpoint_WithProductionSession {
+    // given
     SASession *session = [[SASession alloc] init];
+    
+    // when
+    SALoader *loader = [[SALoader alloc] init];
     [session setConfigurationProduction];
     
-    NSString *expected_baseUrl = @"https://ads.superawesome.tv/v2/ad/4001";
-    
+    // then
     NSString *baseUrl = [loader getAwesomeAdsEndpoint:session forPlacementId:4001];
     
     XCTAssertNotNil(baseUrl);
-    XCTAssertEqualObjects(expected_baseUrl, baseUrl);
+    XCTAssertEqualObjects(@"https://ads.superawesome.tv/v2/ad/4001", baseUrl);
     
 }
 
-- (void) testGetAwesomeAdsEndpoint2 {
-    
-    SALoader *loader = [[SALoader alloc] init];
-    
+- (void) test_SAAdLoader_GetAwesomeAdsEndpoint_WithStagingSession {
+    // given
     SASession *session = [[SASession alloc] init];
+    
+    // when
+    SALoader *loader = [[SALoader alloc] init];
     [session setConfigurationStaging];
     
-    NSString *expected_baseUrl = @"https://ads.staging.superawesome.tv/v2/ad/4001";
-    
+    // then
     NSString *baseUrl = [loader getAwesomeAdsEndpoint:session forPlacementId:4001];
     
     XCTAssertNotNil(baseUrl);
-    XCTAssertEqualObjects(expected_baseUrl, baseUrl);
+    XCTAssertEqualObjects(@"https://ads.staging.superawesome.tv/v2/ad/4001", baseUrl);
     
 }
 
-- (void) testGetAwesomeAdsEndpoint3 {
-    
-    SALoader *loader = [[SALoader alloc] init];
+- (void) test_SAAdLoader_GetAwesomeAdsEndpoint_WithNilSession {
+    // given
     SASession *session = nil;
     
+    // when
+    SALoader *loader = [[SALoader alloc] init];
+    
+    // then
     NSString *baseUrl = [loader getAwesomeAdsEndpoint:session forPlacementId:4001];
     
     XCTAssertNil(baseUrl);
