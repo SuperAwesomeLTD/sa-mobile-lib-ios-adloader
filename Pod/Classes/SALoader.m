@@ -212,7 +212,7 @@
         NSDictionary *jsonDict = [[NSDictionary alloc] initWithJsonString:data];
         
         // Normal Ad case
-        if (jsonDict != nil && [jsonDict count] > 0) {
+        if (jsonDict != nil) {
             
             // parse the final ad
             __block SAAd *ad = [[SAAd alloc] initWithPlacementId:placementId

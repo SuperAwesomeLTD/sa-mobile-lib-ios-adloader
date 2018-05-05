@@ -31,25 +31,25 @@
         
         
         if ([url containsString: @"/ad/1000"])
-            return [self->_factory adResponse:@"mock_ad_cpm_banner_response.json"];
+            return [self->_factory adResponse:@"mock_ad_cpm_banner_response"];
         else if ([url containsString:@"/ad/1001"])
-            return [self->_factory adResponse:@"mock_ad_cpi_banner_response.json"];
+            return [self->_factory adResponse:@"mock_ad_cpi_banner_response"];
         else if ([url containsString:@"/ad/1002"])
-            return [self->_factory adResponse:@"mock_ad_cpm_video_response.json"];
+            return [self->_factory adResponse:@"mock_ad_cpm_video_response"];
         else if ([url containsString:@"/vast/vast.xml"])
-            return [self->_factory vastResponse:@"mock_vast_response.xml"];
+            return [self->_factory vastResponse:@"mock_vast_response"];
         else if ([url containsString:@"/resource/videoresource.mp4"])
-            return [self->_factory fileResponse:@"videoresource.mp4"];
+            return [self->_factory fileResponse:@"videoresource"];
         else if ([url containsString:@"/ad/1003"])
             return [self->_factory emptyResponse];
         else if ([url containsString:@"/ad/1004"])
             return [self->_factory malformedResponse];
         else if ([url containsString:@"/ad/1005"])
-            return [self->_factory adResponse:@"mock_ad_cpm_video_bad_response.json"];
+            return [self->_factory adResponse:@"mock_ad_cpm_video_bad_response"];
         else if ([url containsString:@"/ad/1006"])
-            return [self->_factory adResponse:@"mock_ad_cpm_video_unreachable_video_resource.json"];
+            return [self->_factory adResponse:@"mock_ad_cpm_video_unreachable_video_resource"];
         else if ([url containsString:@"/vast/vast_unreachable_video"])
-            return [self->_factory adResponse:@"mock_vast_unreachable_video_response.xml"];
+            return [self->_factory adResponse:@"mock_vast_unreachable_video_response"];
         else
             return [self->_factory sendError];
     }];

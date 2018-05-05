@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Tests/SAAdLoader_Async_Tests.m"
-            timestampString = "510061535.675091"
+            filePath = "Pods/SAModelSpace/Pod/Classes/SAAd.m"
+            timestampString = "510060011.595141"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-testLoad1"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-initWithJsonDictionary:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/SAModelSpace/Pod/Classes/SAAd.m"
-            timestampString = "510060011.595141"
+            filePath = "Tests/SAResponseFactory.m"
+            timestampString = "547221440.463291"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-initWithJsonDictionary:"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-adResponse:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tests/SATestUtils.m"
+            timestampString = "547221440.4635971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-stringFixtureWithName:ofType:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

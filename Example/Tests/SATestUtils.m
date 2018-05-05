@@ -46,7 +46,7 @@
 
 - (NSData*) dataFixtureWithName: (NSString*) name ofType: (NSString*) type {
     
-    NSString *identifier = @"org.cocoapods.demo.SANetwork-Tests";
+    NSString *identifier = @"org.cocoapods.demo.SAAdLoader-Tests";
     NSBundle *bundle = [NSBundle bundleWithIdentifier:identifier];
     
     if (bundle == nil) {

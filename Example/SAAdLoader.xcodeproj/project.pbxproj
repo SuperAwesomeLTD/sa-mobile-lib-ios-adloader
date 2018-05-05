@@ -11,9 +11,9 @@
 		1B1C4418209C7EBF003EE3DA /* SATestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C4417209C7EBF003EE3DA /* SATestUtils.m */; };
 		1B1C441D209C7F43003EE3DA /* SAMockAdServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C441C209C7F43003EE3DA /* SAMockAdServer.m */; };
 		1B1C4423209C80C0003EE3DA /* SAResponseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C4422209C80C0003EE3DA /* SAResponseFactory.m */; };
+		1B1C4428209DEC31003EE3DA /* TestSAAdLoader_LoadAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C4427209DEC31003EE3DA /* TestSAAdLoader_LoadAd.m */; };
 		1BBD751D1E2FA0E500F3EF6B /* TestSAProcessHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD751C1E2FA0E500F3EF6B /* TestSAProcessHTML.m */; };
 		1BBD751F1E2FA0FB00F3EF6B /* TestSAAdLoader_GetAwesomeAdsEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD751E1E2FA0FB00F3EF6B /* TestSAAdLoader_GetAwesomeAdsEndpoint.m */; };
-		1BBD75211E2FA11300F3EF6B /* SAAdLoader_Async_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD75201E2FA11300F3EF6B /* SAAdLoader_Async_Tests.m */; };
 		1BE1BF171E66E0D000C4B3B9 /* TestSAAdLoader_GetAwesomeAdsHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF161E66E0D000C4B3B9 /* TestSAAdLoader_GetAwesomeAdsHeader.m */; };
 		1BE1BF191E66E0DA00C4B3B9 /* TestSAAdLoader_GetAwesomeAdsQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BF181E66E0DA00C4B3B9 /* TestSAAdLoader_GetAwesomeAdsQuery.m */; };
 		4147C1C3316C5A8F8A245834 /* libPods-SAAdLoader_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06425A0107C019BEB7C6CE83 /* libPods-SAAdLoader_Tests.a */; };
@@ -53,9 +53,9 @@
 		1B1C441C209C7F43003EE3DA /* SAMockAdServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMockAdServer.m; sourceTree = "<group>"; };
 		1B1C4421209C80C0003EE3DA /* SAResponseFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAResponseFactory.h; sourceTree = "<group>"; };
 		1B1C4422209C80C0003EE3DA /* SAResponseFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAResponseFactory.m; sourceTree = "<group>"; };
+		1B1C4427209DEC31003EE3DA /* TestSAAdLoader_LoadAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAdLoader_LoadAd.m; sourceTree = "<group>"; };
 		1BBD751C1E2FA0E500F3EF6B /* TestSAProcessHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAProcessHTML.m; sourceTree = "<group>"; };
 		1BBD751E1E2FA0FB00F3EF6B /* TestSAAdLoader_GetAwesomeAdsEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAdLoader_GetAwesomeAdsEndpoint.m; sourceTree = "<group>"; };
-		1BBD75201E2FA11300F3EF6B /* SAAdLoader_Async_Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAdLoader_Async_Tests.m; sourceTree = "<group>"; };
 		1BE1BF161E66E0D000C4B3B9 /* TestSAAdLoader_GetAwesomeAdsHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAdLoader_GetAwesomeAdsHeader.m; sourceTree = "<group>"; };
 		1BE1BF181E66E0DA00C4B3B9 /* TestSAAdLoader_GetAwesomeAdsQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSAAdLoader_GetAwesomeAdsQuery.m; sourceTree = "<group>"; };
 		30BBDAE0000C0FC4C3A6BCEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		1B1C4424209C83CC003EE3DA /* AdLoader */ = {
 			isa = PBXGroup;
 			children = (
-				1BBD75201E2FA11300F3EF6B /* SAAdLoader_Async_Tests.m */,
+				1B1C4427209DEC31003EE3DA /* TestSAAdLoader_LoadAd.m */,
 			);
 			name = AdLoader;
 			sourceTree = "<group>";
@@ -429,8 +429,8 @@
 				1B1C441D209C7F43003EE3DA /* SAMockAdServer.m in Sources */,
 				1B1C4418209C7EBF003EE3DA /* SATestUtils.m in Sources */,
 				1BBD751F1E2FA0FB00F3EF6B /* TestSAAdLoader_GetAwesomeAdsEndpoint.m in Sources */,
-				1BBD75211E2FA11300F3EF6B /* SAAdLoader_Async_Tests.m in Sources */,
 				1BE1BF171E66E0D000C4B3B9 /* TestSAAdLoader_GetAwesomeAdsHeader.m in Sources */,
+				1B1C4428209DEC31003EE3DA /* TestSAAdLoader_LoadAd.m in Sources */,
 				1BE1BF191E66E0DA00C4B3B9 /* TestSAAdLoader_GetAwesomeAdsQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

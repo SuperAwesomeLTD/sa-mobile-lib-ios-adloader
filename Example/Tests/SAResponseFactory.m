@@ -46,11 +46,11 @@
 }
 
 - (OHHTTPStubsResponse*) malformedResponse {
-    return [self adResponse:@"mock_ad_malformed_response.json"];
+    return [self adResponse:@"mock_ad_malformed_response"];
 }
 
 - (OHHTTPStubsResponse*) emptyResponse {
-    return [self adResponse:@"mock_ad_empty_response.json"];
+    return [self adResponse:@"mock_ad_empty_response"];
 }
 
 - (OHHTTPStubsResponse*) fileResponse: (NSString*) file {
