@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+1.3.0
+ - Updated tests
+
 1.2.0
  - Added some new OpenRTB params
 
