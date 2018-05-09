@@ -120,6 +120,7 @@
 - (NSDictionary*) getAwesomeAdsQuery: (SASession*) session {
     
     if (session) {
+        
         return @{@"test": @([session getTestMode]),
                  @"sdkVersion": [session getVersion],
                  @"rnd": @([session getCachebuster]),

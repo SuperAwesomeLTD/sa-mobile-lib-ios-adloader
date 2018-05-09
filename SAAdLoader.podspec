@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.dependency 'SAModelSpace', '1.0.0'
   s.dependency 'SAUtils', '1.5.5'
   s.dependency 'SANetworking', '1.0.0'
-  s.dependency 'SASession', '1.0.0'
+  s.dependency 'SASession', '1.1.1'
   s.dependency 'SAVASTParser', '1.7.5'
 end
