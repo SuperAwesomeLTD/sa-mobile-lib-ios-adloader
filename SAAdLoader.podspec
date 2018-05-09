@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SAAdLoader'
-  s.version = '1.3.0'
+  s.version = '1.3.1'
   s.summary = 'SAAdLoader handles all SA AA ad loading'
   s.description = <<-DESC
     The SAAdLoader library handles all AwesomeAds ad loading for the SDK. The end result is a either a valid playable ad or a failure callback.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source= { 
 	:git => 'https://github.com/SuperAwesomeLTD/sa-mobile-lib-ios-adloader.git', 
 	:branch => 'master',
-	:tag => '1.3.0' 
+	:tag => '1.3.1' 
   }
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
