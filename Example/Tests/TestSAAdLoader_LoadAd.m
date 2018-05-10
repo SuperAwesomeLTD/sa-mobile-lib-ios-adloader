@@ -18,9 +18,11 @@
 #import "SAVASTMedia.h"
 #import "SAVASTEvent.h"
 #import "SAMockAdServer.h"
+#import "SAMockSession.h"
 
 @interface TestSAAdLoader_LoadAd : XCTestCase
 @property (nonatomic, strong) SAMockAdServer *server;
+@property (nonatomic, strong) SAMockSession *session;
 @end
 
 @implementation TestSAAdLoader_LoadAd
@@ -29,6 +31,7 @@
     [super setUp];
     _server = [[SAMockAdServer alloc] init];
     [_server start];
+    _session = [[SAMockSession alloc] init];
 }
 
 - (void)tearDown {
@@ -40,12 +43,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1000 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1000 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -108,12 +107,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1001 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1001 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -176,12 +171,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1002 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1002 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -251,12 +242,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1005 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1005 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -287,12 +274,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1006 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1006 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -323,12 +306,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1003 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1003 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -359,12 +338,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:1004 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:1004 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);
@@ -395,12 +370,8 @@
     
     __block XCTestExpectation *expectation = [self expectationWithDescription:@"High Expectations"];
     
-    SASession *session = [[SASession alloc] init];
-    [session setConfigurationProduction];
-    [session enableTestMode];
-    
     SALoader *loader = [[SALoader alloc] init];
-    [loader loadAd:50000 withSession:session andResult:^(SAResponse *response) {
+    [loader loadAd:50000 withSession:_session andResult:^(SAResponse *response) {
         
         XCTAssertNotNil(response);
         XCTAssertNotNil([response ads]);

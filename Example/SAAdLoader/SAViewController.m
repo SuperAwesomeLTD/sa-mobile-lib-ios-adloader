@@ -7,6 +7,8 @@
 //
 
 #import "SAViewController.h"
+#import "SASession.h"
+#import "SALoader.h"
 
 @interface SAViewController ()
 @end
