@@ -5,14 +5,7 @@
 
 #import <UIKit/UIKit.h>
 
-#if defined(__has_include)
-#if __has_include(<SAModelSpace/SAResponse.h>)
-#import <SASession/SASessionProtocol.h>
-#else
-#import "SASessionProtocol.h"
-#endif
-#endif
-
+@protocol SASessionProtocol;
 @class SAAd;
 @class SAResponse;
 

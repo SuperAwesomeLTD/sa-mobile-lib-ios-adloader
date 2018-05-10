@@ -71,6 +71,14 @@
 #endif
 
 #if defined(__has_include)
+#if __has_include(<SAModelSpace/SAResponse.h>)
+#import <SASession/SASessionProtocol.h>
+#else
+#import "SASessionProtocol.h"
+#endif
+#endif
+
+#if defined(__has_include)
 #if __has_include(<SAUtils/SAUtils.h>)
 #import <SAUtils/SAUtils.h>
 #else
