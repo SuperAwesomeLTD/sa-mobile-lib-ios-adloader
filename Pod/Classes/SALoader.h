@@ -5,8 +5,15 @@
 
 #import <UIKit/UIKit.h>
 
+#if defined(__has_include)
+#if __has_include(<SAModelSpace/SAResponse.h>)
+#import <SASession/SASessionProtocol.h>
+#else
+#import "SASessionProtocol.h"
+#endif
+#endif
+
 @class SAAd;
-@class SASession;
 @class SAResponse;
 
 // callback used by the SALoader class
@@ -35,7 +42,7 @@ typedef void (^saDidLoadAd)(SAResponse *response);
  * @return              an url of the form
  *                      https://ads.superawesome.tv/v2/ad/7212
  */
-- (NSString*) getAwesomeAdsEndpoint: (SASession*) session
+- (NSString*) getAwesomeAdsEndpoint: (id<SASessionProtocol>) session
                      forPlacementId:(NSInteger) placementId;
 
 /**
@@ -53,7 +60,7 @@ typedef void (^saDidLoadAd)(SAResponse *response);
  *                  - current language as "en_US"
  *                  - type of device as string, "phone" or "tablet"
  */
-- (NSDictionary*) getAwesomeAdsQuery: (SASession*) session;
+- (NSDictionary*) getAwesomeAdsQuery: (id<SASessionProtocol>) session;
 
 /**
  * Method that creates the Awesome Ads specific header needed for 
@@ -62,7 +69,7 @@ typedef void (^saDidLoadAd)(SAResponse *response);
  * @param session   current session
  * @return          a NSDictionary with header parameters
  */
-- (NSDictionary*) getAwesomeAdsHeader: (SASession*) session;
+- (NSDictionary*) getAwesomeAdsHeader: (id<SASessionProtocol>) session;
 
 /**
  * Shorthand method that only takes a placement Id and a session
@@ -73,7 +80,7 @@ typedef void (^saDidLoadAd)(SAResponse *response);
  *                    the response to the library user
  */
 - (void) loadAd:(NSInteger) placementId
-    withSession:(SASession*) session
+    withSession:(id<SASessionProtocol>) session
       andResult:(saDidLoadAd) result;
 
 /**
@@ -91,12 +98,12 @@ typedef void (^saDidLoadAd)(SAResponse *response);
       withQuery:(NSDictionary*) query
       andHeader:(NSDictionary*) header
  andPlacementId:(NSInteger) placementId
-     andSession:(SASession*) session
+     andSession:(id<SASessionProtocol>) session
       andResult:(saDidLoadAd) result;
 
 - (void) processAd:(NSInteger) placementId
            andData:(NSString*) data
          andStatus:(NSInteger) status
-        andSession:(SASession*) session
+        andSession:(id<SASessionProtocol>) session
          andResult:(saDidLoadAd) result;
 @end

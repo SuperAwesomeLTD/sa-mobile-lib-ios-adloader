@@ -104,7 +104,7 @@
 
 @implementation SALoader
 
-- (NSString*) getAwesomeAdsEndpoint: (SASession*) session
+- (NSString*) getAwesomeAdsEndpoint: (id<SASessionProtocol>) session
                 forPlacementId:(NSInteger) placementId {
     
     if (session) {
@@ -117,7 +117,7 @@
 }
 
 
-- (NSDictionary*) getAwesomeAdsQuery: (SASession*) session {
+- (NSDictionary*) getAwesomeAdsQuery: (id<SASessionProtocol>) session {
     
     if (session) {
         
@@ -144,7 +144,7 @@
     }
 }
 
-- (NSDictionary*) getAwesomeAdsHeader: (SASession*) session {
+- (NSDictionary*) getAwesomeAdsHeader: (id<SASessionProtocol>) session {
     if (session) {
         return @{@"Content-Type":@"application/json",
                  @"User-Agent": [session getUserAgent]
@@ -155,7 +155,7 @@
 }
 
 - (void) loadAd:(NSInteger) placementId
-    withSession:(SASession *) session
+    withSession:(id<SASessionProtocol>) session
       andResult:(saDidLoadAd) result  {
     
     NSDictionary *query = [self getAwesomeAdsQuery:session];
@@ -175,7 +175,7 @@
       withQuery:(NSDictionary*) query
       andHeader:(NSDictionary*) header
  andPlacementId:(NSInteger) placementId
-     andSession:(SASession*) session
+     andSession:(id<SASessionProtocol>) session
       andResult:(saDidLoadAd) result {
     
     
@@ -192,7 +192,7 @@
 - (void) processAd:(NSInteger) placementId
            andData:(NSString*) data
          andStatus:(NSInteger) status
-        andSession:(SASession*) session
+        andSession:(id<SASessionProtocol>) session
          andResult:(saDidLoadAd) result {
     
     // make sure the local result is never nil
