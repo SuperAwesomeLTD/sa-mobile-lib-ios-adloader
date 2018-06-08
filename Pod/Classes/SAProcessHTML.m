@@ -74,7 +74,7 @@
     return imgString;
 }
 
-+ (NSString*) formatCreativeIntoRichMediaHTML:(SAAd*) ad {
++ (NSString*) formatCreativeIntoRichMediaHTML:(SAAd*) ad withRandom:(NSInteger)cachebuster {
     
     // the img string
     NSString *rmString = @"<iframe style='padding:0;margin:0;border:0;' width='100%' height='100%' src='richMediaURL'></iframe>_MOAT_";
@@ -87,7 +87,7 @@
         @"placement":@(ad.placementId),
         @"line_item":@(ad.lineItemId),
         @"creative":@(ad.creative._id),
-        @"rnd":[NSNumber numberWithInteger:[SAUtils getCachebuster]]
+        @"rnd":[NSNumber numberWithInteger:cachebuster]
     };
     [richMediaString appendString:@"?"];
     [richMediaString appendString:[SAUtils formGetQueryFromDict:richMediaDict]];
