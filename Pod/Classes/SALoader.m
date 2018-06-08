@@ -245,7 +245,7 @@
                     break;
                 }
                 case SA_Rich:{
-                    ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoRichMediaHTML:ad];
+                    ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoRichMediaHTML:ad withRandom:[SAUtils getCachebuster]];
                     localResult (response);
                     break;
                 }

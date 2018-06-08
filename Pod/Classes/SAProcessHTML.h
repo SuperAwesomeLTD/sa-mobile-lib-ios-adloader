@@ -31,7 +31,8 @@
  * @param ad    ad data (as an SAAd object)
  * @return      the formatted HTML string to be used by a WebView
  */
-+ (NSString*) formatCreativeIntoRichMediaHTML:(SAAd*) ad;
++ (NSString*) formatCreativeIntoRichMediaHTML:(SAAd*) ad
+                                   withRandom:(NSInteger) cachebuster;
 
 /**
  * Method that loads a special HTML file and parse & format it so that later
