@@ -35,11 +35,11 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoImageHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg' style='object-fit: contain;'/>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"<a href='http://hotnews.ro'>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"</a>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"_MOAT_"]);
-    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<a href='http://hotnews.ro'><img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/></a>_MOAT_"]);
+    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<a href='http://hotnews.ro'><img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg' style='object-fit: contain;'/></a>_MOAT_"]);
 }
 
 - (void) test_SAProcessHTML_FormatCreativeIntoImageHTML_WithoutClick {
@@ -50,11 +50,11 @@
     ad.creative.details.media.html = [SAProcessHTML formatCreativeIntoImageHTML:ad];
     
     XCTAssertNotNil(ad.creative.details.media.html);
-    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>"]);
+    XCTAssertTrue([ad.creative.details.media.html containsString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg' style='object-fit: contain;'/>"]);
     XCTAssertFalse([ad.creative.details.media.html containsString:@"<a href='http://hotnews.ro'>"]);
     XCTAssertFalse([ad.creative.details.media.html containsString:@"</a>"]);
     XCTAssertTrue([ad.creative.details.media.html containsString:@"_MOAT_"]);
-    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg'/>_MOAT_"]);
+    XCTAssertTrue([ad.creative.details.media.html isEqualToString:@"<img width='100%' height='100%' src='https://ads.superawesome.tv/v2/demo_images/320x50.jpg' style='object-fit: contain;'/>_MOAT_"]);
 }
 
 - (void) test_SAProcessHTML_FormatCreativeIntoRichMediaHTML {

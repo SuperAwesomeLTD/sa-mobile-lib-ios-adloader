@@ -57,7 +57,7 @@
 
 + (NSString*) formatCreativeIntoImageHTML:(SAAd*) ad {
     
-    NSString *imgString = @"<a href='hrefURL'><img width='100%' height='100%' src='imageURL'/></a>_MOAT_";
+    NSString *imgString = @"<a href='hrefURL'><img width='100%' height='100%' src='imageURL' style='object-fit: contain;'/></a>_MOAT_";
     
     if (ad.creative.details.image) {
         imgString = [imgString stringByReplacingOccurrencesOfString:@"imageURL" withString:ad.creative.details.image];
