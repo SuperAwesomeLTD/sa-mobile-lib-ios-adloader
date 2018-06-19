@@ -12,7 +12,7 @@ PODS:
   - OHHTTPStubs/NSURLSession (6.1.0):
     - OHHTTPStubs/Core
   - OHHTTPStubs/OHPathHelpers (6.1.0)
-  - SAAdLoader (1.4.0):
+  - SAAdLoader (1.4.1):
     - SAModelSpace (= 1.0.0)
     - SANetworking (= 1.0.0)
     - SASession (= 1.1.2)
@@ -51,7 +51,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   OHHTTPStubs: 1e21c7d2c084b8153fc53d48400d8919d2d432d0
-  SAAdLoader: b81f67ecec8f91dfbd85db57b99e6390b239141e
+  SAAdLoader: cd9340f57ff9ec9a9b8c0a8361edd17c6f221fc2
   SAJsonParser: a9fac712c99b71e36997010413862866f8246d5a
   SAModelSpace: 07140f87445b477fbb61e5016a51e9f4c02546c7
   SANetworking: 672cec0782244c2d780c3c58867e58e8ed2917ee
